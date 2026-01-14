@@ -1,0 +1,2441 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AutoCount.BusinessFlow</name>
+    </assembly>
+    <members>
+        <member name="T:AutoCount.BusinessFlow.AOProcessing.AOProcessingDataAccess">
+            <summary>
+            Summary description for AssemblyOrderProcessingDataAccess.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.AOProcessing.AOProcessingDataAccessSql">
+            <summary>
+            Summary description for AssemblyOrderProcessingDataAccessSql.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.AOProcessing.AOProcessingEntities.IsEnoughSubItemToAssembly">
+            <summary>
+            Check either all SubItem have enough stock for Assembly or not.
+            </summary>
+            <returns>Return true when enough stock to assembly</returns>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.AOProcessing.AsmOrderDtlEntity">
+            <summary>
+            Assembly Order Processing using ASMOrderDtl Table
+            </summary>
+        </member>
+        <member name="P:AutoCount.BusinessFlow.AOProcessing.AsmOrderDtlEntity.DtlKey">
+            <summary>
+            ASMOrderDtl Detail Key
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.AOProcessing.AOPStatus">
+            <summary>
+            Assembly Order Processing status
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.AOProcessing.AOProcessingString.OpenedAOProcessingListWindow">
+            <summary>
+            {0} opened Assembly Order Processing List window.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.AOProcessing.FormAOProcessing">
+            <summary>
+            Summary description for FormAOProcessing.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.AOProcessing.FormAOProcessing.OnRecordUpdatedDelegate">
+            <summary>
+            dataset is data use to provite infor for update. sopEntities is the destination object.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.AOProcessing.FormAOProcessing.myInstance">
+            <summary>
+            Save all instance of all AOP that have been open.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.AOProcessing.FormAOProcessing.FilterStockStatusItemCode">
+            <summary>
+             Refactored from gvOrderProcessing_FocusedRowChanged
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.AOProcessing.FormAOProcessing.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.AOProcessing.FormAOProcessing.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.AOProcessing.FormAOProcessing.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.AOProcessing.FormStockAssemblyFind">
+            <summary>
+            Summary description for FormStockAssemblyFind.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.AOProcessing.FormStockAssemblyFind.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.AOProcessing.FormStockAssemblyFind.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.AOProcessing.FormStockAssemblyFind.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.AOProcessing.FormStockAssemblyOrderFindStringId.Tick">
+            <summary>
+            Tick
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.AORProcessing.AORProcessingDataAccess">
+            <summary>
+            Summary description for AORPDataAccess.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.AORProcessing.AORProcessingEntity">
+            <summary>
+            Summary description for AORProcessingEntity.
+            </summary>
+        </member>
+        <member name="P:AutoCount.BusinessFlow.AORProcessing.AssemblyOrderEntities.AssemblyOrderCount">
+            <summary>
+            Return total number of Assembly which have been checked
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.AORProcessing.AORProcessingString.OpenedAORProcessingListWindow">
+            <summary>
+            {0} opened Assembly Order Request Processing List window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.AORProcessing.AORProcessingString.OpenedGenerateAssemblyOrderWindow">
+            <summary>
+            {0} opened Generate Assembly Order window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.AORProcessing.AORProcessingString.OpenedPrintAssemblyOrderRequestProcessingWindow">
+            <summary>
+            {0} opened Print Assembly Order Request Processing window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.AORProcessing.AORProcessingString.InquiredPrintAssemblyOrderRequestProcessing">
+            <summary>
+            {0} inquired on Print Assembly Order Request Processing.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.AORProcessing.AORProcessingPrintCriteria">
+            <summary>
+            Summary description for AORProcessingPrintCriteria.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.AORProcessing.AORProcessingSearchCriteria">
+            <summary>
+            Summary description for AORProcessingSearchCriteria.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.AORProcessing.FormAORProcessingCmd">
+            <summary>
+            Summary description for FormAORProcessingCmd.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.AORProcessing.FormAORProcessingCmd.myInstance">
+            <summary>
+            Save instance of all command form have been open.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.AORProcessing.FormAORProcessingCmd.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.AORProcessing.FormAORProcessingCmd.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.AORProcessing.FormAORProcessingCmd.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.AORProcessing.FormAssemblyOrder">
+            <summary>
+            Summary description for FormDeliveryOrder.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.AORProcessing.FormAssemblyOrder.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.AORProcessing.FormAssemblyOrder.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.AORProcessing.FormAssemblyOrder.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.AORProcessing.FormPrintAORProcessing">
+            <summary>
+            Summary description for FormPrintAORProcessing.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.AORProcessing.FormPrintAORProcessing.ToggleGridButtons">
+            <summary>
+            Toggle visibility of option selection
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.AORProcessing.FormPrintAORProcessing.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.AORProcessing.FormPrintAORProcessing.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.AORProcessing.FormPrintAORProcessing.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.AORProcessing.PrintAORProcessing">
+            <summary>
+            Summary description for PrintAORProcessing.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.AORProcessing.PrintAORProcessing.GetReportDesignerDataSource">
+            <summary>
+            Fetch Report Designer DataSource
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.AORProcessing.ReportTypeHandler">
+            <summary>
+            Summary description for ReportTypeHandler.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.ARProcessing.ARProcessingDataAccess">
+            <summary>
+            Summary description for ARPDataAccess.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.ARProcessing.ARProcessingEntity">
+            <summary>
+            Summary description for ARProcessingEntity.
+            </summary>
+        </member>
+        <member name="P:AutoCount.BusinessFlow.ARProcessing.AssemblyEntities.AssemblyCount">
+            <summary>
+            Return total number of Assembly which have been checked
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.ARProcessing.ARProcessingString.OpenedAssemblyRequestProcessingListWindow">
+            <summary>
+            {0} opened Assembly Request Processing List window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.ARProcessing.ARProcessingString.OpenedGenerateAssemblyWindow">
+            <summary>
+            {0} opened Generate Assembly window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.ARProcessing.ARProcessingString.OpenedPrintAssemblyRequestProcessingWindow">
+            <summary>
+            {0} opened Print Assembly Request Processing window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.ARProcessing.ARProcessingString.InquiredPrintAssemblyRequestProcessing">
+            <summary>
+            {0} inquired on Print Assembly Request Processing.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.ARProcessing.ARProcessingPrintCriteria">
+            <summary>
+            Summary description for ARProcessingPrintCriteria.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.ARProcessing.ARProcessingSearchCriteria">
+            <summary>
+            Summary description for ARProcessingSearchCriteria.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.ARProcessing.FormARProcessingCmd">
+            <summary>
+            Summary description for FormARProcessingCmd.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.ARProcessing.FormARProcessingCmd.myInstance">
+            <summary>
+            Save instance of all command form have been open.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.ARProcessing.FormARProcessingCmd.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.ARProcessing.FormARProcessingCmd.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.ARProcessing.FormARProcessingCmd.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.ARProcessing.FormAssembly">
+            <summary>
+            Summary description for FormAssembly.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.ARProcessing.FormAssembly.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.ARProcessing.FormAssembly.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.ARProcessing.FormAssembly.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.ARProcessing.FormPrintARProcessing">
+            <summary>
+            Summary description for FormPrintARProcessing.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.ARProcessing.FormPrintARProcessing.ToggleGridButtons">
+            <summary>
+            Toggle visibility of option selection
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.ARProcessing.FormPrintARProcessing.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.ARProcessing.FormPrintARProcessing.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.ARProcessing.FormPrintARProcessing.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.ARProcessing.PrintARProcessing">
+            <summary>
+            Summary description for PrintARProcessing.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.ARProcessing.PrintARProcessing.GetReportDesignerDataSource">
+            <summary>
+            Fetch Report Designer DataSource
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.ARProcessing.ReportTypeHandler">
+            <summary>
+            Summary description for ReportTypeHandler.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.DRProcessing.DRProcessingDataAccess">
+            <summary>
+            Summary description for DRPDataAccess.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.DRProcessing.PreDRProcessingEntities.DeleteDRP(System.Int64)">
+            <summary>
+            Use to delete Delivery Request
+            </summary>
+            <param name="docKey"></param>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.DRProcessing.DRProcessingEntity">
+            <summary>
+            Summary description for DRProcessingEntity.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DRProcessing.DRProcessingString.OpenedDeliveryRequestProcessingListWindow">
+            <summary>
+            {0} opened Delivery Request Processing List window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DRProcessing.DRProcessingString.OpenedGenerateDeliveryOrderWindow">
+            <summary>
+            {0} opened Generate Delivery Order window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DRProcessing.DRProcessingString.OpenedPreDeliveryrequestProcessingWindow">
+            <summary>
+            {0} opened Pre-Delivery Request Processing window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DRProcessing.DRProcessingString.OpenedPrintDeliveryRequestProcessingWindow">
+            <summary>
+            {0} opened Print Delivery Request Processing window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DRProcessing.DRProcessingString.InquiredPrintDeliveryRequestProcessing">
+            <summary>
+            {0} inquired on Print Delivery Request Processing.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.DRProcessing.DRProcessingPrintCriteria">
+            <summary>
+            Summary description for DRProcessingPrintCriteria.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.DRProcessing.DRProcessingSearchCriteria">
+            <summary>
+            Summary description for DRProcessingSearchCriteria.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.DRProcessing.FormDeliveryOrder">
+            <summary>
+            Summary description for FormDeliveryOrder.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DRProcessing.FormDeliveryOrder.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.DRProcessing.FormDeliveryOrder.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.DRProcessing.FormDeliveryOrder.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.DRProcessing.FormDRProcessingCmd">
+            <summary>
+            Summary description for FormDRProcessingCmd.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.DRProcessing.FormDRProcessingCmd.OnRecordUpdatedDelegate">
+            <summary>
+            table is source table, cmdDataSet is Command Form dataset.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DRProcessing.FormDRProcessingCmd.myInstance">
+            <summary>
+            Save instance of all command form have been open.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DRProcessing.FormDRProcessingCmd.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.DRProcessing.FormDRProcessingCmd.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.DRProcessing.FormDRProcessingCmd.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.DRProcessing.FormPreDRProcessing">
+            <summary>
+            Summary description for FormDRProcessing.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.DRProcessing.FormPreDRProcessing.PostDataSourceBinding">
+            <summary>
+             Refactored from SetPreDRProcessing
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.DRProcessing.FormPreDRProcessing.SavePreDRProcessing">
+            <summary>
+             Refactored from sbtnDRP_Click
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DRProcessing.FormPreDRProcessing.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.DRProcessing.FormPreDRProcessing.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.DRProcessing.FormPreDRProcessing.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DRProcessing.DRProcessingFilterTypeOption.ShowAllInKIV">
+            <summary>
+            Show All in KIV
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DRProcessing.DRProcessingFilterTypeOption.Search">
+            <summary>
+            Search
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DRProcessing.DRProcessingFilterTypeOption.Listing">
+            <summary>
+            Listing
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.DRProcessing.FormPrintDRProcessing">
+            <summary>
+            Summary description for FormPrintDRProcessing.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.DRProcessing.FormPrintDRProcessing.ToggleGridButtons">
+            <summary>
+            Toggle visibility of option selection
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DRProcessing.FormPrintDRProcessing.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.DRProcessing.FormPrintDRProcessing.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.DRProcessing.FormPrintDRProcessing.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.DRProcessing.PrintDRProcessing">
+            <summary>
+            Summary description for PrintDRProcessing.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.DRProcessing.PrintDRProcessing.GetReportDesignerDataSource">
+            <summary>
+            Fetch Report Designer DataSource
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.DRProcessing.ReportTypeHandler">
+            <summary>
+            Summary description for ReportTypeHandler.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.SOProcessing.FormAutoGenerateDrp">
+            <summary>
+            Summary description for FormAutoGeneratePrp.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.SOProcessing.FormAutoGenerateDrp.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.SOProcessing.FormAutoGenerateDrp.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.SOProcessing.FormAutoGenerateDrp.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.SOProcessing.FormAutoGeneratePrp">
+            <summary>
+            Summary description for FormAutoGeneratePrp.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.SOProcessing.FormAutoGeneratePrp.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.SOProcessing.FormAutoGeneratePrp.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.SOProcessing.FormAutoGeneratePrp.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.SOProcessing.FormSOProcessing">
+            <summary>
+            Summary description for FormPurchaseRequest.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.SOProcessing.FormSOProcessing.OnRecordUpdatedDelegate">
+            <summary>
+            Dataset is data use to provide info for update. sopEntities is the destination object.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.SOProcessing.FormSOProcessing.myInstance">
+            <summary>
+            Save all instance of all SOP that have been open.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.SOProcessing.FormSOProcessing.CleanUp">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.SOProcessing.FormSOProcessing.FilterStockStatusItemCode">
+            <summary>
+             Refactored from gvSalesOrderProcessing_FocusedRowChanged
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.SOProcessing.FormSOProcessing.SaveDeliveryRequest">
+            <summary>
+             Refactored from sbtnDeliveryRequest_Click
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.SOProcessing.FormSOProcessing.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.SOProcessing.FormSOProcessing.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.SOProcessing.FormSOProcessing.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.SOProcessing.SOProcessingDataAccess">
+            <summary>
+            Summary description for SalesOrderProcessingDataAccess.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.SOProcessing.SOProcessingDataAccessSql">
+            <summary>
+            Summary description for SalesOrderProcessingDataAccessSql.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.SOProcessing.SOProcessingEntities.AutoGeneratePrp">
+            <summary>
+            Auto generate Purchase Request Processing
+            </summary>
+            <returns>Return a copy of PRProcessing Table with outstanding &amp; not enough balance quantity</returns>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.SOProcessing.SOProcessingEntities.AutoGenerateDrp">
+            <summary>
+            Auto generate Delivery Request Processing
+            </summary>
+            <returns>Return a copy of DRProcessing Table with outstanding &amp; not enough balance quantity</returns>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.SOProcessing.SODtlEntity">
+            <summary>
+            Order Processing using SODtl Table
+            </summary>
+        </member>
+        <member name="P:AutoCount.BusinessFlow.SOProcessing.SODtlEntity.DtlKey">
+            <summary>
+            SODtl Detail Key
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.SOProcessing.SODtlEntity.ExtraTotalDeliveryQty">
+            <summary>
+            Return Extra quantity for current delivery, normally should be -ve or zero value.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.SOProcessing.OPStatus">
+            <summary>
+            Order Processing status
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.SOProcessing.DPStatus">
+            <summary>
+            Delivery Processing status
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.SOProcessing.AORPStatus">
+            <summary>
+            Assembly Order Request Processing status
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.SOProcessing.SOProcessingString.OpenedSalesOrderProcessingListWindow">
+            <summary>
+            {0} opened Sales Order Processing List window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.DeliveryTo">
+            <summary>
+            delivery to
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.AssignTo">
+            <summary>
+            assigned to
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.NoCreditor">
+            <summary>
+            no creditor
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.Remark">
+            <summary>
+            (Remark: {0})
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.DeliveryRequest">
+            <summary>
+            New Delivery Request from {0} for {1}Click here to open {2}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.PurchaseRequest">
+            <summary>
+            New Purchase Request from {0} for {1} Click here to open {2}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.PurchaseRequestFromItem">
+            <summary>
+            New Purchase Request from {0} for {1}. Click here to open {2}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.AssemblyRequest">
+            <summary>
+            New Assembly Request from {0} for {1} Click here to open {2}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.AssemblyRequestFromItem">
+            <summary>
+            New Assembly Request from {0} for {1}. Click here to open {2}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.SelectFilter">
+            <summary>
+            Please select a filter at above.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.FurtherDescription">
+            <summary>
+            Further Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.Cancelled">
+            <summary>
+            Cancelled
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ItemNotAssignedToCreditor">
+            <summary>
+            {0} assigned to no creditor
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.AssignedItemToCreditor">
+            <summary>
+            {0} assigned to {1}
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.DeliverItemToDebtor">
+            <summary>
+            {0} deliver to {1}
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.AssemblyOrderProcessing">
+            <summary>
+            Assembly Order Processing
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.NotYetProcess">
+            <summary>
+            Not Yet Process
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.FinishAssemblyProcessing">
+            <summary>
+            Finish Assembly Processing
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.AssemblyProcessingRequested">
+            <summary>
+            Assembly Processing Requested
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.FinishOrderProcessing">
+            <summary>
+            Finish Order Processing
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.OrderProcessingRequested">
+            <summary>
+            Order Processing Requested
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.FinishAssemblyOrderProcessing">
+            <summary>
+            Finish Assembly Order Processing
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.AssemblyOrderProcessingRequested">
+            <summary>
+            Assembly Order Processing Requested
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ClearAllUncheckedRecordsFromGrid">
+            <summary>
+            Clear all unchecked records from the grid
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.HideOptions">
+            <summary>
+            Hide &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ShowOptions">
+            <summary>
+            Show &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.GeneratePurchaseOrder_NextPossibleNo">
+            <summary>
+            Generate Purchase Order  - [Next Possible No: {0}]
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.CreditorCode">
+            <summary>
+            Creditor Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.Yes">
+            <summary>
+            Yes
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.No">
+            <summary>
+            No
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.PrePurchaseRequestProcessing">
+            <summary>
+            Pre Purchase Request Processing
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ItemCode">
+            <summary>
+            Item Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.Fax">
+            <summary>
+            Fax
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ItemCost">
+            <summary>
+            Item Cost
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.Location">
+            <summary>
+            Location
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.LastModified">
+            <summary>
+            Last Modified
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.Creditor">
+            <summary>
+            Creditor
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.RequestQty">
+            <summary>
+            Request Qty
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.RequestUOM">
+            <summary>
+            Request UOM
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ReferenceDocNo">
+            <summary>
+            Reference DocNo
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.KIV">
+            <summary>
+            KIV
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.RequestBy">
+            <summary>
+            Request By
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.SalesOrder">
+            <summary>
+            Sales Order
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.SalesOrderNo">
+            <summary>
+            Sales Order No.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.DocumentDate">
+            <summary>
+            Document Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.DebtorCode">
+            <summary>
+            Debtor Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.CreditTerm">
+            <summary>
+            Credit Term
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.SalesAgent">
+            <summary>
+            "Sales Agent
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.DebtorName">
+            <summary>
+            Debtor Name
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.Phone">
+            <summary>
+            Phone
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.Attention">
+            <summary>
+            Attention
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.Ref">
+            <summary>
+            Ref.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.BranchCode">
+            <summary>
+            Branch Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.InvAddr1">
+            <summary>
+            Invoice Address 1
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.InvAddr2">
+            <summary>
+            Invoice Address 2
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.InvAddr3">
+            <summary>
+            Invoice Address 3
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.InvAddr4">
+            <summary>
+            Invoice Address 4
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.DeliverAddr1">
+            <summary>
+            Delivery Address 1
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.DeliverAddr2">
+            <summary>
+            Delivery Address 2
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.DeliverAddr3">
+            <summary>
+            Delivery Address 3
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.DeliverAddr4">
+            <summary>
+            Delivery Address 4
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.DeliverPhone">
+            <summary>
+            Delivery Phone
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.DeliverFax">
+            <summary>
+            Delivery Fax
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.DeliverContact">
+            <summary>
+            Delivery Contact
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.SalesExemptionNo">
+            <summary>
+            Sales Exemption No.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.SalesExemptionExpiryDate">
+            <summary>
+            Sales Exemption Expiry Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.Total">
+            <summary>
+            Total
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.Footer1Amt">
+            <summary>
+            Footer 1 Amount
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.Footer2Amt">
+            <summary>
+            Footer 2 Amount
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.Footer3Amt">
+            <summary>
+            Footer 3 Amount
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.CurrencyCode">
+            <summary>
+            Currency Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.CurrencyRate">
+            <summary>
+            Currency Rate
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.NetTotal">
+            <summary>
+            Net Total
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.LocalNetTotal">
+            <summary>
+            Local Net Total
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.Tax">
+            <summary>
+            Tax
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.Note">
+            <summary>
+            Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.Remark1">
+            <summary>
+            Remark 1
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.Remark2">
+            <summary>
+            Remark 2
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.Remark3">
+            <summary>
+            Remark 3
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.Remark4">
+            <summary>
+            Remark 4
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.RefDocNo">
+            <summary>
+            Ref. Doc. No.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.CreatedUser">
+            <summary>
+            Created User
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.LastModifiedUser">
+            <summary>
+            Last Modified User
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.CreatedTimestamp">
+            <summary>
+            Created Timestamp
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.LastModifiedTime">
+            <summary>
+            Last Modified Time
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.CancelledDocument">
+            <summary>
+            Cancelled Document
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.TransferableDocument">
+            <summary>
+            Transferable Document
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.SalesOrderDetail">
+            <summary>
+            Sales Order Detail
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ItemDescription">
+            <summary>
+            Item Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ItemFurtherDescription">
+            <summary>
+            Item Further Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.Project">
+            <summary>
+            Project
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.Department">
+            <summary>
+            Department
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.UOM">
+            <summary>
+            UOM
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.Quantity">
+            <summary>
+            Quantity
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.UnitCost">
+            <summary>
+            Unit Cost
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.SubTotal">
+            <summary>
+            Sub-Total
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.YourPONo">
+            <summary>
+            Your P/O No.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.YourPODate">
+            <summary>
+            Your P/O Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.AssemblyOrder">
+            <summary>
+            Assembly Order
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.AssemblyOrderNo">
+            <summary>
+            Assembly Order No.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.AssemblyOrderDate">
+            <summary>
+            Assembly Order Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ExpectedCompletionDate">
+            <summary>
+            Expected Completion Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.CreatedUserID">
+            <summary>
+            Created User ID
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.LastModifiedUserID">
+            <summary>
+            Last Modified User ID
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.AssemblyOrderDetail">
+            <summary>
+            Assembly Order Detail
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.BatchNo">
+            <summary>
+            Batch No.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.OverHeadCost">
+            <summary>
+            OverHead Cost
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.Numbering">
+            <summary>
+            Numbering
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ShowUnfinishProcessingOnly">
+            <summary>
+            Show unfinish processing only
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.EditPrePurchaseRequest">
+            <summary>
+            Edit Pre-Purchase Request
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ChangeRemarkFrom">
+            <summary>
+            Change Remark from {0} to {1}. 
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.NewDetail_Creditor">
+            <summary>
+            New detail - Creditor: {0}, KIV: {1} &amp; Order Qty: {2}.\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.EditDetail">
+            <summary>
+            Edit detail
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.DeleteDetail">
+            <summary>
+            Delete detail.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.OrderQty">
+            <summary>
+            Order Qty
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.DeletePrePurchaseRequest">
+            <summary>
+            Delete Pre-Purchase Request
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ItemDeleted">
+            <summary>
+            Item: {0}, RequestQty: {1}, FromDocKey: {2}, FromDtlKey: {3}, FromDocType: {4}  have been delete.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.NewAssemblyRequestFrom">
+            <summary>
+            New Assembly Request from {0}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.Requested">
+            <summary>
+            {0} requested
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.DeleteAssemblyRequestAt">
+            <summary>
+            Delete Assembly Request at {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.Delete">
+            <summary>
+            Delete {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.EditAssemblyRequestAt">
+            <summary>
+            Edit Assembly Request at {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.RequestQtyFor_ChangeFrom_To">
+            <summary>
+            Request qty for {0} change from {1} to {2}
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.NewPurchaseRequestFrom">
+            <summary>
+            New Purchase Request from {0}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.DeletePurchaseRequestAt">
+            <summary>
+            Delete Purchase Request at {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.EditPurchaseRequestAt">
+            <summary>
+            Edit Purchase Request at {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.NewAssemblyOrderRequestFrom">
+            <summary>
+            New Assembly Order Request from {0}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.DeleteAssemblyOrderRequestAt">
+            <summary>
+            Delete Assembly Order Request at {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.EditAssemblyOrderRequestAt">
+            <summary>
+            Edit Assembly Order Request at {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.Pending">
+            <summary>
+            Pending.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.TotalHave">
+            <summary>
+            Total have
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.Row">
+            <summary>
+            row
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.Rows">
+            <summary>
+            rows
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.FinishGeneratePO">
+            <summary>
+            {0} finish Generate Purchase Order
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.InKIV">
+            <summary>
+            in KIV
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.InProcess">
+            <summary>
+            in process
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.FinishGenerateStockAssemblyOrder">
+            <summary>
+            Finish Generate Stock Assembly Order.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.FinishGenerateStockAssembly">
+            <summary>
+            Finish Generate Stock Assembly.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.GenerateAssemblyOrder">
+            <summary>
+            Generate Assembly Order  - [Next First Possible No: {0}]
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.PreAssemblyOrderRequestProcessing">
+            <summary>
+            Pre Assembly Order Request Processing
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.AODocNo">
+            <summary>
+            AO DocNo
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.PreAssemblyRequestProcessing">
+            <summary>
+            Pre Assembly Request Processing
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.AssemblyDocNo">
+            <summary>
+            Assembly DocNo
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.EditPreDeliveryRequest">
+            <summary>
+            Edit Pre-Delivery Request
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.NewDetail_KIV_DeliveryQty">
+            <summary>
+            New detail - KIV: {0} &amp; Delivery Qty: {1}.\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.DeliveryQty">
+            <summary>
+            Delivery Qty
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.DeletePreDeliveryRequest">
+            <summary>
+            Delete Pre-Delivery Request
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.Item_RequestQty_SODocKey_SODtlKeyDeleted">
+            <summary>
+            Item: {0}, RequestQty: {1}, SODocKey: {2}, SODtlKey: {3}  have been delete.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.PreDeliveryRequestProcessing">
+            <summary>
+            Pre Delivery Request Processing
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.Debtor">
+            <summary>
+            Debtor
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.DeliveryUOM">
+            <summary>
+            Delivery UOM
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.SalesOrderDate">
+            <summary>
+            Sales Order Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.GenerateDeliveryOrder">
+            <summary>
+            Generate Delivery Order  - [Next Possible No: {0}]
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.SalesOrderProcessing">
+            <summary>
+            Sales Order Processing - [{0}]
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.SalesOrderProcessingRequested">
+            <summary>
+            Sales Order Processing Requested
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.FinishSalesOrderProcessing">
+            <summary>
+            Finish Sales Order Processing
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.FinishDeliveryOrderProcessing">
+            <summary>
+            Finish Delivery Order Processing
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.DeliveryOrderProcessingRequested">
+            <summary>
+            Delivery Order Processing Requested
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.PurchaseRequestProcessing">
+            <summary>
+            Purchase Request Processing
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.NewDeliveryRequestFrom">
+            <summary>
+            New Delivery Request from {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.DeliveryRequestProcessing">
+            <summary>
+            Delivery Request Processing
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.DeleteDeliveryRequestAt">
+            <summary>
+            Delete Delivery Request at {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.EditDeliveryRequestAt">
+            <summary>
+            Edit Delivery Request at {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.AssemblyOrderRequestProcessing">
+            <summary>
+            Assembly Order Request Processing
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.FinishGenerateDO">
+            <summary>
+            {0} finish Generate Delivery Order
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.FinishGenerateAssemblyOrder">
+            <summary>
+            Finish Generate Assembly Order.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.AssemblyRequestProcessing">
+            <summary>
+            Assembly Request Processing
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ShowMsg_CannotEditCauseRequestUnderProcessing">
+            <summary>
+            This request is under processing, so can't not be edit.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ShowMsg_PurchaseRequestSavedSuccessfully">
+            <summary>
+            Purchase Request saved successfully.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ShowMsg_AssemblyOrderRequestProcessingSavedSuccessfully">
+            <summary>
+            Assembly Order Request Processing saved successfully.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ShowMsg_AssemblyOrderProcessingSavedSuccessfully">
+            <summary>
+            Assembly Order Processing saved successfully.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ShowMsg_NoStockAssemblyOrderSelected">
+            <summary>
+            No Stock Assembly Order record is selected.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ShowMsg_TotalDeletedSuccessfully">
+            <summary>
+            {0} record(s) are successfully deleted.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ShowMsg_CannotFindRecord">
+            <summary>
+            Cannot find record, the record might be deleted.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ShowMsg_PrePurchaseRequestProcessingSavedSuccessfully">
+            <summary>
+            Pre Purchase Request Processing saved successfully.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ShowMsg_CannotEditCauseProcess">
+            <summary>
+            This record have been process, can't be edit.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ShowMsg_PreDeliveryRequestProcessingSavedSuccessfully">
+            <summary>
+            Pre Delivery Request Processing saved successfully.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ShowMsg_DeliveryRequestProcessingSavedSuccessfully">
+            <summary>
+            Delivery Request Processing saved successfully.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ShowMsg_PurchaseRequestProcessingSavedSuccessfully">
+            <summary>
+            Purchase Request Processing saved successfully.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ConfirmMsg_DoPurchaseRequest">
+            <summary>
+            Are you sure you want to do Purchase Request?
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ConfirmMsg_CancelPurchaseRequest">
+            <summary>
+            Are you sure you want to cancel this Purchase Request?
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ConfirmMsg_DoAssemblyOrderRequest">
+            <summary>
+            Are you sure you want to do Assembly Order Request?
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ConfirmMsg_DoAssemblyRequest">
+            <summary>
+            Are you sure you want to do Assembly Request?
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ConfirmMsg_AssemblyRequestQtyLargerThanSubItemAvailableQty">
+            <summary>
+            Current Total Assembly Request Qty is larger than Total Sub-Item Available Qty. Are you sure you want to continue?
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ConfirmMsg_CancelAssemblyRequest">
+            <summary>
+            Are you sure you want to cancel this Assembly Request?
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ConfirmMsg_ProcessFollowingStockAssemblyOrder">
+            <summary>
+            Are you sure you want to process the following Stock Assembly Order?\n{0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ConfirmMsg_DoPurchaseRequestProcessing">
+            <summary>
+            Are you sure you want to do Purchase Request Processing?
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ConfirmMsg_DeleteRequest">
+            <summary>
+            Are you sure you want to delete this request?
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ConfirmMsg_MoreThan1000RecordsToProcess">
+            <summary>
+            There are more than 1000 records to process, do you still want to proceed? (Note: It may take longer to process)
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ConfirmMsg_DoDeliveryRequestProcessing">
+            <summary>
+            Are you sure you want to do Delivery Request Processing?
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ConfirmMsg_DoDeliveryRequest">
+            <summary>
+            Are you sure you want to do Delivery Request?
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ConfirmMsg_DeliveryQtyLargerThanPurchaseQty">
+            <summary>
+            Current Total Delivery Qty is larger than Total Purchase Qty. Are you sure you want to continue?
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ConfirmMsg_OnHandQtyLessThanOne">
+            <summary>
+            On Hand Qty is less than 1. Are you sure you want continue?
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ConfirmMsg_CancelDeliveryRequest">
+            <summary>
+            Are you sure you want to cancel this Delivery Request?
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ConfirmMsg_CancelAssemblyOrderRequest">
+            <summary>
+            Are you sure you want to cancel this Assembly Order Request?
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_SelectRow">
+            <summary>
+            Please select a row first.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_DontHavePurchaseRequest">
+            <summary>
+            Don't have any Purchase Request is order.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_EnterRequestQtyLargerThanZero">
+            <summary>
+            Please enter Request Qty larger than zero.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_ReopenRecord">
+            <summary>
+            This record was either in other processing state, modified or deleted. Please reopen it.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_DontHaveAssemblyRequest">
+            <summary>
+            Don't have any Assembly Request is order.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_DontHaveAssemblyOrderProcessing">
+            <summary>
+            Don't have any Assembly Order Processing is order.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_OperationAborted">
+            <summary>
+            One of the records was deleted, operation aborted.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_MissingPurchaseRequestProcessingPO">
+            <summary>
+            Missing Purchase Request Processing PO record.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_CannotDeleteCauseUnderProcessing">
+            <summary>
+            This request is under processing, so can't not be delete.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_MissingDeliveryRequestProcessingDO">
+            <summary>
+            Missing Delivery Request Processing DO record.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_CannotEditCauseGeneratePO">
+            <summary>
+            This record already use to generate Purchase Order, so can't be edit.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_SelectRecordInsteadOfGroupSummary">
+            <summary>
+            Please select a record first. Do not select at group summary.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_NoPrePurchaseRequestProcessingChanged">
+            <summary>
+            Don't have any Pre Purchase Request Processing is changed.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_DontEnterRequestQtyEqualToZero">
+            <summary>
+            Please don't enter Request Qty equal to zero.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_SelectRecord">
+            <summary>
+            Please select a record.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_CannotGeneratePO">
+            <summary>
+            Can't generate PO for unassigne Purchase Request.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_EnterTotalOrderQtyLargerThanDetailQty">
+            <summary>
+            Please enter Total Order Quantity larger or equal to sum of detail quantity.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_CheckItem">
+            <summary>
+            Please check at least one item.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_RecordEitherDeletedOrModified">
+            <summary>
+            This record was either deleted or modified.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_OrderQtyNotMatchWithRequestQty">
+            <summary>
+            Order Qty is not match with Request Qty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_InvalidTransferItem">
+            <summary>
+            Invalid transfer item. The transfer item is not same with current item.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_InaccurateTotalQtyWhenConvertToPO">
+            <summary>
+            Inaccurate Total Qty when Converter to Purchase Order.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_SODtlRecordMissing">
+            <summary>
+            SODtl record is missing.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_TransferError">
+            <summary>
+            Transfer record error. FromSODtlKey {0} is not updated at PRProcessing.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ConfirmMsg_BusinessFlowManualTransfer">
+            <summary>
+            ItemCode {0} is tranfer from SO but it didn't appear at Business Flow. Are you sure you want to save?
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_CannotDeleteCauseGeneratePO">
+            <summary>
+            This request already generate PO, so can't be delete.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_CannotAddNewCauseGeneratedPO">
+            <summary>
+            Can't add new if all records already Generated Purchase Order.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_CannotDeleteIfHaveOnlyOneRecord">
+            <summary>
+            Can't delete if detail only have one record.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_NotAllowChangePurchaseUOMContainItemFromAssemblyOrder">
+            <summary>
+            Change Purchase UOM contain Item from Assembly Order is not allow.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_NotAllowChangeCausePurchaseUOMAlreadyChanged">
+            <summary>
+            Purchase UOM already changed. Select Item from Assembly Order is not allow if Purchase UOM already changed.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_ItemCodeAndUOMNotExist">
+            <summary>
+            This ItemCode &amp; UOM is not exist.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_MissingPurchaseRequestProcessingPORow">
+            <summary>
+            Missing Purchase Request Processing PO row.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_CannotEditCauseGenerateAssemblyOrder">
+            <summary>
+            This record already use to generate Assembly Order, so can't be edit.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_CannotEditCauseGenerateAssembly">
+            <summary>
+            This record already use to generate Assembly, so can't be edit.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_DetailDeliveryQtyNotMatchWithMasterDeliveryQty">
+            <summary>
+            Detail Delivery Qty is not match with Master Delivery Qty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_CannotDeleteCauseGenerateDO">
+            <summary>
+            This request already generate DO, so can't be delete.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_CannotEditCauseGenerateDO">
+            <summary>
+            This record already use to generate Delivery Order, so can't be edit.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_CannotAddNewCauseGenerateDO">
+            <summary>
+            Can't add new if all records already generated Delivery Order.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_CannotGenerateDOForUnassignedDeliveryRequest">
+            <summary>
+            Can't generate DO for unassigned Delivery Request.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_DontHavePreDeliveryRequestProcessingIsChanged">
+            <summary>
+            Don't have any Pre Delivery Request Processing is changed.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_DoNotEnterDeliveryQtyEqualToZero">
+            <summary>
+            Please don't enter Delivery Qty equal to zero.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_DoNotHaveDeliveryRequestIsOrder">
+            <summary>
+            Don't have any Delivery Request is order.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_EnterDeliveryQtyLargerThanZero">
+            <summary>
+            Please enter Delivery Qty larger than zero.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_ReopenSalesOrderProcessing">
+            <summary>
+            These record(s) was either in other processing state, modified or deleted. Please reopen Sales Order Processing.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_DoNotHavePurchaseRequestIsOrder">
+            <summary>
+            Don't have any Purchase Request is order.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_CannotFindRecord">
+            <summary>
+            Cannot find record, the record might be deleted.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_CannotEditCauseUnderProcessing">
+            <summary>
+            This request is under processing, so can't not be edit.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_SaveAllRequestBeforeCallMethod">
+            <summary>
+            Please save all your current request before call this method.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ErrorMsg_MissingItemUOM">
+            <summary>
+            Missing Item UOM
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.ARProcessingReportTitle">
+            <summary>
+            Assembly Request Processing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.AORProcessingReportTitle">
+            <summary>
+            Assembly Order Request Processing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.PRProcessingReportTitle">
+            <summary>
+            Purchase Request Processing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.BusinessFlowStringId.DRProcessingReportTitle">
+            <summary>
+            Delivery Request Processing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorCreditorGroupByOption.None">
+            <summary>
+            None
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorCreditorGroupByOption.Debtor">
+            <summary>
+            Debtor
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorCreditorGroupByOption.Creditor">
+            <summary>
+            Creditor
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorCreditorGroupByOption.ItemCode">
+            <summary>
+            Item Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorCreditorGroupByOption.ItemGroup">
+            <summary>
+            Item Group
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorCreditorGroupByOption.ItemType">
+            <summary>
+            Item Type
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorCreditorGroupByOption.ItemBrand">
+            <summary>
+            Item Brand
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorCreditorGroupByOption.ItemCategory">
+            <summary>
+            Item Category
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorCreditorGroupByOption.ItemClass">
+            <summary>
+            Item Class
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorCreditorSortByOption.Debtor">
+            <summary>
+            Debtor
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorCreditorSortByOption.Creditor">
+            <summary>
+            Creditor
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorCreditorSortByOption.ItemCode">
+            <summary>
+            Item Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorCreditorSortByOption.ItemGroup">
+            <summary>
+            Item Group
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorCreditorSortByOption.ItemType">
+            <summary>
+            Item Type
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorCreditorSortByOption.ItemBrand">
+            <summary>
+            Item Brand
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorCreditorSortByOption.ItemCategory">
+            <summary>
+            Item Category
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorCreditorSortByOption.ItemClass">
+            <summary>
+            Item Class
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorGroupByOption.None">
+            <summary>
+            None
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorGroupByOption.ItemCode">
+            <summary>
+            Item Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorGroupByOption.ItemGroup">
+            <summary>
+            Item Group
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorGroupByOption.ItemType">
+            <summary>
+            Item Type
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorGroupByOption.Debtor">
+            <summary>
+            Debtor
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorGroupByAdvanceItemOption.None">
+            <summary>
+            None
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorGroupByAdvanceItemOption.ItemCode">
+            <summary>
+            Item Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorGroupByAdvanceItemOption.ItemGroup">
+            <summary>
+            Item Group
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorGroupByAdvanceItemOption.ItemType">
+            <summary>
+            Item Type
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorGroupByAdvanceItemOption.ItemBrand">
+            <summary>
+            Item Brand
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorGroupByAdvanceItemOption.ItemCategory">
+            <summary>
+            Item Category
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorGroupByAdvanceItemOption.ItemClass">
+            <summary>
+            Item Class
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorGroupByAdvanceItemOption.Debtor">
+            <summary>
+            Debtor
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorSortByOption.ItemCode">
+            <summary>
+            Item Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorSortByOption.ItemGroup">
+            <summary>
+            Item Group
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorSortByOption.ItemType">
+            <summary>
+            Item Type
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorSortByOption.Debtor">
+            <summary>
+            Debtor
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorSortByAdvanceItemOption.ItemCode">
+            <summary>
+            Item Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorSortByAdvanceItemOption.ItemGroup">
+            <summary>
+            Item Group
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorSortByAdvanceItemOption.ItemType">
+            <summary>
+            Item Type
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorSortByAdvanceItemOption.ItemBrand">
+            <summary>
+            Item Brand
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorSortByAdvanceItemOption.ItemCategory">
+            <summary>
+            Item Category
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorSortByAdvanceItemOption.ItemClass">
+            <summary>
+            Item Class
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.DebtorSortByAdvanceItemOption.Debtor">
+            <summary>
+            Debtor
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.ARProcessingGroupByOption.None">
+            <summary>
+            None
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.ARProcessingGroupByOption.ItemCode">
+            <summary>
+            Item Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.ARProcessingGroupByOption.ItemGroup">
+            <summary>
+            Item Group
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.ARProcessingGroupByOption.ItemType">
+            <summary>
+            Item Type
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.ARProcessingGroupByOption.ItemBrand">
+            <summary>
+            Item Brand
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.ARProcessingGroupByOption.ItemCategory">
+            <summary>
+            Item Category
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.ARProcessingGroupByOption.ItemClass">
+            <summary>
+            Item Class
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.ARProcessingSortByOption.ItemCode">
+            <summary>
+            Item Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.ARProcessingSortByOption.ItemGroup">
+            <summary>
+            Item Group
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.ARProcessingSortByOption.ItemType">
+            <summary>
+            Item Type
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.ARProcessingSortByOption.ItemBrand">
+            <summary>
+            Item Brand
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.ARProcessingSortByOption.ItemCategory">
+            <summary>
+            Item Category
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.ARProcessingSortByOption.ItemClass">
+            <summary>
+            Item Class
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.PRProcessing.FormPrePRProcessing">
+            <summary>
+            Summary description for FormPRProcessing.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.PRProcessing.FormPrePRProcessing.PostDataSourceBinding">
+            <summary>
+             Refactored from SetPrePRProcessing
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.PRProcessing.FormPrePRProcessing.SavePrePRProcessing">
+            <summary>
+             Refactored from sbtnPRP_Click
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.PRProcessing.FormPrePRProcessing.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.PRProcessing.FormPrePRProcessing.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.PRProcessing.FormPrePRProcessing.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.PRProcessing.PRProcessingFilterTypeOption.ShowEmptyCreditorOnly">
+            <summary>
+            Show Empty Creditor Only
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.PRProcessing.PRProcessingFilterTypeOption.ShowAllInKIV">
+            <summary>
+            Show All in KIV
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.PRProcessing.PRProcessingFilterTypeOption.Search">
+            <summary>
+            Search
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.PRProcessing.PRProcessingFilterTypeOption.Listing">
+            <summary>
+            Listing
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.PRProcessing.FormPrintPRProcessing">
+            <summary>
+            Summary description for FormPrintPRProcessing.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.PRProcessing.FormPrintPRProcessing.ToggleGridButtons">
+            <summary>
+            Toggle visibility of option selection
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.PRProcessing.FormPrintPRProcessing.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.PRProcessing.FormPrintPRProcessing.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.PRProcessing.FormPrintPRProcessing.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.PRProcessing.FormPRProcessingCmd">
+            <summary>
+            Summary description for FormPRProcessingCmd.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.PRProcessing.FormPRProcessingCmd.OnRecordUpdatedDelegate">
+            <summary>
+            table is source table, cmdDataSet is Command Form dataset.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.PRProcessing.FormPRProcessingCmd.myInstance">
+            <summary>
+            Save instance of all command form have been open.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.PRProcessing.FormPRProcessingCmd.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.PRProcessing.FormPRProcessingCmd.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.PRProcessing.FormPRProcessingCmd.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.PRProcessing.FormPurchaseOrder">
+            <summary>
+            Summary description for FormPurchaseOrder.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.PRProcessing.FormPurchaseOrder.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.PRProcessing.FormPurchaseOrder.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.PRProcessing.FormPurchaseOrder.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.PRProcessing.PrintPRProcessing">
+            <summary>
+            Summary description for PrintPRProcessing.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.PRProcessing.PrintPRProcessing.GetReportDesignerDataSource">
+            <summary>
+            Fetch Report Designer DataSource
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.PRProcessing.PRProcessingDataAccess">
+            <summary>
+            Summary description for PRPDataAccess.
+            </summary>
+        </member>
+        <member name="M:AutoCount.BusinessFlow.PRProcessing.PrePRProcessingEntities.DeletePRP(System.Int64)">
+            <summary>
+            Use to delete Purchase Request
+            </summary>
+            <param name="docKey"></param>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.PRProcessing.PRProcessingEntity">
+            <summary>
+            Summary description for PRPEntity.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.PRProcessing.PRProcessingString.OpenedPurchaseRequestProcessingListWindow">
+            <summary>
+            {0} opened Purchase Request Processing List window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.PRProcessing.PRProcessingString.OpenedGeneratePurchaseOrderWindow">
+            <summary>
+            {0} opened Generate Purchase Order window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.PRProcessing.PRProcessingString.OpenedPrePurchaseRequestProcessingWindow">
+            <summary>
+            {0} opened Pre-Purchase Request Processing window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.PRProcessing.PRProcessingString.OpenedPrintPurchaseRequestProcessingWindow">
+            <summary>
+            {0} opened Print Purchase Request Processing window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.BusinessFlow.PRProcessing.PRProcessingString.InquiredPrintPurchaseRequestProcessing">
+            <summary>
+            {0} inquired on Print Purchase Request Processing.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.PRProcessing.PRProcessingPrintCriteria">
+            <summary>
+            Summary description for PRProcessingPrintCriteria.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.PRProcessing.PRProcessingSearchCriteria">
+            <summary>
+            Summary description for PRProcessingSearchCriteria.
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.PRProcessing.ReportTypeHandler">
+            <summary>
+            Summary description for ReportTypeHandler.
+            </summary>
+        </member>
+    </members>
+</doc>

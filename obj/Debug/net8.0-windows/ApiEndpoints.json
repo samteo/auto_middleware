@@ -1,0 +1,203 @@
+[
+  {
+    "ContainingType": "AutoCountApi.Controllers.AutoCountController",
+    "Method": "GetChartOfAccounts",
+    "RelativePath": "api/AutoCount/accounts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dbName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AutoCountApi.Controllers.AutoCountController",
+    "Method": "Create",
+    "RelativePath": "api/AutoCount/accounts/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "AutoCountAPInvoiceAPI.Models.ChartOfAccountDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AutoCountApi.Controllers.AutoCountController",
+    "Method": "CreateCreditor",
+    "RelativePath": "api/AutoCount/creditor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "creditorDto",
+        "Type": "AutoCountApi.Models.CreditorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AutoCountApi.Controllers.AutoCountController",
+    "Method": "FindCreditorByCompanyName",
+    "RelativePath": "api/AutoCount/creditor/find-by-company",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "dbName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AutoCountApi.Controllers.AutoCountController",
+    "Method": "GetCreditorData",
+    "RelativePath": "api/AutoCount/creditor/get-creditor-data",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dbName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AutoCountApi.Controllers.AutoCountController",
+    "Method": "CreateInvoice",
+    "RelativePath": "api/AutoCount/invoice",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "invoiceDto",
+        "Type": "AutoCountApi.Models.InvoiceDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AutoCountApi.Controllers.AutoCountController",
+    "Method": "GetAllItemsByDescription",
+    "RelativePath": "api/AutoCount/item/find-all-by-description",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "dbName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "exactMatch",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AutoCountApi.Controllers.AutoCountController",
+    "Method": "GetItemCodeByDescription",
+    "RelativePath": "api/AutoCount/item/find-by-description",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "dbName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "exactMatch",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AutoCountApi.Controllers.AutoCountController",
+    "Method": "GetItemData",
+    "RelativePath": "api/AutoCount/item/get-item-data",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dbName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AutoCountApi.Controllers.AutoCountController",
+    "Method": "CreatePurchaseInvoice",
+    "RelativePath": "api/AutoCount/purchase-invoice",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "purchaseInvoiceDto",
+        "Type": "AutoCountAPInvoiceAPI.Models.PurchaseInvoiceDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AutoCountApi.Controllers.AutoCountController",
+    "Method": "CreatePurchaseOrder",
+    "RelativePath": "api/AutoCount/purchase-order",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "purchaseOrderDto",
+        "Type": "AutoCountApi.Models.PurchaseOrderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

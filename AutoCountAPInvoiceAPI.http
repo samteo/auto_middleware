@@ -1,0 +1,6 @@
+@AutoCountAPInvoiceAPI_HostAddress = http://localhost:5043
+
+GET {{AutoCountAPInvoiceAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

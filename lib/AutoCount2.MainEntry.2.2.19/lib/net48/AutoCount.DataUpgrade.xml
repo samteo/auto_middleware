@@ -1,0 +1,774 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AutoCount.DataUpgrade</name>
+    </assembly>
+    <members>
+        <member name="T:AutoCount.Tools.DataUpgrade.FormErrorLog">
+            <summary>
+            Summary description for FormErrorLog.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.FormErrorLog.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tools.DataUpgrade.FormErrorLog.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tools.DataUpgrade.FormErrorLog.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Tools.DataUpgrade.FormUpgradeOption">
+            <summary>
+            Summary description for FormUpgradeOption.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.FormUpgradeOption.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tools.DataUpgrade.FormUpgradeOption.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tools.DataUpgrade.FormUpgradeOption.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Tools.DataUpgrade.FormUpgradeP35">
+            <summary>
+            Summary description for FormUpgradeP35.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.FormUpgradeP35.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tools.DataUpgrade.FormUpgradeP35.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tools.DataUpgrade.FormUpgradeP35.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgradeP35String.DoYouReallyWantToCancelUpgrade">
+            <summary>
+            Do you really want to cancel upgrade?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgradeP35String.UnknownErrorOccursDuringUpgrading">
+            <summary>
+            Unknown error occurs during upgrading. The data may not complete.\nThe original error message is: {0}\n\nStack Trace:\n{1}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgradeP35String.ThereWasErrorDuringUpgrading">
+            <summary>
+            There was error during upgrading, click OK to view the error message.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgradeP35String.DataUpgradingWasCancelledByUser">
+            <summary>
+            Data upgrading was cancelled by users.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgradeP35String.FolderDoesNotContainAutoCountPremierDatabaseOrDatabaseStillUsing">
+            <summary>
+            This folder does not contain AutoCount Premier 3.5 Database or there are someone still using the database.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgradeP35String.FolderDoesNotContainAutoCountXPDatabaseOrDatabaseStillUsing">
+            <summary>
+            This folder does not contain AutoCount XP Database or there are someone still using the database.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgradeP35String.WindowSecurityNotAllowYouAccessDatabase">
+            <summary>
+            Your windows security does not allow you to access to AutoCount Database. (Note: Please logon to Windows as Administrator in order to use this function.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgradeP35String.IncorrectRichTextField">
+            <summary>
+            Incorrect Rich Text Field, to solve this problem. Please use {0} and above to open this account book, then run HouseKeeping | Data Recovery | Copy To New Database.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgradeP35String.ClickOKToViewErrMessage">
+            <summary>
+            {0}, click OK to view the error message.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgradeP35String.DataUpgradingDoneWithError">
+            <summary>
+            Data upgrading done with error in {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgradeP35String.DataUpgradingSuccessfullyDone">
+            <summary>
+            Data upgrading successfully done in {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgradeP35String.Upgrade">
+            <summary>
+            Upgrade
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgradeP35String.Cancel">
+            <summary>
+            Cancel
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgradeP35String.ConfirmMsg_ThisFunctionWillDeleteAllExistingData">
+            <summary>
+            This function will delete all existing data. Do you want to continue?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgradeP35String.ErrorMsg_NotAllowToUpgradeFromAutoCountXPOrPremier">
+            <summary>
+            This account book has been marked to not allow to upgrade from AutoCount XP or Premier 3.5.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgradeP35String.CurrentProgress">
+            <summary>
+            Current Progress: {0} ({1}/{2})
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgradeP35String.UpgradeFromAutoCountXP">
+            <summary>
+            Upgrade from AutoCount XP
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgradeP35String.AutoCountXPReleaseBuild">
+            <summary>
+            AutoCount XP release 0 build 207 or release 1 build 1
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgradeP35String.AutoCountPremierBuildRelease">
+            <summary>
+            AutoCount Premier 3.5 build 177 or release 1 build 1
+            </summary>
+        </member>
+        <member name="T:AutoCount.Tools.DataUpgrade.UpgraderOption">
+            <summary>
+            UpgraderOption is a helper class for Upgrader.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Tools.DataUpgrade.Upgrader">
+            <summary>
+            Summary description for Upgrader.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.PurchaseInvoice">
+            <summary>
+            Purchase Invoice
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.PurchaseOrder">
+            <summary>
+            Purchase Order
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.RequestQuotation">
+            <summary>
+            Request Quotation
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.Invoice">
+            <summary>
+            Invoice
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.SalesOrder">
+            <summary>
+            Sales Order
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.Quotation">
+            <summary>
+            Quotation
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.DeliveryOrder_">
+            <summary>
+            Delivery Order
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.SalesOrder_">
+            <summary>
+            Sales Order
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.Quotation_">
+            <summary>
+            Quotation
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.GoodsReceivedNote_">
+            <summary>
+            Goods Received Note 
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.PurchaseOrder_">
+            <summary>
+            Purchase Order
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.RequestForQuotation_">
+            <summary>
+            Request For Quotation 
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.YourDODate">
+            <summary>
+            Your DO Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.OurPODate">
+            <summary>
+            Our PO Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.DocAtItemCode">
+            <summary>
+            {0}:{1} at Item Code {2}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.YourPODate">
+            <summary>
+            Your PO Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.SalesExemptionExpiryDate">
+            <summary>
+            Sales Exemption Expiry Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.DocumentDate">
+            <summary>
+            Document Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.AccessDeniedToAutoCountDatabase">
+            <summary>
+            Access Denied to AutoCount Database
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.InvalidAutoCountXPDatabase">
+            <summary>
+            Invalid AutoCount XP Database
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.InvalidAutoCountPremierDatabase">
+            <summary>
+            Invalid AutoCount Premier 3.5 Database
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.IncorrectRichTextField">
+            <summary>
+            Incorrect Rich Text Field
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.CantOpenAutoCountDatabase">
+            <summary>
+            Cannot open AutoCount Database
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.CreditorCode_ErrMsg">
+            <summary>
+            {0}: {1}, Creditor Code: {4}. Error message is {2}\n{3}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.CreditorCode_LocalNetTotal_NewLocalNetTotal_OldLocalNetTotal">
+            <summary>
+            {0}:{1}, CreditorCode:{4}, LocalNetTotal is not same. (New LocalNetTotal={2}, Old LocalNetTotal={3})\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.CreditorCode_NetTotalNotSame_NewNetTotal_OldNetTotal">
+            <summary>
+            {0}:{1}, CreditorCode:{4}, NetTotal is not same. (New NetTotal={2}, Old NetTotal={3})\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.KODNNotFound">
+            <summary>
+            {0}:{1}, KnockOff D/N {2} not found.\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.KOAmtLargerThanOutstandingAmtInDN">
+            <summary>
+            {0}:{1}, KnockOff Amount = {2} > outstanding amount {3} in D/N {4}.\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.KOAmtLargerThanOutstandingAmtInDN_OnlyKO">
+            <summary>
+            {0}:{1}, KnockOff Amount = {2} > outstanding amount {3} in D/N {4}, so we only knock-off {3}.\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.KOIVNotFound">
+            <summary>
+            {0}:{1}, KnockOff Invoice {2} not found.\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.KOAmtLargerThanOutstandingAmtInIV">
+            <summary>
+            {0}:{1}, KnockOff Amount = {2} > outstanding amount {3} in Invoice {4}.\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.KOAmtLargerThanOutstandingAmtInIV_OnlyKO">
+            <summary>
+            {0}:{1}, KnockOff Amount = {2} > outstanding amount {3} in Invoice {4}, so we only knock-off {3}.\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.LocalNetTotalNotSame_NewLocalNetTotal_OldLocalNetTotal">
+            <summary>
+            {0}:{1}, LocalNetTotal is not same. (New LocalNetTotal={2}, Old LocalNetTotal={3})\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.DetailDescIsTruncated">
+            <summary>
+            {0}:{1}, detail description '{2}' is truncated. (Longer than 100 characters)\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.ItemTransferredFromGRN_ChangeToNormalItem_CheckGRN">
+            <summary>
+            {0}: {1}, ItemCode={2} was transferred from Goods Received Note Item Code={3}, now, we change it to normal item, you should check the Goods Received Note to change the item code to {2} in order to prevent double stock deduction.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.PostPayment_ReceiptVoucherNoNotFoundInSourceDoc">
+            <summary>
+            {0}:{1}, Post Payment, but Receipt Voucher No. is not found in source document. The system will create a new Receipt Voucher No.\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.ItemTrasferredFromDO_ChangeToNormalItem_CheckDO">
+            <summary>
+            {0}: {1}, ItemCode={2} was transferred from Delivery Order Item Code={3}, now, we change it to normal item, you should check the Delivery Order to change the item code to {2} in order to prevent double stock deduction.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.DocFullTransferredFromPI_GetException">
+            <summary>
+            {0}:{1} was Full-Transferred from Purchase Invoice {2}, but get exception {3}.\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.DocFullTransferredFromPI_NetTotalNotSame_ReimportDetails">
+            <summary>
+            {0}:{1} was Full-Transferred from Purchase Invoice {2}, but NetTotal is not same, so we re-import the details. (Current Document NetTotal={3}, from Document NetTotal={4})\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.UpgradeBankReconStatusName_VoucherNo_ChequeNo">
+            <summary>
+            {0}:AccNo={1}, Voucher No={2}, Cheque No={3}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.ItemPartialTransferFails_ErrMsg_ChangeToStandItem">
+            <summary>
+            {0}:{1}, ItemCode={2}. Partial Transfer fails, error message is {3}, now change to standard item.\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.ItemTransferredFrom_ChangeToNormalItem">
+            <summary>
+            {0}: {1}, ItemCode={2} was transferred from {4} Item Code={3}, now, we change it to normal item.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.ItemQty2MoreThanZeroButUOMNotMatch">
+            <summary>
+            {0}:{1}, ItemCode={2}, qty2 > 0, but UOM not match.\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.ItemQtyMoreThanZeroButUOMNotMatch">
+            <summary>
+            {0}:{1}, ItemCode={2}, qty1 > 0, but UOM not match.\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.DocNotUpgradedBecauseNoDebtorCode">
+            <summary>
+            {0}:{1} was not upgraded because there is no debtor code.\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.DocNewDtlCountAndOldDtlCountNotSame">
+            <summary>
+            {0}:{1} new detail count ({2}) and old detail count ({3}) does not same, the copy of UDF may not correct.\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.DocFullTransferredFromDO_NotExistInSystem_ImportAsStandDoc">
+            <summary>
+            {0}:{1} was Full-Transferred from Delivery Order {2}, but it does not exist in current system, so we import it as standard document.\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.DocFullTransferredFromSO_NotExistInSystem_ImportAsStandDoc">
+            <summary>
+            {0}:{1} was Full-Transferred from Sales Order {2}, but it does not exist in current system, so we import it as standard document.\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.DocFullTranferredFromQT_GetException">
+            <summary>
+            {0}:{1} was Full-Transferred from Quotation {2}, but get exception {3}.\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.DocFullTransferredFromQT_NetTotalNotSame_ReimportDetails">
+            <summary>
+            {0}:{1} was Full-Transferred from Quotation {2}, but NetTotal is not same, so we re-import the details. (Current Document NetTotal={3}, from Document NetTotal={4})\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.DocFullTransferredFromQT_NotExistInSystem_ImportAsStandDoc">
+            <summary>
+            {0}:{1} was Full-Transferred from Quotation {2}, but it does not exist in current system, so we import it as standard document.\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.DocFullTransferredFromGRN_NotExistInSystem_ImportAsStandDoc">
+            <summary>
+            {0}:{1} was Full-Transferred from Goods Received Note {2}, but it does not exist in current system, so we import it as standard document.\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.DocFullTransferredFromPO_NotExistInSystem_ImportAsStandDoc">
+            <summary>
+            {0}:{1} was Full-Transferred from Purchase Order {2}, but it does not exist in current system, so we import it as standard document.\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.DocFullTransferredFrom_GetException">
+            <summary>
+            {0}: {1} was full-transferred from {2}{3}, but get exception {4}.\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.DocFullTransferredFrom_NetTotalNotSame_ReimportDetails">
+            <summary>
+            {0}:{1} was Full-Transferred from {2}{3}, but NetTotal is not same, so we re-import the details. (Current Document NetTotal={4}, from Document NetTotal={5})\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.DocFullTransferredFrom_NotExistInSystem_ImportAsStandDoc">
+            <summary>
+            {0}:{1} was Full-Transferred from {2}{3}, but it does not exist in current system, so we import it as standard document.\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.NetTotalNotSame_NewNetTotal_OldNetTotal">
+            <summary>
+            {0}:{1}, NetTotal is not same. (New NetTotal={2}, Old NetTotal={3})\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.DocFullTransferredFromRequestForQTButGetException">
+            <summary>
+            {0}:{1} was Full-Transferred from Request For Quotation {2}, but get exception {3}.\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.DocNewDetailCountAndOldDetailCountNotSame">
+            <summary>
+            {0}:{1} new detail count and old detail count does not same, the copy of UDF may not correct.\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.DocFullTransferredFromRequestForQT_NetTotalNotSame_ReimportDetails">
+            <summary>
+            {0}:{1} was Full-Transferred from Request For Quotation {2}, but NetTotal is not same, so we re-import the details. (Current Document NetTotal={3}, from Document NetTotal={4})\n)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.DocFullTransferredFromRequestForQT_NotExistInSystem_ImportAsStandDoc">
+            <summary>
+            {0}:{1} was Full-Transferred from Request For Quotation {2}, but it does not exist in current system, so we import it as standard document.\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.ErrorMessage">
+            <summary>
+            {0}: {1}. Error message is {2}\n{3}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.UpgradeBankReconStatusName_AccNo_VoucherNo_ChequeNo_PaymentAmt">
+            <summary>
+            {0}:AccNo={1}, Voucher No={2}, Cheque No={3}, Payment Amount={4} not found.\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.UpgradePastYearBankReconName_AccNo_ChequeNo">
+            <summary>
+            {0}:AccNo={1}, Cheque No={2}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.UpgradeLastYearBalanceName_AccNo_ProjNo_Job">
+            <summary>
+            {0}:AccNo={1},ProjNo={2},Job={3}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.UpgradeOpeningBalName_AccNo_ProjNo_Job">
+            <summary>
+            {0}:AccNo={1},ProjNo={2},Job={3}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.OpenStockAccNo_CloseStockAccNo_BalStockAccNo">
+            <summary>
+            {0}:OpenStockAccNo={1},CloseStockAccNo={2},BalanceStockAccNo={3}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.AssetAccNo_DepreciationAccNo">
+            <summary>
+            {0}: Asset Account No={1}, Depreciation Account No={2}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.ProjWasConvertedToNewProjCode">
+            <summary>
+            Project {0} was converted to New Project Code {1}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.ProjJobWasConvertedToNewProjCode">
+            <summary>
+            Project {0}, Job {1} was converted to New Project Code {2}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.DebtorCreditorCodeIsDuplicated">
+            <summary>
+            Debtor/Creditor Code {0} and {1} is duplicated.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.WindowSecurityDoesNotAllowToCreateLogFile">
+            <summary>
+            Your windows security does not allow you to create this log file {0}. Please specify another folder.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.TheFollowingUOM2RateAndUOM3RateAreSame">
+            <summary>
+            The following item's UOM 2's Rate and UOM 3's Rate are same, which is not allow in {0}\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.TheFollowingItemUOM3RateEqual1">
+            <summary>
+            The following item's UOM 3's Rate=1, which is not allow in {0}\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.TheFollowingItemUOM2RateEqual1">
+            <summary>
+            The following item's UOM 2's Rate=1, which is not allow in {0}\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.Warning">
+            <summary>
+            Warning: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.ThereIsWarningThereforeTheValueIsSetToEmpty">
+            <summary>
+            Warning in {0}. Invalid value of {1}({2}). Therefore, we set the value to empty. (Note: Valid value must be between {3} and {4}.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.ImportARAPTransactionsOption">
+            <summary>
+            Import A/R and A/P Transactions option: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.ReimportIfARAPDocDateNetTotalDoesNotSame">
+            <summary>
+            If A/R and A/P Document Date or Net Total does not same, then re-import.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.AlwaysReimportARAPTransaction">
+            <summary>
+            Always Re-Import A/R and A/P Transactions
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.ImportPastARAPTransactionsOnly">
+            <summary>
+            Import Past A/R and A/P Transactions Only
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.ImportPuchaseFooter">
+            <summary>
+            Import Purchase Footer: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.ImportSalesFooter">
+            <summary>
+            Import Sales Footer: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.CopyReferenceCostToMinimumSalePrice">
+            <summary>
+            Copy Reference Cost to Minimum Sale Price: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.ImportAsNormalItemIfFullTransferFails">
+            <summary>
+            Import as normal item if full transfer fails: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.AlwaysUseOldSubTotal">
+            <summary>
+            Always Use Old SubTotal: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.ImportStockWriteOffAsStockAdjustment">
+            <summary>
+            Import Stock Write Off as Stock Adjustment: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.StopWhenErrorsOccurInDocuments">
+            <summary>
+            Stop when errors occur in Documents: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.UpgradeOpeningBalance">
+            <summary>
+            Upgrade Opening Balance: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.UpgradeBankReconciliationStatus">
+            <summary>
+            Upgrade Bank Reconciliation Status: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.UpgradeStockDocuments">
+            <summary>
+            Upgrade Stock Documents: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.UpgradePurchaseDocuments">
+            <summary>
+            Upgrade Purchase Documents: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.UpgradeSalesDocuments">
+            <summary>
+            Upgrade Sales Documents: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.UpgradeAPDocuments">
+            <summary>
+            Upgrade A/P Documents: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.UpgradeARDocuments">
+            <summary>
+            Upgrade A/R Documents: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.UpgradeGLDocuments">
+            <summary>
+            Upgrade G/L Documents: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.UpgradeType">
+            <summary>
+            Upgrade Type: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.ContinueUpgrade">
+            <summary>
+            Continue Upgrade
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.NewUpgrade">
+            <summary>
+            New Upgrade
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.TheUpgradeIsBasedOnTheFollowingOptions">
+            <summary>
+            The upgrade is based on the following options:
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.UpgradeFromAutoCountXP">
+            <summary>
+            Upgrade from AutoCount XP
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.UpgradeFromAutoCountPremier">
+            <summary>
+            Upgrade from AutoCount Premier 3.5
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.Yes">
+            <summary>
+            Yes
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.No">
+            <summary>
+            No
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.CashSaleDebtorAutoCreated">
+            <summary>
+            CASH SALE DEBTOR (AUTO-CREATED)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.ItemQty1MoreThanZeroButUOMNotMatch">
+            <summary>
+            {0}: {1}, ItemCode= {2}, qty1 > 0, but UOM not match.\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.ItemCodeTransferredChangeToNormalItem">
+            <summary>
+            {0}: {1}, ItemCode={2} was transferred from {4} Item Code={3}, now, we change it to normal item.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.ItemCodeTransferredFromDeliveryOrderChangeToNormalItem">
+            <summary>
+            {0}: {1}, ItemCode={2} was transferred from Delivery Order Item Code={3}, now, we change it to normal item, you should check the Delivery Order to change the item code to {2} in order to prevent double stock deduction.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.GSTStandardRated">
+            <summary>
+            GST Standard-Rated
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.GSTZeroRated">
+            <summary>
+            GST Zero-Rated
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.GSTExempted">
+            <summary>
+            GST Exempted
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.GSTOutOfScope">
+            <summary>
+            GST Out-Of-Scope
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.SalesTax">
+            <summary>
+            Sales Tax
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.MiscCharges">
+            <summary>
+            Misc. Charges
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.BFInvoice">
+            <summary>
+            B/F Invoice
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.BFDebitNote">
+            <summary>
+            B/F Debit Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.KnockOffDNNotFound">
+            <summary>
+            {0}: {1}, KnockOff D/N {3} not found.\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.BFCreditNote">
+            <summary>
+            B/F Credit Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DataUpgrade.UpgraderString.PurchaseTax">
+            <summary>
+            Purchase Tax
+            </summary>
+        </member>
+    </members>
+</doc>

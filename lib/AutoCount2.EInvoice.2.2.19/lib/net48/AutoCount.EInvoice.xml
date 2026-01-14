@@ -1,0 +1,3339 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AutoCount.EInvoice</name>
+    </assembly>
+    <members>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceStringId.ErrorMessage_RecordDoesNotSelected">
+            <summary>
+            No record was selected.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceStringId.ErrorMessage_EInvoiceNotEnabled">
+            <summary>
+            e-Invoice is not enabled.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceStringId.ErrorMessage_DocDateBeforeEInvoiceDtartDate">
+            <summary>
+            Document Date must after or equal e-Invoice start date.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceStringId.InfoMessage_CannotEditInViewMode">
+            <summary>
+            Cannot edit detail in the document which is in View mode.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceStringId.ErrorMessage_NameCannotBeEmpty">
+            <summary>
+            The {0} Name field cannot be empty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceStringId.ErrorMessage_TINCannotBeEmpty">
+            <summary>
+            The {0} TIN cannot be empty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceStringId.ErrorMessage_GeneralTINAndNoIdentityNo">
+            <summary>
+            The Individual {0} TIN is a general TIN. Hence must provide Identity No.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceStringId.ErrorMessage_IdentityTypeCannotBeEmpty">
+            <summary>
+            The {0} Identity Type cannot be empty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceStringId.ErrorMessage_IdentityNoCannotBeEmpty">
+            <summary>
+            The {0} {1} No cannot be empty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceStringId.ErrorMessage_BRNCannotBeEmpty">
+            <summary>
+            The {0} Business Register No cannot be empty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceStringId.ErrorMessage_MSICCodeCannotBeEmpty">
+            <summary>
+            The {0} MSIC Code cannot be empty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceStringId.ErrorMessage_BusinessActivityDescCannotBeEmpty">
+            <summary>
+            The {0} Business Activity Desc. cannot be empty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceStringId.ErrorMessage_PhoneCannotBeEmpty">
+            <summary>
+            The {0} Phone cannot be empty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceStringId.ErrorMessage_EmailCannotBeEmpty">
+            <summary>
+            The {0} Email Address cannot be empty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceStringId.ErrorMessage_AddressCannotBeEmpty">
+            <summary>
+            The {0} Address cannot be empty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceStringId.ErrorMessage_PostCodeCannotBeEmpty">
+            <summary>
+            The {0} Post Code cannot be empty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceStringId.ErrorMessage_CityCannotBeEmpty">
+            <summary>
+            The {0} City field cannot be empty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceStringId.ErrorMessage_CountryCannotBeEmpty">
+            <summary>
+            The {0} Country cannot be empty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceStringId.ErrorMessage_StateCannotBeEmpty">
+            <summary>
+            The {0} State cannot be empty
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceStringId.ErrorMessage_TINAndIdentityNoIsEmpty">
+            <summary>
+            Please provide a {0} TIN or {0} Identity No. for individual.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceCommand.PostAuditLog(System.Data.DataSet,AutoCount.Data.DBSetting,AutoCount.AuditTrail.EventType)">
+            <summary>
+            Post to audit log
+            </summary>
+            <param name="ds">DataSet</param>
+            <param name="dbSetting">DBSetting</param>
+            <param name="eventType">Audit Trail Event Type</param>
+        </member>
+        <member name="T:AutoCount.EInvoice.ConsolidatedInvoice.InvoiceRecordNotFoundException">
+            <summary>
+            Exception that is thrown when record is not found.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.ConsolidatedInvoice.InvoiceRecordNotFoundException.#ctor(System.String)">
+            <summary>
+            Initialize a new instance of InvoiceRecordNotFoundException.
+            </summary>
+            <param name="errmsg">Error message</param>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceCommandStringId.ConsolidatedInvoice">
+            <summary>
+            Consolidated e-Invoice
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceCommandStringId.DocumentNo">
+            <summary>
+            Document No.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceCommandStringId.IssueDateTime">
+            <summary>
+            Issue Date Time
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceCommandStringId.Location">
+            <summary>
+            Location
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceCommandStringId.CurrencyCode">
+            <summary>
+            Currency Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceCommandStringId.ToMYRExchangeRate">
+            <summary>
+            To MYR Exchange Rate
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceCommandStringId.FromDocType">
+            <summary>
+            From Document Type
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceCommandStringId.BillingPeriod">
+            <summary>
+            Billing Period
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceCommandStringId.SupplierTIN">
+            <summary>
+            Supplier TIN
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceCommandStringId.SupplierName">
+            <summary>
+            Supplier Name
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceCommandStringId.SupplierAddress">
+            <summary>
+            Supplier Address
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceCommandStringId.SupplierBusinessRegisterNo">
+            <summary>
+            Supplier Business Register No
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceCommandStringId.SupplierMSICCode">
+            <summary>
+            Supplier MSIC Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceCommandStringId.SupplierBusinessActivityDesc">
+            <summary>
+            Supplier Business Activity Desc.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceCommandStringId.SupplierPhone">
+            <summary>
+            Supplier Phone
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceCommandStringId.SupplierEmail">
+            <summary>
+            Supplier Email
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceCommandStringId.SupplierPostCode">
+            <summary>
+            Supplier Post Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceCommandStringId.SupplierCity">
+            <summary>
+            Supplier City
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceCommandStringId.SupplierCountryCode">
+            <summary>
+            Supplier Country Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceCommandStringId.SupplierStateCode">
+            <summary>
+            Supplier State Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceCommandStringId.Detail">
+            <summary>
+            Detail
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceCommandStringId.Classification">
+            <summary>
+            Classification
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceCommandStringId.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceCommandStringId.Quantity">
+            <summary>
+            Quantity
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceCommandStringId.UnitPrice">
+            <summary>
+            Unit Price
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceCommandStringId.Tax">
+            <summary>
+            Tax
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceCommandStringId.SubTotal">
+            <summary>
+            Sub Total
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceCommandStringId.CreateNewConsolidatedInvoice">
+            <summary>
+            {0} created new Consolidated e-Invoice {1}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceCommandStringId.UpdatedConsolidatedInvoice">
+            <summary>
+            {0} updated Consolidated e-Invoice {1}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceCommandStringId.DeletedConsolidatedInvoice">
+            <summary>
+            {0} deleted Consolidated e-Invoice {1}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceCommandStringId.CancelConsolidatedInvoice">
+            <summary>
+            Cancel {0}: {1}\r\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceCommandStringId.ErrorMessage_RecordNotFound_DocKey">
+            <summary>
+            Invoice record not found. (DocKey={0})
+            </summary>
+        </member>
+        <member name="T:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceGrid">
+            <summary>
+            Summary description for ConsolidatedInvoiceGrid.
+            </summary>
+        </member>
+        <member name="P:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceGrid.DataSource">
+            <summary>
+            Get or Set the DataSource of the GridControl
+            </summary>
+        </member>
+        <member name="P:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceGrid.GridControl">
+            <summary>
+            Get the GridControl
+            </summary>
+        </member>
+        <member name="P:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceGrid.GridView">
+            <summary>
+            Get the Main View
+            </summary>
+        </member>
+        <member name="P:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceGrid.TickColumnFieldName">
+            <summary>
+            Get or Set the Tick Column FieldName
+            </summary>
+        </member>
+        <member name="P:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceGrid.ShowTickColumn">
+            <summary>
+            Get or Set the Visibility of Tick Column
+            </summary>
+        </member>
+        <member name="P:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceGrid.GridLayout">
+            <summary>
+            Get the CustomizeGridLayout object of this control
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceGrid.EndEdit">
+            <summary>
+            end current row edit
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceGrid.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceGrid.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceGrid.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceGridStringId.Cancelled">
+            <summary>
+            Cancelled
+            </summary>
+        </member>
+        <member name="T:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceCmd">
+            <summary>
+            Summary description for FormConsolidatedInvoiceCmd.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceCmd.#ctor(AutoCount.Authentication.UserSession)">
+            <summary>
+            Construct a FormConsolidatedInvoiceCmd from DBSetting
+            </summary>
+            <param name="userSession">Database setting</param>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceCmd.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceCmd.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceCmd.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceCmdStringId.ConsolidatedInvoice">
+            <summary>
+            Consolidated e-Invoice {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceCmdStringId.ConfirmMessage_CancelConsolidatedInvoice">
+            <summary>
+            Do you really want to cancel Consolidated e-Invoice {0} ?
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceCmdStringId.CancelConsolidatedInvoice">
+            <summary>
+            {0} cancels Consolidated e-Invoice {1}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceCmdStringId.ErrorMessage_RecordDoesNotExist">
+            <summary>
+            Cannot find record, the record might be deleted.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceCmdStringId.RefreshEInvoiceStatus">
+            <summary>
+            Refresh e-Invoice Status
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceCmdStringId.ConfirmMessage_DeleteInvoice">
+            <summary>
+            Do you really want to delete Consolidated e-Invoice {0} ?
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceCmdStringId.ShowMessage_Delete">
+            <summary>
+            The document is successfully deleted.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceCmdStringId.OpenedConsolidatedInvoiceListWindow">
+            <summary>
+            {0} opened Consolidated e-Invoice List window.
+            </summary>
+        </member>
+        <member name="T:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceEntry">
+            <summary>
+            Summary description for FormConsolidatedInvoiceEntry.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceEntry.#ctor(AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoice)">
+            <summary>
+            Construct FormConsolidatedInvoiceEntry from Consolidated e-Invoice
+            </summary>
+            <param name="consolidatedInvoice">Consolidated e-Invoice</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceEntry.StartForm(AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoice)">
+            <summary>
+            Start Entry Form
+            </summary>
+            <param name="consolidatedInvoice">Consolidated e-Invoice</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceEntry.LogActivity(AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoice)">
+            <summary>
+            Log Activity Stream
+            </summary>
+            <param name="consolidatedInvoice"></param>
+        </member>
+        <member name="M:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceEntry.InitControlsEditMaskAndFormat(AutoCount.Data.DBSetting)">
+            <summary>
+            Init Controls EditMask and Format
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceEntry.SaveLocalSetting">
+            <summary>
+            Save Local Setting
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceEntry.LoadLocalSetting">
+            <summary>
+            Load Local Setting
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceEntry.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceEntry.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceEntry.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceEntryStringId.Code_Close">
+            <summary>
+            Close
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceEntryStringId.Code_Cancel">
+            <summary>
+            Cancel
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceEntryStringId.Code_UncancelDocument">
+            <summary>
+            Un&amp;void
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceEntryStringId.Code_CancelDocument">
+            <summary>
+            &amp;Void
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceEntryStringId.ViewConsolidatedInvoice">
+            <summary>
+            {0} viewed Consolidated e-Invoice {1}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceEntryStringId.ConfirmMessage_CancelConsolidatedInvoice">
+            <summary>
+            Do you really want to cancel Consolidated e-Invoice {0} ?
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceEntryStringId.CancelConsolidatedInvoice">
+            <summary>
+            {0} cancels Consolidated e-Invoice {1}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceEntryStringId.ConfirmMessage_DeleteConsolidatedInvoice">
+            <summary>
+            Do you really want to delete Consolidated e-Invoice {0} ?
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceEntryStringId.Code_ViewConsolidatedInvoice">
+            <summary>
+            View Consolidated e-Invoice
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceEntryStringId.Code_EditConsolidatedInvoice">
+            <summary>
+            Edit Consolidated e-Invoice
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceEntryStringId.Code_NewConsolidatedInvoice">
+            <summary>
+            New Consolidated e-Invoice
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceEntryStringId.ViewConsolidatedInvoiceInEditMode">
+            <summary>
+            {0} viewed Consolidated e-Invoice {1} in edit mode.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceEntryStringId.EditedConsolidatedInvoice">
+            <summary>
+            {0} edited Consolidated e-Invoice {1}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceEntryStringId.ConsolidatedInvoice">
+            <summary>
+            Consolidated e-Invoice {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceGenerator.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceGenerator.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceGenerator.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceGeneratorStringId.ErrorMessage_SelectDocument">
+            <summary>
+            You must choose at least one of the Document options.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceGeneratorStringId.ConfirmMessage_EInvoiceStatus">
+            <summary>
+            There are transactions within the date range {0} to {1} that are still in a pending, submitted, failed, or invalid e-Invoice status. Please ensure that the e-Invoice statuses are up to date. Otherwise, click Yes button to proceed with creating consolidated e-Invoice(s).\r\n\r\nNotes: You can check using e-Invoice Submission Status function.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceList.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceList.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceList.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceListStringId.FormTextDescription">
+            <summary>
+            Create New Consolidated e-Invoice Preview [{0} -{1}]
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceTransDrillDown.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceTransDrillDown.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoiceTransDrillDown.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.EInvoice.ConsolidatedInvoice.FormPOSTransactionViewerEntry">
+            <summary>
+            Summary description for FormPOSTransactionViewerEntry.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormPOSTransactionViewerEntry.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.ConsolidatedInvoice.FormPOSTransactionViewerEntry.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.ConsolidatedInvoice.FormPOSTransactionViewerEntry.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormPOSTranViewerEntryStringId.ViewPosTransaction">
+            <summary>
+            View POS Transaction - [{0}]
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormTaxTypesSummary.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.ConsolidatedInvoice.FormTaxTypesSummary.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.ConsolidatedInvoice.FormTaxTypesSummary.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormViewTaxEntityInfo.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.ConsolidatedInvoice.FormViewTaxEntityInfo.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.ConsolidatedInvoice.FormViewTaxEntityInfo.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormViewTaxEntityInfoStringId.ERRORMSSG_CountryNotForeign">
+            <summary>
+            Tax entity info's country is not a foreign country
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoicePrintListing.ReloadAllColumns(System.Object,System.EventArgs)">
+            <summary>
+            Reload All Columns
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoicePrintListing.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoicePrintListing.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.ConsolidatedInvoice.FormConsolidatedInvoicePrintListing.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceListingReportTypeOption.BatchPrintConsolidatedInvoice">
+            <summary>
+            Batch Print Consolidated e-Invoice
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceListingReportTypeOption.PrintConsolidatedInvoiceListing">
+            <summary>
+            Print Consolidated e-Invoice Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceListingGroupByOption.None">
+            <summary>
+            None
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceListingGroupByOption.Date">
+            <summary>
+            Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceListingGroupByOption.Month">
+            <summary>
+            Month
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceListingGroupByOption.Year">
+            <summary>
+            Year
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceListingGroupByOption.CurrencyCode">
+            <summary>
+            Currency Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceListingSortByOption.DocumentNo">
+            <summary>
+            Document No
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceListingSortByOption.Date">
+            <summary>
+            Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceReportStringId.Code_HideOptions">
+            <summary>
+            Hide &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceReportStringId.Code_ShowOptions">
+            <summary>
+            Show &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceReportStringId.OpenedPrintConsolidatedInvoiceListingWindow">
+            <summary>
+            {0} opened Print Consolidated e-Invoice Listing window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceReportStringId.ErrorMessage_ReportTypeDoesNotSelected">
+            <summary>
+            Please select a report type.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceReportStringId.InquiredPrintConsolidatedInvoiceListing">
+            <summary>
+            {0} inquired on Print Consolidated e-Invoice Listing.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceReportStringId.ErrorMessage_ConsolidatedInvoiceDoesNotSelected">
+            <summary>
+            No Consolidated e-Invoice record was selected.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceReportStringId.BatchPrintConsolidatedInvoice">
+            <summary>
+            Batch Consolidated e-Invoice
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceReportStringId.PrintConsolidatedInvoiceListing">
+            <summary>
+            Consolidated e-Invoice Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceReportStringId.IssueDate">
+            <summary>
+            Issue Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceReportStringId.DocNo">
+            <summary>
+            Doc No.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceReportStringId.CurrencyCode">
+            <summary>
+            Currency Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceReportStringId.SalesLocation">
+            <summary>
+            Sales Location
+            </summary>
+        </member>
+        <member name="T:AutoCount.EInvoice.ConsolidatedInvoice.ConsolidatedInvoiceReportingCriteria">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:AutoCount.EInvoice.ConsolidatedInvoice.FormMultiSelectConsolidatedInvoiceDate">
+            <summary>
+            Summary description for FormMultiSelectDate.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.FormMultiSelectConsolidatedInvoiceDate.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.ConsolidatedInvoice.FormMultiSelectConsolidatedInvoiceDate.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.ConsolidatedInvoice.FormMultiSelectConsolidatedInvoiceDate.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.MultiSelectDateStringId.ErrorMessage_NoneSelected">
+            <summary>
+            None was selected
+            </summary>
+        </member>
+        <member name="T:AutoCount.EInvoice.ConsolidatedInvoice.UCConsolidatedInvoiceDateSelector">
+            <summary>
+            Summary description for UCDebtorSelector.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.ConsolidatedInvoice.UCConsolidatedInvoiceDateSelector.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.ConsolidatedInvoice.UCConsolidatedInvoiceDateSelector.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.ConsolidatedInvoice.UCConsolidatedInvoiceDateSelector.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.EInvoice.EInvoiceSettings.EInvoiceSettingsEntity">
+            <summary>
+            Provide entity access to column lock row.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormActivateEInvoice.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.EInvoiceSettings.FormActivateEInvoice.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.EInvoiceSettings.FormActivateEInvoice.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormActivateEInvoiceStringId.AIPCompanyID">
+            <summary>
+            AIP ID: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormActivateEInvoiceStringId.ProductID">
+            <summary>
+            Product ID: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormActivateEInvoiceStringId.CompanyName">
+            <summary>
+            Company Name: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormActivateEInvoiceStringId.TIN">
+            <summary>
+            TIN: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormActivateEInvoiceStringId.BRN">
+            <summary>
+            BRN: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormActivateEInvoiceStringId.ERRORMSSG_ProvideEInvoiceClientID">
+            <summary>
+            Please provide MyInvois Portal Client ID.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormActivateEInvoiceStringId.ERRORMSSG_ProvideCompanyName">
+            <summary>
+            Please provide Company Name.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormActivateEInvoiceStringId.ERRORMSSG_ProvideAIPID">
+            <summary>
+            Please provide AIP ID
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormActivateEInvoiceStringId.ERRORMSSG_ProvideProductID">
+            <summary>
+            Please provide Product ID.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormActivateEInvoiceStringId.ERRORMSSG_ProvideTIN">
+            <summary>
+            Please provide TIN.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormActivateEInvoiceStringId.ERRORMSSG_ProvideBRN">
+            <summary>
+            Please provide BRN.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormActivateEInvoiceStringId.ERRORMSSG_ProvideEInvoiceClientSecret">
+            <summary>
+            Please provide MyInvois Portal Client Secret.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormActivateEInvoiceStringId.SuccessValidateIntermediaryLoginAndTINOwnership">
+            <summary>
+            Success validated Intermediary Login &amp; TIN Ownership.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormActivateEInvoiceStringId.SuccessLicenseOfCompany">
+            <summary>
+            Success {0} e-Invoice License.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormActivateEInvoiceStringId.ConfirmMessage_LicenseOfCompany">
+            <summary>
+            Are you sure want to update e-Invoice License?\r\nNote: Make sure your account book company info is correct.\r\n\r\nProduct ID: {0}\r\nTIN: {1}\r\nBusiness Reg. No.: {2}
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormActivateEInvoiceStringId.ERRORMSSG_TaxEntityIDNotFound">
+            <summary>
+            Tax Entity ID not found, unable to update TIN.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormActivateEInvoiceStringId.ERRORMSSG_TaxEntityIDFound">
+            <summary>
+            Tax Entity ID found, unable to add new TIN.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormActivateEInvoiceStringId.EInvoiceStatus">
+            <summary>
+            e-Invoice Status: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormActivateEInvoiceStringId.EInvoiceLicenseStatus">
+            <summary>
+            e-Invoice License: {0}
+            </summary>
+        </member>
+        <member name="T:AutoCount.EInvoice.EInvoiceSettings.FormAutoEmailEInvoice">
+            <summary>
+            Summary description for FormAutoEmailEInvoice.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormAutoEmailEInvoice.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.EInvoiceSettings.FormAutoEmailEInvoice.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.EInvoiceSettings.FormAutoEmailEInvoice.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormAutoEmailEInvoiceStringId.MustProvideEmailEInvoiceDefaultReport">
+            <summary>
+            Please provide email e-Invoice Default {0} Report.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormAutoEmailEInvoiceStringId.EnterSmtpAddress">
+            <summary>
+            Please enter your SMTP server address.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormAutoEmailEInvoiceStringId.EnterFromName">
+            <summary>
+            Please enter your From Name.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormAutoEmailEInvoiceStringId.EnterFromEmail">
+            <summary>
+            Please enter your From Email.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormChangeAIPPassword.FormChangeAIPPasswordStringId.ShowErrorMsg_PleaseFillInPassword">
+            <summary>
+            Please fill in password.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormChangeAIPPassword.FormChangeAIPPasswordStringId.ShowErrorMsg_InvalidPassword">
+            <summary>
+            Invalid Password
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormChangeAIPPassword.FormChangeAIPPasswordStringId.ChangeAIPPasswordTitle">
+            <summary>
+            Change to AIP {0} Password
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormChangeAIPPassword.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.EInvoiceSettings.FormChangeAIPPassword.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.EInvoiceSettings.FormChangeAIPPassword.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceEmailContent.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceEmailContent.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceEmailContent.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceEmailContentStringId.EmailContent">
+            <summary>
+            {0} Email Content
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSetting.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSetting.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSetting.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingStringId.ERRMSSG_RegisterAccountBookBeforeGetLicense">
+            <summary>
+            Please register this account book before check license on license portal.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingStringId.ERRMSSG_RegisterAccountBookBeforeActivateSubLicense">
+            <summary>
+            Please register this account book either Express, Account or Accountant Edition before activate Shared e-Invoice License.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingStringId.EInvoiceStartDate">
+            <summary>
+            Start Date : {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingStringId.EInvoiceStatusDisabled">
+            <summary>
+            e-Invoice is disabled.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingStringId.EInvoiceStatusEnableNotActivated">
+            <summary>
+            e-Invoice is enabled but not yet activated.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingStringId.EInvoiceStatusEnableNotActivatedWithAIPCompanyID">
+            <summary>
+            e-Invoice is enabled but not yet activated. (AIP ID: {0})
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingStringId.EInvoiceStatusActivated">
+            <summary>
+            e-Invoice is activated with AIP ID ({0}).
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingStringId.EInvoiceStatusDeactivated">
+            <summary>
+            e-Invoice is activated with AIP ID ({0}) but now it is deactivated after restored.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingStringId.EInvoiceLicensed">
+            <summary>
+            This company e-Invoice is licensed under Product ID: {0}, TIN: {1}, BRN: {2}.\r\ne-Invoice License: {3}
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingStringId.EInvoiceSubLicensed">
+            <summary>
+            {0} (Shared e-Invoice License: {1})
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingStringId.EInvoiceExpiryDateLicensed">
+            <summary>
+            Expired on {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingStringId.EInvoiceUnlicensed">
+            <summary>
+            This company e-Invoice is unlicensed.\r\nYou may try up to 30 submissions.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingStringId.SubEInvoiceUnlicensed">
+            <summary>
+            This company e-Invoice is unlicensed.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingStringId.ActivateEInvoice">
+            <summary>
+            (Click here to activate it.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingStringId.AutoEmailEInvoice">
+            <summary>
+            (Auto Email e-Invoice)
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingStringId.ReactivateEInvoice">
+            <summary>
+            (Click here to reactivate it.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingStringId.AccountBookUsingAIP">
+            <summary>
+            This account book is using AIP {0}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingStringId.ConfirmMessage_LoadPreviousAccountBookAIPCompanyID">
+            <summary>
+            Are you sure want to reactivate previous account book AIP ID?\r\nPlease make sure other Account Book does not have same AIP ID, else will have multiple Account Book submit to e-Invoice.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingStringId.ConfirmMessage_LoadPreviousAccountBookUsingSharedEInvoiceLicenseFile">
+            <summary>
+            Do you want to reactivate previous account book using Shared e-Invoice License File?\r\nPlease ensure that this account book is registered under Express, Account, or Accountant Edition, as this feature is intended for (Accountant use only).
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingStringId.ShowMessage_ADMINPasswordRequired">
+            <summary>
+            ADMIN password required
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingStringId.ShowMessage_EnterADMINPassword">
+            <summary>
+            Please enter the ADMIN password in order to perform this operation.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingStringId.LoadPreviousAIPCompanyID">
+            <summary>
+            Reactivate previous account book AIP ID.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingStringId.SuccessLoadPreviousAIPCompanyID">
+            <summary>
+            Success reactivate previous account book AIP ID.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingStringId.SuccessLicenseOfCompany">
+            <summary>
+            Success {0} e-Invoice License.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingStringId.ActivateSubLicense">
+            <summary>
+            (Activate Shared e-Invoice License)
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingStringId.GetLicense">
+            <summary>
+            (Check License on License Portal)
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfo.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfo.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfo.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.ERRMSSG_RegisterAccountBookBeforeGetLicense">
+            <summary>
+            Please register this account book before check license on license portal.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.ERRMSSG_RegisterAccountBookBeforeActivateSubLicense">
+            <summary>
+            Please register this account book either Express, Account or Accountant Edition before activate Shared e-Invoice License.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.ERRMSSG_NotAllowUntickConsolidate">
+            <summary>
+            Some Consolidated e-Invoice Documents is found(s). Hence untick Consolidated e-Invoice is not allowed.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.MustProvideEInvoiceStartDate">
+            <summary>
+            Please provide e-Invoice Start Date.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.ValidEInvoiceStartDate">
+            <summary>
+            Valid e-Invoice Start Date must start from 01 Aug 2024
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.ValidConsolidatedEInvoiceByDefaultUntilMustAfterEInvoiceStartDate">
+            <summary>
+            End of interim relaxation period must after e-Invoice Start Date.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.ValidConsolidatedEInvoiceByDefaultUntil">
+            <summary>
+            Valid end of interim relaxation period must before 01 July 2026.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.EInvoiceStartDateChangedTitle">
+            <summary>
+            User {0} updated e-Invoice Start Date.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.EInvoiceStartDateChangedDesc">
+            <summary>
+            User {0} updated e-Invoice Start Date from '{1}' to '{2}'.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.CodeListUpdated">
+            <summary>
+            e-Invoice code list updated successfully.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.EInvoiceStatusDisabled">
+            <summary>
+            e-Invoice is disabled.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.EInvoiceStatusEnableNotActivated">
+            <summary>
+            e-Invoice is enabled but not yet activated.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.EInvoiceStatusEnableNotActivatedWithAIPCompanyID">
+            <summary>
+            e-Invoice is enabled but not yet activated. (AIP ID: {0})
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.EInvoiceStatusActivated">
+            <summary>
+            e-Invoice is activated with AIP ID ({0}).
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.EInvoiceStatusDeactivated">
+            <summary>
+            e-Invoice is activated with AIP ID ({0}) but now it is deactivated after restored.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.EInvoiceLicensed">
+            <summary>
+            This company e-Invoice is licensed under Product ID: {0}, TIN: {1}, BRN: {2}.\r\ne-Invoice License: {3}
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.EInvoiceSubLicensed">
+            <summary>
+            {0} (Shared e-Invoice License: {1})
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.EInvoiceExpiryDateLicensed">
+            <summary>
+            Expired on {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.EInvoiceUnlicensed">
+            <summary>
+            This company e-Invoice is unlicensed.\r\nYou may try up to 30 submissions.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.SubEInvoiceUnlicensed">
+            <summary>
+            This company e-Invoice is unlicensed.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.ActivateEInvoice">
+            <summary>
+            (Click here to activate it.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.AutoEmailEInvoice">
+            <summary>
+            (Auto Email e-Invoice)
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.ReactivateEInvoice">
+            <summary>
+            (Click here to reactivate it.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.AccountBookUsingAIP">
+            <summary>
+            This account book is using AIP {0}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.ShowErrorMsg_LicenseControlUnableChangeAIPStaging">
+            <summary>
+            This account book has license control, unable change to AIP Staging.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.ShowErrorMsg_EInvoiceHadRegisteredUnableChange">
+            <summary>
+            This account book had registered under AIP {0}, didn't allow change.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.ShowErrorMsg_NotAllowUntickConsolidatedEInvoice">
+            <summary>
+            You are not allowed to uncheck 'Allow to create Consolidated e-Invoice' because you have allowed Interim relaxation period.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.ShowConfirmMsg_ChangeToAIPStaging">
+            <summary>
+            Do you want change to AIP Staging?\r\n(Notes: Staging server is for Testing Submit e-Invoice purpose, once done submission cannot change again.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.ShowConfirmMsg_ChangeToAIPProduction">
+            <summary>
+            Do you want change to AIP Production?\r\n(Notes: Production server is for Live Submit e-Invoice purpose, once done submission cannot change again.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.ConfirmMessage_LoadPreviousAccountBookAIPCompanyID">
+            <summary>
+            Are you sure want to reactivate previous account book AIP ID?\r\nPlease make sure other Account Book does not have same AIP ID, else will have multiple Account Book submit to e-Invoice.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.ConfirmMessage_LoadPreviousAccountBookUsingSharedEInvoiceLicenseFile">
+            <summary>
+            Do you want to reactivate previous account book using Shared e-Invoice License File?\r\nPlease ensure that this account book is registered under Express, Account, or Accountant Edition, as this feature is intended for (Accountant use only).
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.ShowErrorMsg_ConsolidateEInvoiceDetailLineLimit">
+            <summary>
+            Consolidated e-Invoice detail line limit must be at least 1 line.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.ShowMessage_ADMINPasswordRequired">
+            <summary>
+            ADMIN password required
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.ShowMessage_EnterADMINPassword">
+            <summary>
+            Please enter the ADMIN password in order to perform this operation.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.LoadPreviousAIPCompanyID">
+            <summary>
+            Reactivate previous account book AIP ID.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.SuccessLoadPreviousAIPCompanyID">
+            <summary>
+            Success reactivate previous account book AIP ID.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.SuccessLicenseOfCompany">
+            <summary>
+            Success {0} e-Invoice License.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.ActivateSubLicense">
+            <summary>
+            (Activate Shared e-Invoice License)
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormEInvoiceSettingInfoStringId.GetLicense">
+            <summary>
+            (Check License on License Portal)
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormShowEInvoiceLicenseInfo.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.EInvoiceSettings.FormShowEInvoiceLicenseInfo.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.EInvoiceSettings.FormShowEInvoiceLicenseInfo.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormShowEInvoiceLicenseInfoStringId.AIPCompanyID">
+            <summary>
+            AIP ID: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormShowEInvoiceLicenseInfoStringId.LicenseOfCompanyID">
+            <summary>
+            e-Invoice License: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormShowEInvoiceLicenseInfoStringId.SubLicenseOfCompanyID">
+            <summary>
+            Shared e-Invoice License for your Accountant: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormShowEInvoiceLicenseInfoStringId.ProductEdition">
+            <summary>
+            Product Edition: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormShowEInvoiceLicenseInfoStringId.ProductID">
+            <summary>
+            Product ID: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormShowEInvoiceLicenseInfoStringId.TIN">
+            <summary>
+            TIN: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormShowEInvoiceLicenseInfoStringId.BRN">
+            <summary>
+            BRN: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormShowEInvoiceLicenseInfoStringId.SubLicenseKeyFiles">
+            <summary>
+            Shared e-Invoice License Key Files
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormShowEInvoiceLicenseInfoStringId.ExportSubLicenseKeyFiles">
+            <summary>
+            Shared e-Invoice License Key exported to file.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormShowEInvoiceLicenseInfoStringId.ERRORMSSG_ProvideAIPID">
+            <summary>
+            Please provide AIP ID
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormShowEInvoiceLicenseInfoStringId.ERRORMSSG_ProvideProductID">
+            <summary>
+            Please provide Product ID.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormShowEInvoiceLicenseInfoStringId.ERRORMSSG_ProvideTIN">
+            <summary>
+            Please provide TIN.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormShowEInvoiceLicenseInfoStringId.ERRORMSSG_ProvideBRN">
+            <summary>
+            Please provide BRN.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormShowEInvoiceLicenseInfoStringId.ERRORMSSG_ProvideLicenseID">
+            <summary>
+            Please provide e-Invoice License.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormShowEInvoiceLicenseInfoStringId.ERRORMSSG_SubLicenseIDUnableToSharing">
+            <summary>
+            This is Shared e-Invoice License, unable to sharing.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormShowEInvoiceLicenseInfoStringId.ERRORMSSG_ActivateEInvoiceInAIPServer">
+            <summary>
+            Please activate e-Invoice in AIP Server before share Shared e-Invoice License.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormShowEInvoiceLicenseInfoStringId.ERRORMSSG_ActivateLicenseOfCompanyID">
+            <summary>
+            Please activate e-Invoice License before share Shared e-Invoice License.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormShowEInvoiceLicenseInfoStringId.ERRMSSG_RegisterAccountBookBeforeGetLicense">
+            <summary>
+            Please register this account book before get license.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormShowEInvoiceLicenseInfoStringId.LoadPreviousAIPCompanyIDUsingSharedEInvoiceLicenseFile">
+            <summary>
+            Reactivate previous account book using Shared e-Invoice License File.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormShowEInvoiceLicenseInfoStringId.SuccessLicenseOfCompany">
+            <summary>
+            Success {0} e-Invoice License.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormShowEInvoiceLicenseInfoStringId.ConfirmMessage_LicenseOfCompany">
+            <summary>
+            Are you sure want to update e-Invoice License?\r\nNote: Make sure your account book company info is correct.\r\n\r\nProduct ID: {0}\r\nTIN: {1}\r\nBusiness Reg. No.: {2}
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormShowEInvoiceLicenseInfoStringId.ConfirmMessage_MergeAIPCompany">
+            <summary>
+            System found different AIP ID!\r\nAre you sure want to merge AIP ID ({0}) into main AIP ID ({1})?\r\nNote: Once finish merge both AIP company, cannot reverse anymore.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormShowEInvoiceLicenseInfoStringId.ConfirmMessage_SubLicenseOfCompany">
+            <summary>
+            Are you sure want to activate Shared e-Invoice License?\r\nNote: Make sure your account book company info is correct.\r\n\r\nProduct ID: {0}\r\nTIN: {1}\r\nBusiness Reg. No.: {2}
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormShowEInvoiceLicenseInfoStringId.ConfirmMessage_ShareLicenseOfCompany">
+            <summary>
+            Are you sure want to share e-Invoice License: {0}?
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormShowEInvoiceLicenseInfoStringId.ConfirmMessage_StopShareLicenseOfCompany">
+            <summary>
+            Are you sure want to stop share e-Invoice License: {0} (Shared e-Invoice License: {1})?
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormShowEInvoiceLicenseInfoStringId.ShowMessage_ADMINPasswordRequired">
+            <summary>
+            ADMIN password required
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSettings.FormShowEInvoiceLicenseInfoStringId.ShowMessage_EnterADMINPassword">
+            <summary>
+            Please enter the ADMIN password in order to perform this operation.
+            </summary>
+        </member>
+        <member name="T:AutoCount.EInvoice.EInvoiceSubmissionStatus.EInvoiceSubmissionStatus">
+            <summary>
+            Summary description for EInvoiceSubmissionStatus.
+            </summary>
+        </member>
+        <member name="T:AutoCount.EInvoice.EInvoiceSubmissionStatus.EInvoiceSubmissionStatus.EInvoiceSubmissionStatusSQL">
+            <summary>
+            SQL implementation of EInvoiceSubmissionStatus.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSubmissionStatus.EInvoiceSubmissionStatusStringId.ErrorMessage_MustTickOneOrMoreDocumentType">
+            <summary>
+            Must tick one or more document type in e-Invoice Submission Status.
+            </summary>
+        </member>
+        <member name="T:AutoCount.EInvoice.EInvoiceSubmissionStatus.EInvoiceSubmissionStatusCriteria">
+            <summary>
+            Summary description for EInvoiceSubmissionStatusCriteria.
+            </summary>
+        </member>
+        <member name="T:AutoCount.EInvoice.EInvoiceSubmissionStatus.EInvoiceSubmissionStatusHelper">
+            <summary>
+            Summary description for EInvoiceSubmissionStatusHelper.
+            </summary>
+        </member>
+        <member name="P:AutoCount.EInvoice.EInvoiceSubmissionStatus.EInvoiceSubmissionStatusHelper.Criteria">
+            <summary>
+            Properties for searching criteria in Form e-Invoice Submission Status
+            </summary>
+        </member>
+        <member name="P:AutoCount.EInvoice.EInvoiceSubmissionStatus.EInvoiceSubmissionStatusHelper.ResultTable">
+            <summary>
+            Result of Table
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.EInvoiceSubmissionStatus.EInvoiceSubmissionStatusHelper.SaveSetting">
+            <summary>
+            Save the setting of search criteria to disk
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSubmissionStatus.FormEInvoiceSubmissionStatus.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.EInvoiceSubmissionStatus.FormEInvoiceSubmissionStatus.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.EInvoiceSubmissionStatus.FormEInvoiceSubmissionStatus.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSubmissionStatus.FormEInvoiceSubmissionStatusStringId.ConfirmOnClosing">
+            <summary>
+            Document is refreshing the e-invoice status result. Are you sure you want to close this window?
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSubmissionStatus.FormEInvoiceSubmissionStatusStringId.ErrorMessage_DateRangeIncorrect_FromDateLargerThanToDate">
+            <summary>
+            The date range is set incorrectly, 'From' date is larger than 'To' date.\nPlease set it again.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSubmissionStatus.FormEInvoiceSubmissionStatusStringId.ErrorMessage_SelectEInvoiceStatusCriteria">
+            <summary>
+            Please select either 1 of the e-Invoice Status.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSubmissionStatus.FormEInvoiceSubmissionStatusStringId.ErrorMessage_SelectDocumentTypeCriteria">
+            <summary>
+            Please select either 1 of the Document Type.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.EInvoiceSubmissionStatus.FormEInvoiceSubmissionStatusStringId.ErrorMessage_RecordNotYetHaveValidationLink">
+            <summary>
+            This record not yet have validation link.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormAPCNSearch.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormAPCNSearch.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormAPCNSearch.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormAPDNSearch.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormAPDNSearch.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormAPDNSearch.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormAPInvoiceSearch.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormAPInvoiceSearch.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormAPInvoiceSearch.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormARCNSearch.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormARCNSearch.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormARCNSearch.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormCashPurchaseSearch.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormCashPurchaseSearch.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormCashPurchaseSearch.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormCopyFromOptions.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormCopyFromOptions.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormCopyFromOptions.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormDocumentSearchBase.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormDocumentSearchBase.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormDocumentSearchBase.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.DocumentSearchString.ErrorMessage_NoRecordSelected">
+            <summary>
+            No record selected.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.DocumentSearchString.ErrorMessage_InvalidSelection">
+            <summary>
+            All selected documents must have same {0}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.DocumentSearchString.ConfirmMessage_SelectedDifferentInclusiveTax">
+            <summary>
+            Selected documents have different Inclusive Tax option, it will affect the Total amount. \r\nDo you want to continue?
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.DocumentSearchString.ErrorMessage_InvalidSelectionWithSBDocument">
+            <summary>
+            Selected documents must be same with current self-billed document {0}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.DocumentSearchString.ConfirmMessage_SelectedDifferentInclusiveTaxWithSBDocument">
+            <summary>
+            Selected documents have different Inclusive Tax option with current self-billed document, it will affect the Total amount. \r\nDo you want to continue?
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormPurchaseReturnSearch.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormPurchaseReturnSearch.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormPurchaseReturnSearch.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledBatchDocumentAction.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormSelfBilledBatchDocumentAction.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormSelfBilledBatchDocumentAction.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledReference.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormSelfBilledReference.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormSelfBilledReference.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledReferenceStringId.ErrorMessage_SourceDocumentDeleted">
+            <summary>
+            The source document '{0}' has already been deleted.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormViewTaxEntityInfo.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormViewTaxEntityInfo.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormViewTaxEntityInfo.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormViewTaxEntityInfoStringId.ERRORMSSG_GeneralTINCannotApply">
+            <summary>
+            Tax entity info's country is not a foreign country
+            </summary>
+        </member>
+        <member name="T:AutoCount.EInvoice.SelfBilled.FormSelfBilledDetailListingAdvOptions">
+            <summary>
+            Summary description for FormSelfBilledDetailListingAdvOptions.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledDetailListingAdvOptions.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormSelfBilledDetailListingAdvOptions.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormSelfBilledDetailListingAdvOptions.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledPrintDetailListing.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormSelfBilledPrintDetailListing.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormSelfBilledPrintDetailListing.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledDetailListingGroupByOption.None">
+            <summary>
+            None
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledDetailListingGroupByOption.Date">
+            <summary>
+            Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledDetailListingGroupByOption.Month">
+            <summary>
+            Month
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledDetailListingGroupByOption.Year">
+            <summary>
+            Year
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledDetailListingGroupByOption.SupplierName">
+            <summary>
+            Supplier Name
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledDetailListingGroupByOption.CurrencyCode">
+            <summary>
+            Currency Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledDetailListingGroupByOption.SBDocType">
+            <summary>
+            Document Type
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledDetailListingGroupByOption.ItemClassification">
+            <summary>
+            Item Classification
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledDetailListingGroupByOption.TaxType">
+            <summary>
+            Tax Type
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledDetailListingSortByOption.DocumentNo">
+            <summary>
+            Document No
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledDetailListingSortByOption.Date">
+            <summary>
+            Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledDetailListingSortByOption.ItemClassification">
+            <summary>
+            Item Classification
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledDetailListingReportStringId.Code_HideOptions">
+            <summary>
+            Hide &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledDetailListingReportStringId.Code_ShowOptions">
+            <summary>
+            Show &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledDetailListingReportStringId.OpenedPrintSelfBilledDetailListingWindow">
+            <summary>
+            {0} opened Print Self-Billed Detail Listing window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledDetailListingReportStringId.InquiredPrintSelfBilledDetailListing">
+            <summary>
+            {0} inquired on Print Self-Billed Detail Listing.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledDetailListingReportStringId.ErrorMessage_SelfBilledDoesNotSelected">
+            <summary>
+            No Self-Billed Detail record was selected.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledDetailListingReportStringId.SelfBilledDetailListing">
+            <summary>
+            Self-Billed Detail Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledDetailListingReportStringId.DocDate">
+            <summary>
+            Doc Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledDetailListingReportStringId.DocNo">
+            <summary>
+            Doc No.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledDetailListingReportStringId.CurrencyCode">
+            <summary>
+            Currency Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledDetailListingReportStringId.SBDocType">
+            <summary>
+            Self-Billed Document Type
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledDetailListingReportStringId.Check">
+            <summary>
+            Check
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledDetailListingReportStringId.Code_BasicOptions">
+            <summary>
+            Switch To Basic Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledDetailListingReportStringId.Code_AdvancedOptions">
+            <summary>
+            Switch To Advanced Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledDetailListingReportStringId.Classification">
+            <summary>
+            Classification
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledDetailListingReportStringId.TaxType">
+            <summary>
+            Tax Type
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.SelfBilledDetailListingReport.PrintDetailListingReport(System.String,AutoCount.EInvoice.SelfBilled.SelfBilledDetailReportingCriteria,System.Boolean)">
+            <summary>
+            Print Detail Listing Report
+            </summary>
+            <param name="dtlKeys"></param>
+            <param name="criteria"></param>
+            <param name="isDefaultReport"></param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.SelfBilledDetailListingReport.PreviewDetailListingReport(System.String,AutoCount.EInvoice.SelfBilled.SelfBilledDetailReportingCriteria,System.Boolean)">
+            <summary>
+            Preview Detail Listing Report
+            </summary>
+            <param name="dtlKeys"></param>
+            <param name="criteria"></param>
+            <param name="isDefaultReport"></param>
+        </member>
+        <member name="T:AutoCount.EInvoice.SelfBilled.SelfBilledReportingCommonCriteria">
+            <summary>
+            SelfBilledReportingCommonCriteria
+            </summary>
+        </member>
+        <member name="T:AutoCount.EInvoice.SelfBilled.SelfBilledReportingCriteria">
+            <summary>
+            SelfBilledReportingCriteria
+            </summary>
+        </member>
+        <member name="T:AutoCount.EInvoice.SelfBilled.SelfBilledDetailReportingCriteria">
+            <summary>
+            SelfBilledDetailReportingCriteria
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormCashBookSearch.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormCashBookSearch.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormCashBookSearch.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormPurchaseInvoiceSearch.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormPurchaseInvoiceSearch.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormPurchaseInvoiceSearch.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormSelfBilledCmd.StartEntryForm(AutoCount.EInvoice.SelfBilled.SelfBilled)">
+            <summary>
+            Start Self-Billed Entry Form in a new thread
+            </summary>
+            <param name="selfBilled">An Self-Billed object</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormSelfBilledCmd.CopyToSelfBilled(AutoCount.Authentication.UserSession,System.String,System.Int64)">
+            <summary>
+            Copy To Self-Billed with docType and dockey and StartEntryForm
+            </summary>
+            <param name="userSession"></param>
+            <param name="docType"></param>
+            <param name="dockey"></param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormSelfBilledCmd.NewDocument(AutoCount.Authentication.UserSession)">
+            <summary>
+            Create a new Self-Billed Entry Form in new thread
+            </summary>
+            <param name="userSession">A DBSetting object</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormSelfBilledCmd.ViewDocument(AutoCount.Authentication.UserSession,System.Int64)">
+            <summary>
+            Open an Self-Billed to view in new thread
+            </summary>
+            <param name="userSession">A UserSession object</param>
+            <param name="docKey">The Self-Billed internal key</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormSelfBilledCmd.ViewDocument(AutoCount.Authentication.UserSession,System.String)">
+            <summary>
+            Open an Self-Billed to view in new thread
+            </summary>
+            <param name="userSession">A UserSession object</param>
+            <param name="docNo">The Self-Billed Document No.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormSelfBilledCmd.EditDocument(AutoCount.Authentication.UserSession,System.Int64)">
+            <summary>
+            Open an Self-Billed to edit in new thread
+            </summary>
+            <param name="userSession">A UserSession object</param>
+            <param name="docKey">The Self-Billed internal key</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormSelfBilledCmd.EditDocument(AutoCount.Authentication.UserSession,System.String)">
+            <summary>
+            Open an Self-Billed to edit in new thread
+            </summary>
+            <param name="userSession">A UserSession object</param>
+            <param name="docNo">The Self-Billed Document No.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormSelfBilledCmd.PrintDocument(AutoCount.Authentication.UserSession,System.Int64,System.Boolean)">
+            <summary>
+            Print an Self-Billed Document
+            </summary>
+            <param name="userSession">A UserSession object</param>
+            <param name="docKey">The Self-Billed internal key</param>
+            <param name="useDefaultReport">Indicates you want to use default report or not.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormSelfBilledCmd.PrintDocument(AutoCount.Authentication.UserSession,System.String,System.Boolean)">
+            <summary>
+            Print an Self-Billed Document
+            </summary>
+            <param name="userSession">A UserSession object</param>
+            <param name="docNo">The Self-Billed Document No.</param>
+            <param name="useDefaultReport">Indicates you want to use default report or not.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormSelfBilledCmd.PrintDocument(AutoCount.Authentication.UserSession,System.Int64,System.String)">
+            <summary>
+            Print an Self-Billed Document
+            </summary>
+            <param name="userSession">A UserSession object</param>
+            <param name="docKey">The Self-Billed internal key</param>
+            <param name="reportName">A Report Name</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormSelfBilledCmd.PrintDocument(AutoCount.Authentication.UserSession,System.String,System.String)">
+            <summary>
+            Print an Self-Billed Document
+            </summary>
+            <param name="userSession">A UserSession object</param>
+            <param name="docNo">The Self-Billed Document No.</param>
+            <param name="reportName">A Report Name</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormSelfBilledCmd.PreviewDocument(AutoCount.Authentication.UserSession,System.Int64,System.Boolean)">
+            <summary>
+            Preview an Self-Billed Document
+            </summary>
+            <param name="userSession">A UserSession object</param>
+            <param name="docKey">The Self-Billed internal key</param>
+            <param name="useDefaultReport">Indicates you want to use default report or not.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormSelfBilledCmd.PreviewDocument(AutoCount.Authentication.UserSession,System.String,System.Boolean)">
+            <summary>
+            Preview an Self-Billed Document
+            </summary>
+            <param name="userSession">A UserSession object</param>
+            <param name="docNo">The Self-Billed Document No.</param>
+            <param name="useDefaultReport">Indicates you want to use default report or not.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormSelfBilledCmd.PreviewDocument(AutoCount.Authentication.UserSession,System.Int64,System.String)">
+            <summary>
+            Preview an Self-Billed Document
+            </summary>
+            <param name="userSession">A UserSession object</param>
+            <param name="docKey">The Self-Billed internal key</param>
+            <param name="reportName">A Report Name</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormSelfBilledCmd.PreviewDocument(AutoCount.Authentication.UserSession,System.String,System.String)">
+            <summary>
+            Preview an Self-Billed Document
+            </summary>
+            <param name="userSession">A UserSession object</param>
+            <param name="docNo">The Self-Billed Document No.</param>
+            <param name="reportName">A Report Name</param>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledCmd.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormSelfBilledCmd.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormSelfBilledCmd.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledCmdStringId.SelfBilled">
+            <summary>
+            Self-Billed {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledCmdStringId.ErrorMessage_RecordDoesNotSelected">
+            <summary>
+            No record was selected.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledCmdStringId.RefreshEInvoiceStatus">
+            <summary>
+            Refresh e-Invoice Status
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledCmdStringId.ErrorMessage_RecordDoesNotExist">
+            <summary>
+            Cannot find record, the record might be deleted.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledCmdStringId.ConfirmMessage_DeleteSB">
+            <summary>
+            Do you really want to delete Self-Billed {0} ?
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledCmdStringId.ShowMessage_Delete">
+            <summary>
+            The document is successfully deleted.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledCmdStringId.ErrorMessage_UnableToPrintSelfBilled">
+            <summary>
+            Unable to find Self-Billed {0} to print.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledCmdStringId.ErrorMessage_UnableToPreviewSelfBilled">
+            <summary>
+            Unable to find Self-Billed {0} to preview.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledCmdStringId.OpenedSelfBilledListWindow">
+            <summary>
+            {0} opened Self-Billed List window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledCmdStringId.EnableBatchReSubmit">
+            <summary>
+            Enable Batch Re-submit
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledCmdStringId.DisableBatchReSubmit">
+            <summary>
+            Disable Batch Re-submit
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledCmdStringId.Code_PrintSelfBilledListing">
+            <summary>
+            Batch Print Self-Billed / Print Self-Billed Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledCmdStringId.Code_PrintSelfBilledDetailListing">
+            <summary>
+            Print Self-Billed Detail Listing
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormSelfBilledEntry.UpdateSourceDocumentControl">
+            <summary>
+            Update Source Document UI in entry
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledEntry.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormSelfBilledEntry.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormSelfBilledEntry.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledEntryStringId.SelfBilled">
+            <summary>
+            Self-Billed {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledEntryStringId.RejectedSelfBilled">
+            <summary>
+            {0} rejected Self-Billed {1}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledEntryStringId.ApprovedSelfBilled">
+            <summary>
+            {0} approved Self-Billed {1}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledEntryStringId.CancelSelfBilled">
+            <summary>
+            {0} cancels Self-Billed {1}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledEntryStringId.EditedSelfBilled">
+            <summary>
+            {0} edited Self-Billed {1}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledEntryStringId.ViewSelfBilledInEditMode">
+            <summary>
+            {0} viewed Self-Billed {1} in edit mode.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledEntryStringId.ViewSelfBilled">
+            <summary>
+            {0} viewed Self-Billed {1}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledEntryStringId.ConfirmMessage_DeleteSelfBilled">
+            <summary>
+            Do you really want to delete Self-Billed {0} ?
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledEntryStringId.ConfirmMessage_CancelSelfBilled">
+            <summary>
+            Do you really want to cancel Self-Billed {0} ?
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledEntryStringId.InfoMessage_TotalSBGenerated">
+            <summary>
+            Total of {0} Draft Self-Billed is generated.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledEntryStringId.ConfirmMessage_CloseFormAfterGenerate">
+            <summary>
+            Total of {0} Draft Self-Billed is generated.\r\nSome data was modified in current Self-Bill. Do you want to close it?
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledEntryStringId.ErrorMessage_RecordNoHaveDetail">
+            <summary>
+            Self-Billed record have no detail.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledEntryStringId.Code_ViewSelfBilled">
+            <summary>
+            View Self-Billed
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledEntryStringId.Code_EditSelfBilled">
+            <summary>
+            Edit Self-Billed
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledEntryStringId.Code_NewSelfBilled">
+            <summary>
+            New Self-Billed
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledEntryStringId.Code_SelfBilled">
+            <summary>
+            Self-Billed
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledEntryStringId.Code_NextPossibleNo">
+            <summary>
+            {0} - [Next Possible No: {1}]
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledRangeSet.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormSelfBilledRangeSet.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormSelfBilledRangeSet.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledSearch.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormSelfBilledSearch.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormSelfBilledSearch.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.FormSelfBilledPrintListing.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormSelfBilledPrintListing.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.FormSelfBilledPrintListing.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledListingReportTypeOption.BatchPrintInvoice">
+            <summary>
+            Batch Print Self-Billed
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledListingReportTypeOption.PrintInvoiceListing">
+            <summary>
+            Print Self-Billed Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledListingGroupByOption.None">
+            <summary>
+            None
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledListingGroupByOption.Date">
+            <summary>
+            Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledListingGroupByOption.Month">
+            <summary>
+            Month
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledListingGroupByOption.Year">
+            <summary>
+            Year
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledListingGroupByOption.SupplierName">
+            <summary>
+            Supplier Name
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledListingGroupByOption.CurrencyCode">
+            <summary>
+            Currency Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledListingGroupByOption.SBDocType">
+            <summary>
+            Document Type
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledListingSortByOption.DocumentNo">
+            <summary>
+            Document No
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledListingSortByOption.Date">
+            <summary>
+            Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledListingReportStringId.Code_HideOptions">
+            <summary>
+            Hide &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledListingReportStringId.Code_ShowOptions">
+            <summary>
+            Show &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledListingReportStringId.OpenedPrintSelfBilledListingWindow">
+            <summary>
+            {0} opened Print Self-Billed Listing window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledListingReportStringId.ErrorMessage_ReportTypeDoesNotSelected">
+            <summary>
+            Please select a report type.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledListingReportStringId.InquiredPrintInvoiceListing">
+            <summary>
+            {0} inquired on Print Self-Billed Listing.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledListingReportStringId.ErrorMessage_InvoiceDoesNotSelected">
+            <summary>
+            No Self-Billed record was selected.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledListingReportStringId.BatchPrintInvoice">
+            <summary>
+            Batch Self-Billed
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledListingReportStringId.PrintInvoiceListing">
+            <summary>
+            Self-Billed Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledListingReportStringId.DocDate">
+            <summary>
+            Doc Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledListingReportStringId.DocNo">
+            <summary>
+            Doc No.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledListingReportStringId.CurrencyCode">
+            <summary>
+            Currency Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledListingReportStringId.SBDocType">
+            <summary>
+            Self-Billed Document Type
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledListingReportStringId.Check">
+            <summary>
+            Check
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.SelfBilled.GetValidDetailRows">
+            <summary>
+            Get all valid detail rows in Seq order
+            </summary>
+            <returns>An array of DataRow</returns>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.SelfBilled.Cancel">
+            <summary>
+            Cancel current editing
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.SelfBilled.IsModified">
+            <summary>
+            Get a boolean value to indicate whether the document was modified or not.
+            </summary>
+            <returns>Return true if it was modified</returns>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.SelfBilled.GetReferenceDocumentDataTable">
+            <summary>
+            Get Reference Document DataTable
+            </summary>
+            <returns>DataTable with Column FromDocKey and FromDocType</returns>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.SelfBilled.GetSourceDocumentDataTable">
+            <summary>
+            Get Source Document DataTable
+            </summary>
+            <returns>DataTable with Column FromDocKey and FromDocType</returns>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.SelfBilled.GetNeedUpdateDeletedSourceDocumentRow">
+            <summary>
+            Use when Edit Self-Billed and save. 
+            To check in the Source Document table which a row is deleted,
+            the Self-Billed DocNo column of the document type need to update or not
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.SelfBilled.GenerateMultipleSelfBilled(System.Int64[],AutoCount.EInvoice.SelfBilled.SelfBilled.CopyFromOptionsEnum,System.String,AutoCount.Data.DBSetting,AutoCount.Authentication.UserSession,AutoCount.EInvoice.SelfBilled.SelfBilled)">
+            <summary>
+            Copy From to generate multiple Self Billed (only split option allowed)
+            </summary>
+            <param name="arrDocKey"></param>
+            <param name="copyOption"></param>
+            <param name="docType"></param>
+            <param name="dbSetting"></param>
+            <param name="userSession"></param>
+            <param name="selfBilled"></param>
+            <returns>number of Self Billed Created</returns>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.SelfBilled.GeneralImportFromDataSet(AutoCount.EInvoice.SelfBilled.SelfBilled,System.String,System.Int64[],AutoCount.EInvoice.SelfBilled.SelfBilled.CopyFromOptionsEnum)">
+            <summary>
+            Call import data set method according to document type
+            </summary>
+            <param name="selfBilled"></param>
+            <param name="docType"></param>
+            <param name="arrDocKey"></param>
+            <param name="copyOption"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.SelfBilled.ImportFromCashBookDataSet(System.Int64[],AutoCount.EInvoice.SelfBilled.SelfBilled.CopyFromOptionsEnum)">
+            <summary>
+            Copy From Cash Book
+            </summary>
+            <param name="arrDocKey"></param>
+            <param name="copyOption"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.SelfBilled.ImportFromPurchaseInvoiceDataSet(System.Int64[],AutoCount.EInvoice.SelfBilled.SelfBilled.CopyFromOptionsEnum)">
+            <summary>
+            Copy From Purchase Invoice
+            </summary>
+            <param name="arrDocKey"></param>
+            <param name="copyOption"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.SelfBilled.ImportFromPurchaseReturnDataSet(System.Int64[],AutoCount.EInvoice.SelfBilled.SelfBilled.CopyFromOptionsEnum)">
+            <summary>
+            Copy From Purchase Return
+            </summary>
+            <param name="arrDocKey"></param>
+            <param name="copyOption"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.SelfBilled.ImportFromARCNDataSet(System.Int64[],AutoCount.EInvoice.SelfBilled.SelfBilled.CopyFromOptionsEnum)">
+            <summary>
+            Copy From ARCN
+            </summary>
+            <param name="arrDocKey"></param>
+            <param name="copyOption"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.SelfBilled.ImportFromAPInvoiceDataSet(System.Int64[],AutoCount.EInvoice.SelfBilled.SelfBilled.CopyFromOptionsEnum)">
+            <summary>
+            Copy From APInvoice
+            </summary>
+            <param name="arrDocKey"></param>
+            <param name="copyOption"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.SelfBilled.ImportFromAPCNDataSet(System.Int64[],AutoCount.EInvoice.SelfBilled.SelfBilled.CopyFromOptionsEnum)">
+            <summary>
+            Copy From APCN
+            </summary>
+            <param name="arrDocKey"></param>
+            <param name="copyOption"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.SelfBilled.ImportFromAPDNDataSet(System.Int64[],AutoCount.EInvoice.SelfBilled.SelfBilled.CopyFromOptionsEnum)">
+            <summary>
+            Copy From APDN
+            </summary>
+            <param name="arrDocKey"></param>
+            <param name="copyOption"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.SelfBilled.ImportFromCashPurchaseDataSet(System.Int64[],AutoCount.EInvoice.SelfBilled.SelfBilled.CopyFromOptionsEnum)">
+            <summary>
+            Copy From Cash Purchase
+            </summary>
+            <param name="arrDocKey"></param>
+            <param name="copyOption"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.SelfBilled.CheckCopyFromOption(AutoCount.EInvoice.SelfBilled.SelfBilled.CopyFromOptionsEnum@)">
+            <summary>
+            This checking ensure consistent value of Copy From Option with IsSBConsolidated
+            </summary>
+            <param name="copyOption"></param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.SelfBilled.HandleImportFrom(System.Int64[],System.String,System.String,AutoCount.EInvoice.SelfBilled.SelfBilled.CopyFromOptionsEnum,System.String,System.Boolean)">
+            <summary>
+            Get DataSet and prepare data for import
+            </summary>
+            <param name="arrDocKey"></param>
+            <param name="masterQuery"></param>
+            <param name="detailQuery"></param>
+            <param name="copyOption"></param>
+            <param name="docType"></param>
+            <param name="haveRoundAdj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.SelfBilled.ImportFromDocumentDataSet(System.Data.DataSet,System.Boolean,System.Boolean,System.String)">
+            <summary>
+            Import the dataset
+            </summary>
+            <param name="ds"></param>
+            <param name="wholeDocument"></param>
+            <param name="haveRoundAdj"></param>
+            <param name="docType"></param>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledString.SBInvoice">
+            <summary>
+            Self-Billed {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledString.Code_SB">
+            <summary>
+            Self-Billed
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledString.ErrorMessage_NoSupplier">
+            <summary>
+            Supplier is empty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledString.ErrorMessage_NoBuyer">
+            <summary>
+            Buyer is empty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledString.ErrorMessage_EInvoiceNotEnabled">
+            <summary>
+            e-Invoice is not enabled.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledString.ErrorMessage_DocDateBeforeEInvoiceDtartDate">
+            <summary>
+            Document Date must after or equal e-Invoice start date.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledString.ErrorMessage_InvalidCopyFromDocumentType">
+            <summary>
+            Self-Billed does not support copy from Document Type '{0}'.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledString.ErrorMessage_InvalidGenerateMultipleCopyFromOption">
+            <summary>
+            Generate multiple Self-Billed only support Copy From Split Option.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledString.ErrorMessage_InvalidCopyFromARCN">
+            <summary>
+            ARCN with source or ARCN marked to submit e-Invoice are not allowed to copy to Self-Billed.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledString.InfoMessage_CannotEditInViewMode">
+            <summary>
+            Cannot edit detail in the document which is in View mode.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.PostAuditLog(System.Data.DataSet,AutoCount.Data.DBSetting,AutoCount.AuditTrail.EventType)">
+            <summary>
+            Post to audit log
+            </summary>
+            <param name="ds">DataSet</param>
+            <param name="dbSetting">DBSetting</param>
+            <param name="eventType">Audit Trail Event Type</param>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.SelfBIlled">
+            <summary>
+            Invoice
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.CreateNewSelfBIlled">
+            <summary>
+            Create New Self-BIlled
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.UpdateSelfBIlled">
+            <summary>
+            Update Self-BIlled
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.DeleteSelfBIlled">
+            <summary>
+            Delete Self-Billed
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.CancelSelfBIlled">
+            <summary>
+            Cancel Self-Billed
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.DocumentNo">
+            <summary>
+            Document No.
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.Date">
+            <summary>
+            Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.DocType">
+            <summary>
+            Document Type
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.DocStatus">
+            <summary>
+            Document Status
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.BillingPeriodStartDate">
+            <summary>
+            Billing Period Start Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.BillingPeriodEndtDate">
+            <summary>
+            Billing Period End Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.SupplierInvoiceNo">
+            <summary>
+            Supplier Invoice No
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.FrequencyOfBilling">
+            <summary>
+            Frequency Of Billing
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.SupplierTaxEntityID">
+            <summary>
+            Supplier Tax Entity ID
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.SupplierName">
+            <summary>
+            Supplier Name
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.SupplierClassification">
+            <summary>
+            Supplier Classification
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.SupplierTIN">
+            <summary>
+            Supplier TIN
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.SupplierIdentityType">
+            <summary>
+            Supplier Identity Type
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.SupplierIdentityNo">
+            <summary>
+            Supplier Identity No
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.SupplierSSTRegistrationNumber">
+            <summary>
+            Supplier SST Registration Number
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.SupplierTourismTaxRegistrationNumber">
+            <summary>
+            Supplier Tourism Tax Registration Number
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.SupplierEmail">
+            <summary>
+            Supplier Email
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.SupplierPhone">
+            <summary>
+            Supplier Phone
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.SupplierMSICCode">
+            <summary>
+            Supplier MSIC Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.SupplierBusinessActivityDesc">
+            <summary>
+            Supplier Business Activity Desc
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.SupplierAddress">
+            <summary>
+            Supplier Address
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.SupplierCity">
+            <summary>
+            SupplierCity
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.SupplierPostCode">
+            <summary>
+            Supplier Post Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.SupplierCountryCode">
+            <summary>
+            Supplier Country Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.SupplierStateCode">
+            <summary>
+            Supplier State Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.SupplierIsForeigner">
+            <summary>
+            Supplier Is Foreigner
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.SupplierIsGeneralPublic">
+            <summary>
+            Supplier Is General Public
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.BuyerTaxEntityID">
+            <summary>
+            Buyer Tax Entity ID
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.BuyerName">
+            <summary>
+            Buyer Name
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.BuyerClassification">
+            <summary>
+            Buyer Classification
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.BuyerTIN">
+            <summary>
+            Buyer TIN
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.BuyerIdentityType">
+            <summary>
+            Buyer Identity Type
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.BuyerIdentityNo">
+            <summary>
+            Buyer Identity No
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.BuyerSSTRegistrationNumber">
+            <summary>
+            Buyer SST Registration Number
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.BuyerEmail">
+            <summary>
+            Buyer Email
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.BuyerPhone">
+            <summary>
+            Buyer Phone
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.BuyerAddress">
+            <summary>
+            Buyer Address
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.BuyerCity">
+            <summary>
+            Buyer City
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.BuyerPostCode">
+            <summary>
+            Buyer Post Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.BuyerCountryCode">
+            <summary>
+            Buyer Country Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.BuyerStateCode">
+            <summary>
+            Buyer State Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.DeliveryTaxEntityID">
+            <summary>
+            Delivery Tax Entity ID
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.DeliveryName">
+            <summary>
+            Delivery Name
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.DeliveryClassification">
+            <summary>
+            Delivery Classification
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.DeliveryTIN">
+            <summary>
+            Delivery TIN
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.DeliveryIdentityType">
+            <summary>
+            Delivery Identity Type
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.DeliveryIdentityNo">
+            <summary>
+            Delivery Identity No
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.DeliveryEmail">
+            <summary>
+            Delivery Email
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.DeliveryPhone">
+            <summary>
+            Delivery Phone
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.DeliveryAddress">
+            <summary>
+            Delivery Address
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.DeliveryCity">
+            <summary>
+            DeliveryCity
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.DeliveryPostCode">
+            <summary>
+            Delivery Post Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.DeliveryCountryCode">
+            <summary>
+            Delivery Country Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.DeliveryStateCode">
+            <summary>
+            Delivery State Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.DeliveryIsForeigner">
+            <summary>
+            Delivery Is Foreigner
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.DeliveryIsGeneralPublic">
+            <summary>
+            Delivery Is General Public
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.ReferenceNumberOfCustomsFormNo1And9">
+            <summary>
+            Reference Number Of Customs Form No 1 And 9
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.Incoterms">
+            <summary>
+            Incoterms
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.FreeTradeAgreementInformation">
+            <summary>
+            Free Trade Agreement Information
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.AuthorisationNumberForCertifiedExporter">
+            <summary>
+            Authorisation Number For Certified Exporter
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.ReferenceNumberOfCustomsFormNo2">
+            <summary>
+            Reference Number Of Customs Form No 2
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.FreightAllowanceChargeAmt">
+            <summary>
+            Freight Allowance Charge Amount
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.FreightAllowanceChargeReason">
+            <summary>
+            Freight Allowance Charge Reason
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.BillingRef">
+            <summary>
+            Billing Reference
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.PaymentMode">
+            <summary>
+            Payment Mode
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.SupplierBankAccNo">
+            <summary>
+            Supplier Bank Acc No
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.PrepaymentAmt">
+            <summary>
+            Prepayment Amountt
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.PrepaymentDate">
+            <summary>
+            Prepayment Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.PaymentRef">
+            <summary>
+            Payment Reference
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.PaymentTerms">
+            <summary>
+            Payment Terms
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.CurrencyCode">
+            <summary>
+            Currency Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.ToTaxCurrencyRate">
+            <summary>
+            To Tax Currency Rate
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.InclusiveTax">
+            <summary>
+            Inclusive Tax
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.RoundAdj">
+            <summary>
+            Rounding Adjustment
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.Detail">
+            <summary>
+            Detail
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.Classification">
+            <summary>
+            Item Classification
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.Qty">
+            <summary>
+            Qty
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.Measurement">
+            <summary>
+            Measurement
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.UnitPrice">
+            <summary>
+            Unit Price
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.TaxType">
+            <summary>
+            Tax Type
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.TaxRate">
+            <summary>
+            Tax Rate
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.TaxExemptionReason">
+            <summary>
+            Tax Exemption Reason
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.TaxableAmt">
+            <summary>
+            Taxable Amount
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.Discount">
+            <summary>
+            Discount
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.DiscountReason">
+            <summary>
+            Discount Reason
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.Charge">
+            <summary>
+            Charge
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.ChargeReason">
+            <summary>
+            Charge Reason
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.TariffCode">
+            <summary>
+            Tariff Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.OriginCountryCode">
+            <summary>
+            Origin Country Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommand.SelfBIlledColumnStringId.SBReferences">
+            <summary>
+            Self-Billed Invoice References
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledCommandStringId.ErrorMessage_RecordNotFound_DocKey">
+            <summary>
+            Self-Billed record not found. (DocKey={0})
+            </summary>
+        </member>
+        <member name="P:AutoCount.EInvoice.SelfBilled.SelfBilledGrid.DataSource">
+            <summary>
+            Get or Set the DataSource of the GridControl
+            </summary>
+        </member>
+        <member name="P:AutoCount.EInvoice.SelfBilled.SelfBilledGrid.GridControl">
+            <summary>
+            Get the GridControl
+            </summary>
+        </member>
+        <member name="P:AutoCount.EInvoice.SelfBilled.SelfBilledGrid.GridView">
+            <summary>
+            Get the Main View
+            </summary>
+        </member>
+        <member name="P:AutoCount.EInvoice.SelfBilled.SelfBilledGrid.TickColumnFieldName">
+            <summary>
+            Get or Set the Tick Column FieldName
+            </summary>
+        </member>
+        <member name="P:AutoCount.EInvoice.SelfBilled.SelfBilledGrid.ShowTickColumn">
+            <summary>
+            Get or Set the Visibility of Tick Column
+            </summary>
+        </member>
+        <member name="P:AutoCount.EInvoice.SelfBilled.SelfBilledGrid.GridLayout">
+            <summary>
+            Get the CustomizeGridLayout object of this control
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.SelfBilledGrid.EndEdit">
+            <summary>
+            end current row edit
+            </summary>
+        </member>
+        <member name="F:AutoCount.EInvoice.SelfBilled.SelfBilledGrid.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.SelfBilledGrid.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.EInvoice.SelfBilled.SelfBilledGrid.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>

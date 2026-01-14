@@ -1,0 +1,3438 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AutoCount.MainEntry</name>
+    </assembly>
+    <members>
+        <member name="T:AutoCount.MainEntry.FormAutoCountLogin">
+            <summary>
+            Summary description for FormLogin.
+            </summary>
+        </member>
+        <member name="P:AutoCount.MainEntry.FormAutoCountLogin.ReturnUserSession">
+            <summary>
+            Get the UserSession after login.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormAutoCountLogin.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormAutoCountLogin.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormAutoCountLogin.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormBetaVersionInfo.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormBetaVersionInfo.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormBetaVersionInfo.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormSelectAccountBook.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormSelectAccountBook.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormSelectAccountBook.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormSelectAccountBookStringId.ChooseAccountBook">
+            <summary>
+            Please choose an account book.
+            </summary>
+        </member>
+        <member name="T:AutoCount.MainEntry.MainFormJobsHelper">
+            <summary>
+            This class performs various jobs of main form such as license checking, database checking, and etc.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainFormJobsHelper.myLicenseServiceHostName">
+            <summary>
+            cpchoo2000.homelinux.net
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainFormJobsHelper.myLicenseServicePortNo">
+            <summary>
+            50580
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.DMFHelperStringId.ChooseVersion1AccountBook">
+            <summary>
+            Please choose an 1.x account book to migrate
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.DMFHelperStringId.ConfirmToUpgradeToVersion2">
+            <summary>
+            Are you sure you want to migrate this account book {0} (Remark: {1}) to version 2?
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.DMFHelperStringId.ErrorMsg_CannotFindDMFFile">
+            <summary>
+            Unable to find DMF file {0}. Default DMF will be used.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.DMFHelperStringId.ErrorMsg_InvalidDMFFile">
+            <summary>
+            Invalid DMF file {0}. Default DMF will be used.\n\n(Error message is {1}).
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.DMFHelperStringId.ErrorMsg_ErrorWhileReadingDMFFile">
+            <summary>
+            Unknown error while reading DMF file {0}. Default DMF will be used.\n\n(Error message is {1}.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.DMFHelperStringId.ModifyDeniedToDMF">
+            <summary>
+            Your windows system security does not allow you to modify to Database Management File in folder {0}, please login with Administrative right in order to start creating account book or attaching account book.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.DMFHelperStringId.CreateDeniedToDMF">
+            <summary>
+            Your windows system security does not allow you to create or modify Database Management File in folder {0}. (Note: Please login to Windows with Administrative right.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormAbout.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormAbout.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormAbout.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormAboutStringId.AboutText">
+            <summary>
+            About AutoCount POS
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormAboutStringId.AboutOpticalText">
+            <summary>
+            About AutoCount OpticalPOS
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormChooseSystemCurrency.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormChooseSystemCurrency.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormChooseSystemCurrency.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormDownloadUSBKeyServerAndRetry.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormDownloadUSBKeyServerAndRetry.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormDownloadUSBKeyServerAndRetry.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormDownloadUSBKeyServerAndRetryStringId.UnableToUpgradeLicenseIncorrectVersion">
+            <summary>
+            Upgrade License: Unable to write license to Remote USB Key, please make sure your USB Key Server is version 1.5 or later.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormDownloadUSBKeyServerAndRetryStringId.UnableToUpgradeLicensePlugIntoPCFirmly">
+            <summary>
+            Upgrade License: Unable to write license to local USB Key, please make sure the USB Key is plugged into this PC firmly.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormDownloadUSBKeyServerAndRetryStringId.WriteToRemoteUSBFailed">
+            <summary>
+            Write to Remote USB Key failed
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormDownloadUSBKeyServerAndRetryStringId.WriteToLocalUSBFailed">
+            <summary>
+            Write to Local USB Key failed
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormCustomizeMenu.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormCustomizeMenu.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormCustomizeMenu.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormExitPrompt.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormExitPrompt.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormExitPrompt.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.MainEntry.FormFirstTimeStart">
+            <summary>
+            Summary description for FormFirstTimeStart.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormFirstTimeStart.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormFirstTimeStart.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormFirstTimeStart.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.MainEntry.FormFixTransferToCancelledDocument">
+            <summary>
+            Summary description for FormFixBankTrans.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormFixTransferToCancelledDocument.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormFixTransferToCancelledDocument.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormFixTransferToCancelledDocument.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.MainEntry.FormLoginAccountBook">
+            <summary>
+            Summary description for FormLogin.
+            </summary>
+        </member>
+        <member name="P:AutoCount.MainEntry.FormLoginAccountBook.ReturnUserSession">
+            <summary>
+            Get the UserSession after login.
+            </summary>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormLoginAccountBook.CheckAndSetDefaultToDongleServerName(AutoCount.Data.DBSetting)">
+            <summary>
+            Check and initialize Dongle Server Name to make it compatible with earlier version.
+            </summary>
+            <param name="dbSetting">DBSetting</param>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormLoginAccountBook.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormLoginAccountBook.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormLoginAccountBook.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormLoginAccountBookStringId.UserID">
+            <summary>
+            &amp;User ID:
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormLoginAccountBookStringId.AccountantID">
+            <summary>
+            &amp;Accountant ID:
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormLoginAccountBookStringId.WaitingForInitialization">
+            <summary>
+            Waiting for initialization
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormLoginAccountBookStringId.CheckForMigrationFrom1_9">
+            <summary>
+            Checking for migration from version 1.9
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormLoginAccountBookStringId.ValidateLoginCredential">
+            <summary>
+            Validating login credential
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormLoginAccountBookStringId.CheckIfInYearEndClosing">
+            <summary>
+            Check if year end closing is running
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormLoginAccountBookStringId.CheckForOldVersion">
+            <summary>
+            Check for 'Old' version
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormLoginAccountBookStringId.CheckIfLoginFromInternet">
+            <summary>
+            Check if login from internet
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormLoginAccountBookStringId.VerifyAccountantLogin">
+            <summary>
+            Verify Accountant Login
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormLoginAccountBookStringId.CheckLicenseEdition">
+            <summary>
+            Check license edition
+            </summary>
+        </member>
+        <member name="T:AutoCount.MainEntry.FormLoginOptions">
+            <summary>
+            Summary description for FormLoginOptions.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormLoginOptions.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormLoginOptions.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormLoginOptions.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormDownloadSuccessfulActions.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormDownloadSuccessfulActions.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormDownloadSuccessfulActions.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormDownloadSuccessfulActionsStringId.SetupFileNotExist">
+            <summary>
+            The setup file does not exist.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormDownloadSuccessfulActionsStringId.LabelText">
+            <summary>
+            The setup program {0} was downloaded successful. You may choose the following further actions to continue.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormDownloadSuccessfulActionsStringId.ErrorOpenExplorer">
+            <summary>
+            Error encountered while launching explorer.exe. (Error message: {0})
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormProgramUpdateAuthentication.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormProgramUpdateAuthentication.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormProgramUpdateAuthentication.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.MainEntry.FormMain">
+            <summary>
+            Summary description for Form1.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormMain.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormMain.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormMain.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormMainStringId.CashFlowStatement">
+            <summary>
+            Cash Flow Statement
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormMainStringId.BalanceSheetStatement">
+            <summary>
+            Balance Sh&amp;eet Statement
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormMainStringId.ProfitAndLossStatement">
+            <summary>
+            &amp;Profit and Loss Statement
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormMainStringId.StatementOfCashFlows">
+            <summary>
+            Statement of Cash Flows
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormMainStringId.StatementOfFinancialPosition">
+            <summary>
+            Stat&amp;ement of Financial Position
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormMainStringId.StatementOfComprehensiveIncome">
+            <summary>
+            Statement of Com&amp;prehensive Income
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormRemoteLicenseSetting.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormRemoteLicenseSetting.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormRemoteLicenseSetting.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormRemoteLicenseSettingStringId.ErrorMessage_InvalidServerName">
+            <summary>
+            Server name is empty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormRemoteLicenseSettingStringId.ErrorMessage_InvalidPortNumber">
+            <summary>
+            Invalid port number.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormRemoteUSBKeySetting.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormRemoteUSBKeySetting.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormRemoteUSBKeySetting.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormRemoteUSBKeySettingStringId.ErrorMessage_EmptyServerName">
+            <summary>
+            Server name is empty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormRemoteUSBKeySettingStringId.ErrorMessage_InvalidPortNumber">
+            <summary>
+            Invalid port number.
+            </summary>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormResetADMINPassword.CreateResetPasswordKey(System.String)">
+            <summary>
+            Create a key for user to reset ADMIN Password.
+            </summary>
+            <param name="code">Any input text</param>
+            <returns>A 8-digits string</returns>		
+        </member>
+        <member name="F:AutoCount.MainEntry.FormResetADMINPassword.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormResetADMINPassword.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormResetADMINPassword.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:AutoCount.MainEntry.ResetADMINPasswordSetting.Generate8DigitsRandomNumber">
+            <summary>
+            Generate a 8-digits number randomly
+            </summary>
+            <returns>A 8-digits string</returns>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormUpgradeBrowser.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormUpgradeBrowser.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormUpgradeBrowser.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.FormUpgradeBrowserVersion2.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormUpgradeBrowserVersion2.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.MainEntry.FormUpgradeBrowserVersion2.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.CheckARAPInternalConsistencyWarning">
+            <summary>
+            There are {0} warning(s) found during checking on A/R an A/P Internal Consistency. Press OK to view the error log in Notepad and check the knock-off link of the listed documents.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.CheckARAPInternalConsistencyError">
+            <summary>
+            There are {0} error(s) found during checking on A/R an A/P Internal Consistency. Press OK to view the error log in Notepad, and please email the log file to Software Developer at accounting@autocountsoft.com.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.CheckInconsistencyReferenceMemberError">
+            <summary>
+            There are some inconsistency reference member which does not exist in member table.\nDo you wish to open the error log file now?\n({0})
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.UpdateDatabaseViewError">
+            <summary>
+            Error while update database view. Some reports might not function properly. To solve this problem, please contact the Software Developer at accounting@autocountsoft.com. (Note: The next message is the actual error message, please provide the actual error message to Software Developer.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.InstallBSPError">
+            <summary>
+            Error while installing SQL Stored Procedures ({0}). Some reports and Change Code might not work properly. To solve this problem, please contact Software Developer at accounting@autocountsoft.com. (Note: The next message is the actual error message, please provide the actual error message to Software Developer.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.InstallUDTError">
+            <summary>
+            Error while installing SQL User-Defined Data Types. Some reports and Change Code might not work properly. To solve this problem, please contact Software Developer at accounting@autocountsoft.com. (Note: The next message is the actual error message, please provide the actual error message to Software Developer.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.PromptMigrateFromAutoCount2006">
+            <summary>
+            Do you want to migrate the Configuration File and Database Managerment File from AutoCount 2006?\n\n(Note: Choose Yes to see all your previous account book in AutoCount 2006.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ConnectInternalAccessDemoServerError">
+            <summary>
+            Cannot connect to {0} Internet Access Demo Server at {1}. The following are the error message:\n\n
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.RequiredSQL2012AndAbove">
+            <summary>
+            This version of {0} can run on Microsoft SQL Server 2012 and above.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.UnableToAccessToOnlyOneAccountBook">
+            <summary>
+            Since currently there is only 1 account book in your system, and it is NOT accessible now, do you wish to create a new account book?
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.NoAccountBook">
+            <summary>
+            There is no account book inside. You should start {0} main program first to create a new account book.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ConfirmMsg_Exit">
+            <summary>
+            Do you really want to exit?
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ConfirmMsg_ExitApplication">
+            <summary>
+            Are you sure you want to exit the application?
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ConfirmMsg_ExitCurrentAccountBook">
+            <summary>
+            Do you want to exit from current Account Book?
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ConfirmMsg_SignOutAccountantLicense">
+            <summary>
+            Do you want to sign out from accountant license?
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ConfirmMsg_OrganizeIconsByDefault">
+            <summary>
+            Do you confirm to organize icons by default?
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ShowMsg_AccountBookNotPaidLicenseKey">
+            <summary>
+            This account book not paid license key, please contact your reseller or software vendor to solve the issue.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ShowMsg_AccountBookPirated">
+            <summary>
+            This account book has been found pirated, please contact your reseller or software vendor to solve the issue.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ShowMsg_AccountBookTradeInUpgradeV2">
+            <summary>
+            This account book is not longer use in accounting version 1.8 after product ID has been trade in, please contact your reseller or software vendor to solve the issue.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ShowMsg_NoAccountBookInAccountBookControlFile">
+            <summary>
+            There is no account book in this Account Book Control file ({0}), please choose an option to proceed.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ShowMsg_CheckFullTransferConsistency">
+            <summary>
+            Please wait while {0} check Full Transfer Consistency...
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ShowMsg_OpenAsExpressEdition">
+            <summary>
+            You are currently login to an account book which was registered as {0} Edition, however, the system will open it as Express Edition.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ShowMsg_AppVersionLowerThanNetworkHighestAppVersion">
+            <summary>
+            Your current application version {0} is lower than the highest application version {1} of the user login on the network, you may consider to upgrade your application to that version.\n\n(Note: You can use Network Users Monitor to find out who is using that application version.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ShowMsg_FoundOtherLowerAppVersion">
+            <summary>
+            There are some user logon with application version lower than your current application version {0}, you may consider to upgrade other user application to this version.\n\n(Note: You can use Network Users Monitor to find out who is using that lower application version.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ShowMsg_AutomaticallyUpgradedDocumentNumberingFormat">
+            <summary>
+            This is the first time the system has automatically upgraded your Document Numbering Format to support multiple years running number set,\nclick OK to open up the Document Numbering Format Maintenance and check whether the Next number of each month is correct or not.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ShowMsg_FunctionNotYetImplemented">
+            <summary>
+            This function is not yet implemented.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ShowMsg_FirstTimeRunning">
+            <summary>
+            Firstly, thank you for choosing {0},  this is your first time running {0} on this machine, please choose one of the following options to proceed.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ShowMsg_RunAsStandaloneUser">
+            <summary>
+            Choose this option if you are very likely to run {0} as standalone user. This is the option which was configured in previous version of {0}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ShowMsg_RunAsNetworkingEnvironment">
+            <summary>
+            Choose this option if you are very likely to run {0} in a networking environment. Under this option, account books added or deleted by other users will be available to this machine immediately.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ShowMsg_KeepTrackAllAccountBooks">
+            <summary>
+            is a file to keep track of all the account books accessed by {0}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ShowMsg_AccountNotFound">
+            <summary>
+            Account not found.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ShowMsg_ItemNotFound">
+            <summary>
+            Item not found.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ShowMsg_PasswordExpired">
+            <summary>
+            Your password is expired, press OK to set new password.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ShowMsg_PerformFixAnalysisNetTotal">
+            <summary>
+            {0} will perform a Fix on Analysis NetTotal in Sales and Purchase documents, this may take few seconds to few minutes to complete.\n\n(Note: Please make sure ALL network users are Log Off from {1}, before you perform this function.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ShowMsg_RebuildNewSerialNumberTables">
+            <summary>
+            {0} will rebuild New Serial Number Tables, this may take few seconds to few minutes to complete.\n\n(Note: Please make sure ALL network users are Log Off from {0}, before you perform this function.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ShowMsg_FixDuplicatedGuid">
+            <summary>
+            {0} will fix duplicated Guid problem.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ShowMsg_PerformFullTransferConsistency">
+            <summary>
+            {0} will perform a Full Transfer Consistency checking, this may take few seconds to more than 10 minutes to complete.\n\n(Note: Please make sure ALL network users are Log Off from {0}, before you perform this function.) 
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ShowMsg_PerformARAPInternalConsistency">
+            <summary>
+            {0} will perform an A/R and A/P Internal Consistency checking, this may take few seconds to more than 10 minutes to complete.\n\n(Note: Please make sure ALL network users are Log Off from {0}, before you perform this function.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ShowMsg_PerformStockInputCostInternalConsistency">
+            <summary>
+            {0} will perform a Stock Input Cost Internal Consistency checking, this may take few seconds to few minutes to complete.\n\n(Note: Please make sure ALL network users are Log Off from {0}, before you perform this function.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ShowMsg_PerformItemPackageDetailSubTotalExTaxFix">
+            <summary>
+            {0} will perform a fix for Item Package Detail SubTotalExTax, this may take few seconds to complete.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ShowMsg_PerformFixOnInconsistencyOfCurrencyRate">
+            <summary>
+            {0} will perform a Fix on Inconsistency of Currency Rate between A/R and A/P documents and Sales and Purchase documents, this may take few seconds to few minutes to complete.\n\n(Note: Please make sure ALL network users are Log Off from {0}, before you perform this function.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ShowMsg_PerformFixOnItemImage">
+            <summary>
+            {0} will perform a Fix the Missing Item Image from old version system, this may take few seconds to few minutes to complete.\n\n(Note: Please make sure ALL network users are Log Off from {0}, before you perform this function.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ShowMsg_PerformFixOnConsignmentItemSerialNumberTransferLink">
+            <summary>
+            {0} will perform a Fix the Consignment Item Serial Number Transfer Link from old version system, this may take few seconds to few minutes to complete.\n\n(Note: Please make sure ALL network users are Log Off from {0}, before you perform this function.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ShowMsg_PerformRebuildTaxTransactionCancelled">
+            <summary>
+            {0} will perform rebuild Tax Transaction Cancelled, this may take few seconds to few minutes to complete.\n\n(Note: Please make sure ALL network users are Log Off from {0}, before you perform this function.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ShowMsg_PerformFixOnUDFLayoutControl">
+            <summary>
+            {0} will perform a Fix the incorrect UDF Layout Control problem, this may take few seconds to few minutes to complete.\n\n(Note: Please make sure ALL network users are Log Off from {0}, before you perform this function.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ShowMsg_SystemOptionPolicyNotYetSet">
+            <summary>
+            {0} has found that the System Option Policy has not been configured, click OK to configure it.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ExitPrompt_Message1">
+            <summary>
+            When you exit {0}, it is a good idea to back up the current account book you've been working.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ChooseSystemCurrency_CurrentSetting">
+            <summary>
+            Your current currency code {0} is unknown to the system.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ChooseSystemCurrency_NoSystemCurrencySelected">
+            <summary>
+            No System Currency is selected.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ChooseSystemCurrency_ConfirmChooseSystemCurrency">
+            <summary>
+            Are you sure you want to choose {0} ({1}) as your System Currency? Once selected, it is not allowed to change.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.InvalidLicenseOnCountry">
+            <summary>
+            Your software license is targeted on Country '{0}', which is different from the Country '{1}' of this company, please obtain a new license code from software vendor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.InvalidLicenseOnHomeCurrency">
+            <summary>
+            Your software license is targeted on Country's Currency '{0}', which is different from the Home Currency '{1}' of this company, please obtain a new license code from software vendor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.Code_Home">
+            <summary>
+            Home
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.Code_HideNews">
+            <summary>
+            &amp;Hide News
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.Code_ShowNews">
+            <summary>
+            &amp;Show News
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.Code_Customer">
+            <summary>
+            Customer
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.Code_Supplier">
+            <summary>
+            Supplier
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.Code_Stock">
+            <summary>
+            Stock
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.Code_BankingGL">
+            <summary>
+            Banking &amp;&amp; G/L
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.Code_MyFavorite">
+            <summary>
+            My Favorite
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.MainLogin">
+            <summary>
+            {0} Login
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ManagementStudioLogin">
+            <summary>
+            {0} Management Studio Login
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.CustomStartupLogin">
+            <summary>
+            {0} Login - {1}
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ErrorMsg_OpeningBalanceLocked">
+            <summary>
+            Opening Balance is locked, you cannot edit it. (Hint: You can go to Tools | Options | Manage Fiscal Year to unlock it.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ErrorMsg_InvalidConstructorFound">
+            <summary>
+            Cannot find a public constructor which accepts a single parameter UserSession object.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ErrorMsg_InvalidServerType">
+            <summary>
+            Server type: {0} not supported.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ErrorMsg_ErrorUpgradeConsignmentToSupportUnitPriceAndDiscount">
+            <summary>
+            Error while upgrade Consignment table to support unit price and discount.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.ErrorMsg_CannotFindRecord">
+            <summary>
+            Cannot find record, the record might be deleted.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.New">
+            <summary>
+            New {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.MultiDimensSalesAnalysis">
+            <summary>
+            Multi-Dimens. Sales Analysis
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.MultiDimensPurchaseAnalysis">
+            <summary>
+            Multi-Dimens. Purchase Analysis
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.CashTransaction">
+            <summary>
+            Cash Transaction
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.AboutAutoCountAccounting">
+            <summary>
+            About AutoCount Accounting
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.AboutAutoCountPOS">
+            <summary>
+            About AutoCount POS
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.AboutAutoCountOpticalPOS">
+            <summary>
+            About AutoCount OpticalPOS
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.Version">
+            <summary>
+            Version {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.SQLServerVersion">
+            <summary>
+            Server: Microsoft SQL Server {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.AppMode">
+            <summary>
+            (Running as {0}-bits application)
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.YearEndClosing">
+            <summary>
+            Year End Closing
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.POS">
+            <summary>
+            POS Front End
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.DatabaseNotExistInScheduledBackup">
+            <summary>
+            Warning: Database '{0}' does not exist in Scheduled Backup.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.FailToCheckDatabaseInScheduledBackup">
+            <summary>
+            Fail to check database exist in Scheduled Backup.\nThe below is the exception message:\n\n{0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.FailToCheckDatabaseInLicenseStatusReminder">
+            <summary>
+            Fail to check this database in License Status Reminder.\nThe below is the exception message:\n\n{0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.CheckDatabaseSize">
+            <summary>
+            Database: {0}\nSize: {1}\nYour database size is reaching it's maximum size limit. You can perform year end to reduce the size or contact any of your AutoCount servinng partner for more info.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.FailToCheckDatabaseSize">
+            <summary>
+            Fail to check this database size.\nThe below is the exception message:\n\n{0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.GSTFilingFirstReminderHeader">
+            <summary>
+            GST Filing First Reminder
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.GSTFilingSecondReminderHeader">
+            <summary>
+            GST Filing Second Reminder
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.GSTFilingFirstReminderMessage">
+            <summary>
+            You are required to file your GST F5 return within 1 month from the end of the accounting period. Log in to https://mytax.iras.gov.sg to file your return.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.GSTFilingSecondReminderMessage">
+            <summary>
+            The filing deadline for your GST F5 return is approaching soon. To avoid costly penalties, log in to https://mytax.iras.gov.sg to file your return on time if you have not done so.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.FailToCheckGSTFilingReminder">
+            <summary>
+            Fail to check GST Filing Reminder.\nThe below is the exception message:\n\n{0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.FoundUnknownTaxRegisteredDebtor">
+            <summary>
+            Found {0} unknown tax registered's debtor(s). Please maintain in debtor maintenance before run GST Processor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.SwitchADMINFullUserType">
+            <summary>
+            The network user type of login user 'ADMIN' is Full System, but there is no user license associates with Full System, so we will change the network user type of 'ADMIN' to other.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.SwitchADMINAccountOnlyUserType">
+            <summary>
+            The network user type of login user 'ADMIN' is Account Only, but there is no user license associates with Account Only, so we will change the network user type of 'ADMIN' to other.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.SwitchADMINStockOnlyUserType">
+            <summary>
+            The network user type of login user 'ADMIN' is Stock Only, but there is no user license associates with Stock Only, so we will change the network user type of 'ADMIN' to other.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainEntryStringId.HasPendingEmail">
+            <summary>
+            There are some pending or in progress emails. You may check from Tools | Mailing List.
+            </summary>
+        </member>
+        <member name="T:AutoCount.MainEntry.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:AutoCount.MainEntry.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:AutoCount.MainEntry.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.LoginStringId.ErrorMessage_UserFailsToLogin">
+            <summary>
+            User {0} fails to login.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.LoginStringId.ErrorMessage_UserFailsToSignOut">
+            <summary>
+            User {0} fails to sign out.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.LoginStringId.ShowMessage_UserSuccessToLogin">
+            <summary>
+            User {0} fails to login.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.LoginStringId.ShowMessage_UserSuccessToLogout">
+            <summary>
+            User {0} fails to sign out.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.LoginStringId.ErrorMessage_InvalidUserIDOrPassword">
+            <summary>
+            Invalid User ID or Password.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.LoginStringId.ErrorMessage_InvalidAccountantIDOrPassword">
+            <summary>
+            Invalid Accountant ID or Password.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.LoginStringId.ErrorMessage_AccountantIDDoesNotExistInAccountBook">
+            <summary>
+            Accountant ID does not exist in this account book's accountant setting.\r\nPlease use User ID to login and go to Options | Miscellaneous | Accountant Setting.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.LoginStringId.ErrorMessage_AccountantIDDoesNotMatchWithScheduleSetting">
+            <summary>
+            Accountant ID does not match with this account book's accountant setting.\r\nLocal Current Server DateTime: {0}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.LoginStringId.ErrorMessage_UpgradeAccountingSetting">
+            <summary>
+            Fail to upgrade Accounting Setting.\r\nError Msg: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.LoginStringId.ErrorMessage_AccountantSchedulerErrorMessage">
+            <summary>
+            Fail to verify Accountant Scheduler.\r\nError Msg: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.LoginStringId.ErrorMessage_AccountantSessionExpired">
+            <summary>
+            Your accountant session has expired. Please sign in again.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.LoginStringId.ErrorMessage_MaximumLoginTries">
+            <summary>
+            You have reached the Maximum Login Tries. This Login window will close now.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.LoginStringId.ErrorMessage_InvalidResetPasswordKey">
+            <summary>
+            Invalid Reset Password Key!
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.LoginStringId.ErrorMessage_UnableToAddNewADMINRecord">
+            <summary>
+            Unable to add a new record for ADMIN user. Fail to reset password.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.LoginStringId.ShowMessage_SuccessfullyResetADMINPassword">
+            <summary>
+            The user ADMIN's password is successfully reset to 'ADMIN'.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.LoginStringId.Code_RequestResetADMINPasswordForm">
+            <summary>
+            {0} Request Reset ADMIN's Password Form
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.LoginStringId.Code_ProgramVersion">
+            <summary>
+            (Program version: {0})
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.LoginStringId.ErrorMessage_RootLoginFail">
+            <summary>
+            Root Login fails. Remote error message is {0}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.LoginStringId.ErrorMessage_InvalidRootLogin">
+            <summary>
+            You can use Root Login in AutoCount Office only.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.LoginStringId.ErrorMessage_RemoteServerUnavailable">
+            <summary>
+            Remote server is unavailable.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.LoginStringId.ErrorMessage_InvalidServerName">
+            <summary>
+            Invalid server name {0} in DBSetting.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.LoginStringId.ErrorMessage_UnableConnectToServer">
+            <summary>
+            Unable to connect to server {0} at port {1}. It might be blocked by firewall or the destination PC does not run {2} USB Key Server.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.LoginStringId.ErrorMessage_LocalUSBKeyNotFound_LoginWithLicenseCodeControl">
+            <summary>
+            USB Key not found in this PC. Do you still want to login with License Code control?
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.LoginStringId.ErrorMessage_RemoteUSBKeyNotFound_LoginWithLicenseCodeControl">
+            <summary>
+            USB Key not found in server {0}. Do you still want to login with License Code control?
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.LoginStringId.ShowMessage_NewPassword">
+            <summary>
+            Due to the changes of Password Strength in Security Policy, please kindly provide your new password.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.LoginStringId.ShowMessage_ProgressOrFailedDuringYearEndClosing">
+            <summary>
+            This account book was either in progress of Year End Closing or failed during Year End Closing. It is not allowed to login to this account book.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.LoginStringId.ShowMessage_NotAllowLoginFromInternet">
+            <summary>
+            You access right setting does not allow you to login from Internet.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.LoginStringId.ShowMessage_UnknownSettingsTableStructure">
+            <summary>
+            Unknown Settings Table structure. This account boook does not support upgrade.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.LoginStringId.ShowMessage_NotAllowAccountantLogin">
+            <summary>
+            This account book does not allowed Accountant Login.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.LoginStringId.ShowMessage_SetupFileVersionDifferent">
+            <summary>
+            Setup file {0} with version {1} is newer than current application version {2}, do you want to run the setup file to upgrade to same version?
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.LoginStringId.ConfirmMessage_MarkAsOldVersion">
+            <summary>
+            This account book has been marked as 'Old Version', do you still want to login?
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.LoginStringId.ShowMessage_NotAllowLoginToOldVersion">
+            <summary>
+            You access right setting does not allow you to login to this 'Old Version' account book.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.LoginStringId.ShowMessage_UserLoginToOldVersionAccountBook">
+            <summary>
+            User {0} login to 'Old Version' account book.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.LoginStringId.ShowMessage_ShortcutName">
+            <summary>
+            A shortcut name '{0}' to open the specific DMF file was created on your desktop.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.LoginStringId.ErrorMessage_UnableLoadLCPModule">
+            <summary>
+            Unable to load LCP Module result.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.AccountMaintenance">
+            <summary>
+            Account Maintenance
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.APCreditNote">
+            <summary>
+            A/P Credit Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.APDebitNote">
+            <summary>
+            A/P Debit Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.APDeposit">
+            <summary>
+            A/P Deposit
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.APInvoice">
+            <summary>
+            A/P Invoice
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.APPayment">
+            <summary>
+            A/P Payment
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.APRefund">
+            <summary>
+            A/P Refund
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.ARAndAPContra">
+            <summary>
+            A/R and A/P Contra
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.ARCreditNote">
+            <summary>
+            A/R Credit Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.ARDebitNote">
+            <summary>
+            A/R Debit Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.ARDeposit">
+            <summary>
+            A/R Deposit
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.ARInvoice">
+            <summary>
+            A/R Invoice
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.ARPayment">
+            <summary>
+            A/R Payment
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.ARRefund">
+            <summary>
+            A/R Refund
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.BankReconciliation">
+            <summary>
+            Bank Reconciliation
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.CancelPO">
+            <summary>
+            Cancel P/O
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.CashPayment">
+            <summary>
+            Cash Payment
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.CashPurchase">
+            <summary>
+            Cash Purchase
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.CashReceipt">
+            <summary>
+            Cash Receipt
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.Creditor">
+            <summary>
+            Creditor
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.Debtor">
+            <summary>
+            Debtor
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.GoodsReceivedNote">
+            <summary>
+            Goods Received Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.GoodsReturn">
+            <summary>
+            Goods Return
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.Item">
+            <summary>
+            Item
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.JournalEntry">
+            <summary>
+            Journal Entry
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.PurchaseInvoice">
+            <summary>
+            Purchase Invoice
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.PurchaseRequest">
+            <summary>
+            Purchase Request
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.PurchaseOrder">
+            <summary>
+            Purchase Order
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.PurchaseReturn">
+            <summary>
+            Purchase Return
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.RequestQuotation">
+            <summary>
+            Request Quotation
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.StockTake">
+            <summary>
+            Stock Take
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.StockAdjustment">
+            <summary>
+            Stock Adjustment
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.StockAssembly">
+            <summary>
+            Stock Assembly
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.StockDisassembly">
+            <summary>
+            Stock Disassembly
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.StockIssue">
+            <summary>
+            Stock Issue
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.StockReceive">
+            <summary>
+            Stock Receive
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.StockTransfer">
+            <summary>
+            Stock Transfer
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.StockUOMConversion">
+            <summary>
+            Stock UOM Conversion
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.StockUpdateCost">
+            <summary>
+            Stock Update Cost
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.StockWriteOff">
+            <summary>
+            Stock Write-Off
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.PurchaseConsignment">
+            <summary>
+            Purchase Consignment
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.PurchaseConsignmentReturn">
+            <summary>
+            Purchase Consignment Return
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.CashBookEntry">
+            <summary>
+            Cash Book Entry
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.BudgetMaintenance">
+            <summary>
+            Budget Maintenance
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.OpeningBalanceMaintenance">
+            <summary>
+            Opening Balance Maintenance
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.StockValueMaintenance">
+            <summary>
+            Stock Value Maintenance
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.FixedAssetDisposal">
+            <summary>
+            Fixed Asset Disposal
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.DebtorMaintenance">
+            <summary>
+            Debtor Maintenance
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.Contra">
+            <summary>
+            Contra
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.CreditorMaintenance">
+            <summary>
+            Creditor Maintenance
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.StockItemMaintenance">
+            <summary>
+            Item Maintenance
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.StockGroupMaintenance">
+            <summary>
+            Stock Group Maintenance
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.ItemOpeningBalance">
+            <summary>
+            Item Opening Balance
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.ItemPriceBook">
+            <summary>
+            Item Price Book
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.StockWriteOff2">
+            <summary>
+            Stock Write Off
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.AccountInquiry">
+            <summary>
+            Account Inquiry
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.StockItemInquiry">
+            <summary>
+            Stock Item Inquiry
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.BonusPointRedemption">
+            <summary>
+            Bonus Point Redemption
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.MultiDimensionPriceBook">
+            <summary>
+            Multi Dimension Price Book
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.StockAssemblyOrder">
+            <summary>
+            Stock Assembly Order
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.TopBottomSalesRanking">
+            <summary>
+            Top Bottom Sales Ranking
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.SalesAgentContributionReport">
+            <summary>
+            Sales Agent Contribution Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.PurchaseRequestListingReport">
+            <summary>
+            Purchase Request Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.PurchaseRequestDetailListingReport">
+            <summary>
+            Purchase Request Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.OutstandingPurchaseRequestListingReport">
+            <summary>
+            Outstanding Purchase Request Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.OutstandingPurchaseRequestDetailListingReport">
+            <summary>
+            Outstanding Purchase Request Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.RequestQuotationListingReport">
+            <summary>
+            Request Quotation Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.RequestQuotationDetailListingReport">
+            <summary>
+            Request Quotation Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.OutstandingRequestQuotationListingReport">
+            <summary>
+            Outstanding Request Quotation Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.OutstandingRequestQuotationDetailListingReport">
+            <summary>
+            Outstanding Request Quotation Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.PurchaseOrderListingReport">
+            <summary>
+            Purchase Order Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.PurchaseOrderDetailListingReport">
+            <summary>
+            Purchase Order Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.OutstandingPurchaseOrderListingReport">
+            <summary>
+            Outstanding Purchase Order Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.OutstandingPurchaseOrderDetailListingReport">
+            <summary>
+            Outstanding Purchase Order Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.GoodsReceivedNoteListingReport">
+            <summary>
+            Goods Received Note Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.GoodsReceivedNoteDetailListingReport">
+            <summary>
+            Goods Received Note Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.OutstandingGoodsReceivedNoteListingReport">
+            <summary>
+            Outstanding Goods Received Note Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.OutstandingGoodsReceivedNoteDetailListingReport">
+            <summary>
+            Outstanding Goods Received Note Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.PurchaseInvoiceListingReport">
+            <summary>
+            Purchase Invoice Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.PurchaseInvoiceDetailListingReport">
+            <summary>
+            Purchase Invoice Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.CashPurchaseListingReport">
+            <summary>
+            Cash Purchase Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.CashPurchaseDetailListingReport">
+            <summary>
+            Cash Purchase Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.PurchaseReturnListingReport">
+            <summary>
+            Purchase Return Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.PurchaseReturnDetailListingReport">
+            <summary>
+            Purchase Return Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.CancelPOListingReport">
+            <summary>
+            Cancel P/O Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.CancelPODetailListingReport">
+            <summary>
+            Cancel P/O Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.GoodsReturnListingReport">
+            <summary>
+            Goods Return Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.GoodsReturnDetailListingReport">
+            <summary>
+            Goods Return Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.PurchaseConsignmentListingReport">
+            <summary>
+            Purchase Consignment Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.PurchaseConsignmentDetailListingReport">
+            <summary>
+            Purchase Consignment Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.OutstandingPurchaseConsignmentListingReport">
+            <summary>
+            Outstanding Purchase Consignment Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.OutstandingPurchaseConsignmentDetailListingReport">
+            <summary>
+            Outstanding Purchase Consignment Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.PurchaseConsignmentReturnListingReport">
+            <summary>
+            Purchase Consignment Return Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.PurchaseConsignmentReturnDetailListingReport">
+            <summary>
+            Purchase Consignment Return Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.TopBottomPurchaseRanking">
+            <summary>
+            Top Bottom Purchase Ranking
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.StockTakeListingReport">
+            <summary>
+            Stock Take Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.StockTakeDetailListingReport">
+            <summary>
+            Stock Take Detail Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.StockAdjustmentListingReport">
+            <summary>
+            Stock Adjustment Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.StockAdjustmentDetailListingReport">
+            <summary>
+            Stock Adjustment Detail Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.StockIssueListingReport">
+            <summary>
+            Stock Issue Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.StockIssueDetailListingReport">
+            <summary>
+            Stock Issue Detail Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.StockReceiveListingReport">
+            <summary>
+            Stock Receive Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.StockReceiveDetailListingReport">
+            <summary>
+            Stock Receive Detail Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.StockWriteOffListingReport">
+            <summary>
+            Stock Write Off Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.StockWriteOffDetailListingReport">
+            <summary>
+            Stock Write Off Detail Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.StockTransferListingReport">
+            <summary>
+            Stock Transfer Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.StockTransferDetailListingReport">
+            <summary>
+            Stock Transfer Detail Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.StockUOMConversionListingReport">
+            <summary>
+            Stock UOM Conversion Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.StockUOMConversionDetailListingReport">
+            <summary>
+            Stock UOM Conversion Detail Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.StockUpdateCostListingReport">
+            <summary>
+            Stock Update Cost Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.StockUpdateCostDetailListingReport">
+            <summary>
+            Stock Update Cost Detail Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.ALLFUNCTIONSStringId.ActiveDatabaseInfoIsNotSet">
+            <summary>
+            Active Database Info is not set.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.MonthlySalesAnalysis">
+            <summary>
+            Monthly Sales Analysis
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.SalesAnalysisbyDocument">
+            <summary>
+            Sales Analysis by Document
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.ProfitLossofDocument">
+            <summary>
+            Profit &amp; Loss of Document
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.PriceHistory">
+            <summary>
+            Price History
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.DebtorAging">
+            <summary>
+            Debtor Aging
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.DebtorBalance">
+            <summary>
+            Debtor Balance
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.DebtorStatement">
+            <summary>
+            Debtor Statement
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.DebtorCollection">
+            <summary>
+            Debtor Collection
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.OutstandingARInvoice">
+            <summary>
+            Outstanding A/R Invoice
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.ARMonthlySalesCollectionAnalysis">
+            <summary>
+            A/R Monthly Sales &amp; Collection Analysis
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.ARAnalysisByDocument">
+            <summary>
+            A/R Analysis By Document
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.OverdueLetter">
+            <summary>
+            Overdue Letter
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.MonthlyPurchaseAnalysis">
+            <summary>
+            Monthly Purchase Analysis
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.PurchaseAnalysisbyDocument">
+            <summary>
+            Purchase Analysis by Document
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.CreditorAging">
+            <summary>
+            Creditor Aging
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.CreditorBalance">
+            <summary>
+            Creditor Balance
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.CreditorStatement">
+            <summary>
+            Creditor Statement
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.OutstandingAPInvoice">
+            <summary>
+            Outstanding A/P Invoice
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.MonthlyPurchasePaymentAnalysis">
+            <summary>
+            Monthly Purchase &amp; Payment Analysis
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.APAnalysisByDocument">
+            <summary>
+            A/P Analysis By Document
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.StockCard">
+            <summary>
+            Stock Card
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.StockBalance">
+            <summary>
+            Stock Balance
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.StockMovement">
+            <summary>
+            Stock Movement
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.StockItemProfitMargin">
+            <summary>
+            Stock Item Profit Margin
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.StockStatus">
+            <summary>
+            Stock Status
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.ReorderAdvice">
+            <summary>
+            Reorder Advice
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.InventoryPhysicalWorksheet">
+            <summary>
+            Inventory Physical Worksheet
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.StockAging">
+            <summary>
+            Stock Aging
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.BOMListing">
+            <summary>
+            BOM Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.Ledger">
+            <summary>
+            Ledger
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.JournalofTransaction">
+            <summary>
+            Journal of Transaction
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.AuditTrailListing">
+            <summary>
+            Audit Trail Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.TrialBalance">
+            <summary>
+            Trial Balance
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.ProfitandLossStatement">
+            <summary>
+            Profit and Loss Statement
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.BalanceSheetStatement">
+            <summary>
+            Balance Sheet Statement
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.REPORTLINKALLStringId.AccountDetails">
+            <summary>
+            Account Details
+            </summary>
+        </member>
+        <member name="M:AutoCount.MainEntry.MainStartup.ValidateDB(AutoCount.Authentication.UserSession)">
+            <summary>
+            Validate the database, if the database is incorrect version or not match to expectation, then it will apply upgrade.
+            </summary>
+            <param name="userSession">User session</param>
+            <remarks>This method might prompt Window form, so it should not called from SubProjectStartup.</remarks>
+            <returns>Return true if success, otherwise return false.</returns>
+        </member>
+        <member name="M:AutoCount.MainEntry.MainStartup.DisableModule(AutoCount.Data.DBSetting)">
+            <summary>
+            Disable API Module
+            </summary>
+            <param name="dbSetting">Database setting</param>
+        </member>
+        <member name="P:AutoCount.MainEntry.MainStartup.Default">
+            <summary>
+            Default MainStartup instance
+            </summary>
+        </member>
+        <member name="M:AutoCount.MainEntry.MainStartup.SubProjectStartup(AutoCount.Authentication.UserSession,AutoCount.MainEntry.StartupPlugInOption)">
+            <summary>
+            Call this method by passing in a UserSession object in a sub-project of AutoCount Accounting.
+            </summary>
+            <remarks>
+            This method is called if you works on a sub-project of AutoCount Accounting.
+            By calling to this method, all underlying initialization work will be done.
+            </remarks>
+            <param name="userSession">User Session</param>
+            <param name="loadPlugInOption">A StartupPlugInOption to control whether to load plug-in or not.</param>
+        </member>
+        <member name="M:AutoCount.MainEntry.MainStartup.Shutdown">
+            <summary>
+            Shutdown AutoCount Accounting, logout CurrentUserSession, remove all message filters, exception handlers.
+            </summary>
+            <remarks>This method is used in Main Form's Closing event to gracefully shutdown the whole system.</remarks>
+        </member>
+        <member name="M:AutoCount.MainEntry.MainStartup.Start">
+            <summary>
+            Starts the AutoCount Accounting on the default DMF.
+            </summary>
+        </member>
+        <member name="M:AutoCount.MainEntry.MainStartup.Start(System.Boolean)">
+            <summary>
+            Starts the AutoCount Accounting on the default DMF.
+            </summary>
+        </member>
+        <member name="M:AutoCount.MainEntry.MainStartup.Start(System.String,System.Boolean)">
+            <summary>
+            Starts the AutoCount Accounting on a specific DMF.
+            </summary>
+            <param name="dmfPath">Specify the path of Database Management File, put empty string to use default DMF.</param>
+            <param name="allowUpgradeMode">A boolean value to indicate whether allow upgrade mode or not.</param>
+        </member>
+        <member name="M:AutoCount.MainEntry.MainStartup.StartWithStartupInfo(AutoCount.MainEntry.StartupInfo)">
+            <summary>
+            Starts the AutoCount Accounting with provided StartupInfo
+            </summary>
+            <param name="startInfo">A StartupInfo contains the information of the Database and login user id and password.</param>
+            <returns>Return a boolean to indicate if the login is success or fail.</returns>
+        </member>
+        <member name="M:AutoCount.MainEntry.MainStartup.SubProjectStartupWithLogin(System.String,System.String)">
+            <summary>
+            Call this method if you want to let user to choose from default account books to work on a sub-project of AutoCount Accounting.
+            </summary>
+            <remarks>
+            This method is called if you works on a sub-project of AutoCount Accounting.
+            By calling to this method, all underlying initialization work will be called.
+            </remarks>
+            <param name="dmfPath">Specify the path of Database Management File, put empty string to use default DMF.</param>
+            <param name="loginTitle">Your custom project title which appears at the top of the login window.</param>
+            <returns>Return a User Session if success, otherwise return null.</returns>
+        </member>
+        <member name="M:AutoCount.MainEntry.MainStartup.YearEndClosingStartup">
+            <summary>
+            This method is intended for Year End Closing application to call. You should not call it.
+            </summary>
+            <returns>Return a User Session if success, otherwise return null.</returns>
+        </member>
+        <member name="M:AutoCount.MainEntry.MainStartup.ManagementStudioStartup(System.String)">
+            <summary>
+            The main entry point for AutoCount Accounting Management Studio
+            </summary>
+            <remarks>This is intended for A2006ManagementStudio.cs to call through reflection.</remarks>
+            <param name="dmfPath">Specify the path of Database Management File, put empty string to use default DMF.</param>
+            <returns>Return a User Session if success, otherwise return null.</returns>
+        </member>
+        <member name="M:AutoCount.MainEntry.MainStartup.AddDefaultApplicationMessageFilter">
+            <summary>
+            Add default application message filter.
+            </summary>
+        </member>
+        <member name="M:AutoCount.MainEntry.MainStartup.RunMainForm(AutoCount.Authentication.UserSession)">
+            <summary>
+            Run the main form
+            </summary>
+            <param name="userSession">User Session</param>
+        </member>
+        <member name="M:AutoCount.MainEntry.MainStartup.InitializeDefaultDatabaseManagementFile">
+            <summary>
+            Initialize default database management file.
+            </summary>
+            <returns>Return true if the initialization is success, otherwise, return false.</returns>
+        </member>
+        <member name="M:AutoCount.MainEntry.MainStartup.RegisterDocumentDispatcher">
+            <summary>
+            Register all document dispatcher so that inter-documents invocation can work properly.
+            </summary>
+        </member>
+        <member name="M:AutoCount.MainEntry.MainStartup.RegisterSystemReports">
+            <summary>
+            Register all system reports default report type handlers, so that Report Design Center can preview report with default data.
+            </summary>
+        </member>
+        <member name="M:AutoCount.MainEntry.MainStartup.RegisterBusinessFlow">
+            <summary>
+            Register event handlers to SalesOrderCommand and StockAssemblyOrderCommand so that Business Flow can work properly.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.StartupValidateDatabaseStringId.CreatedForPurchaseSideUseRename">
+            <summary>
+            The following new Tax Codes {0} were created for Purchase side use, you may need to rename it.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainStartupStringId.AccountBookDidntHaveAccountVersion">
+            <summary>
+            This account book does not have any account edition.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainStartupStringId.CreateModuleControl">
+            <summary>
+            Create module control
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainStartupStringId.ValidateDatabase">
+            <summary>
+            Validate database
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainStartupStringId.UpdatePOSPlugin">
+            <summary>
+            Update POS Plugin
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainStartupStringId.LoadPlugin">
+            <summary>
+            Load Plugin
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainStartupStringId.InitializeDBSetting">
+            <summary>
+            Initialize database setting
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainStartupStringId.CheckLoginUserType">
+            <summary>
+            Check login user type
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.MainStartupStringId.UpdatePOSSyncProfile">
+            <summary>
+            Update POS Sync Profile
+            </summary>
+        </member>
+        <member name="T:AutoCount.MainEntry.AccountantLicenseService.AccountantLicense">
+            <remarks/>
+        </member>
+        <member name="M:AutoCount.MainEntry.AccountantLicenseService.AccountantLicense.#ctor">
+            <remarks/>
+        </member>
+        <member name="E:AutoCount.MainEntry.AccountantLicenseService.AccountantLicense.SignInAccountantCompleted">
+            <remarks/>
+        </member>
+        <member name="E:AutoCount.MainEntry.AccountantLicenseService.AccountantLicense.SignInAccountantVersion2Completed">
+            <remarks/>
+        </member>
+        <member name="E:AutoCount.MainEntry.AccountantLicenseService.AccountantLicense.SaveAccountantHistoryCompleted">
+            <remarks/>
+        </member>
+        <member name="E:AutoCount.MainEntry.AccountantLicenseService.AccountantLicense.SignOutAccountantCompleted">
+            <remarks/>
+        </member>
+        <member name="M:AutoCount.MainEntry.AccountantLicenseService.AccountantLicense.SignInAccountant(System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Int64}@,System.String@)">
+            <remarks/>
+        </member>
+        <member name="M:AutoCount.MainEntry.AccountantLicenseService.AccountantLicense.SignInAccountantAsync(System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Int64},System.String)">
+            <remarks/>
+        </member>
+        <member name="M:AutoCount.MainEntry.AccountantLicenseService.AccountantLicense.SignInAccountantAsync(System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Int64},System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:AutoCount.MainEntry.AccountantLicenseService.AccountantLicense.SignInAccountantVersion2(System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Int64}@,System.String@)">
+            <remarks/>
+        </member>
+        <member name="M:AutoCount.MainEntry.AccountantLicenseService.AccountantLicense.SignInAccountantVersion2Async(System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Int64},System.String)">
+            <remarks/>
+        </member>
+        <member name="M:AutoCount.MainEntry.AccountantLicenseService.AccountantLicense.SignInAccountantVersion2Async(System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Int64},System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:AutoCount.MainEntry.AccountantLicenseService.AccountantLicense.SaveAccountantHistory(System.Int64,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:AutoCount.MainEntry.AccountantLicenseService.AccountantLicense.SaveAccountantHistoryAsync(System.Int64,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:AutoCount.MainEntry.AccountantLicenseService.AccountantLicense.SaveAccountantHistoryAsync(System.Int64,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:AutoCount.MainEntry.AccountantLicenseService.AccountantLicense.SignOutAccountant(System.String,System.Int64)">
+            <remarks/>
+        </member>
+        <member name="M:AutoCount.MainEntry.AccountantLicenseService.AccountantLicense.SignOutAccountantAsync(System.String,System.Int64)">
+            <remarks/>
+        </member>
+        <member name="M:AutoCount.MainEntry.AccountantLicenseService.AccountantLicense.SignOutAccountantAsync(System.String,System.Int64,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:AutoCount.MainEntry.AccountantLicenseService.AccountantLicense.CancelAsync(System.Object)">
+            <remarks/>
+        </member>
+        <member name="T:AutoCount.MainEntry.AccountantLicenseService.SignInAccountantCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:AutoCount.MainEntry.AccountantLicenseService.SignInAccountantCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:AutoCount.MainEntry.AccountantLicenseService.SignInAccountantCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="P:AutoCount.MainEntry.AccountantLicenseService.SignInAccountantCompletedEventArgs.sessionID">
+            <remarks/>
+        </member>
+        <member name="P:AutoCount.MainEntry.AccountantLicenseService.SignInAccountantCompletedEventArgs.errorMsg">
+            <remarks/>
+        </member>
+        <member name="T:AutoCount.MainEntry.AccountantLicenseService.SignInAccountantVersion2CompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:AutoCount.MainEntry.AccountantLicenseService.SignInAccountantVersion2CompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:AutoCount.MainEntry.AccountantLicenseService.SignInAccountantVersion2CompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="P:AutoCount.MainEntry.AccountantLicenseService.SignInAccountantVersion2CompletedEventArgs.sessionID">
+            <remarks/>
+        </member>
+        <member name="P:AutoCount.MainEntry.AccountantLicenseService.SignInAccountantVersion2CompletedEventArgs.errorMsg">
+            <remarks/>
+        </member>
+        <member name="T:AutoCount.MainEntry.AccountantLicenseService.SaveAccountantHistoryCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:AutoCount.MainEntry.AccountantLicenseService.SaveAccountantHistoryCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:AutoCount.MainEntry.AccountantLicenseService.SaveAccountantHistoryCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:AutoCount.MainEntry.AccountantLicenseService.SignOutAccountantCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:AutoCount.MainEntry.AccountantLicenseService.SignOutAccountantCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:AutoCount.MainEntry.AccountantLicenseService.SignOutAccountantCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:AutoCount.MainEntry.UpgradeNoticeService.UpgradeNotice">
+            <remarks/>
+        </member>
+        <member name="M:AutoCount.MainEntry.UpgradeNoticeService.UpgradeNotice.#ctor">
+            <remarks/>
+        </member>
+        <member name="E:AutoCount.MainEntry.UpgradeNoticeService.UpgradeNotice.CheckForUpgradeCompleted">
+            <remarks/>
+        </member>
+        <member name="E:AutoCount.MainEntry.UpgradeNoticeService.UpgradeNotice.CheckForUpgradeVersion2Completed">
+            <remarks/>
+        </member>
+        <member name="E:AutoCount.MainEntry.UpgradeNoticeService.UpgradeNotice.NeedUpgradeAuthenticationCompleted">
+            <remarks/>
+        </member>
+        <member name="E:AutoCount.MainEntry.UpgradeNoticeService.UpgradeNotice.GetUpgradeDownloadLinkCompleted">
+            <remarks/>
+        </member>
+        <member name="E:AutoCount.MainEntry.UpgradeNoticeService.UpgradeNotice.DealerConsoleCheckForUpgradeCompleted">
+            <remarks/>
+        </member>
+        <member name="M:AutoCount.MainEntry.UpgradeNoticeService.UpgradeNotice.CheckForUpgrade(System.String,System.Boolean,System.Boolean,System.String@,System.String@,System.String@,System.String@)">
+            <remarks/>
+        </member>
+        <member name="M:AutoCount.MainEntry.UpgradeNoticeService.UpgradeNotice.CheckForUpgradeAsync(System.String,System.Boolean,System.Boolean,System.String,System.String,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:AutoCount.MainEntry.UpgradeNoticeService.UpgradeNotice.CheckForUpgradeAsync(System.String,System.Boolean,System.Boolean,System.String,System.String,System.String,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:AutoCount.MainEntry.UpgradeNoticeService.UpgradeNotice.CheckForUpgradeVersion2(System.String,System.Boolean,System.Boolean,System.String@)">
+            <remarks/>
+        </member>
+        <member name="M:AutoCount.MainEntry.UpgradeNoticeService.UpgradeNotice.CheckForUpgradeVersion2Async(System.String,System.Boolean,System.Boolean,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:AutoCount.MainEntry.UpgradeNoticeService.UpgradeNotice.CheckForUpgradeVersion2Async(System.String,System.Boolean,System.Boolean,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:AutoCount.MainEntry.UpgradeNoticeService.UpgradeNotice.NeedUpgradeAuthentication(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:AutoCount.MainEntry.UpgradeNoticeService.UpgradeNotice.NeedUpgradeAuthenticationAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:AutoCount.MainEntry.UpgradeNoticeService.UpgradeNotice.NeedUpgradeAuthenticationAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:AutoCount.MainEntry.UpgradeNoticeService.UpgradeNotice.GetUpgradeDownloadLink(System.String,System.String,System.String,System.Boolean,System.Boolean,System.String@,System.String@)">
+            <remarks/>
+        </member>
+        <member name="M:AutoCount.MainEntry.UpgradeNoticeService.UpgradeNotice.GetUpgradeDownloadLinkAsync(System.String,System.String,System.String,System.Boolean,System.Boolean,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:AutoCount.MainEntry.UpgradeNoticeService.UpgradeNotice.GetUpgradeDownloadLinkAsync(System.String,System.String,System.String,System.Boolean,System.Boolean,System.String,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:AutoCount.MainEntry.UpgradeNoticeService.UpgradeNotice.DealerConsoleCheckForUpgrade(System.String,System.String@,System.String@,System.String@)">
+            <remarks/>
+        </member>
+        <member name="M:AutoCount.MainEntry.UpgradeNoticeService.UpgradeNotice.DealerConsoleCheckForUpgradeAsync(System.String,System.String,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:AutoCount.MainEntry.UpgradeNoticeService.UpgradeNotice.DealerConsoleCheckForUpgradeAsync(System.String,System.String,System.String,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:AutoCount.MainEntry.UpgradeNoticeService.UpgradeNotice.CancelAsync(System.Object)">
+            <remarks/>
+        </member>
+        <member name="T:AutoCount.MainEntry.UpgradeNoticeService.CheckForUpgradeCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:AutoCount.MainEntry.UpgradeNoticeService.CheckForUpgradeCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:AutoCount.MainEntry.UpgradeNoticeService.CheckForUpgradeCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="P:AutoCount.MainEntry.UpgradeNoticeService.CheckForUpgradeCompletedEventArgs.upgradeURL">
+            <remarks/>
+        </member>
+        <member name="P:AutoCount.MainEntry.UpgradeNoticeService.CheckForUpgradeCompletedEventArgs.newVersion">
+            <remarks/>
+        </member>
+        <member name="P:AutoCount.MainEntry.UpgradeNoticeService.CheckForUpgradeCompletedEventArgs.newDBVersion">
+            <remarks/>
+        </member>
+        <member name="P:AutoCount.MainEntry.UpgradeNoticeService.CheckForUpgradeCompletedEventArgs.downloadURL">
+            <remarks/>
+        </member>
+        <member name="T:AutoCount.MainEntry.UpgradeNoticeService.CheckForUpgradeVersion2CompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:AutoCount.MainEntry.UpgradeNoticeService.CheckForUpgradeVersion2CompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:AutoCount.MainEntry.UpgradeNoticeService.CheckForUpgradeVersion2CompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="P:AutoCount.MainEntry.UpgradeNoticeService.CheckForUpgradeVersion2CompletedEventArgs.upgradeURL">
+            <remarks/>
+        </member>
+        <member name="T:AutoCount.MainEntry.UpgradeNoticeService.NeedUpgradeAuthenticationCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:AutoCount.MainEntry.UpgradeNoticeService.NeedUpgradeAuthenticationCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:AutoCount.MainEntry.UpgradeNoticeService.NeedUpgradeAuthenticationCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:AutoCount.MainEntry.UpgradeNoticeService.GetUpgradeDownloadLinkCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:AutoCount.MainEntry.UpgradeNoticeService.GetUpgradeDownloadLinkCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:AutoCount.MainEntry.UpgradeNoticeService.GetUpgradeDownloadLinkCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="P:AutoCount.MainEntry.UpgradeNoticeService.GetUpgradeDownloadLinkCompletedEventArgs.downloadURL">
+            <remarks/>
+        </member>
+        <member name="P:AutoCount.MainEntry.UpgradeNoticeService.GetUpgradeDownloadLinkCompletedEventArgs.errorMsg">
+            <remarks/>
+        </member>
+        <member name="T:AutoCount.MainEntry.UpgradeNoticeService.DealerConsoleCheckForUpgradeCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:AutoCount.MainEntry.UpgradeNoticeService.DealerConsoleCheckForUpgradeCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:AutoCount.MainEntry.UpgradeNoticeService.DealerConsoleCheckForUpgradeCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="P:AutoCount.MainEntry.UpgradeNoticeService.DealerConsoleCheckForUpgradeCompletedEventArgs.upgradeURL">
+            <remarks/>
+        </member>
+        <member name="P:AutoCount.MainEntry.UpgradeNoticeService.DealerConsoleCheckForUpgradeCompletedEventArgs.newVersion">
+            <remarks/>
+        </member>
+        <member name="P:AutoCount.MainEntry.UpgradeNoticeService.DealerConsoleCheckForUpgradeCompletedEventArgs.downloadURL">
+            <remarks/>
+        </member>
+        <member name="T:AutoCount.MainEntry.XtraReportRequestResetADMINPasswordForm">
+            <summary>
+            Summary description for XtraReportRegistrationForm.
+            </summary>
+        </member>
+        <member name="F:AutoCount.MainEntry.XtraReportRequestResetADMINPasswordForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.MainEntry.XtraReportRequestResetADMINPasswordForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:AutoCount.MainEntry.XtraReportRequestResetADMINPasswordForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.DefaultStartScreen.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.StartScreen.DefaultStartScreen.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.StartScreen.DefaultStartScreen.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.AccountMaintenance">
+            <summary>
+            Account Maintenance
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.APCreditNote">
+            <summary>
+            A/P Credit Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.APDebitNote">
+            <summary>
+            A/P Debit Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.APDeposit">
+            <summary>
+            A/P Deposit
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.APInvoice">
+            <summary>
+            A/P Invoice
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.APPayment">
+            <summary>
+            A/P Payment
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.APRefund">
+            <summary>
+            A/P Refund
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.ARAndAPContra">
+            <summary>
+            A/R and A/P Contra
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.ARCreditNote">
+            <summary>
+            A/R Credit Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.ARDebitNote">
+            <summary>
+            A/R Debit Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.ARDeposit">
+            <summary>
+            A/R Deposit
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.ARInvoice">
+            <summary>
+            A/R Invoice
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.ARPayment">
+            <summary>
+            A/R Payment
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.ARRefund">
+            <summary>
+            A/R Refund
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.BankReconciliation">
+            <summary>
+            Bank Reconciliation
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.CancelPO">
+            <summary>
+            Cancel P/O
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.CancelSO">
+            <summary>
+            Cancel S/O
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.CashPayment">
+            <summary>
+            Cash Payment
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.CashPurchase">
+            <summary>
+            Cash Purchase
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.CashReceipt">
+            <summary>
+            Cash Receipt
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.CashSale">
+            <summary>
+            Cash Sale
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.CreditNote">
+            <summary>
+            Credit Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.Creditor">
+            <summary>
+            Creditor
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.DebitNote">
+            <summary>
+            Debit Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.Debtor">
+            <summary>
+            Debtor
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.DeliveryOrder">
+            <summary>
+            Delivery Order
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.DeliveryReturn">
+            <summary>
+            Delivery Return
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.GoodsReceivedNote">
+            <summary>
+            Goods Received Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.GoodsReturn">
+            <summary>
+            Goods Return
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.Invoice">
+            <summary>
+            Invoice
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.Item">
+            <summary>
+            Item
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.JournalEntry">
+            <summary>
+            Journal Entry
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.PurchaseInvoice">
+            <summary>
+            Purchase Invoice
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.PurchaseRequest">
+            <summary>
+            Purchase Request
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.PurchaseOrder">
+            <summary>
+            Purchase Order
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.PurchaseReturn">
+            <summary>
+            Purchase Return
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.Quotation">
+            <summary>
+            Quotation
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.AdvancedQuotation">
+            <summary>
+            Advanced Quotation
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.RequestQuotation">
+            <summary>
+            Request Quotation
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.SalesOrder">
+            <summary>
+            Sales Order
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.StockTake">
+            <summary>
+            Stock Take
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.StockAdjustment">
+            <summary>
+            Stock Adjustment
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.StockAssembly">
+            <summary>
+            Stock Assembly
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.StockDisassembly">
+            <summary>
+            Stock Disassembly
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.StockAssemblyOrder">
+            <summary>
+            Stock Assembly Order
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.StockIssue">
+            <summary>
+            Stock Issue
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.StockReceive">
+            <summary>
+            Stock Receive
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.StockTransfer">
+            <summary>
+            Stock Transfer
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.StockUOMConversion">
+            <summary>
+            Stock UOM Conversion
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.StockUpdateCost">
+            <summary>
+            Stock Update Cost
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.StockWriteOff">
+            <summary>
+            Stock Write-Off
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.Consignment">
+            <summary>
+            Consignment
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.PurchaseConsignment">
+            <summary>
+            Purchase Consignment
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.ConsignmentReturn">
+            <summary>
+            Consignment Return
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.PurchaseConsignmentReturn">
+            <summary>
+            Purchase Consignment Return
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.CashBookEntry">
+            <summary>
+            Cash Book Entry
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.BudgetMaintenance">
+            <summary>
+            Budget Maintenance
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.OpeningBalanceMaintenance">
+            <summary>
+            Opening Balance Maintenance
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.StockValueMaintenance">
+            <summary>
+            Stock Value Maintenance
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.FixedAssetDisposal">
+            <summary>
+            Fixed Asset Disposal
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.DebtorMaintenance">
+            <summary>
+            Debtor Maintenance
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.Contra">
+            <summary>
+            Contra
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.CreditorMaintenance">
+            <summary>
+            Creditor Maintenance
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.StockItemMaintenance">
+            <summary>
+            Item Maintenance
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.StockGroupMaintenance">
+            <summary>
+            Stock Group Maintenance
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.ItemOpeningBalance">
+            <summary>
+            Item Opening Balance
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.ItemPriceBook">
+            <summary>
+            Item Price Book
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.StockWriteOff2">
+            <summary>
+            Stock Write Off
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.AccountInquiry">
+            <summary>
+            Account Inquiry
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.StockItemInquiry">
+            <summary>
+            Stock Item Inquiry
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.BonusPointRedemption">
+            <summary>
+            Bonus Point Redemption
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FunctionsStringId.MultiDimensionPriceBook">
+            <summary>
+            Multi Dimension Price Book
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.MonthlySalesAnalysis">
+            <summary>
+            Monthly Sales Analysis
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.SalesAnalysisbyDocument">
+            <summary>
+            Sales Analysis by Document
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.ProfitLossofDocument">
+            <summary>
+            Profit &amp; Loss of Document
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.PriceHistory">
+            <summary>
+            Price History
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.DebtorAging">
+            <summary>
+            Debtor Aging
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.DebtorBalance">
+            <summary>
+            Debtor Balance
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.DebtorStatement">
+            <summary>
+            Debtor Statement
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.DebtorCollection">
+            <summary>
+            Debtor Collection
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.OutstandingARInvoice">
+            <summary>
+            Outstanding A/R Invoice
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.ARMonthlySalesCollectionAnalysis">
+            <summary>
+            A/R Monthly Sales &amp; Collection Analysis
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.ARAnalysisByDocument">
+            <summary>
+            A/R Analysis By Document
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.OverdueLetter">
+            <summary>
+            Overdue Letter
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.MonthlyPurchaseAnalysis">
+            <summary>
+            Monthly Purchase Analysis
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.PurchaseAnalysisbyDocument">
+            <summary>
+            Purchase Analysis by Document
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.CreditorAging">
+            <summary>
+            Creditor Aging
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.CreditorBalance">
+            <summary>
+            Creditor Balance
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.CreditorStatement">
+            <summary>
+            Creditor Statement
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.OutstandingAPInvoice">
+            <summary>
+            Outstanding A/P Invoice
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.MonthlyPurchasePaymentAnalysis">
+            <summary>
+            Monthly Purchase &amp; Payment Analysis
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.APAnalysisByDocument">
+            <summary>
+            A/P Analysis By Document
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.StockTakeListingReport">
+            <summary>
+            Stock Take Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.StockTakeDetailListingReport">
+            <summary>
+            Stock Take Detail Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.StockAdjustmentListingReport">
+            <summary>
+            Stock Adjustment Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.StockAdjustmentDetailListingReport">
+            <summary>
+            Stock Adjustment Detail Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.StockIssueListingReport">
+            <summary>
+            Stock Issue Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.StockIssueDetailListingReport">
+            <summary>
+            Stock Issue Detail Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.StockReceiveListingReport">
+            <summary>
+            Stock Receive Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.StockReceiveDetailListingReport">
+            <summary>
+            Stock Receive Detail Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.StockWriteOffListingReport">
+            <summary>
+            Stock Write Off Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.StockWriteOffDetailListingReport">
+            <summary>
+            Stock Write Off Detail Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.StockTransferListingReport">
+            <summary>
+            Stock Transfer Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.StockTransferDetailListingReport">
+            <summary>
+            Stock Transfer Detail Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.StockUOMConversionListingReport">
+            <summary>
+            Stock UOM Conversion Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.StockUOMConversionDetailListingReport">
+            <summary>
+            Stock UOM Conversion Detail Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.StockUpdateCostListingReport">
+            <summary>
+            Stock Update Cost Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.StockUpdateCostDetailListingReport">
+            <summary>
+            Stock Update Cost Detail Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.StockCard">
+            <summary>
+            Stock Card
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.StockBalance">
+            <summary>
+            Stock Balance
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.StockMovement">
+            <summary>
+            Stock Movement
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.StockItemProfitMargin">
+            <summary>
+            Stock Item Profit Margin
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.StockStatus">
+            <summary>
+            Stock Status
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.ReorderAdvice">
+            <summary>
+            Reorder Advice
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.InventoryPhysicalWorksheet">
+            <summary>
+            Inventory Physical Worksheet
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.StockAging">
+            <summary>
+            Stock Aging
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.BOMListing">
+            <summary>
+            BOM Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.AdvancedQuotationListingReport">
+            <summary>
+            Advanced Quotation Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.AdvancedQuotationDetailListingReport">
+            <summary>
+            Advanced Quotation Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.OutstandingAdvancedQuotationListingReport">
+            <summary>
+            Outstanding Advanced Quotation Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.OutstandingAdvancedQuotationDetailListingReport">
+            <summary>
+            Outstanding Advanced Quotation Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.QuotationListingReport">
+            <summary>
+            Quotation Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.QuotationDetailListingReport">
+            <summary>
+            Quotation Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.OutstandingQuotationListingReport">
+            <summary>
+            Outstanding Quotation Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.OutstandingQuotationDetailListingReport">
+            <summary>
+            Outstanding Quotation Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.SalesOrderListingReport">
+            <summary>
+            Sales Order Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.SalesOrderDetailListingReport">
+            <summary>
+            Sales Order Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.OutstandingSalesOrderListingReport">
+            <summary>
+            Outstanding Sales Order Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.OutstandingSalesOrderDetailListingReport">
+            <summary>
+            Outstanding Sales Order Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.DeliveryOrderListingReport">
+            <summary>
+            Delivery Order Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.DeliveryOrderDetailListingReport">
+            <summary>
+            Delivery Order Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.OutstandingDeliveryOrderListingReport">
+            <summary>
+            Outstanding Delivery Order Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.OutstandingDeliveryOrderDetailListingReport">
+            <summary>
+            Outstanding Delivery Order Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.InvoiceListingReport">
+            <summary>
+            Invoice Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.InvoiceDetailListingReport">
+            <summary>
+            Invoice Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.CashSaleListingReport">
+            <summary>
+            Cash Sale Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.CashSaleDetailListingReport">
+            <summary>
+            Cash Sale Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.CreditNoteListingReport">
+            <summary>
+            Credit Note Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.CreditNoteDetailListingReport">
+            <summary>
+            Credit Note Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.DebitNoteListingReport">
+            <summary>
+            Debit Note Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.DebitNoteDetailListingReport">
+            <summary>
+            Debit Note Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.CancelSOListingReport">
+            <summary>
+            Cancel S/O Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.CancelSODetailListingReport">
+            <summary>
+            Cancel S/O Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.DeliveryReturnListingReport">
+            <summary>
+            Delivery Return Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.DeliveryReturnDetailListingReport">
+            <summary>
+            Delivery Return Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.ConsignmentListingReport">
+            <summary>
+            Consignment Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.ConsignmentDetailListingReport">
+            <summary>
+            Consignment Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.OutstandingConsignmentListingReport">
+            <summary>
+            Outstanding Consignment Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.OutstandingConsignmentDetailListingReport">
+            <summary>
+            Outstanding Consignment Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.ConsignmentReturnListingReport">
+            <summary>
+            Consignment Return Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.ConsignmentReturnDetailListingReport">
+            <summary>
+            Consignment Return Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.PurchaseRequestListingReport">
+            <summary>
+            Purchase Request Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.PurchaseRequestDetailListingReport">
+            <summary>
+            Purchase Request Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.OutstandingPurchaseRequestListingReport">
+            <summary>
+            Outstanding Purchase Request Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.OutstandingPurchaseRequestDetailListingReport">
+            <summary>
+            Outstanding Purchase Request Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.RequestQuotationListingReport">
+            <summary>
+            Request Quotation Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.RequestQuotationDetailListingReport">
+            <summary>
+            Request Quotation Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.OutstandingRequestQuotationListingReport">
+            <summary>
+            Outstanding Request Quotation Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.OutstandingRequestQuotationDetailListingReport">
+            <summary>
+            Outstanding Request Quotation Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.PurchaseOrderListingReport">
+            <summary>
+            Purchase Order Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.PurchaseOrderDetailListingReport">
+            <summary>
+            Purchase Order Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.OutstandingPurchaseOrderListingReport">
+            <summary>
+            Outstanding Purchase Order Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.OutstandingPurchaseOrderDetailListingReport">
+            <summary>
+            Outstanding Purchase Order Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.GoodsReceivedNoteListingReport">
+            <summary>
+            Goods Received Note Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.GoodsReceivedNoteDetailListingReport">
+            <summary>
+            Goods Received Note Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.OutstandingGoodsReceivedNoteListingReport">
+            <summary>
+            Outstanding Goods Received Note Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.OutstandingGoodsReceivedNoteDetailListingReport">
+            <summary>
+            Outstanding Goods Received Note Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.PurchaseInvoiceListingReport">
+            <summary>
+            Purchase Invoice Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.PurchaseInvoiceDetailListingReport">
+            <summary>
+            Purchase Invoice Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.CashPurchaseListingReport">
+            <summary>
+            Cash Purchase Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.CashPurchaseDetailListingReport">
+            <summary>
+            Cash Purchase Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.PurchaseReturnListingReport">
+            <summary>
+            Purchase Return Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.PurchaseReturnDetailListingReport">
+            <summary>
+            Purchase Return Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.CancelPOListingReport">
+            <summary>
+            Cancel P/O Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.CancelPODetailListingReport">
+            <summary>
+            Cancel P/O Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.GoodsReturnListingReport">
+            <summary>
+            Goods Return Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.GoodsReturnDetailListingReport">
+            <summary>
+            Goods Return Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.PurchaseConsignmentListingReport">
+            <summary>
+            Purchase Consignment Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.PurchaseConsignmentDetailListingReport">
+            <summary>
+            Purchase Consignment Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.OutstandingPurchaseConsignmentListingReport">
+            <summary>
+            Outstanding Purchase Consignment Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.OutstandingPurchaseConsignmentDetailListingReport">
+            <summary>
+            Outstanding Purchase Consignment Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.PurchaseConsignmentReturnListingReport">
+            <summary>
+            Purchase Consignment Return Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.PurchaseConsignmentReturnDetailListingReport">
+            <summary>
+            Purchase Consignment Return Detail Listing Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.TopBottomSalesRanking">
+            <summary>
+            Top Bottom Sales Ranking
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.SalesAgentContributionReport">
+            <summary>
+            Sales Agent Contribution Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.ConsignmentMovementReport">
+            <summary>
+            Consignment Movement Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.PurchaseConsignmentMovementReport">
+            <summary>
+            Purchase Consignment Movement Report
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.TopBottomPurchaseRanking">
+            <summary>
+            Top Bottom Purchase Ranking
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.Ledger">
+            <summary>
+            Ledger
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.JournalofTransaction">
+            <summary>
+            Journal of Transaction
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.AuditTrailListing">
+            <summary>
+            Audit Trail Listing
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.TrialBalance">
+            <summary>
+            Trial Balance
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.ProfitandLossStatement">
+            <summary>
+            Profit and Loss Statement
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.BalanceSheetStatement">
+            <summary>
+            Balance Sheet Statement
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.ReportsStringId.AccountDetails">
+            <summary>
+            Account Details
+            </summary>
+        </member>
+    </members>
+</doc>

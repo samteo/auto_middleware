@@ -1,0 +1,2369 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AutoCount.Tax.Philippines</name>
+    </assembly>
+    <members>
+        <member name="F:AutoCount.Tax.Philippines.FormAnnual1604EGenerator.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormAnnual1604EGenerator.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormAnnual1604EGenerator.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormAnnual1604EGeneratorStringId.HideOptions">
+            <summary>
+            Hide &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormAnnual1604EGeneratorStringId.ShowOptions">
+            <summary>
+            Show &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormAnnual1604EGeneratorStringId.Opened1604EWindow">
+            <summary>
+            {0} opened Annual 1604-E window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormAnnual1604EGeneratorStringId.FileSavedSuccessfully">
+            <summary>
+            {0}.DAT file saved successfully. \r\nDo you want to open it?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormAnnual1604EGeneratorStringId.HeaderInfoEmpty">
+            <summary>
+            Please maintain BIR setting.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormAnnual1604EGeneratorStringId.OutOfMemorySolution">
+            <summary>
+            Out of memory error.\r\nTo avoid this error, you can do one of the following two options.\r\n\r\nOption 1: Re-login again and straight go to run this function.\r\nOption 2: Install {0} 64-bit and re-run this function.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormMAP1600PTGenerator.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormMAP1600PTGenerator.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormMAP1600PTGenerator.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormMAP1600PTGeneratorStringId.HideOptions">
+            <summary>
+            Hide &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormMAP1600PTGeneratorStringId.ShowOptions">
+            <summary>
+            Show &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormMAP1600PTGeneratorStringId.OpenedMAP1600PTWindow">
+            <summary>
+            {0} opened MAP 1600-PT window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormMAP1600PTGeneratorStringId.BIRSettingEmpty">
+            <summary>
+            Please fill in BIR Setting.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormMAP1600PTGeneratorStringId.HeaderInfoEmpty">
+            <summary>
+            Please maintain BIR setting.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormMAP1600PTGeneratorStringId.OutOfMemorySolution">
+            <summary>
+            Out of memory error.\r\nTo avoid this error, you can do one of the following two options.\r\n\r\nOption 1: Re-login again and straight go to run this function.\r\nOption 2: Install {0} 64-bit and re-run this function.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormMAP1600PTGeneratorStringId.MonthlyFileSavedSuccessfully">
+            <summary>
+            {0}.DAT file saved successfully. \r\nDo you want to open it?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormMAP1600VTGenerator.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormMAP1600VTGenerator.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormMAP1600VTGenerator.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormMAP1600VTGeneratorStringId.HideOptions">
+            <summary>
+            Hide &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormMAP1600VTGeneratorStringId.ShowOptions">
+            <summary>
+            Show &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormMAP1600VTGeneratorStringId.OpenedMAP1600VTWindow">
+            <summary>
+            {0} opened MAP 1600-VT window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormMAP1600VTGeneratorStringId.BIRSettingEmpty">
+            <summary>
+            Please fill in BIR Setting.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormMAP1600VTGeneratorStringId.HeaderInfoEmpty">
+            <summary>
+            Please maintain BIR setting.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormMAP1600VTGeneratorStringId.OutOfMemorySolution">
+            <summary>
+            Out of memory error.\r\nTo avoid this error, you can do one of the following two options.\r\n\r\nOption 1: Re-login again and straight go to run this function.\r\nOption 2: Install {0} 64-bit and re-run this function.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormMAP1600VTGeneratorStringId.MonthlyFileSavedSuccessfully">
+            <summary>
+            {0}.DAT file saved successfully. \r\nDo you want to open it?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormQAP1601FQGenerator.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormQAP1601FQGenerator.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormQAP1601FQGenerator.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormQAP1601FQGeneratorStringId.HideOptions">
+            <summary>
+            Hide &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormQAP1601FQGeneratorStringId.ShowOptions">
+            <summary>
+            Show &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormQAP1601FQGeneratorStringId.OpenedQAP1601FQWindow">
+            <summary>
+            {0} opened QAP 1601-FQ window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormQAP1601FQGeneratorStringId.TotalFileSaved">
+            <summary>
+            Total {0} file(s) saved successfully.\r\nDo you want to open the folder?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormQAP1601FQGeneratorStringId.ERROR_MSSG_DirectoryNotFound">
+            <summary>
+            The Directory {0} does not exist.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormQAP1601FQGeneratorStringId.WARNING_MSSG_DUPLICATE_FILE">
+            <summary>
+            \"{0}\"  file already exist. \r\nDo you want to replace it? ('No' to skip the file)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormQAP1601FQGeneratorStringId.HeaderInfoEmpty">
+            <summary>
+            Please maintain BIR setting.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormQAP1601FQGeneratorStringId.OutOfMemorySolution">
+            <summary>
+            Out of memory error.\r\nTo avoid this error, you can do one of the following two options.\r\n\r\nOption 1: Re-login again and straight go to run this function.\r\nOption 2: Install {0} 64-bit and re-run this function.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormQAP1601EQGenerator.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormQAP1601EQGenerator.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormQAP1601EQGenerator.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormQAP1601EQGeneratorStringId.HideOptions">
+            <summary>
+            Hide &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormQAP1601EQGeneratorStringId.ShowOptions">
+            <summary>
+            Show &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormQAP1601EQGeneratorStringId.OpenedQAP1601EQWindow">
+            <summary>
+            {0} opened QAP 1601-EQ window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormQAP1601EQGeneratorStringId.TotalFileSaved">
+            <summary>
+            Total {0} file(s) saved successfully.\r\nDo you want to open the folder?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormQAP1601EQGeneratorStringId.ERROR_MSSG_DirectoryNotFound">
+            <summary>
+            The Directory {0} does not exist.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormQAP1601EQGeneratorStringId.WARNING_MSSG_DUPLICATE_FILE">
+            <summary>
+            \"{0}\"  file already exist. \r\nDo you want to replace it? ('No' to skip the file)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormQAP1601EQGeneratorStringId.HeaderInfoEmpty">
+            <summary>
+            Please maintain BIR setting.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormQAP1601EQGeneratorStringId.OutOfMemorySolution">
+            <summary>
+            Out of memory error.\r\nTo avoid this error, you can do one of the following two options.\r\n\r\nOption 1: Re-login again and straight go to run this function.\r\nOption 2: Install {0} 64-bit and re-run this function.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSAWT1701and1702Generator.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormSAWT1701and1702Generator.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormSAWT1701and1702Generator.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSAWT1701and1702GeneratorGeneratorStringId.HideOptions">
+            <summary>
+            Hide &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSAWT1701and1702GeneratorGeneratorStringId.ShowOptions">
+            <summary>
+            Show &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSAWT1701and1702GeneratorGeneratorStringId.EndPeriodLessThanStartPeriod">
+            <summary>
+            Please select a {0] Period.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSAWT1701and1702GeneratorGeneratorStringId.TotalFileSaved">
+            <summary>
+            Total {0} file(s) saved successfully.\r\nDo you want to open the folder?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSAWT1701and1702GeneratorGeneratorStringId.ERROR_MSSG_DirectoryNotFound">
+            <summary>
+            The Directory {0} does not exist.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSAWT1701and1702GeneratorGeneratorStringId.WARNING_MSSG_DUPLICATE_FILE">
+            <summary>
+            \"{0}\"  file already exist. \r\nDo you want to replace it? ('No' to skip the file)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSAWT1701and1702GeneratorGeneratorStringId.HeaderInfoEmpty">
+            <summary>
+            Please maintain BIR setting.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSAWT1701and1702GeneratorGeneratorStringId.OpenedSAWT1701and1702Window">
+            <summary>
+            {0} opened SAWT 1701 window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSAWT1701and1702GeneratorGeneratorStringId.OutOfMemorySolution">
+            <summary>
+            Out of memory error.\r\nTo avoid this error, you can do one of the following two options.\r\n\r\nOption 1: Re-login again and straight go to run this function.\r\nOption 2: Install {0} 64-bit and re-run this function.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSAWT2550Generator.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormSAWT2550Generator.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormSAWT2550Generator.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSAWT2550GeneratorGeneratorStringId.HideOptions">
+            <summary>
+            Hide &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSAWT2550GeneratorGeneratorStringId.ShowOptions">
+            <summary>
+            Show &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSAWT2550GeneratorGeneratorStringId.EndPeriodLessThanStartPeriod">
+            <summary>
+            Please select a {0] Period.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSAWT2550GeneratorGeneratorStringId.TotalFileSaved">
+            <summary>
+            Total {0} file(s) saved successfully.\r\nDo you want to open the folder?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSAWT2550GeneratorGeneratorStringId.MonthlyFileSavedSuccessfully">
+            <summary>
+            {0} file saved successfully. \r\nDo you want to open it?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSAWT2550GeneratorGeneratorStringId.ERROR_MSSG_DirectoryNotFound">
+            <summary>
+            The Directory {0} does not exist.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSAWT2550GeneratorGeneratorStringId.WARNING_MSSG_DUPLICATE_FILE">
+            <summary>
+            \"{0}\"  file already exist. \r\nDo you want to replace it? ('No' to skip the file )
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSAWT2550GeneratorGeneratorStringId.HeaderInfoEmpty">
+            <summary>
+            Please maintain BIR setting.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSAWT2550GeneratorGeneratorStringId.OpenedSAWT2550Window">
+            <summary>
+            {0} opened SAWT 2550 window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSAWT2550GeneratorGeneratorStringId.OutOfMemorySolution">
+            <summary>
+            Out of memory error.\r\nTo avoid this error, you can do one of the following two options.\r\n\r\nOption 1: Re-login again and straight go to run this function.\r\nOption 2: Install {0} 64-bit and re-run this function.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSLSPGenerator.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormSLSPGenerator.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormSLSPGenerator.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSLSPGeneratorStringId.Exempted">
+            <summary>
+            Exempted = {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSLSPGeneratorStringId.ZeroRated">
+            <summary>
+            Zero-rated = {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSLSPGeneratorStringId.StandardRated">
+            <summary>
+            Standard Rated = {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSLSPGeneratorStringId.TotalOutputTax">
+            <summary>
+            Total Output Tax = {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSLSPGeneratorStringId.Services">
+            <summary>
+            Services = {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSLSPGeneratorStringId.CapitalGoods">
+            <summary>
+            Capital Goods = {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSLSPGeneratorStringId.NonCapitalGoods">
+            <summary>
+            Non Capital Goods = {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSLSPGeneratorStringId.TotalInputTax">
+            <summary>
+            Total Input Tax = {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSLSPGeneratorStringId.HideOptions">
+            <summary>
+            Hide &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSLSPGeneratorStringId.ShowOptions">
+            <summary>
+            Show &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSLSPGeneratorStringId.OpenedSLSPWindow">
+            <summary>
+            {0} opened SLSP window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSLSPGeneratorStringId.EndPeriodLessThanStartPeriod">
+            <summary>
+            End Period must be same or later than Start Period.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSLSPGeneratorStringId.ExceedDateRange">
+            <summary>
+            Allow maximum of 3 months in a period.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSLSPGeneratorStringId.MissingTaxEntity">
+            <summary>
+            Found tax transaction missing Tax Entity and name. Please update the transaction before generate DAT file.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSLSPGeneratorStringId.FiscalYearEmpty">
+            <summary>
+            Please manage Fiscal Year before generate DAT file.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSLSPGeneratorStringId.NotCommittedVATProcessor">
+            <summary>
+            Selected period has not committed 2550Q Processor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSLSPGeneratorStringId.AddressEmpty">
+            <summary>
+            Found tax transaction missing address. Please maintain in Tax Entity Maintenance.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSLSPGeneratorStringId.TotalAmtDifferent">
+            <summary>
+            Please reprocess or calculate the 2550Q Processor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSLSPGeneratorStringId.HeaderInfoEmpty">
+            <summary>
+            Please maintain BIR setting.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSLSPGeneratorStringId.TotalFileSaved">
+            <summary>
+            Total {0} file(s) saved successfully.\r\nDo you want to open the folder?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSLSPGeneratorStringId.ERROR_MSSG_DirectoryNotFound">
+            <summary>
+            The Directory {0} does not exist.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSLSPGeneratorStringId.WARNING_MSSG_DUPLICATE_FILE">
+            <summary>
+            \"{0}\"  file already exist. \r\nDo you want to replace it? ('No' to skip the file)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSLSPGeneratorStringId.FileSavedSuccessfully">
+            <summary>
+            {0}.DAT file saved successfully. \r\nDo you want to open it?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSLSPGeneratorStringId.OutOfMemorySolution">
+            <summary>
+            Out of memory error.\r\nTo avoid this error, you can do one of the following two options.\r\n\r\nOption 1: Re-login again and straight go to run this function.\r\nOption 2: Install {0} 64-bit and re-run this function.
+            </summary>
+        </member>
+        <member name="P:AutoCount.Tax.Philippines.RemittanceOfEWTFormHelper.Criteria">
+            <summary>
+            Properties for searching criteria in FormRemittanceOfEWT
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.RemittanceOfEWTFormHelper.SaveSetting">
+            <summary>
+            Save the setting of search criteria to disk
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormBIR0619EGenerator.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormBIR0619EGenerator.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormBIR0619EGenerator.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormBIR0619EGeneratorGeneratorStringId.HideOptions">
+            <summary>
+            Hide &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormBIR0619EGeneratorGeneratorStringId.ShowOptions">
+            <summary>
+            Show &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormBIR0619EGeneratorGeneratorStringId.OpenedBIR0619EWindow">
+            <summary>
+            {0} opened BIR FORM 0619-E window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormBIR0619EGeneratorGeneratorStringId.OutOfMemorySolution">
+            <summary>
+            Out of memory error.\r\nTo avoid this error, you can do one of the following two options.\r\n\r\nOption 1: Re-login again and straight go to run this function.\r\nOption 2: Install {0} 64-bit and re-run this function.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormRemittanceOfEWT.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormRemittanceOfEWT.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormRemittanceOfEWT.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormRemittanceStringId.TaxableYearEmpty">
+            <summary>
+            Please select a Taxable Year.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormRemittanceStringId.OpenedRemittanceOfEWTWindow">
+            <summary>
+            {0} opened Remittance Of EWT window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormRemittanceStringId.SavedRemittance">
+            <summary>
+            {0} saved Remittance of EWT.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.XtraReportBIR0619E.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.XtraReportBIR0619E.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.XtraReportBIR0619E.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormBIR1600VTGenerator.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormBIR1600VTGenerator.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormBIR1600VTGenerator.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormBIR1600VTGeneratorGeneratorStringId.HideOptions">
+            <summary>
+            Hide &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormBIR1600VTGeneratorGeneratorStringId.ShowOptions">
+            <summary>
+            Show &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormBIR1600VTGeneratorGeneratorStringId.OpenedBIR1600VTWindow">
+            <summary>
+            {0} opened BIR FORM 1600-VT window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormBIR1600VTGeneratorGeneratorStringId.OutOfMemorySolution">
+            <summary>
+            Out of memory error.\r\nTo avoid this error, you can do one of the following two options.\r\n\r\nOption 1: Re-login again and straight go to run this function.\r\nOption 2: Install {0} 64-bit and re-run this function.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.XtraReportBIR1600VT.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.XtraReportBIR1600VT.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.XtraReportBIR1600VT.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormBIR1601EQGenerator.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormBIR1601EQGenerator.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormBIR1601EQGenerator.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormBIR1601EQGeneratorGeneratorStringId.HideOptions">
+            <summary>
+            Hide &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormBIR1601EQGeneratorGeneratorStringId.ShowOptions">
+            <summary>
+            Show &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormBIR1601EQGeneratorGeneratorStringId.OpenedBIR1601EQWindow">
+            <summary>
+            {0} opened BIR FORM 1601-EQ window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormBIR1601EQGeneratorGeneratorStringId.OutOfMemorySolution">
+            <summary>
+            Out of memory error.\r\nTo avoid this error, you can do one of the following two options.\r\n\r\nOption 1: Re-login again and straight go to run this function.\r\nOption 2: Install {0} 64-bit and re-run this function.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormBIR1601EQGeneratorGeneratorStringId.MoreThan6ATCCode">
+            <summary>
+            There are more than 6 ATC Code, hence only the Top 6 with the highest value will be shown. However those ATC code that are not shown will still be calculated in (19. Total Taxes Withheld for the Quarter).
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.XtraReportBIR1601EQ.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.XtraReportBIR1601EQ.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.XtraReportBIR1601EQ.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormBIR1604EGenerator.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormBIR1604EGenerator.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormBIR1604EGenerator.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormBIR1604EGeneratorGeneratorStringId.HideOptions">
+            <summary>
+            Hide &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormBIR1604EGeneratorGeneratorStringId.ShowOptions">
+            <summary>
+            Show &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormBIR1604EGeneratorGeneratorStringId.OpenedBIR1604EWindow">
+            <summary>
+            {0} opened BIR FORM 1604-E window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormBIR1604EGeneratorGeneratorStringId.OutOfMemorySolution">
+            <summary>
+            Out of memory error.\r\nTo avoid this error, you can do one of the following two options.\r\n\r\nOption 1: Re-login again and straight go to run this function.\r\nOption 2: Install {0} 64-bit and re-run this function.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.XtraReportBIR1604E.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.XtraReportBIR1604E.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.XtraReportBIR1604E.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormBIREditPassword.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormBIREditPassword.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormBIREditPassword.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.BIREditPasswordString.ErrorMessage_PleaseFillInPassword">
+            <summary>
+            Please fill in password.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.BIREditPasswordString.ErrorMessage_InvalidPassword">
+            <summary>
+            Invalid password entered !
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormBIRSetting.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormBIRSetting.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormBIRSetting.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.BIRSettingString.ERRORMSSG_ValidUntilMustMoreThanOrEqualDateIssued">
+            <summary>
+            The Valid Date Until '{0}' must be later than the Date Issued '{1}'.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.BIRSettingString.ERRORMSSG_TaxpayerNameCannotBeEmpty">
+            <summary>
+            The Taxpayer Name field cannot be empty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.BIRSettingString.ERRORMSSG_TaxpayerNameForIndividualMustFollowTheFormat">
+            <summary>
+            The Taxpayer Name for Individual must follow the format (Last name, First name, Middle name).
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.BIRSettingString.ERRORMSSG_SignatoryCannotBeEmpty">
+            <summary>
+            The Signatory field cannot be empty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.BIRSettingString.ERRORMSSG_TitleOfSignatoryCannotBeEmpty">
+            <summary>
+            The Title/Position of Signatory field cannot be empty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.BIRSettingString.ERRORMSSG_TINOfSignatoryCannotBeEmpty">
+            <summary>
+            The TIN of Signatory field cannot be empty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.BIRSettingString.ERRORMSSG_TINCannotBeEmpty">
+            <summary>
+            The TIN field cannot be empty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.BIRSettingString.ERRORMSSG_SVCompanyNameCannotBeEmpty">
+            <summary>
+            The Software Vendor's Company Name field cannot be empty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.BIRSettingString.ERRORMSSG_SVTINCannotBeEmpty">
+            <summary>
+            The Software Vendor's TIN field cannot be empty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.BIRSettingString.ERRORMSSG_SVPhoneCannotBeEmpty">
+            <summary>
+            The Software Vendor's Phone field cannot be empty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.BIRSettingString.ERRORMSSG_SVAddressCannotBeEmpty">
+            <summary>
+            The Software Vendor's Address field cannot be empty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.BIRSettingString.ERRORMSSG_SVPostCodeCannotBeEmpty">
+            <summary>
+            The Software Vendor's Zip Code field cannot be empty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.BIRSettingString.ERRORMSSG_DateIssuedCannotBeEmpty">
+            <summary>
+            The Date Issued field cannot be empty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.BIRSettingString.ERRORMSSG_ValidUntilCannotBeEmpty">
+            <summary>
+            The Valid Until Date field cannot be empty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.BIRSettingString.CONFIRMMSSG_PromptConfirmSave">
+            <summary>
+            Please make sure all the information are correct before save as only your dealer can change it later on.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormBIR2307Generator.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormBIR2307Generator.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormBIR2307Generator.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormBIR2307GeneratorStringId.HideOptions">
+            <summary>
+            Hide &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormBIR2307GeneratorStringId.ShowOptions">
+            <summary>
+            Show &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormBIR2307GeneratorStringId.SupplierIsEmpty">
+            <summary>
+            Supplier is not selected, do you want to continue? \r\n(Without filter, it may takes longer for the result.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormBIR2307GeneratorStringId.DateRangeIncorrectly">
+            <summary>
+            The date range is set incorrectly, 'From' date is larger than 'To' date.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormBIR2307GeneratorStringId.DateDifferentIncorrectly">
+            <summary>
+            The date range must be in the same quarter of the Calendar year.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormBIR2307GeneratorStringId.OpenedBIR2307Window">
+            <summary>
+            {0} opened BIR FORM 2307 window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormBIR2307GeneratorStringId.OutOfMemorySolution">
+            <summary>
+            Out of memory error.\r\nTo avoid this error, you can do one of the following two options.\r\n\r\nOption 1: Re-login again and straight go to run this function.\r\nOption 2: Install {0} 64-bit and re-run this function.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormBIR2307Search.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormBIR2307Search.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormBIR2307Search.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.BIR2307SearchStringId.ErrorMessage_RecordsDoesNotSelected">
+            <summary>
+            No Self-Billed is selected.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSalesAndPurchaseBooks.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormSalesAndPurchaseBooks.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormSalesAndPurchaseBooks.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSalesAndPurchaseBooksStringId.HideOptions">
+            <summary>
+            Hide &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSalesAndPurchaseBooksStringId.ShowOptions">
+            <summary>
+            Show &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSalesAndPurchaseBooksStringId.PrintSalesandPurchaseBooks">
+            <summary>
+            Print {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSalesAndPurchaseBooksStringId.PreviewSalesandPurchaseBooks">
+            <summary>
+            Preview {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSalesAndPurchaseBooksStringId.DateRangeIncorrectly">
+            <summary>
+            The date range is set incorrectly, 'From' date is larger than 'To' date.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSalesAndPurchaseBooksStringId.OpenedSalesAndPurchaseBooksWindow">
+            <summary>
+            {0} opened BIR FORM Sales And Purchase Books window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.SalesAndPurchaseBooksCriteriaStringId.DebtorCode">
+            <summary>
+            Debtor Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.SalesAndPurchaseBooksCriteriaStringId.DebtorType">
+            <summary>
+            Debtor Type
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.SalesAndPurchaseBooksCriteriaStringId.SalesAgent">
+            <summary>
+            Sales Agent
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.SalesAndPurchaseBooksCriteriaStringId.CreditorCode">
+            <summary>
+            Creditor Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.SalesAndPurchaseBooksCriteriaStringId.CreditorType">
+            <summary>
+            Creditor Type
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.SalesAndPurchaseBooksCriteriaStringId.PurchaseAgent">
+            <summary>
+            Purchase Agent
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.SalesAndPurchaseBooksCriteriaStringId.AreaCode">
+            <summary>
+            Area Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.SalesAndPurchaseBooksCriteriaStringId.FromDate">
+            <summary>
+            From Date: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.SalesAndPurchaseBooksCriteriaStringId.ToDate">
+            <summary>
+            To Date: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.XtraReportBIR1600PT.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.XtraReportBIR1600PT.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.XtraReportBIR1600PT.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.XtraReportBIR1701.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.XtraReportBIR1701.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.XtraReportBIR1701.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.Report.XtraReportBIR1702Q.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.Report.XtraReportBIR1702Q.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.Report.XtraReportBIR1702Q.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormConfigureVAT.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormConfigureVAT.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormConfigureVAT.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormConfigureVATStringId.RemoveAccountConfirmation">
+            <summary>
+            Some of Tax Code is using this Account value {0}.\r\nDo you want to remove this Account value {0} from tax code?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormConfigureVATStringId.ConfigurePhilippinesVAT">
+            <summary>
+            Configure Philippines VAT
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormConfigureVATStringId.ProposedTaxAccount">
+            <summary>
+            Proposed {0} Account
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormConfigureVATStringId.ConfirmMessage_AutomaticallyApplyTaxAccount">
+            <summary>
+            Do you want to automatically apply this Tax Account value {0} to other rows?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormConfigureVATStringId.ErrorMessage_EnterTaxStartDate">
+            <summary>
+            You should enter a valid {0} Start Date.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormConfigureVATStringId.ErrorMessage_TaxStartDateMustBeOnOrAfterActualStartDate">
+            <summary>
+            {0} Start Date must be on or after Actual Start Date {1}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormConfigureVATStringId.ErrorMessage_TaxStartDateMustBeOnOrAfterPhilippinesVATStartDate">
+            <summary>
+            {0} Start Date must be on or after Philippines {0} Start Date {1}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormConfigureVATStringId.ErrorEmptyProposedAccNo">
+            <summary>
+            You must enter a Proposed Account No.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormConfigureVATStringId.ErrorDuplicateProposedAccNo">
+            <summary>
+            The proposed account number is already exist in the system, please enter other value.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormConfigureVATStringId.ErrorEmptyTaxAccNo">
+            <summary>
+            You must enter a Tax Account.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormConfigureVATStringId.ErrorMessage_InactiveTaxCode">
+            <summary>
+            Inactive Tax Code does not allow to set as default.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormConfigureVATStringId.TTypeMaint_TaxAcctDoesNotExist">
+            <summary>
+            Tax Account does not exist.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormConfigureVATStringId.TTypeMaint_InvalidTaxAcct2">
+            <summary>
+            Tax Account must be either local currency code or same as tax based currency code.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormConfigureVATStringId.TTypeMaint_InvalidTaxAcct">
+            <summary>
+            Tax Account must be local currency code.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Tax.Philippines.FormTaxCodeMaintenance">
+            <summary>
+            User interface class for display current table content
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormTaxCodeMaintenance.#ctor(AutoCount.Authentication.UserSession)">
+            <summary>
+            Constructor for FormTaxCodeMaintenance
+            </summary>
+            <param name="userSession"></param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormTaxCodeMaintenance.UpdateDataSet(AutoCount.Data.DBSetting,System.Data.DataSet,AutoCount.Application.AsyncDataSetUpdateAction)">
+            <summary>
+            Update Data Set
+            </summary>
+            <param name="ds"></param>
+            <param name="action"></param>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormTaxCodeMaintenance.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormTaxCodeMaintenance.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormTaxCodeMaintenance.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormTaxCodeMaintenanceStringId.AccountCodeFormatMustGreaterOrEqualTo6Characters">
+            <summary>
+            Account Code Format must greater or equal to 6 characters in order to generate proposed account number.\r\nPlease change Account Code Format at Tools -> Options -> Account Code Format.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormTaxCodeMaintenanceStringId.OpenedTaxCodeMaintenanceWindow">
+            <summary>
+            {0} opened Tax Code Maintenance window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormTaxCodeMaintenanceStringId.Supply">
+            <summary>
+            Supply
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormTaxCodeMaintenanceStringId.Purchase">
+            <summary>
+            Purchase
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormTaxCodeWizard.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormTaxCodeWizard.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormTaxCodeWizard.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormTaxCodeWizardStringId.Null">
+            <summary>
+            (null)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormTaxCodeWizardStringId.ConfirmMessage_CancelWizard">
+            <summary>
+            Do you really want to cancel this wizard?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormTaxCodeWizardStringId.WelcomeWizardPageContent">
+            <summary>
+            This wizard simplifies the configuration of {0} Tax Code by guiding the user through a series of simple steps
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormTaxCodeWizardStringId.ERRORMSSG_ATCEmpty">
+            <summary>
+            VAT Registered User must provide a Default Sales ATC.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormTaxCodeWizardStringId.ERRORMSSG_VATStartDateMustDay1">
+            <summary>
+            VAT Start Date must be on day 1.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormResetVATDocument.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormResetVATDocument.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormResetVATDocument.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormSetVATDateRange.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormSetVATDateRange.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormSetVATDateRange.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormVATControlAccNoSetting.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormVATControlAccNoSetting.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormVATControlAccNoSetting.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATControlAccNoSettingStringId.VATControlAccountNoCannotBeEmpty">
+            <summary>
+            VAT Control Account No cannot be empty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormVATInfo.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormVATInfo.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormVATInfo.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormVATInstantInfoSetting.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormVATInstantInfoSetting.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormVATInstantInfoSetting.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATInstantInfoSettingStringId.WarningMessage_RefreshInterval">
+            <summary>
+            Refresh Interval must between 1 to 30 mins
+            </summary>
+        </member>
+        <member name="T:AutoCount.Tax.Philippines.FormVATProcessor">
+            <summary>
+            Summary description for FormVATProcessor.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormVATProcessor.SaveReportOptionToDisk">
+            <summary>
+            Save the setting of Report option
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormVATProcessor.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormVATProcessor.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormVATProcessor.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormVATProcessorStringId.OpenedVATProcessorWindow">
+            <summary>
+            {0} opened 2550Q Processor window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormVATProcessorStringId.GeneratedVATAuditFile">
+            <summary>
+            {0} generated on VAT Audit File.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormVATProcessorStringId.GeneratedVATReturnFile">
+            <summary>
+            {0} generated on VAT Return File.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormVATProcessorStringId.NewVATAmendment">
+            <summary>
+            New VAT Amendment
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormVATProcessorStringId.ViewVATAmendment">
+            <summary>
+            View VAT Amendment
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormVATProcessorStringId.VATAmendment">
+            <summary>
+            VAT Amendment
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormVATProcessorStringId.NewVATReturn">
+            <summary>
+            New VAT Return
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormVATProcessorStringId.ViewVATReturn">
+            <summary>
+            View VAT Return
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormVATProcessorStringId.VATTaxCode">
+            <summary>
+            VAT Tax Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormVATProcessorStringId.ViewJournalEntry">
+            <summary>
+            View Journal Entry
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormVATProcessorStringId.GenerateJournalEntry">
+            <summary>
+            Generate Journal Entry
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormVATProcessorStringId.ViewCommittedJournalEntry">
+            <summary>
+            View Committed Journal Entry
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormVATProcessorStringId.GenerateCommittedJournalEntry">
+            <summary>
+            Generate Committed Journal Entry
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormVATProcessorStringId.Commit">
+            <summary>
+            Commit
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormVATProcessorStringId.LocalTaxableAmt">
+            <summary>
+            Local Taxable Amt
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormVATProcessorStringId.LocalTax">
+            <summary>
+            Local Tax
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormVATProcessorStringId.ComfirmMessage_CommitVATProcessor">
+            <summary>
+            Do you really want to commit this 2550Q Processor '{0}'?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormVATProcessorStringId.MSICCodeMoreThanFive">
+            <summary>
+            MSIC Code(s) are more than five. Some of MISC Code(s) will under Others code category.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormVATProcessorStringId.FillInVATBeforeCommit">
+            <summary>
+            Please fill in VAT - 02 Info before commit.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormVATProcessorStringId.Supply">
+            <summary>
+            Supply
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormVATProcessorStringId.Purchase">
+            <summary>
+            Purchase
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormVATProcessorStringId.Receipt">
+            <summary>
+            Receipt
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormVATProcessorStringId.Payment">
+            <summary>
+            Payment
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormVATProcessorCmd.SaveReportOptionToDisk">
+            <summary>
+            Save the setting of Report option
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormVATProcessorCmd.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormVATProcessorCmd.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormVATProcessorCmd.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormVATProcessorCmdStringId.CannotFindVATProcessor">
+            <summary>
+            Cannot find 2550Q Processor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormVATProcessorCmdStringId.FillInBeforeCommit">
+            <summary>
+            Please fill in VAT - 02 Info before commit.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormVATProcessorCmdStringId.CommitVATProcessor">
+            <summary>
+            Do you really want to commit this 2550Q Processor '{0}'?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormVATSchedule1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormVATSchedule1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormVATSchedule1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormVATSchedule2.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormVATSchedule2.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormVATSchedule2.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormVATSchedule3.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormVATSchedule3.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormVATSchedule3.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormVATSchedule4.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormVATSchedule4.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormVATSchedule4.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Tax.Philippines.PhilippinesBIRForm2550QReport">
+            <summary>
+            Summary description for PhilippinesBIRForm2550QReport.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Tax.Philippines.PhilippinesBIRForm2550QReportTypeHandler">
+            <summary>
+            Summary description for ReportTypeHandler.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.PhilippinesBIRForm2550QReportStringId.PhilippinesBIRForm2550QReport">
+            <summary>
+            Philippines BIR Form 2550Q Report
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.VATProcessorCommand.Create(AutoCount.Authentication.UserSession,AutoCount.Data.DBSetting)">
+            <summary>
+            Create a VATProcessorCommand
+            </summary>
+            <param name="userSession"></param>
+            <param name="dbSetting"></param>
+            <returns></returns>
+        </member>
+        <member name="P:AutoCount.Tax.Philippines.VATProcessorCommand.dtCompanyInfo">
+            <summary>
+            Result of Company Info Table
+            </summary>
+        </member>
+        <member name="P:AutoCount.Tax.Philippines.VATProcessorCommand.dtPurchaseTaxCode">
+            <summary>
+            Result of Purchase Tax Code Table
+            </summary>
+        </member>
+        <member name="P:AutoCount.Tax.Philippines.VATProcessorCommand.dtSupplyTaxCode">
+            <summary>
+            Result of Supply Tax Code Table
+            </summary>
+        </member>
+        <member name="P:AutoCount.Tax.Philippines.VATProcessorCommand.DBSetting">
+            <summary>
+            get DBSetting object
+            </summary>
+        </member>
+        <member name="P:AutoCount.Tax.Philippines.VATProcessorCommand.TaxControlAccNo">
+            <summary>
+            get TaxControlAccNo object
+            </summary>
+        </member>
+        <member name="P:AutoCount.Tax.Philippines.VATProcessorCommand.TaxPenaltyAccNo">
+            <summary>
+            get TaxPenaltyAccNo object
+            </summary>
+        </member>
+        <member name="P:AutoCount.Tax.Philippines.VATProcessorCommand.UseSummarySubmittedJE">
+            <summary>
+            get UseSummarySubmittedJE object
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.VATProcessorCommand.AddNewVATProcessor">
+            <summary>
+            Add new VAT Processor
+            </summary>
+            <returns>VATProcessorEntity</returns>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.VATProcessorCommand.EditVATProcessor(System.Int64)">
+            <summary>
+            Edit VATProcessor
+            </summary>
+            <returns>VATProcessorEntity</returns>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.VATProcessorCommand.ViewVATProcessor(System.Int64)">
+            <summary>
+            View VATProcessor
+            </summary>
+            <returns>VATProcessorEntity</returns>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.VATProcessorCommand.ViewVATInstantInfo(System.DateTime,System.DateTime)">
+            <summary>
+            View VATInstantInfo
+            </summary>
+            <returns>VATProcessorEntity</returns>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.VATProcessorCommand.SaveVATProcessor(AutoCount.Tax.Philippines.VATProcessorEntity,System.Boolean)">
+            <summary>
+            Save a VATProcessor
+            </summary>
+            <param name="entity">VATProcessorEntity</param>
+            <param name="submit">A boolean value to indicate whether want to submit or not.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.VATProcessorCommand.GenerateAmendmentJE(AutoCount.Tax.Philippines.VATProcessorEntity)">
+            <summary>
+            Generate VATProcessorAmendment
+            </summary>
+            <param name="entity">VATProcessorEntity</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.VATProcessorCommand.DeleteVATProcessor(System.Int64)">
+            <summary>
+            Delete a VATProcessor
+            </summary>
+            <param name="vatKey">VATKey to be delete</param>
+        </member>
+        <member name="T:AutoCount.Tax.Philippines.VATProcessorCommand.VATProcessorSQL">
+            <summary>
+            SQL server implementation of VATProcessorCommand
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.VATProcessorCommand.VATProcessorSQL.LoadVATProcessorDataSetCmd">
+            <summary>
+            Load VAT Processor Data Set
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.VATProcessorCommand.VATProcessorSQL.LoadVATProcessorTable">
+            <summary>
+            Load VAT Processor Table
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.VATProcessorCommand.VATProcessorSQL.SaveVATProcessorData(System.Data.DataTable,AutoCount.Data.DBSetting)">
+            <summary>
+            Save data into database
+            </summary>
+            <param name="dt">DataTable to be save</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.VATProcessorCommand.VATProcessorSQL.DeleteVATProcessorData(System.Int64,AutoCount.Data.DBSetting)">
+            <summary>
+            Delete data from database
+            </summary>
+            <param name="vatKey">vatKey to be delete</param>
+        </member>
+        <member name="T:AutoCount.Tax.Philippines.VATProcessorEntity">
+            <summary>
+            Entity class used to manipulate a VATProcessor 
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.VATProcessorEntity.#ctor(AutoCount.Tax.Philippines.VATProcessorCommand,System.Data.DataTable,AutoCount.Invoicing.InvoicingDocumentState)">
+            <summary>
+            Construct a VATProcessorEntity
+            </summary>
+            <param name="cmd">VATProcessorCommand</param>
+            <param name="dt">DataTable</param>
+            <param name="action"></param>
+        </member>
+        <member name="P:AutoCount.Tax.Philippines.VATProcessorEntity.Command">
+            <summary>
+            get VATProcessor command
+            </summary>
+        </member>
+        <member name="P:AutoCount.Tax.Philippines.VATProcessorEntity.DataTable">
+            <summary>
+            get data table
+            </summary>
+        </member>
+        <member name="P:AutoCount.Tax.Philippines.VATProcessorEntity.IsModified">
+            <summary>
+            indicates if entity has been modified
+            </summary>
+        </member>
+        <member name="P:AutoCount.Tax.Philippines.VATProcessorEntity.Row">
+            <summary>
+            get data row
+            </summary>
+        </member>
+        <member name="P:AutoCount.Tax.Philippines.VATProcessorEntity.VATKey">
+            <summary>
+            get/set VATKey object
+            </summary>
+        </member>
+        <member name="P:AutoCount.Tax.Philippines.VATProcessorEntity.FromDate">
+            <summary>
+            get/set FromDate object
+            </summary>
+        </member>
+        <member name="P:AutoCount.Tax.Philippines.VATProcessorEntity.ToDate">
+            <summary>
+            get/set ToDate object
+            </summary>
+        </member>
+        <member name="P:AutoCount.Tax.Philippines.VATProcessorEntity.Duration">
+            <summary>
+            get/set Duration object
+            </summary>
+        </member>
+        <member name="P:AutoCount.Tax.Philippines.VATProcessorEntity.Submitted">
+            <summary>
+            get/set Submitted object
+            </summary>
+        </member>
+        <member name="P:AutoCount.Tax.Philippines.VATProcessorEntity.TaxDataReportDataSet">
+            <summary>
+            get/set TaxDataReport object
+            </summary>
+        </member>
+        <member name="P:AutoCount.Tax.Philippines.VATProcessorEntity.TaxSummaryDataReportDataSet">
+            <summary>
+            get/set TaxSummaryDataReport object
+            </summary>
+        </member>
+        <member name="P:AutoCount.Tax.Philippines.VATProcessorEntity.JEDocKey">
+            <summary>
+            get/set JEDocKey object
+            </summary>
+        </member>
+        <member name="P:AutoCount.Tax.Philippines.VATProcessorEntity.Amendment">
+            <summary>
+            get/set Amendment object
+            </summary>
+        </member>
+        <member name="P:AutoCount.Tax.Philippines.VATProcessorEntity.Period">
+            <summary>
+            get/set Period object
+            </summary>
+        </member>
+        <member name="P:AutoCount.Tax.Philippines.VATProcessorEntity.Quarter">
+            <summary>
+            get/set Quarter object
+            </summary>
+        </member>
+        <member name="P:AutoCount.Tax.Philippines.VATProcessorEntity.TaxRelief">
+            <summary>
+            get/set TaxRelief object
+            </summary>
+        </member>
+        <member name="P:AutoCount.Tax.Philippines.VATProcessorEntity.ShortPeriodReturn">
+            <summary>
+            get/set ShortPeriodReturn object
+            </summary>
+        </member>
+        <member name="P:AutoCount.Tax.Philippines.VATProcessorEntity.TotalAmountPayable">
+            <summary>
+            get TotalAmountPayable object
+            </summary>
+        </member>
+        <member name="P:AutoCount.Tax.Philippines.VATProcessorEntity.ProductVersion">
+            <summary>
+            get/set ProductVersion object
+            </summary>
+        </member>
+        <member name="P:AutoCount.Tax.Philippines.VATProcessorEntity.VATVersion">
+            <summary>
+            get VATVersion object
+            </summary>
+        </member>
+        <member name="P:AutoCount.Tax.Philippines.VATProcessorEntity.JEDocDate">
+            <summary>
+            get/set JEDocDate object
+            </summary>
+        </member>
+        <member name="P:AutoCount.Tax.Philippines.VATProcessorEntity.JEDocNo">
+            <summary>
+            get/set JEDocNo object
+            </summary>
+        </member>
+        <member name="P:AutoCount.Tax.Philippines.VATProcessorEntity.JEDocNoFormat">
+            <summary>
+            get/set JEDocNoFormat object
+            </summary>
+        </member>
+        <member name="P:AutoCount.Tax.Philippines.VATProcessorEntity.IsJEDocExist">
+            <summary>
+            get/set IsJEDocExist object
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.DateRangeIncorrectly">
+            <summary>
+            The date range is set incorrectly, 'From' date is larger then 'To' date.\nPlease set it again.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.HideOptions">
+            <summary>
+            Hide &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.ShowOptions">
+            <summary>
+            Show &amp;Options
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.SelectFileTypeToGenerate">
+            <summary>
+            Please select which type of file you want to generate.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.SelectTypeofVATAttachmentFileToExport">
+            <summary>
+            Please select type of VAT Attachment file you want to export.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.VATProcessorCannotExportSTAttachmentA">
+            <summary>
+            Cannot export Lampiran A because this processor does not contain related outstanding tax info. Please use VAT instant info to generate this report. 
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.VATProcessorFileSaveSuccessfully">
+            <summary>
+            2550Q Processor file has saved successfully.\nDo you want to open it?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.VATReturnFileSaveSuccessfully">
+            <summary>
+            VAT Return file has saved successfully.\nDo you want to open it?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.VATAttachmentAFileSaveSuccessfully">
+            <summary>
+            VAT Attachment A file has saved successfully.\nDo you want to open it?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.SaveVATProcessorFile">
+            <summary>
+            Where do you want to save the 2550Q Processor file?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.SaveVATReturnFile">
+            <summary>
+            Where do you want to save the VAT Return file?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.SaveVATAttachmentAFile">
+            <summary>
+            Where do you want to save the VAT Attachment A file?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.ConfirmMsg_GenerateJE">
+            <summary>
+            The following journal entry will be generated, do you want to continue?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.VATControlDesc">
+            <summary>
+            VAT Control as at {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.ShowMsg_EnterDocumentNo">
+            <summary>
+            Please enter a document number.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.Code_JournalEntryForVATSubmitted">
+            <summary>
+            Journal Entry for VAT Committed
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.Code_NextPossibleNo">
+            <summary>
+            {0} - [Next Possible No: {1}]
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.ShowMsg_DoNotNeedToPayTax">
+            <summary>
+            Do not need to pay tax.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.ShowMessage_ADMINPasswordRequired">
+            <summary>
+            ADMIN password required
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.ShowMessage_EnterADMINPassword">
+            <summary>
+            Please enter the ADMIN password in order to perform this operation.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.ShowErrorMessage_OutOfMemorySolution">
+            <summary>
+            Out of memory error.\r\nTo avoid this error, you can do one of the following two options.\r\n\r\nOption 1: Re-login again and straight go to run this function.\r\nOption 2: Install {0} 64-bit and re-run this function.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.ShowErrorMessage_VATStartDateMustBeOnOrAfterVATStartDate">
+            <summary>
+            VAT From Date {0} must be on or after VAT Start Date {1}.\r\nPlease maintain VAT Start Date at Configure Tax Code Maintenance.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.ShowErrorMessage_VATStartDateMustBeOnOrAfterActualStartDate">
+            <summary>
+            VAT Start Date {0} must be on or after Actual Start Date {1}.\r\nPlease maintain VAT Start Date at Configure Tax Code Maintenance.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.ShowErrorMessage_TaxableDateRange">
+            <summary>
+            Taxable date range must within 3 months.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.ShowErrorMessage_VATControlAccNoCannotBeEmpty">
+            <summary>
+            VAT Control AccNo cannot be empty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.ShowErrorMessage_VATPenaltyAccNoCannotBeEmpty">
+            <summary>
+            VAT Penalty AccNo cannot be empty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.ConfirmMessage_GenerateVATReturn">
+            <summary>
+            Congratulation! You are ready to generate VAT Return for period {0} to {1}.\n\nDo you want to generate VAT Return now?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.ConfirmMessage_UnpostingPOSTransaction">
+            <summary>
+            VAT Return for period {0} to {1} has POS transaction that has not POS posting.\n\nDo you want to continue generate VAT Return now?\n(Note: If continue, unposting POS transaction tax will not claim in VAT Return.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.FromDate">
+            <summary>
+            From Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.ToDate">
+            <summary>
+            To Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.Committed">
+            <summary>
+            Committed
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.Period">
+            <summary>
+            Period
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.Quarter">
+            <summary>
+            Quarter
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.TaxRelief">
+            <summary>
+            Tax Relief
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.ShortPeriodReturn">
+            <summary>
+            Short Period Return
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.TotalAmountPayable">
+            <summary>
+            Total Amount Payable
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.To">
+            <summary>
+            to
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.NewVATProcessor">
+            <summary>
+            New 2550Q Processor: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.EditVATProcessor">
+            <summary>
+            Edit 2550Q Processor: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.DeleteVATProcessor">
+            <summary>
+            Delete 2550Q Processor: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.ResetVATProcessor">
+            <summary>
+            Reset 2550Q Processor: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.CreatedNewVATProcessor">
+            <summary>
+            {0} created new 2550Q Processor ({1}).
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.UpdatedVATProcessor">
+            <summary>
+            {0} updated 2550Q Processor ({1}).
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.DeletedVATProcessor">
+            <summary>
+            {0} deleted 2550Q Processor ({1}).
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.ResetbyDeletedVATProcessor">
+            <summary>
+            {0} reset 2550Q Processor ({1}).
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.ViewedVATProcessor">
+            <summary>
+            {0} viewed 2550Q Processor ({1}).
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.CannotLoadVATProcessorDate">
+            <summary>
+            Cannot load 2550Q Processor Date.The latest 2550Q Processor not committed yet.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.CannotCreateNewVATProcessor">
+            <summary>
+            Cannot create new 2550Q Processor.The latest 2550Q Processor not committed yet.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.CannotCreateNewVATProcessorAmendmentNotExist">
+            <summary>
+            Cannot create new 2550Q Processor Amendment.The 2550Q Processor does not exist.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.CannotCreateNewVATProcessorAmendment">
+            <summary>
+            Cannot create new 2550Q Processor Amendment.The 2550Q Processor not committed yet.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.CannotFindVATProcessor">
+            <summary>
+            Cannot find 2550Q Processor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.TaxSummaryTableDoesNotContainsTaxAccNo">
+            <summary>
+            Tax Summary table does not contains TaxAccNo column.\r\nThis 2550Q Processor generated by previous version not compatible with current 2550Q Processor structure.\r\nYou need to delete or reset 2550Q Processor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.PreviousTaxSummaryTableDoesNotContainsTaxAccNo">
+            <summary>
+            Previous Tax Summary table does not contains TaxAccNo column.\r\nThis 2550Q Processor generated by previous version not compatible with current 2550Q Processor structure.\r\nYou need to delete or reset 2550Q Processor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.UnableGenerateJournalEntry">
+            <summary>
+            Unable to generate journal entry because earlier sequence of amendment didn't have journal entry yet.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.UnableDeleteVATProcessorHaveBeenCommitted">
+            <summary>
+            Unable to delete 2550Q Processor. It have been committed.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.VATProcessorString.UnableDeleteVATProcessorAmendmentnotLatest">
+            <summary>
+            Unable to delete this 2550Q Processor Amendment which sequence is not latest.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormConfigureWHT.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormConfigureWHT.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormConfigureWHT.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormConfigureWHTStringId.ObsoleteWithholdingTaxCode">
+            <summary>
+            Withholding Tax Code \"{0}\" has been marked as obsolete. User can no longer use or active it.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormConfigureWHTStringId.RemoveAccountConfirmation">
+            <summary>
+            Some of Withholding Tax Code is using this Account value {0}.\r\nDo you want to remove this Account value {0} from withholding tax code?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormConfigureWHTStringId.ConfigurePhilippinesWHT">
+            <summary>
+            Configure Withholding Tax
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormConfigureWHTStringId.ProposedTaxAccount">
+            <summary>
+            Proposed {0} Account
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormConfigureWHTStringId.GenerateProposedTaxAccount">
+            <summary>
+            Do you wish to generate Proposed Withholding Tax Account?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormConfigureWHTStringId.ConfirmMessage_AutomaticallyApplyTaxAccount">
+            <summary>
+            Do you want to automatically apply this Tax Account value {0} to other rows?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormConfigureWHTStringId.ErrorEmptyProposedAccNo">
+            <summary>
+            You must enter a Proposed Account No.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormConfigureWHTStringId.ErrorDuplicateProposedAccNo">
+            <summary>
+            The proposed account number is already exist in the system, please enter other value.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormConfigureWHTStringId.ErrorTaxRateGreaterOrEqualToZero">
+            <summary>
+            The Tax Rate must greater or equal to zero.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormConfigureWHTStringId.ErrorEmptyTaxAccNo">
+            <summary>
+            You must enter a Tax Account.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormConfigureWHTStringId.TTypeMaint_TaxAcctDoesNotExist">
+            <summary>
+            Tax Account does not exist.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormConfigureWHTStringId.TTypeMaint_InvalidTaxAcct2">
+            <summary>
+            Tax Account must be either local currency code or same as tax based currency code.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormConfigureWHTStringId.TTypeMaint_InvalidTaxAcct">
+            <summary>
+            Tax Account must be local currency code.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormConfigureWHTStringId.Code_WithholdingTaxCode">
+            <summary>
+            Withholding Tax Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormConfigureWHTStringId.ErrorCreditableAccountHasBeenReferenced">
+            <summary>
+            Unable to delete the Creditable Account because the Withholding Tax Code {0} has been referenced by {1}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormConfigureWHTStringId.ErrorPayableAccountHasBeenReferenced">
+            <summary>
+            Unable to delete the Payable Account because the Withholding Tax Code {0} has been referenced by {1}.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormWithholdingTaxMaintenance.#ctor(AutoCount.Authentication.UserSession)">
+            <summary>
+            Constructor for FormWithholdingTaxMaintenance
+            </summary>
+            <param name="userSession"></param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormWithholdingTaxMaintenance.UpdateDataSet(AutoCount.Data.DBSetting,System.Data.DataSet,AutoCount.Application.AsyncDataSetUpdateAction)">
+            <summary>
+            Update Data Set
+            </summary>
+            <param name="ds"></param>
+            <param name="action"></param>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormWithholdingTaxMaintenance.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormWithholdingTaxMaintenance.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.FormWithholdingTaxMaintenance.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormWithholdingTaxMaintenanceStringId.UnableToFindWithholdingTaxCode">
+            <summary>
+            Unable to find withholding tax code '{0}' to edit, it might be deleted by other users.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormWithholdingTaxMaintenanceStringId.OpenedWithholdingTaxMaintenanceWindow">
+            <summary>
+            {0} opened Withholding Tax Maintenance window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormWithholdingTaxMaintenanceStringId.Receipt">
+            <summary>
+            Receipt
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.FormWithholdingTaxMaintenanceStringId.Payment">
+            <summary>
+            Payment
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tax.Philippines.XtraReportBIR2307.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.XtraReportBIR2307.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tax.Philippines.XtraReportBIR2307.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>

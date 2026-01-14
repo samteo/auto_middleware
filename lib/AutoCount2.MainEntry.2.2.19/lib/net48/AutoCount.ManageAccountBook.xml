@@ -1,0 +1,1080 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AutoCount.ManageAccountBook</name>
+    </assembly>
+    <members>
+        <member name="F:AutoCount.Tools.FormSetCountryForEuroCurrencyUser.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tools.FormSetCountryForEuroCurrencyUser.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tools.FormSetCountryForEuroCurrencyUser.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.SetCountryForEuroCurrencyUserString.PleaseSelectACountry">
+            <summary>
+            Please choose a Country to represent System Currency Code.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.SetCountryForEuroCurrencyUserString.ConfirmCountryRepresent">
+            <summary>
+            Are you sure you want to use ({0}) as your Country to represent ({1}) for this account book? \n\r(Note : You are not able to change it again later on. Please choose it carefully.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FormUpgradeToCountrySettings.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tools.FormUpgradeToCountrySettings.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tools.FormUpgradeToCountrySettings.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.UpgradeToCountrySettingStrings.PleaseSelectATaxBaseCurrencyCode">
+            <summary>
+            Please choose a New Tax Base Currency Code.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.UpgradeToCountrySettingStrings.CurrencyCodeNotExistInCurrencyMaintenance">
+            <summary>
+            The Currency Code ({0}) does not exist in this account book. \n\rPlease maintain it at Currency Maintenance before upgrading it to latest version. 
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.UpgradeToCountrySettingStrings.TaxBaseCurrencyCodeIsUnrecognized">
+            <summary>
+            Unrecognized Tax Base Currency Code ({0}) in this account book. Please choose an action to correct it.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.UpgradeToCountrySettingStrings.ConfirmChangeCurrencyCode">
+            <summary>
+            Are you sure you want to use ({0}) as Tax Base Currency Code for this account book? \n\r(Note : You are not able to change it later on. Please choose it carefully.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.UpgradeToCountrySettingStrings.TaxBaseCurrencyCodeIsEmptyAndNewCountryCodeNotExist">
+            <summary>
+            Note: ({0}) and ({1} does not exist in Currency Maintenance of this account book, system will add ({2}) into Currency Maintenance of this account book.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.UpgradeToCountrySettingStrings.TaxBaseCurrencyCodeIsNotEmptyAndNewCountryCodeNotExist">
+            <summary>
+            Note: ({0}) does not exist in Currency Maintenance of this account book, system will change currency code from ({1}) to ({2}).
+            </summary>
+        </member>
+        <member name="T:AutoCount.Tools.AccountBookInstaller.FormBrowser">
+            <summary>
+            Summary description for FormBrowser.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.AccountBookInstaller.FormBrowser.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tools.AccountBookInstaller.FormBrowser.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tools.AccountBookInstaller.FormBrowser.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Tools.AccountBookInstaller.FormInstallerOption">
+            <summary>
+            Summary description for FormInstallerOption.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.AccountBookInstaller.FormInstallerOption.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tools.AccountBookInstaller.FormInstallerOption.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tools.AccountBookInstaller.FormInstallerOption.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Tools.AccountBookInstaller.InstallerHelper">
+            <summary>
+            Summary description for InstallerHelper.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.CheckInclusiveTaxStringId.WindowSecurityDoesNotAllowToCreateLogFile">
+            <summary>
+            Your windows security does not allow you to create this log file {0}. Please specify another folder.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.CheckInclusiveTaxStringId.TotalDocumentsHaveBothInclusiveAndExclusive">
+            <summary>
+            There are total {0} documents found to have both Inclusive and Exclusive Tax Code, you can ignore it or fix it manually, press OK to show the details.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.CheckInclusiveTaxStringId.DocumentsHaveBothInclusiveAndExclusive">
+            <summary>
+            There are {0} documents in {1} that have both Inclusive and Exclusive Tax Code.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.CheckInclusiveTaxStringId.Line012">
+            <summary>
+            Line {0}: {1}, {2}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FormGetScriptPassword.FormGetScriptPassworStringId.ShowErrorMsg_PleaseFillInPassword">
+            <summary>
+            Please fill in password.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FormGetScriptPassword.FormGetScriptPassworStringId.ShowErrorMsg_InvalidPassword">
+            <summary>
+            Invalid Password
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FormGetScriptPassword.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tools.FormGetScriptPassword.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tools.FormGetScriptPassword.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FormScriptResult.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tools.FormScriptResult.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tools.FormScriptResult.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FormScriptResultStringId.SomeAppScriptsOrUserReportsWillNotRunInThisVersionACAccounting">
+            <summary>
+            There are some application scripts or user reports which will not run in this version of AutoCount Accounting. Do you still want to upgrade?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FormScriptResultStringId.PleaseFillInEmailAddress">
+            <summary>
+            Please fill in email address.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FormScriptResultStringId.PleaseFillInContactPerson">
+            <summary>
+            Please fill in contact person.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FormScriptResultStringId.PleaseFillInContactNumber">
+            <summary>
+            Please fill in contact number.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FormScriptResultStringId.SuccessfulSendEMail">
+            <summary>
+            You have successful send mail.\r\nYour vendor will solve your problem within 2 working days. If not, please contact your vendor
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FormUpgradeLicenseKey.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tools.FormUpgradeLicenseKey.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tools.FormUpgradeLicenseKey.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FormUpgradeLicenseKeyStringId.UpgradeLicenseKey">
+            <summary>
+            Upgrade License Key to {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FormUpgradeLicenseKeyStringId.ShowErrorMsg_LicenseHasBeenUsed">
+            <summary>
+            License has been used.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FormUpgradeLicenseKeyStringId.ShowErrorMsg_InvalidLicenseKey">
+            <summary>
+            Invalid license key.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FormUpgradeLicenseKeyStringId.ShowErrorMsg_PleaseEnterALicenseKey">
+            <summary>
+            Please enter a license key.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FormUpgradeLicenseKeyStringId.ShowErrorMsg_ThisAccBookDidntRegisterYet">
+            <summary>
+            This account book didn't register yet.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FormUpgradeScript.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tools.FormUpgradeScript.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tools.FormUpgradeScript.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FormUpgradeScriptStringId.UpgradeScript">
+            <summary>
+            Upgrade Script from  {0} to {1}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FormUserReportConverterLink.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tools.FormUserReportConverterLink.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tools.FormUserReportConverterLink.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Tools.DBVersionChecker">
+            <summary>
+            Summary description for DBVersionChecker.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Tools.AutoAccessRightUpdate">
+            <summary>
+            AutoAccessRightUpdate implements the automatic update of access right.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tools.AutoAccessRightUpdate.UpdateModuleSettingAccessRight">
+            <summary>
+            This is a temporary method to change SYS_MODULE_xxxx access rights to TOOLS_MODULESETTING_xxxx
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DBVersionCheckerStringId.UnableToGetManifestResource">
+            <summary>
+            Unable to get manifest resource {0}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DBVersionCheckerStringId.ErrorUpgradeToCountrySettings">
+            <summary>
+            Please use AutoCount Accounting (ver: 2.1.5) to login to this account book before upgrading it to latest version. \n\rError Messages : \n\r{0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DBVersionCheckerStringId.AutoCountPOSDBInstalled">
+            <summary>
+            {0} has found AutoCount POS database was installed in this account book, by upgrading this account book, \n\rall of your AutoCount POS in this PC or linked to this PC or synchronized from other branches must be upgraded to version {1}. Are you sure you want to continue with the upgrade?\n\n(Note: It is advisable to seek help from your dealer.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DBVersionCheckerStringId.SureYouWantToContinueWithUpgrade">
+            <summary>
+            Are you sure you want to continue with the upgrade?\n\n(Note: It is advisable to seek help from your dealer.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.DBVersionCheckerStringId.InconsistentIPHISTCount">
+            <summary>
+            System found that the Price History Table (IPHIST) is not consistent with its sources. It is advice to run Rebuild Price History to ensure the data are correct.\r\n(Management Studio > Data Consistency > Rebuild Price History)
+            </summary>
+        </member>
+        <member name="T:AutoCount.Tools.FixARAPNewRounding">
+            <summary>
+            Summary description for FixARAPNewRounding.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Tools.FixGLNewRounding">
+            <summary>
+            Summary description for FixGLNewRounding.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Tools.FixSalesPurchaseNewRounding">
+            <summary>
+            Summary description for FixNewRounding.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Tools.FormUpgradeDatabase">
+            <summary>
+            Summary description for FormUpgradeDatabase.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FormUpgradeDatabase.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tools.FormUpgradeDatabase.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tools.FormUpgradeDatabase.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.AccountBookInstallerStringId.Loading">
+            <summary>
+            Loading....
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.AccountBookInstallerStringId.Done">
+            <summary>
+            Done
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.AccountBookInstallerStringId.ErrorMessage_InvalidSampleAccountBook">
+            <summary>
+            This file is not a valid {0} Sample Account Book file. Please select again.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.AccountBookInstallerStringId.ErrorMessage_FileNotExist">
+            <summary>
+            The file does not exist.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.AccountBookInstallerStringId.ErrorMessage_DoesNotAppear">
+            <summary>
+            A download does not appear to be in progress.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.AccountBookInstallerStringId.ErrorMessage_NoCDROMOrDisk">
+            <summary>
+            Either there is no CDROM drive installed in this PC or no disk inserted in the drive.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.AccountBookInstallerStringId.ErrorMessage_InsertToCDROM">
+            <summary>
+            Unable to locate {0} sample account book from CDROM, please insert {0} CDROM.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.AccountBookInstallerStringId.ErrorMessage_InvalidSampleAccountBookList">
+            <summary>
+            This is not a valid {0} Sample Account Book List. Please select again.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.AccountBookInstallerStringId.ErrorMessage_DatabaseCannotUpgradeToNewForeignKeySchema">
+            <summary>
+            Your database does not allow to upgrade to new Foreign Key schema, please backup the file and send to BCE for manually repair, during this period, please do not enter any data until BCE send back the data.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.AccountBookInstallerStringId.ErrorMessage_CheckDBVersion">
+            <summary>
+            This is not {0}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.AccountBookInstallerStringId.ErrorMessage_UnknownDBVersion">
+            <summary>
+            Unknown Database version {0}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.AccountBookInstallerStringId.ConfirmMessage_DownloadNotComplete_Exit">
+            <summary>
+            The sample account book download has not completed. Are you sure you want to exit?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.AccountBookInstallerStringId.ConfirmMessage_DocumentNumberingFormat">
+            <summary>
+            There are {0} 'Document Numbering Format with each month different running number set' have been set to Year 2006,\ndo you want to copy the numbering of Year 2006 to year 2007?\n(Note: If you want to let the number start from 1 for year 2007, then please choose No.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.AccountBookInstallerStringId.ConfirmMessage_Upgrade">
+            <summary>
+            Do you really want to upgrade?\n(Note: Once upgraded, other users on the network must also upgrade their program to this version.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.AccountBookInstallerStringId.ShowMessage_InstallSuccessfully">
+            <summary>
+            Install sample account book successfully.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.AccountBookInstallerStringId.ShowMessage_InstallLatestVersion">
+            <summary>
+            Your current database version {0} is later than the database version supported by this application (Version: {1}), please acquire and install latest application.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.AccountBookInstallerStringId.ShowMessage_UpgradePlugin">
+            <summary>
+            This account book contains plug-in(s): {1} that will not work with {0} version 1.8.8 or later. Before continue with the upgrade,\nyou should contact your dealer or software vendor to obtain a newer version of the plug-in(s) that are compatible with {0} version 1.8.8 or later.\nDo you still want to continue with the upgrade?\n\n(Caution: If you continue upgrade and you don't have the newer version of the plug-in(s), your system will not run properly immediately.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.AccountBookInstallerStringId.ShowMessage_UpgradePOSPlugin">
+            <summary>
+            This account book contains AutoCount POS Back-end plug-in that will not work with {0} version 1.8.8 or later. Before continue with the upgrade,\nyou should contact your dealer or software vendor to obtain a newer version of AutoCount POS version 3.0.4 or later.\nDo you still want to continue with the upgrade?\n\n(Caution: If you continue upgrade and you don't have the correct version of AutoCount POS, your POS Back-end will not run properly immediately.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.AccountBookInstallerStringId.ShowMessage_NeitherRMNorMYR">
+            <summary>
+            The system has detected your system currency is neither RM nor MYR. If you continue upgrade to this version, you have to get new license code from software vendor. Do you still want to continue?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.AccountBookInstallerStringId.Progress_DownloadStarting">
+            <summary>
+            Download starting...
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.AccountBookInstallerStringId.Progress_DownloadOutOfPercentage">
+            <summary>
+            Downloaded {0} out of {1} ({2}%)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.AccountBookInstallerStringId.Progress_DownloadStopped">
+            <summary>
+            Download stopped
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.AccountBookInstallerStringId.Progress_DownloadResuming">
+            <summary>
+            Download Resuming
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.AccountBookInstallerStringId.Code_Pause">
+            <summary>
+            Pause
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.AccountBookInstallerStringId.Code_Resume">
+            <summary>
+            Resume
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.AccountBookInstallerStringId.Code_InstallFromCDROM">
+            <summary>
+            Install from {0} &amp;CDROM
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.AccountBookInstallerStringId.Code_VersionInfo">
+            <summary>
+            To allow this version of {3} (ver: {0}) to run on this Account Book, the system needs to upgrade your current Account Book from version {1} to version {2}, do you want to upgrade?\n(Note: You can backup a set of current Account Book if needed)
+            </summary>
+        </member>
+        <member name="T:AutoCount.BusinessFlow.UpgradeDRP.UpgradeDRP">
+            <summary>
+            Summary description for UpgradeDRP.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.FormConfirmCreateAccountBookMessage.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.ManageAccountBook.FormConfirmCreateAccountBookMessage.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.ManageAccountBook.FormConfirmCreateAccountBookMessage.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.ManageAccountBook.AccountBookHelper">
+            <summary>
+            Summary description for AccountBookHelper.
+            </summary>
+        </member>
+        <member name="T:AutoCount.ManageAccountBook.AccountBookHelperSQL">
+            <summary>
+            Summary description for AccountBookHelperSQL.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.AccountBookHelperStringId.UnableToGetManifestResource">
+            <summary>
+            Unable to get manifest resource {0}.
+            </summary>
+        </member>
+        <member name="T:AutoCount.ManageAccountBook.FormAttachAccountBook">
+            <summary>
+            Summary description for FormAttachAccountBook.
+            </summary>
+        </member>
+        <member name="M:AutoCount.ManageAccountBook.FormAttachAccountBook.IsTargetSQLServer(AutoCount.Data.DBSetting)">
+            <summary>
+            This method is used to verify whether the SQL Server conforms to the minimum requirement, which is SQL Server 2005.
+            </summary>
+            <param name="dbSetting">A DBSetting object</param>
+            <returns>True if it is conformed, false if not.</returns>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.FormAttachAccountBook.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.ManageAccountBook.FormAttachAccountBook.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.ManageAccountBook.FormAttachAccountBook.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.ManageAccountBook.FormAttachDatabase">
+            <summary>
+            Summary description for FormAttachDatabase.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.FormAttachDatabase.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.ManageAccountBook.FormAttachDatabase.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.ManageAccountBook.FormAttachDatabase.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.ManageAccountBook.FormCreateAccountBookWizard">
+            <summary>
+            Summary description for FormCreateAccountBookWizard.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.FormCreateAccountBookWizard.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.ManageAccountBook.FormCreateAccountBookWizard.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.ManageAccountBook.FormCreateAccountBookWizard.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.AccountBookString.FailedCopyMasterData">
+            <summary>
+            "Failed to copy master data from other account book, please choose account book with database version same or higher than 2.1.4.
+            </summary>
+        </member>
+        <member name="T:AutoCount.ManageAccountBook.FormEditAccountBook">
+            <summary>
+            Summary description for FormAttachAccountBook.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.FormEditAccountBook.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.ManageAccountBook.FormEditAccountBook.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.ManageAccountBook.FormEditAccountBook.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.ManageAccountBook.FormManageAccountBook">
+            <summary>
+            Summary description for FormManageAccountBook.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.FormManageAccountBook.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.ManageAccountBook.FormManageAccountBook.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.ManageAccountBook.FormManageAccountBook.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.ManageAccountBook.FormSetMainServer">
+            <summary>
+            Summary description for FormAttachAccountBook.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.FormSetMainServer.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.ManageAccountBook.FormSetMainServer.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.ManageAccountBook.FormSetMainServer.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.Label_SQLConnection">
+            <summary>
+            Connected to SQL Server : {0}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.Label_AutoCountServerFound">
+            <summary>
+            AutoCount Server is found on {0}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.Label_AutoCountServerNotFound">
+            <summary>
+            AutoCount Server is not found on {0}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.Label_AutoCountServerFoundNote">
+            <summary>
+            * Note : Database Folder can be maintained at \r\nFile -> Manage AutoCount Server -> Server Setting -> Backup/Restore Setting.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.Label_AutoCountServerNotFoundNote">
+            <summary>
+            * Note : AutoCount Server not found. Please enter the Database Folder manually.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ErrorMessage_InvalidSQLServerVersion">
+            <summary>
+            {0} needs SQL Server 2012 and above, but your version is {1}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ErrorMessage_InvalidSampleChart">
+            <summary>
+            Invalid Sample Chart of Accounts Template File {0}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ErrorMessage_ErrorSynchronizeWithDatabaseServer">
+            <summary>
+            Error while synchronize with database server {0}, however, you still can continue your work.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ErrorMessage_ProvideServerName">
+            <summary>
+            Please provide a Server Name.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ErrorMessage_ProvideDatabaseName">
+            <summary>
+            Please provide a Database Name.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ErrorMessage_IncorrectDatabase">
+            <summary>
+            The database is not a {0} Database.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ErrorMessage_SpecifySQL2000DataFileName">
+            <summary>
+            Please specify a SQL 2000 Data file name.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ErrorMessage_DatabaseNameExist">
+            <summary>
+            The database name is already exists, please use other.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ErrorMessage_SpecifyCompanyName">
+            <summary>
+            Please specify a Company Name.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ErrorMessage_SpecifyDatabaseName">
+            <summary>
+            Please specify a Database Name.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ErrorMessage_SpecifyDatabaseFolder">
+            <summary>
+            Please specify a Database Folder.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ErrorMessage_TestConnectionFailed">
+            <summary>
+            Test connection failed.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ErrorMessage_DatabaseNameExist_Parameter">
+            <summary>
+            Database Name {0} already exists, please use other database name.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ErrorMessage_FiscalStartDateMustStartFromDay1">
+            <summary>
+            Fiscal Year Start Date must start from day 1 of the month.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ErrorMessage_ActualStartDateCannotEarlierThanFiscalStartDate">
+            <summary>
+            Actual Data Start Date cannot earlier than Fiscal Year Start Date.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ErrorMessage_ActualStartDateMustStartFromDay1">
+            <summary>
+            Actual Data Start Date must start from day 1 of the month.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ErrorMessage_ActualStartDateCannotMoreThan1yearFromFiscalStartDate">
+            <summary>
+            Actual Data Start Date cannot equal or greater than 1 year from Fiscal Year Start Date.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ErrorMessage_ChooseSystemCurrency">
+            <summary>
+            You must choose a System Currency.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ErrorMessage_NotAllowEmptyTaxCode">
+            <summary>
+            Tax Code name cannot empty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ErrorMessage_ChooseMainPackage">
+            <summary>
+            You must choose at least one Main Package.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ErrorMessage_InvalidCharacters">
+            <summary>
+            Invalid characters found in Account Code Format.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ErrorMessage_ChooseAccountBookToCopy">
+            <summary>
+            You must choose an account book to copy from.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ErrorMessage_OnlyADMINCanDeleteAccountBook">
+            <summary>
+            Only ADMIN is allowed to delete account book.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ErrorMessage_CannotDeleteCurrentWorkingAccountBook">
+            <summary>
+            You cannot delete current working account book.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ErrorMessage_AccountBookMarkAsNonDeletable">
+            <summary>
+            This account book was marked as Non-Deletable. You can use Detach Account Book to remove from your list.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ErrorMessage_OnlyADMINCanDetachAccountBook">
+            <summary>
+            Only ADMIN is allowed to detach account book.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ErrorMessage_CannotDetachCurrentWorkingAccountBook">
+            <summary>
+            You cannot detach current working account book.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ErrorMessage_OnlyADMINCanPerform">
+            <summary>
+            Only ADMIN is allow to perform this function.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ErrorMessage_CannotUpgradeBecauseOfBonusPointTransactions">
+            <summary>
+            {0} cannot upgrade this account book because it has found some Bonus Point Transactions were created.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ErrorMessage_NoCompanyProfile">
+            <summary>
+            No record in Company Profile.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ConfirmMessage_CreateAccountBookCodeSize">
+            <summary>
+            Do you want to create your account book using the following special code size?\n(Note: If you choose No, the system will create using standard code size.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ConfirmMessage_NoPasswordSpecify">
+            <summary>
+            There is no password specify, do you still want to continue?
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ConfirmMessage_CancelCreateAccountBook">
+            <summary>
+            Do you want to cancel Create Account Book?
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ConfirmMessage_DeleteAccountBook">
+            <summary>
+            Do you really want to delete this account book {0}?
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ConfirmMessage_DeleteAccountBook_Note">
+            <summary>
+            Are you sure really want to delete this account book {0}?\n(Note: Once deleted, you can't get back the data, unless you have backup copy)
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ConfirmMessage_DetachAccountBook">
+            <summary>
+            Do you really want to detach this account book {0}?
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ConfirmMessage_SynchronizeMainDatabaseServer">
+            <summary>
+            Do you want to synchronize with the Main Database Server?
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ConfirmMessage_CountryAndHomeCurrencyCodeDifferent">
+            <summary>
+            You are choosing a Home Currency that is different from your Country Currency ({0}), you need to purchase International License or add Advanced Multi-Currency module. \nInternational License pricing will be higher. Do you still want to continue?
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ConfirmMessage_AddScheduledBackup">
+            <summary>
+            Do you want to add this account book to scheduled backup task on AutoCount Server?
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ErrorMessage_InvalidResetPasswordKey">
+            <summary>
+            Invalid Reset Password Key!
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ErrorMessage_EmptyCountry">
+            <summary>
+            Country cannot be empty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ShowMessage_ProjectCodeSize">
+            <summary>
+            Project Code Size is {0}, standard is 10.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ShowMessage_DepartmentCodeSize">
+            <summary>
+            Department Code Size is {0}, standard is 10.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ShowMessage_LocationCodeSize">
+            <summary>
+            Location Code Size is {0}, standard is 8.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ShowMessage_ItemGroupCodeSize">
+            <summary>
+            Item Group Code Size is {0}, standard is 8.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ShowMessage_ItemTypeCodeSize">
+            <summary>
+            Item Type Code Size is {0}, standard is 12.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ShowMessage_ItemCodeSize">
+            <summary>
+            Item Code Size is {0}, standard is 30.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ShowMessage_ItemUOMCodeSize">
+            <summary>
+            Item UOM Code Size is {0}, standard is 8.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ShowMessage_AccNoCodeSize">
+            <summary>
+            Account No. Code Size is {0}, standard is 12.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ShowMessage_AreaCodeSize">
+            <summary>
+            Area Code Size is {0}, standard is 12.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ShowMessage_FillInfoToAttachAccountBook">
+            <summary>
+            Please fill in the following information in order to attach {0} Account Book.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ShowMessage_DatabaseAttachedSuccessfully">
+            <summary>
+            Database is successfully attached.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ShowMessage_StandaloneNote">
+            <summary>
+            (Note: Choose this option if you have installed the SQL Express in this PC using the {0} Setup program.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ShowMessage_ChooseFrom3Options">
+            <summary>
+            Please choose at least one of the option from Copy Chart of Accounts, Copy Stock Items, or Copy Reports &amp; Grid Layout.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ShowMessage_TestConnectionSuccess">
+            <summary>
+            Test connection success.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ShowMessage_ScheduledBackupAdded">
+            <summary>
+            Scheduled Backup Task added successfully.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ShowMessage_AccountBookCreatedSuccessfully">
+            <summary>
+            The account book is created successfully.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ShowMessage_AccountBookDeletedSuccessfully">
+            <summary>
+            The account book was successfully deleted.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ShowMessage_AccountBookDetachedSuccessfully">
+            <summary>
+            The account book was successfully detached.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ShowMessage_CurrentAccountBookControlFilePath">
+            <summary>
+            Current Account Book Control File Path: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ShowMessage_ADMINPasswordRequired">
+            <summary>
+            ADMIN password required
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ShowMessage_EnterADMINPassword">
+            <summary>
+            Please enter the ADMIN password in order to perform this operation.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.ShowMessage_SuccessfullyResetADMINPassword">
+            <summary>
+            The user ADMIN's password is successfully reset to 'ADMIN'.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.WarningMessage_NotAllowModify">
+            <summary>
+            Your windows system security does not allow you to modify to Account Book Management File, so most of the functions in this window will be disabled.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.WarningMessage_CostingServiceActive">
+            <summary>
+            AutoCount Costing Service is currently active, please ensure the service is stopped to delete this Account Book.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.Code_Finish">
+            <summary>
+            Finish
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.Code_Next">
+            <summary>
+            Next
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.Code_NotSet">
+            <summary>
+            (not set)
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManageAccountBook.ManageAccountBookStringId.Code_SynchronizeAll">
+            <summary>
+            Synchronize All Account Books with Database Server {0}
+            </summary>
+        </member>
+        <member name="T:AutoCount.ManageAccountBook.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:AutoCount.ManageAccountBook.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:AutoCount.ManageAccountBook.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

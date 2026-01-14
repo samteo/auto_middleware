@@ -1,0 +1,2070 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AutoCount.StartScreen</name>
+    </assembly>
+    <members>
+        <member name="T:AutoCount.ARAP.AgingChart.AgingChart">
+            <summary>
+            Aging Chart
+            </summary>
+        </member>
+        <member name="M:AutoCount.ARAP.AgingChart.AgingChart.Create(AutoCount.Authentication.UserSession,System.Byte[])">
+            <summary>
+            Create an instance of AgingChart based on the Database setting
+            </summary>
+            <param name="userSession">User Session</param>
+            <param name="criteriaData">Criteria Data in byte array, if this parameter is null, will create a default criteria</param>
+            <returns>AgingChart</returns>
+        </member>
+        <member name="M:AutoCount.ARAP.AgingChart.AgingChart.SetupChartControl(DevExpress.XtraCharts.ChartControl,System.Data.DataTable)">
+            <summary>
+            Perform binding of table to ChartControl and setup the parameter of the ChartControl.
+            </summary>
+            <param name="chartControl">DevExpress.XtraCharts.ChartControl</param>
+            <param name="table">DataTable to show in the ChartControl</param>
+        </member>
+        <member name="P:AutoCount.ARAP.AgingChart.AgingChart.Criteria">
+            <summary>
+            Get the AgingChartCriteria
+            </summary>
+        </member>
+        <member name="M:AutoCount.ARAP.AgingChart.AgingChart.ShowEditCriteriaWindow(System.Windows.Forms.IWin32Window)">
+            <summary>
+            Perform your actual edit criteria window, if user confirm save, then update the value to your Criteria, otherwise, do not update.
+            </summary>
+        </member>
+        <member name="T:AutoCount.ARAP.AgingChart.AgingChart.AgingChartSQL">
+            <summary>
+            SQL Implementation of New Aging Chart
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.AgingChart.AgingChartStringId.DebtorAging">
+            <summary>
+            Debtor Aging ({0})
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.AgingChart.AgingChartStringId.CreditorAging">
+            <summary>
+            Creditor Aging ({0})
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.AgingChart.AgingChartStringId.DocNo">
+            <summary>
+            Doc. No
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.AgingChart.AgingChartStringId.DebtorCode">
+            <summary>
+            Debtor Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.AgingChart.AgingChartStringId.DebtorName">
+            <summary>
+            Debtor Name
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.AgingChart.AgingChartStringId.CreditorCode">
+            <summary>
+            Creditor Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.AgingChart.AgingChartStringId.CreditorName">
+            <summary>
+            Creditor Name
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.AgingChart.AgingChartStringId.DocDate">
+            <summary>
+            Doc. Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.AgingChart.AgingChartStringId.DocType">
+            <summary>
+            Doc. Type
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.AgingChart.AgingChartStringId.LocalOutstanding">
+            <summary>
+            Local Outstanding
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.AgingChart.AgingChartStringId.ChartTitle_AgingChart">
+            <summary>
+            {0} Aging Chart as at {1}
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.AgingChart.AgingChartStringId.AgingInfo">
+            <summary>
+            Aging {0}: {1} ({2})
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.AgingChart.AgingChartStringId.LocalBalance">
+            <summary>
+            Local Balance: {0}
+            </summary>
+        </member>
+        <member name="T:AutoCount.ARAP.AgingChart.AgingChartCriteria">
+            <summary>
+            Criteria class used by AgingChart
+            </summary>
+        </member>
+        <member name="P:AutoCount.ARAP.AgingChart.AgingChartCriteria.Date">
+            <summary>
+            Date
+            </summary>
+        </member>
+        <member name="P:AutoCount.ARAP.AgingChart.AgingChartCriteria.AgingOption">
+            <summary>
+            Set Aging Month in the chart
+            </summary>
+        </member>
+        <member name="P:AutoCount.ARAP.AgingChart.AgingChartCriteria.ShowDebtorCreditor">
+            <summary>
+            Control to Show Debtor Or Creditor in the chart
+            </summary>
+        </member>
+        <member name="P:AutoCount.ARAP.AgingChart.AgingChartCriteria.AutoUpdateChartDate">
+            <summary>
+            Control whether to auto update chart filter date.
+            </summary>
+        </member>
+        <member name="P:AutoCount.ARAP.AgingChart.AgingChartCriteria.ChartType">
+            <summary>
+            Type of the chart
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.AgingChart.FormEditAgingChartCriteria.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.ARAP.AgingChart.FormEditAgingChartCriteria.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.ARAP.AgingChart.FormEditAgingChartCriteria.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.ARAP.BankBookAnalysisGrid.BankBookAnalysisGrid">
+            <summary>
+            BankBookAnalysisGrid
+            </summary>
+        </member>
+        <member name="M:AutoCount.ARAP.BankBookAnalysisGrid.BankBookAnalysisGrid.Create(AutoCount.Authentication.UserSession,System.Byte[])">
+            <summary>
+            Create an instance of BankBookAnalysisGrid based on the Database setting
+            </summary>
+            <param name="userSession">User Session</param>
+            <param name="criteriaData">Criteria Data in byte array, if this parameter is null, will create a default criteria</param>
+            <returns>BankBookAnalysisGrid</returns>
+        </member>
+        <member name="P:AutoCount.ARAP.BankBookAnalysisGrid.BankBookAnalysisGrid.Criteria">
+            <summary>
+            Get the BankBookAnalysisGridCriteria
+            </summary>
+        </member>
+        <member name="M:AutoCount.ARAP.BankBookAnalysisGrid.BankBookAnalysisGrid.ShowEditCriteriaWindow(System.Windows.Forms.IWin32Window)">
+            <summary>
+            Perform your actual edit criteria window, if user confirm save, then update the value to your Criteria, otherwise, do not update.
+            </summary>
+        </member>
+        <member name="T:AutoCount.ARAP.BankBookAnalysisGrid.BankBookAnalysisGrid.BankBookAnalysisGridSQL">
+            <summary>
+            SQL Implementation of BankBookAnalysisGrid SQL
+            </summary>
+        </member>
+        <member name="T:AutoCount.ARAP.BankBookAnalysisGrid.BankBookAnalysisGridCriteria">
+            <summary>
+            Criteria class used by BankBookAnalysisGrid
+            </summary>
+        </member>
+        <member name="P:AutoCount.ARAP.BankBookAnalysisGrid.BankBookAnalysisGridCriteria.Date">
+            <summary>
+            Date
+            </summary>
+        </member>
+        <member name="P:AutoCount.ARAP.BankBookAnalysisGrid.BankBookAnalysisGridCriteria.AutoUpdateChartDate">
+            <summary>
+            Control whether to auto update chart filter date.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.BankBookAnalysisGrid.FormEditBankBookAnalysisGridCriteria.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.ARAP.BankBookAnalysisGrid.FormEditBankBookAnalysisGridCriteria.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.ARAP.BankBookAnalysisGrid.FormEditBankBookAnalysisGridCriteria.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.SalesCollectionByAgentChart.FormEditSalesCollectionByAgentChartCriteria.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.ARAP.SalesCollectionByAgentChart.FormEditSalesCollectionByAgentChartCriteria.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.ARAP.SalesCollectionByAgentChart.FormEditSalesCollectionByAgentChartCriteria.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.SalesCollectionByAgentChart.LocalizeStringId.NumberAgentSelected">
+            <summary>
+            {0} Agent Selected
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.SalesCollectionByAgentChart.FormSelectAgent.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.ARAP.SalesCollectionByAgentChart.FormSelectAgent.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.ARAP.SalesCollectionByAgentChart.FormSelectAgent.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.SalesCollectionByAgentChart.FormSelectAgentStringId.Check">
+            <summary>
+            Check
+            </summary>
+        </member>
+        <member name="T:AutoCount.ARAP.SalesCollectionByAgentChart.SalesCollectionByAgentChart">
+            <summary>
+            Sales Collection By Agent Chart
+            </summary>
+        </member>
+        <member name="M:AutoCount.ARAP.SalesCollectionByAgentChart.SalesCollectionByAgentChart.Create(AutoCount.Authentication.UserSession,System.Byte[])">
+            <summary>
+            Create an instance of SalesCollectionByAgentChart based on the Database setting
+            </summary>
+            <param name="userSession">User Session</param>
+            <param name="criteriaData">Criteria Data in byte array, if this parameter is null, will create a default criteria</param>
+            <returns>SalesCollectionByAgentChart</returns>
+        </member>
+        <member name="M:AutoCount.ARAP.SalesCollectionByAgentChart.SalesCollectionByAgentChart.SetupChartControl(DevExpress.XtraCharts.ChartControl,System.Data.DataTable)">
+            <summary>
+            Perform binding of table to ChartControl and setup the parameter of the ChartControl.
+            </summary>
+            <param name="chartControl">DevExpress.XtraCharts.ChartControl</param>
+            <param name="chartTable">DataTable to show in the ChartControl</param>
+        </member>
+        <member name="P:AutoCount.ARAP.SalesCollectionByAgentChart.SalesCollectionByAgentChart.Criteria">
+            <summary>
+            Get the SalesCollectionByAgentChartCriteria
+            </summary>
+        </member>
+        <member name="M:AutoCount.ARAP.SalesCollectionByAgentChart.SalesCollectionByAgentChart.ShowEditCriteriaWindow(System.Windows.Forms.IWin32Window)">
+            <summary>
+            Perform your actual edit criteria window, if user confirm save, then update the value to your Criteria, otherwise, do not update.
+            </summary>
+        </member>
+        <member name="T:AutoCount.ARAP.SalesCollectionByAgentChart.SalesCollectionByAgentChart.SalesCollectionByAgentChartSQL">
+            <summary>
+            SQL Implementation of Sales Collection By Agent Chart
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.SalesCollectionByAgentChart.SalesCollectionByAgentChartStringId.SalesAndCollection">
+            <summary>
+            Sales and Collection ({0})
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.SalesCollectionByAgentChart.SalesCollectionByAgentChartStringId.DocNo">
+            <summary>
+            Doc. No
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.SalesCollectionByAgentChart.SalesCollectionByAgentChartStringId.DebtorCode">
+            <summary>
+            Debtor Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.SalesCollectionByAgentChart.SalesCollectionByAgentChartStringId.DebtorName">
+            <summary>
+            Debtor Name
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.SalesCollectionByAgentChart.SalesCollectionByAgentChartStringId.DocDate">
+            <summary>
+            Doc. Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.SalesCollectionByAgentChart.SalesCollectionByAgentChartStringId.DocType">
+            <summary>
+            Doc. Type
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.SalesCollectionByAgentChart.SalesCollectionByAgentChartStringId.Total">
+            <summary>
+            Total
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.SalesCollectionByAgentChart.SalesCollectionByAgentChartStringId.Collection">
+            <summary>
+            Collection
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.SalesCollectionByAgentChart.SalesCollectionByAgentChartStringId.Title_SalesAndCollectionByAgent">
+            <summary>
+            Sales And Collection by Agent
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.SalesCollectionByAgentChart.SalesCollectionByAgentChartStringId.Title_IncludeCNAndDN">
+            <summary>
+            (Include C/N &amp; D/N)
+            </summary>
+        </member>
+        <member name="T:AutoCount.ARAP.SalesCollectionByAgentChart.SalesCollectionByAgentChartCriteria">
+            <summary>
+            Criteria class used by SalesCollectionByAgentChart
+            </summary>
+        </member>
+        <member name="P:AutoCount.ARAP.SalesCollectionByAgentChart.SalesCollectionByAgentChartCriteria.FromDate">
+            <summary>
+            From Date
+            </summary>
+        </member>
+        <member name="P:AutoCount.ARAP.SalesCollectionByAgentChart.SalesCollectionByAgentChartCriteria.ToDate">
+            <summary>
+            To Date
+            </summary>
+        </member>
+        <member name="P:AutoCount.ARAP.SalesCollectionByAgentChart.SalesCollectionByAgentChartCriteria.Agent">
+            <summary>
+            Agent
+            </summary>
+        </member>
+        <member name="P:AutoCount.ARAP.SalesCollectionByAgentChart.SalesCollectionByAgentChartCriteria.ShowIncludeCNDN">
+            <summary>
+            Control whether to show include CN &amp; DN in the chart.
+            </summary>
+        </member>
+        <member name="P:AutoCount.ARAP.SalesCollectionByAgentChart.SalesCollectionByAgentChartCriteria.SelectedAgent">
+            <summary>
+            Control to show selected agent in the chart.
+            </summary>
+        </member>
+        <member name="P:AutoCount.ARAP.SalesCollectionByAgentChart.SalesCollectionByAgentChartCriteria.AutoUpdateChartDate">
+            <summary>
+            Control whether to auto update chart filter date.
+            </summary>
+        </member>
+        <member name="P:AutoCount.ARAP.SalesCollectionByAgentChart.SalesCollectionByAgentChartCriteria.ChartType">
+            <summary>
+            Type of the chart
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.MonthlySalesCollectionChart.FormEditMonthlySalesCollectionChart.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.ARAP.MonthlySalesCollectionChart.FormEditMonthlySalesCollectionChart.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.ARAP.MonthlySalesCollectionChart.FormEditMonthlySalesCollectionChart.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.ARAP.MonthlySalesCollectionChart.MonthlySalesCollectionChart">
+            <summary>
+            Monthly Sales Collection Chart
+            </summary>
+        </member>
+        <member name="M:AutoCount.ARAP.MonthlySalesCollectionChart.MonthlySalesCollectionChart.Create(AutoCount.Authentication.UserSession,System.Byte[])">
+            <summary>
+            Create an instance of MonthlySalesCollectionChart based on the Database setting
+            </summary>
+            <param name="userSession">User Session</param>
+            <param name="criteriaData">Criteria Data in byte array, if this parameter is null, will create a default criteria</param>
+            <returns>MonthlySalesCollectionChart</returns>
+        </member>
+        <member name="M:AutoCount.ARAP.MonthlySalesCollectionChart.MonthlySalesCollectionChart.SetupChartControl(DevExpress.XtraCharts.ChartControl,System.Data.DataTable)">
+            <summary>
+            Perform binding of table to ChartControl and setup the parameter of the ChartControl.
+            </summary>
+            <param name="chartControl">DevExpress.XtraCharts.ChartControl</param>
+            <param name="table">DataTable to show in the ChartControl</param>
+        </member>
+        <member name="P:AutoCount.ARAP.MonthlySalesCollectionChart.MonthlySalesCollectionChart.Criteria">
+            <summary>
+            Get the MonthlySalesPurchaseChartCriteria
+            </summary>
+        </member>
+        <member name="M:AutoCount.ARAP.MonthlySalesCollectionChart.MonthlySalesCollectionChart.ShowEditCriteriaWindow(System.Windows.Forms.IWin32Window)">
+            <summary>
+            Perform your actual edit criteria window, if user confirm save, then update the value to your Criteria, otherwise, do not update.
+            </summary>
+        </member>
+        <member name="T:AutoCount.ARAP.MonthlySalesCollectionChart.MonthlySalesCollectionChart.MonthlySalesCollectionChartSQL">
+            <summary>
+            SQL Implementation of Monthly Sales Collection Chart
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.MonthlySalesCollectionChart.MonthlySalesCollectionChartStringId.MonthlySalesAndCollection">
+            <summary>
+            Monthly Sales and Collection ({0} {1})
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.MonthlySalesCollectionChart.MonthlySalesCollectionChartStringId.MonthlyPurchaseAndPayment">
+            <summary>
+            Monthly Purchase and Payment ({0} {1})
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.MonthlySalesCollectionChart.MonthlySalesCollectionChartStringId.DocNo">
+            <summary>
+            Doc. No
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.MonthlySalesCollectionChart.MonthlySalesCollectionChartStringId.DebtorCode">
+            <summary>
+            Debtor Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.MonthlySalesCollectionChart.MonthlySalesCollectionChartStringId.DebtorName">
+            <summary>
+            Debtor Name
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.MonthlySalesCollectionChart.MonthlySalesCollectionChartStringId.CreditorCode">
+            <summary>
+            Creditor Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.MonthlySalesCollectionChart.MonthlySalesCollectionChartStringId.CreditorName">
+            <summary>
+            Creditor Name
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.MonthlySalesCollectionChart.MonthlySalesCollectionChartStringId.DocDate">
+            <summary>
+            Doc. Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.MonthlySalesCollectionChart.MonthlySalesCollectionChartStringId.DocType">
+            <summary>
+            Doc. Type
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.MonthlySalesCollectionChart.MonthlySalesCollectionChartStringId.Total">
+            <summary>
+            Total
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.MonthlySalesCollectionChart.MonthlySalesCollectionChartStringId.Collection">
+            <summary>
+            Collection
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.MonthlySalesCollectionChart.MonthlySalesCollectionChartStringId.Title_MonthlySalesAndCollection">
+            <summary>
+             Monthly Sales &amp; Collection
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.MonthlySalesCollectionChart.MonthlySalesCollectionChartStringId.Title_MonthlyPurchaseAndPayment">
+            <summary>
+             Monthly Purchase &amp; Payment
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.MonthlySalesCollectionChart.MonthlySalesCollectionChartStringId.Title_IncludeCNAndDN">
+            <summary>
+            {0} Include CN&amp;DN 
+            </summary>
+        </member>
+        <member name="T:AutoCount.ARAP.MonthlySalesCollectionChart.MonthlySalesCollectionChartCriteria">
+            <summary>
+            Criteria class used by MonthlySalesCollectionChart
+            </summary>
+        </member>
+        <member name="P:AutoCount.ARAP.MonthlySalesCollectionChart.MonthlySalesCollectionChartCriteria.FromDate">
+            <summary>
+            From Date
+            </summary>
+        </member>
+        <member name="P:AutoCount.ARAP.MonthlySalesCollectionChart.MonthlySalesCollectionChartCriteria.ToDate">
+            <summary>
+            To Date
+            </summary>
+        </member>
+        <member name="P:AutoCount.ARAP.MonthlySalesCollectionChart.MonthlySalesCollectionChartCriteria.Type">
+            <summary>
+            Type
+            </summary>
+        </member>
+        <member name="P:AutoCount.ARAP.MonthlySalesCollectionChart.MonthlySalesCollectionChartCriteria.ShowIncludeCNDN">
+            <summary>
+            Control whether to show include CN &amp; DN in the chart.
+            </summary>
+        </member>
+        <member name="P:AutoCount.ARAP.MonthlySalesCollectionChart.MonthlySalesCollectionChartCriteria.AutoUpdateChartDate">
+            <summary>
+            Control whether to auto update chart filter date.
+            </summary>
+        </member>
+        <member name="P:AutoCount.ARAP.MonthlySalesCollectionChart.MonthlySalesCollectionChartCriteria.ChartType">
+            <summary>
+            Type of the chart
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.Top10_OutstandingCreditorGrid.FormEditTop10_OutstandingCreditorGridCriteria.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.ARAP.Top10_OutstandingCreditorGrid.FormEditTop10_OutstandingCreditorGridCriteria.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.ARAP.Top10_OutstandingCreditorGrid.FormEditTop10_OutstandingCreditorGridCriteria.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.ARAP.Top10_OutstandingCreditorGrid.Top10_OutstandingCreditorGrid">
+            <summary>
+            Top10_OutstandingCreditorGrid
+            </summary>
+        </member>
+        <member name="M:AutoCount.ARAP.Top10_OutstandingCreditorGrid.Top10_OutstandingCreditorGrid.Create(AutoCount.Authentication.UserSession,System.Byte[])">
+            <summary>
+            Create an instance of Top10_OutstandingCreditorGrid based on the Database setting
+            </summary>
+            <param name="userSession">User Session</param>
+            <param name="criteriaData">Criteria Data in byte array, if this parameter is null, will create a default criteria</param>
+            <returns>Top10_OutstandingCreditorGrid</returns>
+        </member>
+        <member name="M:AutoCount.ARAP.Top10_OutstandingCreditorGrid.Top10_OutstandingCreditorGrid.SetupGridControl(DevExpress.XtraGrid.GridControl,System.Data.DataTable)">
+            <summary>
+            Perform binding of table to GridControl and setup the parameter of the GridControl.
+            </summary>
+            <param name="gridControl">DevExpress.XtraGrid.GridControl</param>
+            <param name="table">DataTable to show in the GridControl</param>
+        </member>
+        <member name="P:AutoCount.ARAP.Top10_OutstandingCreditorGrid.Top10_OutstandingCreditorGrid.Criteria">
+            <summary>
+            Get the Top10_OutstandingCreditorGridCriteria
+            </summary>
+        </member>
+        <member name="M:AutoCount.ARAP.Top10_OutstandingCreditorGrid.Top10_OutstandingCreditorGrid.ShowEditCriteriaWindow(System.Windows.Forms.IWin32Window)">
+            <summary>
+            Perform your actual edit criteria window, if user confirm save, then update the value to your Criteria, otherwise, do not update.
+            </summary>
+        </member>
+        <member name="T:AutoCount.ARAP.Top10_OutstandingCreditorGrid.Top10_OutstandingCreditorGrid.Top10_OutstandingCreditorGridSQL">
+            <summary>
+            SQL Implementation of Top10_OutstandingCreditorGrid SQL
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.Top10_OutstandingCreditorGrid.Top10_OutstandingCreditorGridStringId.AccountCode">
+            <summary>
+            Account Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.Top10_OutstandingCreditorGrid.Top10_OutstandingCreditorGridStringId.AccountDescription">
+            <summary>
+            Account Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.Top10_OutstandingCreditorGrid.Top10_OutstandingCreditorGridStringId.OutstandingBalance">
+            <summary>
+            Outstanding Balance
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.Top10_OutstandingCreditorGrid.Top10_OutstandingCreditorGridStringId.OverdueAmount">
+            <summary>
+            Overdue Amount
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.Top10_OutstandingCreditorGrid.Top10_OutstandingCreditorGridStringId.PostDatedCheque">
+            <summary>
+            Post Dated Cheque
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.Top10_OutstandingCreditorGrid.Top10_OutstandingCreditorGridStringId.Top10OutstandingCreditor">
+            <summary>
+            Top 10 Outstanding Creditor ({0})
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.Top10_OutstandingCreditorGrid.Top10_OutstandingCreditorGridStringId.DocNo">
+            <summary>
+            Doc. No
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.Top10_OutstandingCreditorGrid.Top10_OutstandingCreditorGridStringId.DocDate">
+            <summary>
+            Doc. Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.Top10_OutstandingCreditorGrid.Top10_OutstandingCreditorGridStringId.DocType">
+            <summary>
+            Doc. Type
+            </summary>
+        </member>
+        <member name="T:AutoCount.ARAP.Top10_OutstandingCreditorGrid.Top10_OutstandingCreditorGridCriteria">
+            <summary>
+            Criteria class used by Top10_OustandingCreditorGrid
+            </summary>
+        </member>
+        <member name="P:AutoCount.ARAP.Top10_OutstandingCreditorGrid.Top10_OutstandingCreditorGridCriteria.Date">
+            <summary>
+            Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.Top10_OutstandingDebtorGrid.FormEditTop10_OutstandingDebtorGridCriteria.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.ARAP.Top10_OutstandingDebtorGrid.FormEditTop10_OutstandingDebtorGridCriteria.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.ARAP.Top10_OutstandingDebtorGrid.FormEditTop10_OutstandingDebtorGridCriteria.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.ARAP.Top10_OutstandingDebtorGrid.Top10_OutstandingDebtorGrid">
+            <summary>
+            Top10_OutstandingDebtorGrid
+            </summary>
+        </member>
+        <member name="M:AutoCount.ARAP.Top10_OutstandingDebtorGrid.Top10_OutstandingDebtorGrid.Create(AutoCount.Authentication.UserSession,System.Byte[])">
+            <summary>
+            Create an instance of Top10_OutstandingDebtorGrid based on the Database setting
+            </summary>
+            <param name="userSession">User Session</param>
+            <param name="criteriaData">Criteria Data in byte array, if this parameter is null, will create a default criteria</param>
+            <returns>Top10_OutstandingDebtorGrid</returns>
+        </member>
+        <member name="M:AutoCount.ARAP.Top10_OutstandingDebtorGrid.Top10_OutstandingDebtorGrid.SetupGridControl(DevExpress.XtraGrid.GridControl,System.Data.DataTable)">
+            <summary>
+            Perform binding of table to GridControl and setup the parameter of the GridControl.
+            </summary>
+            <param name="gridControl">DevExpress.XtraGrid.GridControl</param>
+            <param name="table">DataTable to show in the GridControl</param>
+        </member>
+        <member name="P:AutoCount.ARAP.Top10_OutstandingDebtorGrid.Top10_OutstandingDebtorGrid.Criteria">
+            <summary>
+            Get the Top10_OutstandingDebtorGridCriteria
+            </summary>
+        </member>
+        <member name="M:AutoCount.ARAP.Top10_OutstandingDebtorGrid.Top10_OutstandingDebtorGrid.ShowEditCriteriaWindow(System.Windows.Forms.IWin32Window)">
+            <summary>
+            Perform your actual edit criteria window, if user confirm save, then update the value to your Criteria, otherwise, do not update.
+            </summary>
+        </member>
+        <member name="T:AutoCount.ARAP.Top10_OutstandingDebtorGrid.Top10_OutstandingDebtorGrid.Top10_OutstandingDebtorGridSQL">
+            <summary>
+            SQL Implementation of Top10_OutstandingDebtorGrid SQL
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.Top10_OutstandingDebtorGrid.Top10_OutstandingDebtorGridStringId.AccountCode">
+            <summary>
+            Account Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.Top10_OutstandingDebtorGrid.Top10_OutstandingDebtorGridStringId.AccountDescription">
+            <summary>
+            Account Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.Top10_OutstandingDebtorGrid.Top10_OutstandingDebtorGridStringId.OutstandingBalance">
+            <summary>
+            Outstanding Balance
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.Top10_OutstandingDebtorGrid.Top10_OutstandingDebtorGridStringId.OverdueAmount">
+            <summary>
+            Overdue Amount
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.Top10_OutstandingDebtorGrid.Top10_OutstandingDebtorGridStringId.PostDatedCheque">
+            <summary>
+            Post Dated Cheque
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.Top10_OutstandingDebtorGrid.Top10_OutstandingDebtorGridStringId.Top10OutstandingDebtor">
+            <summary>
+            Top 10 Outstanding Debtor ({0})
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.Top10_OutstandingDebtorGrid.Top10_OutstandingDebtorGridStringId.DocNo">
+            <summary>
+            Doc. No
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.Top10_OutstandingDebtorGrid.Top10_OutstandingDebtorGridStringId.DocDate">
+            <summary>
+            Doc. Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.ARAP.Top10_OutstandingDebtorGrid.Top10_OutstandingDebtorGridStringId.DocType">
+            <summary>
+            Doc. Type
+            </summary>
+        </member>
+        <member name="T:AutoCount.ARAP.Top10_OutstandingDebtorGrid.Top10_OutstandingDebtorGridCriteria">
+            <summary>
+            Criteria class used by Top10_OustandingDebtorGrid
+            </summary>
+        </member>
+        <member name="P:AutoCount.ARAP.Top10_OutstandingDebtorGrid.Top10_OutstandingDebtorGridCriteria.Date">
+            <summary>
+            Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.Controls.Widget.BaseControlStringId.ErrorMessage_LoadControlData">
+            <summary>
+            Load Control Data\r\n{0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Controls.Widget.BaseControlStringId.ErrorMessage_GetLatestData">
+            <summary>
+            Get Latest Data\r\n{0}
+            </summary>
+        </member>
+        <member name="M:AutoCount.Invoicing.Sales.DebtorTopSalesRankingChart.DebtorTopSalesRankingChart.Create(AutoCount.Authentication.UserSession,System.Byte[])">
+            <summary>
+            Create an instance of DebtorTopSalesRankingChart based on the Database setting
+            </summary>
+            <param name="userSession">User Session</param>
+            <param name="criteriaData">Criteria Data in byte array, if this parameter is null, will create a default criteria</param>
+            <returns>DebtorTopSalesRankingChart</returns>
+        </member>
+        <member name="M:AutoCount.Invoicing.Sales.DebtorTopSalesRankingChart.DebtorTopSalesRankingChart.SetupChartControl(DevExpress.XtraCharts.ChartControl,System.Data.DataTable)">
+            <summary>
+            Perform binding of table to ChartControl and setup the parameter of the ChartControl.
+            </summary>
+            <param name="chartControl">DevExpress.XtraCharts.ChartControl</param>
+            <param name="table">DataTable to show in the ChartControl</param>
+        </member>
+        <member name="P:AutoCount.Invoicing.Sales.DebtorTopSalesRankingChart.DebtorTopSalesRankingChart.Criteria">
+            <summary>
+            Get the DebtorTopSalesRankingChartCriteria
+            </summary>
+        </member>
+        <member name="M:AutoCount.Invoicing.Sales.DebtorTopSalesRankingChart.DebtorTopSalesRankingChart.ShowEditCriteriaWindow(System.Windows.Forms.IWin32Window)">
+            <summary>
+            Perform your actual edit criteria window, if user confirm save, then update the value to your Criteria, otherwise, do not update.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Invoicing.Sales.DebtorTopSalesRankingChart.DebtorTopSalesRankingChart.DebtorTopSalesRankingChartSQL">
+            <summary>
+            SQL Implementation of Debtor Top Sales Ranking Chart
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.Sales.DebtorTopSalesRankingChart.DebtorTopSalesRankingChartStringId.TopSalesRanking">
+            <summary>
+            Top Sales Ranking ({0})
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.Sales.DebtorTopSalesRankingChart.DebtorTopSalesRankingChartStringId.DocNo">
+            <summary>
+            Doc. No
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.Sales.DebtorTopSalesRankingChart.DebtorTopSalesRankingChartStringId.DebtorCode">
+            <summary>
+            Debtor Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.Sales.DebtorTopSalesRankingChart.DebtorTopSalesRankingChartStringId.DebtorName">
+            <summary>
+            Debtor Name
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.Sales.DebtorTopSalesRankingChart.DebtorTopSalesRankingChartStringId.DocDate">
+            <summary>
+            Doc. Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.Sales.DebtorTopSalesRankingChart.DebtorTopSalesRankingChartStringId.DocType">
+            <summary>
+            Doc. Type
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.Sales.DebtorTopSalesRankingChart.DebtorTopSalesRankingChartStringId.TotalSales">
+            <summary>
+            Total Sales
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.Sales.DebtorTopSalesRankingChart.DebtorTopSalesRankingChartStringId.Debtor">
+            <summary>
+            Debtor
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.Sales.DebtorTopSalesRankingChart.DebtorTopSalesRankingChartStringId.ChartTitle_TopSalesRankingChart">
+            <summary>
+             Top Sales Ranking Chart from {0} to {1}
+            </summary>
+        </member>
+        <member name="T:AutoCount.Invoicing.Sales.DebtorTopSalesRankingChart.DebtorTopSalesRankingChartCriteria">
+            <summary>
+            Criteria class used by DebtorTopSalesRankingChart
+            </summary>
+        </member>
+        <member name="P:AutoCount.Invoicing.Sales.DebtorTopSalesRankingChart.DebtorTopSalesRankingChartCriteria.FromDate">
+            <summary>
+            From Date
+            </summary>
+        </member>
+        <member name="P:AutoCount.Invoicing.Sales.DebtorTopSalesRankingChart.DebtorTopSalesRankingChartCriteria.ToDate">
+            <summary>
+            To Date
+            </summary>
+        </member>
+        <member name="P:AutoCount.Invoicing.Sales.DebtorTopSalesRankingChart.DebtorTopSalesRankingChartCriteria.ivOption">
+            <summary>
+            Set Document to be shown in the chart
+            </summary>
+        </member>
+        <member name="P:AutoCount.Invoicing.Sales.DebtorTopSalesRankingChart.DebtorTopSalesRankingChartCriteria.AutoUpdateChartDate">
+            <summary>
+            Control whether to auto update chart filter date.
+            </summary>
+        </member>
+        <member name="P:AutoCount.Invoicing.Sales.DebtorTopSalesRankingChart.DebtorTopSalesRankingChartCriteria.ChartType">
+            <summary>
+            Type of the chart
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.Sales.DebtorTopSalesRankingChart.FormEditDebtorTopSalesRankingChartCriteria.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Invoicing.Sales.DebtorTopSalesRankingChart.FormEditDebtorTopSalesRankingChartCriteria.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Invoicing.Sales.DebtorTopSalesRankingChart.FormEditDebtorTopSalesRankingChartCriteria.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.Sales.TopSalesRankingChart.FormEditTopSalesRankingChartCriteria.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Invoicing.Sales.TopSalesRankingChart.FormEditTopSalesRankingChartCriteria.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Invoicing.Sales.TopSalesRankingChart.FormEditTopSalesRankingChartCriteria.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Invoicing.Sales.TopSalesRankingChart.TopSalesRankingChart.Create(AutoCount.Authentication.UserSession,System.Byte[])">
+            <summary>
+            Create an instance of TopSalesRankingChart based on the Database setting
+            </summary>
+            <param name="userSession">User Session</param>
+            <param name="criteriaData">Criteria Data in byte array, if this parameter is null, will create a default criteria</param>
+            <returns>TopSalesRankingChart</returns>
+        </member>
+        <member name="M:AutoCount.Invoicing.Sales.TopSalesRankingChart.TopSalesRankingChart.SetupChartControl(DevExpress.XtraCharts.ChartControl,System.Data.DataTable)">
+            <summary>
+            Perform binding of table to ChartControl and setup the parameter of the ChartControl.
+            </summary>
+            <param name="chartControl">DevExpress.XtraCharts.ChartControl</param>
+            <param name="table">DataTable to show in the ChartControl</param>
+        </member>
+        <member name="P:AutoCount.Invoicing.Sales.TopSalesRankingChart.TopSalesRankingChart.Criteria">
+            <summary>
+            Get the TopSalesRankingChartCriteria
+            </summary>
+        </member>
+        <member name="M:AutoCount.Invoicing.Sales.TopSalesRankingChart.TopSalesRankingChart.ShowEditCriteriaWindow(System.Windows.Forms.IWin32Window)">
+            <summary>
+            Perform your actual edit criteria window, if user confirm save, then update the value to your Criteria, otherwise, do not update.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Invoicing.Sales.TopSalesRankingChart.TopSalesRankingChart.TopSalesRankingChartSQL">
+            <summary>
+            SQL Implementation of Top Sales Ranking Chart
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.Sales.TopSalesRankingChart.TopSalesRankingChartStringId.TopSalesRanking">
+            <summary>
+            Top Sales Ranking ({0})
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.Sales.TopSalesRankingChart.TopSalesRankingChartStringId.DocNo">
+            <summary>
+            Doc. No
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.Sales.TopSalesRankingChart.TopSalesRankingChartStringId.DebtorCode">
+            <summary>
+            Debtor Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.Sales.TopSalesRankingChart.TopSalesRankingChartStringId.DebtorName">
+            <summary>
+            Debtor Name
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.Sales.TopSalesRankingChart.TopSalesRankingChartStringId.DocDate">
+            <summary>
+            Doc. Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.Sales.TopSalesRankingChart.TopSalesRankingChartStringId.DocType">
+            <summary>
+            Doc. Type
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.Sales.TopSalesRankingChart.TopSalesRankingChartStringId.TotalSales">
+            <summary>
+            Total Sales
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.Sales.TopSalesRankingChart.TopSalesRankingChartStringId.Quantity">
+            <summary>
+            Quantity
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.Sales.TopSalesRankingChart.TopSalesRankingChartStringId.Item">
+            <summary>
+            Item
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.Sales.TopSalesRankingChart.TopSalesRankingChartStringId.Title_TopSalesRankingChart">
+            <summary>
+             Top Sales Ranking Chart from {0} to {1}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.Sales.TopSalesRankingChart.TopSalesRankingChartStringId.ByAmount">
+            <summary>
+            By Amount
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.Sales.TopSalesRankingChart.TopSalesRankingChartStringId.ByQuantity">
+            <summary>
+            By Quantity
+            </summary>
+        </member>
+        <member name="T:AutoCount.Invoicing.Sales.TopSalesRankingChart.TopSalesRankingChartCriteria">
+            <summary>
+            Criteria class used by TopSalesRankingChart
+            </summary>
+        </member>
+        <member name="P:AutoCount.Invoicing.Sales.TopSalesRankingChart.TopSalesRankingChartCriteria.FromDate">
+            <summary>
+            From Date
+            </summary>
+        </member>
+        <member name="P:AutoCount.Invoicing.Sales.TopSalesRankingChart.TopSalesRankingChartCriteria.ToDate">
+            <summary>
+            To Date
+            </summary>
+        </member>
+        <member name="P:AutoCount.Invoicing.Sales.TopSalesRankingChart.TopSalesRankingChartCriteria.itemOption">
+            <summary>
+            Set Item Option in the chart
+            </summary>
+        </member>
+        <member name="P:AutoCount.Invoicing.Sales.TopSalesRankingChart.TopSalesRankingChartCriteria.ivOption">
+            <summary>
+            Set Document to be shown in the chart
+            </summary>
+        </member>
+        <member name="P:AutoCount.Invoicing.Sales.TopSalesRankingChart.TopSalesRankingChartCriteria.AutoUpdateChartDate">
+            <summary>
+            Control whether to auto update chart filter date.
+            </summary>
+        </member>
+        <member name="P:AutoCount.Invoicing.Sales.TopSalesRankingChart.TopSalesRankingChartCriteria.ChartType">
+            <summary>
+            Type of the chart
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.MonthlySalesPurchaseChart.FormEditMonthlySalesPurchaseChartCriteria.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Invoicing.MonthlySalesPurchaseChart.FormEditMonthlySalesPurchaseChartCriteria.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Invoicing.MonthlySalesPurchaseChart.FormEditMonthlySalesPurchaseChartCriteria.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Invoicing.MonthlySalesPurchaseChart.MonthlySalesPurchaseChart">
+            <summary>
+            Monthly Sales Purchase Chart
+            </summary>
+        </member>
+        <member name="M:AutoCount.Invoicing.MonthlySalesPurchaseChart.MonthlySalesPurchaseChart.Create(AutoCount.Authentication.UserSession,System.Byte[])">
+            <summary>
+            Create an instance of MonthlySalesPurchaseChart based on the Database setting
+            </summary>
+            <param name="userSession">User Session</param>
+            <param name="criteriaData">Criteria Data in byte array, if this parameter is null, will create a default criteria</param>
+            <returns>MonthlySalesPurchaseChart</returns>
+        </member>
+        <member name="M:AutoCount.Invoicing.MonthlySalesPurchaseChart.MonthlySalesPurchaseChart.SetupChartControl(DevExpress.XtraCharts.ChartControl,System.Data.DataTable)">
+            <summary>
+            Perform binding of table to ChartControl and setup the parameter of the ChartControl.
+            </summary>
+            <param name="chartControl">DevExpress.XtraCharts.ChartControl</param>
+            <param name="table">DataTable to show in the ChartControl</param>
+        </member>
+        <member name="P:AutoCount.Invoicing.MonthlySalesPurchaseChart.MonthlySalesPurchaseChart.Criteria">
+            <summary>
+            Get the MonthlySalesPurchaseChartCriteria
+            </summary>
+        </member>
+        <member name="M:AutoCount.Invoicing.MonthlySalesPurchaseChart.MonthlySalesPurchaseChart.ShowEditCriteriaWindow(System.Windows.Forms.IWin32Window)">
+            <summary>
+            Perform your actual edit criteria window, if user confirm save, then update the value to your Criteria, otherwise, do not update.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Invoicing.MonthlySalesPurchaseChart.MonthlySalesPurchaseChart.MonthlySalesPurchaseChartSQL">
+            <summary>
+            SQL Implementation of Monthly Sales PurchaseChart
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.MonthlySalesPurchaseChart.MonthlySalesPurchaseChartStringId.MonthlySales">
+            <summary>
+            Monthly Sales ({0} {1}{2})
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.MonthlySalesPurchaseChart.MonthlySalesPurchaseChartStringId.MonthlyPurchase">
+            <summary>
+            Monthly Purchase ({0} {1}{2})
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.MonthlySalesPurchaseChart.MonthlySalesPurchaseChartStringId.DocNo">
+            <summary>
+            Doc. No
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.MonthlySalesPurchaseChart.MonthlySalesPurchaseChartStringId.DebtorCode">
+            <summary>
+            Debtor Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.MonthlySalesPurchaseChart.MonthlySalesPurchaseChartStringId.DebtorName">
+            <summary>
+            Debtor Name
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.MonthlySalesPurchaseChart.MonthlySalesPurchaseChartStringId.CreditorCode">
+            <summary>
+            Creditor Code
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.MonthlySalesPurchaseChart.MonthlySalesPurchaseChartStringId.CreditorName">
+            <summary>
+            Creditor Name
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.MonthlySalesPurchaseChart.MonthlySalesPurchaseChartStringId.DocDate">
+            <summary>
+            Doc. Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.MonthlySalesPurchaseChart.MonthlySalesPurchaseChartStringId.DocType">
+            <summary>
+            Doc. Type
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.MonthlySalesPurchaseChart.MonthlySalesPurchaseChartStringId.Year">
+            <summary>
+            Year
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.MonthlySalesPurchaseChart.MonthlySalesPurchaseChartStringId.Title_Monthly">
+            <summary>
+             Monthly {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.MonthlySalesPurchaseChart.MonthlySalesPurchaseChartStringId.Title_IncludeCNAndDN">
+            <summary>
+            {0} Include CN&amp;DN 
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.MonthlySalesPurchaseChart.MonthlySalesPurchaseChartStringId.Title_IncludeCNAndDNAndPOS">
+            <summary>
+            {0} Include CN&amp;DN and POS 
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.MonthlySalesPurchaseChart.MonthlySalesPurchaseChartStringId.Title_IncludePOS">
+            <summary>
+            {0} Include POS 
+            </summary>
+        </member>
+        <member name="F:AutoCount.Invoicing.MonthlySalesPurchaseChart.MonthlySalesPurchaseChartStringId.Title_IncludePurchaseReturn">
+            <summary>
+            {0} Include Purchase Return 
+            </summary>
+        </member>
+        <member name="T:AutoCount.Invoicing.MonthlySalesPurchaseChart.MonthlySalesPurchaseChartCriteria">
+            <summary>
+            Criteria class used by MonthlySalesPurchaseChart
+            </summary>
+        </member>
+        <member name="P:AutoCount.Invoicing.MonthlySalesPurchaseChart.MonthlySalesPurchaseChartCriteria.FromDate">
+            <summary>
+            From Date
+            </summary>
+        </member>
+        <member name="P:AutoCount.Invoicing.MonthlySalesPurchaseChart.MonthlySalesPurchaseChartCriteria.ToDate">
+            <summary>
+            To Date
+            </summary>
+        </member>
+        <member name="P:AutoCount.Invoicing.MonthlySalesPurchaseChart.MonthlySalesPurchaseChartCriteria.Type">
+            <summary>
+            Type
+            </summary>
+        </member>
+        <member name="P:AutoCount.Invoicing.MonthlySalesPurchaseChart.MonthlySalesPurchaseChartCriteria.ShowCPY">
+            <summary>
+            Control whether to show Compare Pervious Year in the chart.
+            </summary>
+        </member>
+        <member name="P:AutoCount.Invoicing.MonthlySalesPurchaseChart.MonthlySalesPurchaseChartCriteria.ShowIncludeCNDN">
+            <summary>
+            Control whether to show nclude CN &amp; DN in the chart.
+            </summary>
+        </member>
+        <member name="P:AutoCount.Invoicing.MonthlySalesPurchaseChart.MonthlySalesPurchaseChartCriteria.ShowIncludePOS">
+            <summary>
+            Control whether to show Include POS in the chart.
+            </summary>
+        </member>
+        <member name="P:AutoCount.Invoicing.MonthlySalesPurchaseChart.MonthlySalesPurchaseChartCriteria.ShowIncludePReturn">
+            <summary>
+            Control whether to show Include Purchase Return in the chart.
+            </summary>
+        </member>
+        <member name="P:AutoCount.Invoicing.MonthlySalesPurchaseChart.MonthlySalesPurchaseChartCriteria.AutoUpdateChartDate">
+            <summary>
+            Control whether to auto update chart filter date.
+            </summary>
+        </member>
+        <member name="P:AutoCount.Invoicing.MonthlySalesPurchaseChart.MonthlySalesPurchaseChartCriteria.ChartType">
+            <summary>
+            Type of the chart
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FormCustomizeFunction.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.StartScreen.FormCustomizeFunction.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.StartScreen.FormCustomizeFunction.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FormCustomizeFunctionStringId.ConfirmMessage_WantToResetToDefault">
+            <summary>
+            Do you really want to reset to default setting?
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FormCustomizeWidget.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.StartScreen.FormCustomizeWidget.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.StartScreen.FormCustomizeWidget.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FormCustomizeWidgetStringId.ConfirmMessage_WantToResetToDefault">
+            <summary>
+            Do you really want to reset to default setting?
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FormCustomizeWidgetStringId.ImportWorkspace">
+            <summary>
+            Import workspace
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FormCustomizeWidgetStringId.ExportWorkspace">
+            <summary>
+            Export workspace
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FormEditWidget.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.StartScreen.FormEditWidget.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.StartScreen.FormEditWidget.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.FormEditWidgetStringId.ConfirmMessage_ChangeWidget">
+            <summary>
+            Do you really want to change widget?\n(Note: All customized data will be erased.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.Function.myOnTileItemCreated">
+            <summary>
+            Occurs when the Tile Item is created.
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.Function.myOnTileSizeChanged">
+            <summary>
+            Occurs when the Tile Size is changed.
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.Function.myIsVisibleDelegate">
+            <summary>
+            Event handler to return true if the function can be shown, otherwise return false.
+            </summary>
+        </member>
+        <member name="M:AutoCount.StartScreen.Function.#ctor(System.Guid,System.String,System.String,System.Drawing.Image,System.Drawing.Image,System.Drawing.Color,AutoCount.StartScreen.FunctionVisibility)">
+            <summary>
+            Construct a Function
+            </summary>
+            <param name="guid">Guid</param>
+            <param name="name">Name</param>
+            <param name="category">Category</param>
+            <param name="image">Image</param>
+            <param name="image32x32">Image used in all functions display</param>
+            <param name="backColor">Back color</param>
+            <param name="visibility">Control the default visibility of the function</param>
+        </member>
+        <member name="M:AutoCount.StartScreen.Function.#ctor(System.Guid,System.String,System.String,System.String,System.Drawing.Image,System.Drawing.Image,System.Drawing.Color,AutoCount.StartScreen.FunctionVisibility)">
+            <summary>
+            Construct a Function
+            </summary>
+            <param name="guid">Guid</param>
+            <param name="name">Name</param>
+            <param name="text">Display Text</param>
+            <param name="category">Category</param>
+            <param name="image">Image</param>
+            <param name="image32x32">Image used in all functions display</param>
+            <param name="backColor">Back color</param>
+            <param name="visibility">Control the default visibility of the function</param>
+        </member>
+        <member name="M:AutoCount.StartScreen.Function.IsVisible">
+            <summary>
+            Get a value indicates whether this function should be shown or not.
+            </summary>
+            <returns>Return true if the function is visible.</returns>
+        </member>
+        <member name="M:AutoCount.StartScreen.Function.NewGroup">
+            <summary>
+            Subsequent functions will be created in new group id
+            </summary>
+        </member>
+        <member name="M:AutoCount.StartScreen.Function.SetForeColor(System.Drawing.Color)">
+            <summary>
+            Set Fore Color
+            </summary>
+            <param name="foreColor">Fore Color</param>
+        </member>
+        <member name="M:AutoCount.StartScreen.Function.TileItemCreated(DevExpress.XtraEditors.TileItem,DevExpress.XtraEditors.TileControl)">
+            <summary>
+            Call when the tile item is created
+            </summary>
+            <param name="tileItem">A TileItem</param>
+            <param name="tileControl">The TileControl</param>
+        </member>
+        <member name="M:AutoCount.StartScreen.Function.TileSizeChanged(DevExpress.XtraEditors.TileItem,DevExpress.XtraEditors.TileControl)">
+            <summary>
+            Call when the tile size is changed
+            </summary>
+            <param name="tileItem">A TileItem</param>
+            <param name="tileControl">The TileControl</param>
+        </member>
+        <member name="M:AutoCount.StartScreen.Function.FunctionClick">
+            <summary>
+            Called when the TileItem's ItemClick occurred
+            </summary>
+        </member>
+        <member name="M:AutoCount.StartScreen.Function.FunctionRightClick">
+            <summary>
+            Called when the TileItem's ItemRightClick occurred
+            </summary>
+        </member>
+        <member name="M:AutoCount.StartScreen.Function.FunctionFindButtonClick">
+            <summary>
+            Called when the TileItem's ContextButtonClick occurred
+            </summary>
+        </member>
+        <member name="M:AutoCount.StartScreen.Function.SetTileItem(DevExpress.XtraEditors.TileItem)">
+            <summary>
+            Set Tile Item
+            </summary>
+            <param name="tileItem">A TileItem</param>
+        </member>
+        <member name="M:AutoCount.StartScreen.Function.IsTileItemCreated">
+            <summary>
+            Is Tile Item Created?
+            </summary>
+            <returns>Return true if Tile Item was created, otherwise return false.</returns>
+        </member>
+        <member name="P:AutoCount.StartScreen.Function.TileItem">
+            <summary>
+            Get Tile Item
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.Function.Guid">
+            <summary>
+            Guid of the function
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.Function.Name">
+            <summary>
+            Display Name of the function
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.Function.Text">
+            <summary>
+            Display Text of the function
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.Function.Category">
+            <summary>
+            Category of the function
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.Function.Image">
+            <summary>
+            Image of the function
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.Function.BackColor">
+            <summary>
+            Back color of the function
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.Function.UseForeColor">
+            <summary>
+            Use Fore Color
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.Function.ForeColor">
+            <summary>
+            Fore color of the function
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.Function.Visibility">
+            <summary>
+            Visibility of the function
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.Function.DefaultGroupId">
+            <summary>
+            Default Group Id
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.Function.DefaultItemId">
+            <summary>
+            Default Item Id, the function will be shown if this value is >= 0.
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.Function.DefaultFramesCount">
+            <summary>
+            Default total frames count of the function
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.Function.OnTileItemCreated">
+            <summary>
+            Occurs when the Tile Item is created.
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.Function.OnTileSizeChanged">
+            <summary>
+            Occurs when the Tile Size is changed.
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.Function.IsVisibleDelegate">
+            <summary>
+            Delegate to return true if the function can be shown, otherwise return false.
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.Function.IsPluginVisibleDelegate">
+            <summary>
+            Delegate to return true if the function can be shown, otherwise return false.
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.Function.FunctionClickDelegate">
+            <summary>
+            Delegate to occur when ItemClick occurs at TileItem
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.Function.FunctionRightClickDelegate">
+            <summary>
+            Delegate to occur when ItemRightClick occurs at TileItem
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.Widget.myIsVisibleDelegate">
+            <summary>
+            Delegate to return true if the function can be shown, otherwise return false.
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.Widget.myCustomizedDelegate">
+            <summary>
+            Delegate to call if the widget was successfully customized.
+            </summary>
+        </member>
+        <member name="M:AutoCount.StartScreen.Widget.#ctor(AutoCount.Controls.Widget.BaseWidget,System.Guid,System.String,System.String,System.Drawing.Image,System.Int32,System.Boolean)">
+            <summary>
+            Construct a Function
+            </summary>
+            <param name="baseWidget">An instance of AutoCount.Controls.Widget.BaseWidget</param>
+            <param name="guid">Guid</param>
+            <param name="name">Display Name</param>
+            <param name="category">Category</param>
+            <param name="image">Image</param>
+            <param name="width">Width of the control</param>
+            <param name="defaultVisible">Control the default visibility of the widget.</param>
+        </member>
+        <member name="M:AutoCount.StartScreen.Widget.IsVisible">
+            <summary>
+            Get a value indicates whether this function should be shown or not.
+            </summary>
+            <returns>Return true if the function is visible.</returns>
+        </member>
+        <member name="M:AutoCount.StartScreen.Widget.CreateWidgetControl(System.String)">
+            <summary>
+            Create Widget Control
+            </summary>
+            <param name="title">Title of the Widget</param>
+        </member>
+        <member name="M:AutoCount.StartScreen.Widget.IsWidgetControlCreated">
+            <summary>
+            Is WidgetControl Created?
+            </summary>
+        </member>
+        <member name="M:AutoCount.StartScreen.Widget.GetWidgetControl">
+            <summary>
+            Get Widget Control
+            </summary>
+            <returns>Return the Widget Control</returns>
+        </member>
+        <member name="M:AutoCount.StartScreen.Widget.StartTimer">
+            <summary>
+            If TimerEvent was set, then starts a timer thread, otherwise, do nothing.
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.Widget.Guid">
+            <summary>
+            Guid of the Widget
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.Widget.Name">
+            <summary>
+            Widget Name
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.Widget.Text">
+            <summary>
+            Display Text of the Widget
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.Widget.Category">
+            <summary>
+            Category of the Widget
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.Widget.MinWidth">
+            <summary>
+            Min. Width
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.Widget.Width">
+            <summary>
+            Width of the control
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.Widget.Image">
+            <summary>
+            Image of the Widget
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.Widget.UpdateDataInterval">
+            <summary>
+            Interval to update data
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.Widget.DefaultVisible">
+            <summary>
+            Default Visible
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.Widget.DefaultItemId">
+            <summary>
+            Default Item Id, the function will be shown if this value is >= 0.
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.Widget.IsVisibleDelegate">
+            <summary>
+            Delegate to return true if the widget can be shown, otherwise return false.
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.Widget.CustomizedDelegate">
+            <summary>
+            Delegate to call if the widget was successfully customized.
+            </summary>
+        </member>
+        <member name="M:AutoCount.StartScreen.BankBookAnalysisGridWidget.#ctor(AutoCount.ARAP.BankBookAnalysisGrid.BankBookAnalysisGrid,System.Guid,System.String,System.String,System.Drawing.Image,System.Int32,System.Boolean)">
+            <summary>
+            Construct a Function
+            </summary>
+            <param name="bankBookAnalysisGrid">An instance of AutoCount.ARAP.BankBookAnalysisGrid.BankBookAnalysisGrid</param>
+            <param name="guid">Guid</param>
+            <param name="name">Name</param>
+            <param name="category">Category</param>
+            <param name="image">Image</param>
+            <param name="width">Width</param>
+            <param name="defaultVisible">Control the default visibility of the function</param>
+        </member>
+        <member name="M:AutoCount.StartScreen.BankBookAnalysisGridWidget.Copy">
+            <summary>
+            Create a new copy of BankBookAnalysisGridWidget
+            </summary>
+            <returns>A BankBookAnalysisGridWidget</returns>
+        </member>
+        <member name="M:AutoCount.StartScreen.BankBookAnalysisGridWidget.CreateWidgetControl(System.String)">
+            <summary>
+            Create Widget Control
+            </summary>
+            <param name="title">Title of the Widget</param>
+        </member>
+        <member name="M:AutoCount.StartScreen.BankBookAnalysisGridWidget.IsWidgetControlCreated">
+            <summary>
+            Is WidgetControl Created?
+            </summary>
+        </member>
+        <member name="M:AutoCount.StartScreen.BankBookAnalysisGridWidget.GetWidgetControl">
+            <summary>
+            Get Widget Control
+            </summary>
+            <returns>Return the Widget Control</returns>
+        </member>
+        <member name="M:AutoCount.StartScreen.GridWidget.#ctor(AutoCount.Controls.Widget.BaseGrid,System.Guid,System.String,System.String,System.Drawing.Image,System.Int32,System.Boolean)">
+            <summary>
+            Construct a Function
+            </summary>
+            <param name="baseGrid">An instance of AutoCount.Controls.Widget.BaseGrid</param>
+            <param name="guid">Guid</param>
+            <param name="name">Name</param>
+            <param name="category">Category</param>
+            <param name="image">Image</param>
+            <param name="width">Width</param>
+            <param name="defaultVisible">Control the default visibility of the function</param>
+        </member>
+        <member name="M:AutoCount.StartScreen.GridWidget.Copy">
+            <summary>
+            Create a new copy of GridWidget
+            </summary>
+            <returns>A GridWidget</returns>
+        </member>
+        <member name="M:AutoCount.StartScreen.GridWidget.CreateWidgetControl(System.String)">
+            <summary>
+            Create Widget Control
+            </summary>
+            <param name="title">Title of the Widget</param>
+        </member>
+        <member name="M:AutoCount.StartScreen.GridWidget.IsWidgetControlCreated">
+            <summary>
+            Is WidgetControl Created?
+            </summary>
+        </member>
+        <member name="M:AutoCount.StartScreen.GridWidget.GetWidgetControl">
+            <summary>
+            Get Widget Control
+            </summary>
+            <returns>Return the Widget Control</returns>
+        </member>
+        <member name="M:AutoCount.StartScreen.ChartWidget.#ctor(AutoCount.Controls.Widget.BaseChart,System.Guid,System.String,System.String,System.Drawing.Image,System.Int32,System.Boolean)">
+            <summary>
+            Construct a Function
+            </summary>
+            <param name="baseChart">An instance of AutoCount.Controls.Widget.BaseChart</param>
+            <param name="guid">Guid</param>
+            <param name="name">Name</param>
+            <param name="category">Category</param>
+            <param name="image">Image</param>
+            <param name="width">Width</param>
+            <param name="defaultVisible">Control the default visibility of the function</param>
+        </member>
+        <member name="M:AutoCount.StartScreen.ChartWidget.Copy">
+            <summary>
+            Create a new copy of ChartWidget
+            </summary>
+            <returns>A ChartWidget</returns>
+        </member>
+        <member name="M:AutoCount.StartScreen.ChartWidget.CreateWidgetControl(System.String)">
+            <summary>
+            Create Widget Control
+            </summary>
+            <param name="title">Title of the Widget</param>
+        </member>
+        <member name="M:AutoCount.StartScreen.ChartWidget.IsWidgetControlCreated">
+            <summary>
+            Is WidgetControl Created?
+            </summary>
+        </member>
+        <member name="M:AutoCount.StartScreen.ChartWidget.GetWidgetControl">
+            <summary>
+            Get Widget Control
+            </summary>
+            <returns>Return the Widget Control</returns>
+        </member>
+        <member name="M:AutoCount.StartScreen.ControlWidget.#ctor(AutoCount.Controls.Widget.BaseControl,System.Guid,System.String,System.String,System.Drawing.Image,System.Int32,System.Boolean)">
+            <summary>
+            Construct a Function
+            </summary>
+            <param name="baseControl">An instance of AutoCount.Controls.Widget.BaseGrid</param>
+            <param name="guid">Guid</param>
+            <param name="name">Name</param>
+            <param name="category">Category</param>
+            <param name="image">Image</param>
+            <param name="width">Width</param>
+            <param name="defaultVisible">Control the default visibility of the function</param>
+        </member>
+        <member name="M:AutoCount.StartScreen.ControlWidget.Copy">
+            <summary>
+            Create a new copy of GridWidget
+            </summary>
+            <returns>A GridWidget</returns>
+        </member>
+        <member name="M:AutoCount.StartScreen.ControlWidget.CreateWidgetControl(System.String)">
+            <summary>
+            Create Widget Control
+            </summary>
+            <param name="title">Title of the Widget</param>
+        </member>
+        <member name="M:AutoCount.StartScreen.ControlWidget.IsWidgetControlCreated">
+            <summary>
+            Is WidgetControl Created?
+            </summary>
+        </member>
+        <member name="M:AutoCount.StartScreen.ControlWidget.GetWidgetControl">
+            <summary>
+            Get Widget Control
+            </summary>
+            <returns>Return the Widget Control</returns>
+        </member>
+        <member name="M:AutoCount.StartScreen.ModernStyleStartScreen.GetDefaultFunctions">
+            <summary>
+            Get Default Functions
+            </summary>
+            <returns>A Dictionary</returns>
+        </member>
+        <member name="M:AutoCount.StartScreen.ModernStyleStartScreen.DisposeAllWidgetTimers">
+            <summary>
+            Dispose all timers in WidgetList
+            </summary>
+        </member>
+        <member name="M:AutoCount.StartScreen.ModernStyleStartScreen.GetDefaultWidgets">
+            <summary>
+            Get Default Widgets
+            </summary>
+            <returns>A Dictionary</returns>
+        </member>
+        <member name="P:AutoCount.StartScreen.UCChartWidget.Title">
+            <summary>
+            Title of the ChartWidget.
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.UCChartWidget.ChartControl">
+            <summary>
+            Gets the chart control.
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.UCChartWidget.CustomizeEvent">
+            <summary>
+            Occurs when Customize popup menu was clicked.
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.UCChartWidget.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.StartScreen.UCChartWidget.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.StartScreen.UCChartWidget.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.UCChartWidgetStringId.ErrorMessage_ConverterChartType">
+            <summary>
+            Converter Chart Type\r\n{0}
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.UCControlWidget.FirstOrDefaultControl">
+            <summary>
+            Gets the first or default control.
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.UCControlWidget.CustomizeEvent">
+            <summary>
+            Occurs when Customize popup menu was clicked.
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.UCControlWidget.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.StartScreen.UCControlWidget.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.StartScreen.UCControlWidget.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.UCGridWidget.Title">
+            <summary>
+            Title of the GridWidget.
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.UCGridWidget.GridControl">
+            <summary>
+            Gets the grid control.
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.UCGridWidget.CustomizeEvent">
+            <summary>
+            Occurs when Customize popup menu was clicked.
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.UCGridWidget.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.StartScreen.UCGridWidget.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.StartScreen.UCGridWidget.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.UCStartScreen.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.StartScreen.UCStartScreen.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.StartScreen.UCStartScreen.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.UCStartScreenStringId.Code_UserID">
+            <summary>
+            User ID: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.UCStartScreenStringId.ShowMessage_ExportSuccessfully">
+            <summary>
+            Exported successfully.
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.UCStartScreenStringId.ErrorMessage_SaveImage">
+            <summary>
+            Save Image_{0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.UCStartScreenStringId.ErrorMessage_MixLayoutItem">
+            <summary>
+            MixLayoutItem\r\n{0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.UCStartScreenStringId.ErrorMessage_ButtonsPanelClick">
+            <summary>
+            Buttons Panel Click\r\n{0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.UCStartScreenStringId.Title_OpenImage">
+            <summary>
+            Open Image
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.UCStartScreenStringId.ErrorMessage_ElementClick">
+            <summary>
+            Element Click\r\n{0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.UCStartScreenStringId.ErrorMessage_CustomizeWidget">
+            <summary>
+            Customize Widget\r\n{0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.UCStartScreenStringId.ErrorMessage_GetItemIndex">
+            <summary>
+            Get Item Index\r\n{0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.UCStartScreenStringId.ErrorMessage_BeginFloating">
+            <summary>
+            Begin Floating\r\n{0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.UCStartScreenStringId.ErrorMessage_SetBackgroundImage">
+            <summary>
+            Set Background Image\r\n{0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.UCStartScreenStringId.Exception_UnableToGetManifestResource">
+            <summary>
+            Unable to get manifest resource {0}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.UCStartScreenStringId.ConfirmMessage_CloseWidget">
+            <summary>
+            Are you sure you want to close &lt;{0}&gt; widget?
+            </summary>
+        </member>
+        <member name="F:AutoCount.StartScreen.UCStartScreenTile.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.StartScreen.UCStartScreenTile.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.StartScreen.UCStartScreenTile.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.StartScreen.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:AutoCount.StartScreen.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="F:AutoCount.GL.MonthlyFinancialChart.FormEditMonthlyFinancialChartCriteria.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.GL.MonthlyFinancialChart.FormEditMonthlyFinancialChartCriteria.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.GL.MonthlyFinancialChart.FormEditMonthlyFinancialChartCriteria.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.GL.MonthlyFinancialChart.MonthlyFinancialChart">
+            <summary>
+            Monthly Financial Chart
+            </summary>
+        </member>
+        <member name="M:AutoCount.GL.MonthlyFinancialChart.MonthlyFinancialChart.Create(AutoCount.Authentication.UserSession,System.Byte[])">
+            <summary>
+            Create an instance of MonthlyFinancialChart based on the Database setting
+            </summary>
+            <param name="userSession">User Session</param>
+            <param name="criteriaData">Criteria Data in byte array, if this parameter is null, will create a default criteria</param>
+            <returns>MonthlyFinancialChart</returns>
+        </member>
+        <member name="M:AutoCount.GL.MonthlyFinancialChart.MonthlyFinancialChart.SetupChartControl(DevExpress.XtraCharts.ChartControl,System.Data.DataTable)">
+            <summary>
+            Perform binding of table to ChartControl and setup the parameter of the ChartControl.
+            </summary>
+            <param name="chartControl">DevExpress.XtraCharts.ChartControl</param>
+            <param name="table">DataTable to show in the ChartControl</param>
+        </member>
+        <member name="P:AutoCount.GL.MonthlyFinancialChart.MonthlyFinancialChart.Criteria">
+            <summary>
+            Get the MonthlyFinancialChartCriteria
+            </summary>
+        </member>
+        <member name="M:AutoCount.GL.MonthlyFinancialChart.MonthlyFinancialChart.ShowEditCriteriaWindow(System.Windows.Forms.IWin32Window)">
+            <summary>
+            Perform your actual edit criteria window, if user confirm save, then update the value to your Criteria, otherwise, do not update.
+            </summary>
+        </member>
+        <member name="T:AutoCount.GL.MonthlyFinancialChart.MonthlyFinancialChart.MonthlyFinancialChartSQL">
+            <summary>
+            SQL Implementation of Monthly Financial Chart
+            </summary>
+        </member>
+        <member name="F:AutoCount.GL.MonthlyFinancialChart.MonthlyFinancialChartStringId.MonthlyFinancial">
+            <summary>
+            Monthly Financial ({0} {1})
+            </summary>
+        </member>
+        <member name="F:AutoCount.GL.MonthlyFinancialChart.MonthlyFinancialChartStringId.ChartTitle_MonthlyFinancial">
+            <summary>
+            Monthly Financial from {0} to {1}
+            </summary>
+        </member>
+        <member name="T:AutoCount.GL.MonthlyFinancialChart.MonthlyFinancialChartCriteria">
+            <summary>
+            Criteria class used by MonthlyFinancialChart
+            </summary>
+        </member>
+        <member name="P:AutoCount.GL.MonthlyFinancialChart.MonthlyFinancialChartCriteria.FromDate">
+            <summary>
+            From Date
+            </summary>
+        </member>
+        <member name="P:AutoCount.GL.MonthlyFinancialChart.MonthlyFinancialChartCriteria.ToDate">
+            <summary>
+            To Date
+            </summary>
+        </member>
+        <member name="P:AutoCount.GL.MonthlyFinancialChart.MonthlyFinancialChartCriteria.ShowRevenue">
+            <summary>
+            Control whether to show Revenue in the chart.
+            </summary>
+        </member>
+        <member name="P:AutoCount.GL.MonthlyFinancialChart.MonthlyFinancialChartCriteria.ShowExpenses">
+            <summary>
+            Control whether to show Expenses in the chart.
+            </summary>
+        </member>
+        <member name="P:AutoCount.GL.MonthlyFinancialChart.MonthlyFinancialChartCriteria.ShowOtherIncomes">
+            <summary>
+            Control whether to show Other Incomes in the chart.
+            </summary>
+        </member>
+        <member name="P:AutoCount.GL.MonthlyFinancialChart.MonthlyFinancialChartCriteria.ShowCost">
+            <summary>
+            Control whether to show Cost in the chart.
+            </summary>
+        </member>
+        <member name="P:AutoCount.GL.MonthlyFinancialChart.MonthlyFinancialChartCriteria.ShowGrossProfit">
+            <summary>
+            Control whether to show Gross Profit in the chart.
+            </summary>
+        </member>
+        <member name="P:AutoCount.GL.MonthlyFinancialChart.MonthlyFinancialChartCriteria.ShowNetProfit">
+            <summary>
+            Control whether to show Net Profit in the chart.
+            </summary>
+        </member>
+        <member name="P:AutoCount.GL.MonthlyFinancialChart.MonthlyFinancialChartCriteria.AutoUpdateChartDate">
+            <summary>
+            Control whether to auto update chart filter date.
+            </summary>
+        </member>
+        <member name="P:AutoCount.GL.MonthlyFinancialChart.MonthlyFinancialChartCriteria.ChartType">
+            <summary>
+            Type of the chart
+            </summary>
+        </member>
+    </members>
+</doc>

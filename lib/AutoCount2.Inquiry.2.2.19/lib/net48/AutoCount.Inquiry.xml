@@ -1,0 +1,432 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AutoCount.Inquiry</name>
+    </assembly>
+    <members>
+        <member name="T:AutoCount.GL.AccountInquiry.AccountInquiry">
+            <summary>
+            Summary description for AccountInquiry.
+            </summary>
+        </member>
+        <member name="T:AutoCount.GL.AccountInquiry.FormAccountInquiry">
+            <summary>
+            Summary description for FormAccountInquiry.
+            </summary>
+        </member>
+        <member name="F:AutoCount.GL.AccountInquiry.FormAccountInquiry.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.GL.AccountInquiry.FormAccountInquiry.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.GL.AccountInquiry.FormAccountInquiry.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:AutoCount.GL.AccountInquiry.FormEventArgs.ButtonPanel">
+            <summary>
+            Get the button panel of the edit window.
+            </summary>
+        </member>
+        <member name="P:AutoCount.GL.AccountInquiry.FormEventArgs.HeaderPanel">
+            <summary>
+            Get the header panel of the edit window.
+            </summary>
+        </member>
+        <member name="P:AutoCount.GL.AccountInquiry.FormEventArgs.TabControlMaster">
+            <summary>
+            Get the Master tab control of the edit window.
+            </summary>
+        </member>
+        <member name="P:AutoCount.GL.AccountInquiry.FormEventArgs.MasterTable">
+            <summary>
+            Get the master data table
+            </summary>
+        </member>
+        <member name="F:AutoCount.GL.AccountInquiry.AccountInquiryStringId.ErrorMessage_FromDateIncorrect">
+            <summary>
+            Sorry! From Date format is not correct. It'll reset to 1st day of this month.
+            </summary>
+        </member>
+        <member name="F:AutoCount.GL.AccountInquiry.AccountInquiryStringId.ErrorMessage_ToDateIncorrect">
+            <summary>
+            Sorry! To Date format is not correct. It'll reset to today date.
+            </summary>
+        </member>
+        <member name="F:AutoCount.GL.AccountInquiry.AccountInquiryStringId.ErrorMessage_FromDateLargerOrEqualToFiscalYearStartDate">
+            <summary>
+            Please set your From Date larger or equal to Fiscal Year Start Date ({0}).
+            </summary>
+        </member>
+        <member name="F:AutoCount.GL.AccountInquiry.AccountInquiryStringId.ErrorMessage_FromDateEarlyOrEqualtoToDate">
+            <summary>
+            Please set your From Date early or equal to To date.
+            </summary>
+        </member>
+        <member name="F:AutoCount.GL.AccountInquiry.AccountInquiryStringId.Code_BalanceForward">
+            <summary>
+            Balance Forward
+            </summary>
+        </member>
+        <member name="F:AutoCount.GL.AccountInquiry.AccountInquiryStringId.Code_OpenItem">
+            <summary>
+            Open Item
+            </summary>
+        </member>
+        <member name="F:AutoCount.GL.AccountInquiry.AccountInquiryStringId.Code_NoStatement">
+            <summary>
+            No Statement
+            </summary>
+        </member>
+        <member name="F:AutoCount.GL.AccountInquiry.AccountInquiryStringId.Code_InvoiceDate">
+            <summary>
+            Invoice Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.GL.AccountInquiry.AccountInquiryStringId.Code_DueDate">
+            <summary>
+            Due Date
+            </summary>
+        </member>
+        <member name="F:AutoCount.GL.AccountInquiry.AccountInquiryStringId.OpenedAccountInquiryWindow">
+            <summary>
+            {0} opened Account Inquiry window.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Stock.ItemInquiry.FormItemInquiry">
+            <summary>
+            Summary description for InquireItemDelegate.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Stock.ItemInquiry.FormItemInquiry.myItemCode">
+            <summary>
+            Temp store itemcode, will use to compare with new itemcode, if different, then will inquiry again, else nothing to do.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Stock.ItemInquiry.FormItemInquiry.myUom">
+            <summary>
+            Temp store uom, will use to compare with new uom, if different, then will inquiry again, else nothing to do.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Stock.ItemInquiry.FormItemInquiry.myUomItemCode">
+            <summary>
+            Temp store itemcode for uom.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Stock.ItemInquiry.FormItemInquiry.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Stock.ItemInquiry.FormItemInquiry.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Stock.ItemInquiry.FormItemInquiry.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:AutoCount.Stock.ItemInquiry.FormEventArgs.ButtonPanel">
+            <summary>
+            Get the button panel of the edit window.
+            </summary>
+        </member>
+        <member name="P:AutoCount.Stock.ItemInquiry.FormEventArgs.HeaderPanel">
+            <summary>
+            Get the header panel of the edit window.
+            </summary>
+        </member>
+        <member name="P:AutoCount.Stock.ItemInquiry.FormEventArgs.TabControlMaster">
+            <summary>
+            Get the Master tab control of the edit window.
+            </summary>
+        </member>
+        <member name="P:AutoCount.Stock.ItemInquiry.FormEventArgs.TabControlDetail">
+            <summary>
+            Get the Detail tab control of the edit window.
+            </summary>
+        </member>
+        <member name="P:AutoCount.Stock.ItemInquiry.FormEventArgs.MasterTable">
+            <summary>
+            Get the master data table
+            </summary>
+        </member>
+        <member name="P:AutoCount.Stock.ItemInquiry.FormEventArgs.DetailTable">
+            <summary>
+            Get the detail UOM data table
+            </summary>
+        </member>
+        <member name="F:AutoCount.Stock.ItemInquiry.ItemInquiryString.OpenedItemInquiryWindow">
+            <summary>
+            {0} opened Item Inquiry window.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Stock.ItemInquiry.ItemInquiryString.CurrentUOM">
+            <summary>
+            Current UOM is {0}.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Stock.ItemInquiry.FormNewItemInquiry">
+            <summary>
+            Summary description for InquireItemDelegate.
+            </summary>
+        </member>
+        <member name="P:AutoCount.Stock.ItemInquiry.FormNewItemInquiry.FormEventArgs.MasterTable">
+            <summary>
+            Get the master data table
+            </summary>
+        </member>
+        <member name="P:AutoCount.Stock.ItemInquiry.FormNewItemInquiry.FormEventArgs.DetailTable">
+            <summary>
+            Get the detail UOM data table
+            </summary>
+        </member>
+        <member name="F:AutoCount.Stock.ItemInquiry.FormNewItemInquiry.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Stock.ItemInquiry.FormNewItemInquiry.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Stock.ItemInquiry.FormNewItemInquiry.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Stock.ItemInquiry.ItemInquiry">
+            <summary>
+            Summary description for ItemInquiry.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Inquiry.ItemInquiry.LCUCPriceHistory.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Inquiry.ItemInquiry.LCUCPriceHistory.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Inquiry.ItemInquiry.LCUCPriceHistory.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Inquiry.ItemInquiry.LCUCPricing.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Inquiry.ItemInquiry.LCUCPricing.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Inquiry.ItemInquiry.LCUCPricing.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Inquiry.ItemInquiry.LCUCStockLevel.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Inquiry.ItemInquiry.LCUCStockLevel.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Inquiry.ItemInquiry.LCUCStockLevel.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Inquiry.UCInquiryStringId.DebtorNote">
+            <summary>
+            Debtor Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Inquiry.UCInquiryStringId.CreditorNote">
+            <summary>
+            Creditor Note
+            </summary>
+        </member>
+        <member name="T:AutoCount.Inquiry.UserControls.UCInquiry">
+            <summary>
+            Summary description for UCInquiry.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Inquiry.UserControls.UCInquiry.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Inquiry.UserControls.UCInquiry.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Inquiry.UserControls.UCInquiry.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Inquiry.UserControls.UCInquiryAging">
+            <summary>
+            Summary description for UCInquiryAging.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Inquiry.UserControls.UCInquiryAging.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Inquiry.UserControls.UCInquiryAging.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Inquiry.UserControls.UCInquiryAging.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Inquiry.UserControls.UCInquiryCSGN">
+            <summary>
+            Summary description for UCInquiry.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Inquiry.UserControls.UCInquiryCSGN.SetModuleFeature(AutoCount.LicenseControl.ModuleController)">
+            <summary>
+            Control which tab will be shown using ModuleController
+            </summary>
+        </member>
+        <member name="F:AutoCount.Inquiry.UserControls.UCInquiryCSGN.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Inquiry.UserControls.UCInquiryCSGN.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Inquiry.UserControls.UCInquiryCSGN.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Inquiry.UserControls.UCInquiryDeliveryProcessing">
+            <summary>
+            Summary description for UCInquiryDeliveryProcessing.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Inquiry.UserControls.UCInquiryDeliveryProcessing.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Inquiry.UserControls.UCInquiryDeliveryProcessing.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Inquiry.UserControls.UCInquiryDeliveryProcessing.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Inquiry.UserControls.UCInquiryOrderProcessing">
+            <summary>
+            Summary description for UCInquiryOrderProcessing.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Inquiry.UserControls.UCInquiryOrderProcessing.myItemCodes">
+            <summary>
+            ItemCode for Stock Status
+            </summary>
+        </member>
+        <member name="F:AutoCount.Inquiry.UserControls.UCInquiryOrderProcessing.myItemCodeWithSubdetail">
+            <summary>
+            ItemCode for Stock Status With SubDetail
+            </summary>
+        </member>
+        <member name="F:AutoCount.Inquiry.UserControls.UCInquiryOrderProcessing.myItemCode">
+            <summary>
+            ItemCode for Last 3 Purchase &amp; Price History
+            </summary>
+        </member>
+        <member name="F:AutoCount.Inquiry.UserControls.UCInquiryOrderProcessing.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Inquiry.UserControls.UCInquiryOrderProcessing.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Inquiry.UserControls.UCInquiryOrderProcessing.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Inquiry.UserControls.UCInquiryStock">
+            <summary>
+            Summary description for UCInquiryStock.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Inquiry.UserControls.UCInquiryStock.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Inquiry.UserControls.UCInquiryStock.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Inquiry.UserControls.UCInquiryStock.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,13 @@
+License text
+
+AutoCount version 2 Programming Interface
+
+This is a release of AutoCount version 2 programming interface, brought to you by the AutoCount Accounting team at Auto Count Sdn Bhd (ACSB). This software is released under the following license:
+
+Permission to use, copy, and distribute this software and its documentation for any purpose, without fee, and without a written agreement is hereby granted, provided that the above copyright notice and this paragraph and the following two paragraphs appear in all copies.
+
+IN NO EVENT SHALL ACSB BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS, ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF ACSB HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+ACSB SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE SOFTWARE PROVIDED HEREUNDER IS ON AN "AS IS" BASIS, AND ACSB HAS NO OBLIGATIONS TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
+
+Copyright 2019-2022 (c) Auto Count Sdn. Bhd.

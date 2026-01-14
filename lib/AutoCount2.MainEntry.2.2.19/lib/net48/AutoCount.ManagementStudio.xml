@@ -1,0 +1,3351 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AutoCount.ManagementStudio</name>
+    </assembly>
+    <members>
+        <member name="T:AutoCount.Fixes.FormFixMemberBalancePoint">
+            <summary>
+            Summary description for FormFixMemberBalancePoint.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixMemberBalancePoint.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixMemberBalancePoint.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixMemberBalancePoint.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixMemberBalancePointStringId.ErrorMessage_AdminCanPerformThisFunc">
+            <summary>
+            You must be the ADMIN user to run this function.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixMemberBalancePointStringId.ShowMessage_SuccessFixMemberBalancePoint">
+            <summary>
+            Fix Member Balance Point completed successfully.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Fixes.FormRebuildPriceHistory">
+            <summary>
+            Summary description for FormRebuildPriceHistory.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuildPriceHistory.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Fixes.FormRebuildPriceHistory.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormRebuildPriceHistory.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidPriceHistoryStringId.ConfirmMessage_RebuildIPHIST1M">
+            <summary>
+            There are more than 1M records to be rebuild and it will take some time to complete the whole process. \r\nRecords to insert or update : {0} rows \r\nEstimated Time : {1} (based on average speed, actual time may vary)\r\n\r\nDo you still want to continue?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidPriceHistoryStringId.ConfirmMessage_RebuildIPHIST">
+            <summary>
+            Rebuild Price History Transactions may take some time to complete the whole process. \r\nRecords to insert or update : {0} rows \r\nEstimated Time : {1} (based on average speed, actual time may vary)\r\n\r\nDo you still want to continue?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidPriceHistoryStringId.ShowMessage_SuccessRebuildIPHIST">
+            <summary>
+            Rebuild Price History Table and Transactions completed successfully. Please inform all users to relogin into account book.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidPriceHistoryStringId.ErrorMessage_IncorrrectFromDate">
+            <summary>
+            From Date must be equal or after Actual Start Date.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidPriceHistoryStringId.CreateIPHISTTable">
+            <summary>
+            Create Price History Table.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidPriceHistoryStringId.RepostADVQuotation">
+            <summary>
+            Repost Advanced Quotation 
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidPriceHistoryStringId.RepostQuotation">
+            <summary>
+            Repost Quotation 
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidPriceHistoryStringId.RepostSalesOrder">
+            <summary>
+            Repost Sales Order 
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidPriceHistoryStringId.RepostDO">
+            <summary>
+            Repost D/O 
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidPriceHistoryStringId.RepostInvoice">
+            <summary>
+            Repost Invoice 
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidPriceHistoryStringId.RepostCashSale">
+            <summary>
+            Repost Cash Sale 
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidPriceHistoryStringId.RepostCreditNote">
+            <summary>
+            Repost Credit Note 
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidPriceHistoryStringId.RepostDebitNote">
+            <summary>
+            Repost Debit Note 
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidPriceHistoryStringId.RepostCancelSO">
+            <summary>
+            Repost Cancel Sales Order 
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidPriceHistoryStringId.RepostDeliveryReturn">
+            <summary>
+            Repost Delivery Return 
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidPriceHistoryStringId.RepostRequestQuotation">
+            <summary>
+            Repost Request Quotation 
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidPriceHistoryStringId.RepostPurchaseOrder">
+            <summary>
+            Repost Purchase Order 
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidPriceHistoryStringId.RepostGoodsReceivedNote">
+            <summary>
+            Repost Goods Received Note 
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidPriceHistoryStringId.RepostPurchaseInvoice">
+            <summary>
+            Repost Purchase Invoice 
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidPriceHistoryStringId.RepostCashPurchase">
+            <summary>
+            Repost Cash Purchase 
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidPriceHistoryStringId.RepostPurchaseReturn">
+            <summary>
+            Repost Purchase Return 
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidPriceHistoryStringId.RepostCancelPO">
+            <summary>
+            Repost Cancel Purchase Order 
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidPriceHistoryStringId.RepostGoodsReturn">
+            <summary>
+            Repost Goods Return 
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidPriceHistoryStringId.RepostPOS">
+            <summary>
+            Repost POS 
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidPriceHistoryStringId.MigrateFromPastYear">
+            <summary>
+            Migrate From Past Year Price History Table
+            </summary>
+        </member>
+        <member name="T:AutoCount.Fixes.FormPastYearPriceHistoryCmd">
+            <summary>
+            Summary description for FormUpgradeToWHTVersion3.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormPastYearPriceHistoryCmd.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Fixes.FormPastYearPriceHistoryCmd.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormPastYearPriceHistoryCmd.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormPastYearPriceHistoryCmdStringId.ErrorMessage_AdminCanPerformThisFunc">
+            <summary>
+            You must be the ADMIN user to run this function.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormPastYearPriceHistoryCmdStringId.ErrorMessage_IncorrectDateRange">
+            <summary>
+            Incorrect date range. End Date must be after Start Date.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormPastYearPriceHistoryCmdStringId.ErrorMessage_IncorrectEndDate">
+            <summary>
+            End date must be before Actual Data Start Date '{0}'.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormPastYearPriceHistoryCmdStringId.ErrorMessage_NoRowsSelected">
+            <summary>
+            No rows selected.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormPastYearPriceHistoryCmdStringId.ConfirmMessage_DeleteRows">
+            <summary>
+            Are you sure you want to delete the record(s)?
+            </summary>
+        </member>
+        <member name="T:AutoCount.Fixes.FormImportPastYearPriceHistory">
+            <summary>
+            Summary description for FormImportPastYearPriceHistory.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormImportPastYearPriceHistory.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Fixes.FormImportPastYearPriceHistory.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormImportPastYearPriceHistory.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormImportPastYearPriceHistoryStringId.ErrorMessage_AdminCanPerformThisFunc">
+            <summary>
+            You must be the ADMIN user to run this function.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormImportPastYearPriceHistoryStringId.ErrorMessage_IncorrectDateRange">
+            <summary>
+            Incorrect date range. End Date must be after Start Date.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormImportPastYearPriceHistoryStringId.ErrorMessage_IncorrectEndDate">
+            <summary>
+            End date must be before Actual Data Start Date '{0}'.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Fixes.FormUpgradeToWHTVersion3">
+            <summary>
+            Summary description for FormUpgradeToWHTVersion3.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormUpgradeToWHTVersion3.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Fixes.FormUpgradeToWHTVersion3.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormUpgradeToWHTVersion3.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormUpgradeToWHTVersion3StringId.ErrorMessage_AdminCanPerformThisFunc">
+            <summary>
+            You must be the ADMIN user to run this function.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormUpgradeToWHTVersion3StringId.ErrorSaveData_DataRowWasUpdatedOrDeleted">
+            <summary>
+            Unable to upgrade the record because the record was either modified or deleted by other user.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormUpgradeToWHTVersion3StringId.ErrorInquiry_NoDocumentSeleted">
+            <summary>
+            No Document selected.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormUpgradeToWHTVersion3StringId.ShowMessage_SuccessUpgradeTrans">
+            <summary>
+            Upgrade GL/Sales/Purchase/ARAP completed successfully.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormUpgradeToWHTVersion3StringId.UpgradeInvoice">
+            <summary>
+            Upgrade Invoice {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormUpgradeToWHTVersion3StringId.UpgradeCashSale">
+            <summary>
+            Upgrade Cash Sale {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormUpgradeToWHTVersion3StringId.UpgradeDebitNote">
+            <summary>
+            Upgrade Debit Note {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormUpgradeToWHTVersion3StringId.UpgradePurchaseInvoice">
+            <summary>
+            Upgrade Purchase Invoice {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormUpgradeToWHTVersion3StringId.UpgradeCashPurchase">
+            <summary>
+            Upgrade Cash Purchase {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormUpgradeToWHTVersion3StringId.UpgradeCashBookEntry">
+            <summary>
+            Upgrade Cash Book Entry {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormUpgradeToWHTVersion3StringId.UpgradeARInvoiceEntry">
+            <summary>
+            Upgrade A/R Invoice Entry {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormUpgradeToWHTVersion3StringId.UpgradeARPaymentEntry">
+            <summary>
+            Upgrade A/R Payment Entry {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormUpgradeToWHTVersion3StringId.UpgradeARDNEntry">
+            <summary>
+            Upgrade A/R D/N Entry {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormUpgradeToWHTVersion3StringId.UpgradeARRefundEntry">
+            <summary>
+            Upgrade A/R Refund Entry {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormUpgradeToWHTVersion3StringId.UpgradeAPInvoiceEntry">
+            <summary>
+            Upgrade A/P Invoice Entry {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormUpgradeToWHTVersion3StringId.UpgradeAPPaymentEntry">
+            <summary>
+            Upgrade A/P Payment Entry {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormUpgradeToWHTVersion3StringId.UpgradeAPDNEntry">
+            <summary>
+            Upgrade A/P D/N Entry {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormUpgradeToWHTVersion3StringId.UpgradeAPRefundEntry">
+            <summary>
+            Upgrade A/P Refund Entry {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormUpgradeToWHTVersion3StringId.CONFIRMMSSG_UpgradeToVerion3">
+            <summary>
+            After upgraded to WHT Version 3, it may have impact on your account balance and this action cannot be reversed. \r\nDo you want to continue?
+            </summary>
+        </member>
+        <member name="M:AutoCount.Fixes.ImportPastYearPriceHistory.GetTaxRateFromSourceTable(System.String)">
+            <summary>
+            To comply with dbversion before 1.0.9.47
+            </summary>
+            <param name="taxCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AutoCount.Fixes.ImportPastYearPriceHistory.GetCurrencyRateFromSourceTable(System.String,System.Int64)">
+            <summary>
+            To comply with dbversion before 1.0.8.10
+            </summary>
+            <param name="docType"></param>
+            <param name="docKey"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AutoCount.Fixes.ImportPastYearPriceHistory.GetCancelledFromSourceTable(System.String,System.Int64)">
+            <summary>
+            To comply with dbversion before 1.0.8.12
+            </summary>
+            <param name="docType"></param>
+            <param name="docKey"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AutoCount.Fixes.ImportPastYearPriceHistory.GetGuidFromSourceTable(System.String,System.Int64,System.Int64)">
+            <summary>
+            To comply with dbversion before 1.0.9.30
+            </summary>
+            <param name="docType"></param>
+            <param name="docKey"></param>
+            <param name="dtlKey"></param>
+            <returns></returns>
+        </member>
+        <member name="F:AutoCount.Fixes.PastYearPriceHistoryStringId.Log_FailedToGetValue">
+            <summary>
+            Failed to get {0} ({1}) : {2}
+            </summary>
+        </member>
+        <member name="T:AutoCount.Fixes.FormFixBankTrans">
+            <summary>
+            Summary description for FormFixBankTrans.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixBankTrans.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixBankTrans.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixBankTrans.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Fixes.FormFixBrokenGLLink">
+            <summary>
+            Summary description for FormFixBankTrans.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixBrokenGLLink.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixBrokenGLLink.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixBrokenGLLink.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Fixes.FormFixFCRevalue">
+            <summary>
+            Summary description for FormFixBankTrans.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixFCRevalue.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixFCRevalue.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixFCRevalue.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Fixes.FormFixLocalSubTotal">
+            <summary>
+            Summary description for FormFixLocalSubTotal.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixLocalSubTotal.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixLocalSubTotal.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixLocalSubTotal.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixLocalSubTotal.UpdateProgress(System.String,System.Int32)">
+            <summary>
+            update the progress bar
+            </summary>
+            <param name="action"> the action which is doing now </param>
+            <param name="pos"> the progress bar line position</param>
+        </member>
+        <member name="T:AutoCount.Fixes.FormFixORNoFromCashSale">
+            <summary>
+            Summary description for FormFixORNoFromCashSale.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixORNoFromCashSale.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixORNoFromCashSale.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixORNoFromCashSale.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Fixes.FormFixPartialTransfer">
+            <summary>
+            Summary description for FormFixPartialTransfer.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixPartialTransfer.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixPartialTransfer.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixPartialTransfer.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixPartialTransfer.GET_TRANSFER_SQL">
+            <summary>
+            to get the transfered qty from the doc specified
+            </summary>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixPartialTransfer.FixQT(AutoCount.Data.DBSetting)">
+            <summary>
+            To fix QT
+            </summary>
+            <param name="dbSetting">Database setting</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixPartialTransfer.FixSO(AutoCount.Data.DBSetting)">
+            <summary>
+            To fix SO
+            </summary>
+            <param name="dbSetting">Database setting</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixPartialTransfer.FixDO(AutoCount.Data.DBSetting)">
+            <summary>
+            To fix DO
+            </summary>
+            <param name="dbSetting">Database setting</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixPartialTransfer.FixIV(AutoCount.Data.DBSetting)">
+            <summary>
+            to Fix IV
+            </summary>
+            <param name="dbSetting">Database setting</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixPartialTransfer.FixRQ(AutoCount.Data.DBSetting)">
+            <summary>
+            To Fix RQ
+            </summary>
+            <param name="dbSetting">Database setting</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixPartialTransfer.FixPO(AutoCount.Data.DBSetting)">
+            <summary>
+            To fix PO
+            </summary>
+            <param name="dbSetting">Database setting</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixPartialTransfer.FixGR(AutoCount.Data.DBSetting)">
+            <summary>
+            To fix GR
+            </summary>
+            <param name="dbSetting">Database setting</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixPartialTransfer.FixPI(AutoCount.Data.DBSetting)">
+            <summary>
+            To fix PI
+            </summary>
+            <param name="dbSetting">Database setting</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixPartialTransfer.GetTransferedData(AutoCount.Data.DBSetting,System.String,System.String,System.String,System.String)">
+            <summary>
+            get the transfered data from respective table
+            </summary>
+            <param name="FromTable"> transfer from which dtl table</param>
+            <param name="FromMasterTable">transfer from which master table</param>
+            <param name="ToTable">to which dtl table</param>
+            <param name="ToDocType">what doc type of the transfer is</param>
+            <returns>table containing the info of the transfer</returns>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixPartialTransfer.AddUpTransferedQty(System.Data.DataTable@,System.Data.DataTable)">
+            <summary>
+            add the qty from few table together.
+            </summary>
+            <param name="baseTable">the base table to use in update the transferedqty</param>
+            <param name="toAddUpTable">the other table to be add up into base qty</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixPartialTransfer.UpdateIntoDB(System.Data.DataTable,System.String,AutoCount.Data.DBSetting)">
+            <summary>
+            save the qty into database
+            </summary>
+            <param name="dt"></param>
+            <param name="tableName"></param>
+            <param name="dbSetting">Database setting</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixPartialTransfer.ActuallUpdateIntoDB(System.String,System.Int64,System.Decimal,AutoCount.Data.DBSetting)">
+            <summary>
+            actual update into DB
+            </summary>
+            <param name="tableName"> table to be update</param>
+            <param name="dtlKey"> which row to be update</param>
+            <param name="Qty"> qty to be insert into</param>
+            <param name="dbSetting">Database setting</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixPartialTransfer.CheckForOverTransfer(System.Data.DataTable,System.Boolean)">
+            <summary>
+            check c whether the row is containing transferedqty > smallestQty
+            if contain then show the docNo of the row in memoEdit
+            </summary>
+            <param name="dt"> table to be check</param>
+            <param name="isContinue">to indicate whether should clear the memoEdit </param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixPartialTransfer.simpleButton1_Click(System.Object,System.EventArgs)">
+            <summary>
+            start the fix process.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixPartialTransfer.UpdateProgress(System.String,System.Int32)">
+            <summary>
+            update the progress bar
+            </summary>
+            <param name="action"> the action which is doing now </param>
+            <param name="pos"> the progress bar line position</param>
+        </member>
+        <member name="T:AutoCount.Fixes.FormFixPartialTransferedIncorrectDocNo">
+            <summary>
+            Summary description for FormFixBankTrans.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixPartialTransferedIncorrectDocNo.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixPartialTransferedIncorrectDocNo.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixPartialTransferedIncorrectDocNo.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Fixes.FormFixPartialTransferedQtyRounding">
+            <summary>
+            Summary description for FormFixBankTrans.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixPartialTransferedQtyRounding.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixPartialTransferedQtyRounding.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixPartialTransferedQtyRounding.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Fixes.FormFixPostToDetailProblem">
+            <summary>
+            This function will fix the problem facing by Ultimate Copier
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixPostToDetailProblem.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixPostToDetailProblem.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixPostToDetailProblem.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Fixes.FormFixSerialNumberAdjustmentProblem">
+            <summary>
+            Summary description for FormFixPartialTransfer.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixSerialNumberAdjustmentProblem.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixSerialNumberAdjustmentProblem.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixSerialNumberAdjustmentProblem.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixSerialNumberAdjustmentProblem.simpleButton1_Click(System.Object,System.EventArgs)">
+            <summary>
+            start the fix process.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixSerialNumberAdjustmentProblem.UpdateProgress(System.Int32,System.Int32,System.String)">
+            <summary>
+            update the progress bar
+            </summary>
+            <param name="action"> the action which is doing now </param>
+            <param name="pos"> the progress bar line position</param>
+        </member>
+        <member name="T:AutoCount.Fixes.FormFixTransferToCancelledDocument">
+            <summary>
+            Summary description for FormFixBankTrans.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixTransferToCancelledDocument.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixTransferToCancelledDocument.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixTransferToCancelledDocument.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Fixes.FormFixUserReports">
+            <summary>
+            Summary description for FormFixBankTrans.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixUserReports.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixUserReports.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixUserReports.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Fixes.FormRebuildGLTrans">
+            <summary>
+            Summary description for FormFixBankTrans.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuildGLTrans.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Fixes.FormRebuildGLTrans.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormRebuildGLTrans.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRecompressGLTransactionIDTrash.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Fixes.FormRecompressGLTransactionIDTrash.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormRecompressGLTransactionIDTrash.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Fixes.FormRepostGLARAPTrans">
+            <summary>
+            Summary description for FormFixBankTrans.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostGLARAPTrans.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Fixes.FormRepostGLARAPTrans.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormRepostGLARAPTrans.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Fixes.FormRepostSalesPurchaseStockTrans">
+            <summary>
+            Summary description for FormFixBankTrans.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostSalesPurchaseStockTrans.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Fixes.FormRepostSalesPurchaseStockTrans.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormRepostSalesPurchaseStockTrans.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Fixes.FormResetForeignCurrencyRevaluation">
+            <summary>
+            Summary description for FormFixBankTrans.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormResetForeignCurrencyRevaluation.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Fixes.FormResetForeignCurrencyRevaluation.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormResetForeignCurrencyRevaluation.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormResetForeignCurrencyRevaluationStringId.ErrorMessage_AdminCanPerformThisFunc">
+            <summary>
+            You must be the ADMIN user to run this function.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormResetForeignCurrencyRevaluationStringId.ConfirmMessage_ResetForeignCurrencyRevaluation">
+            <summary>
+            Do you really want to reset Foreign Currency Revaluation?\n\n(Note: Once reset, all Foreign Currency Revaluation transactions will be gone.)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormResetForeignCurrencyRevaluationStringId.ShowMessage_SuccessResetForeignCurrencyRevaluation">
+            <summary>
+            Reset Foreign Currency Revaluation completed successfully.\n\n(Note:  You may need to repost A/R Payment, A/R C/N, A/R Refund, A/P Payment, A/P C/N, A/P Refund, A/R and A/P Contra after successfully running this function.)
+            </summary>
+        </member>
+        <member name="T:AutoCount.Fixes.FixSerialNumberAdjustmentProblem">
+            <summary>
+            Summary description for FixIncorrectRateBug.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FixSerialNumAdjProbStringId.StartFix">
+            <summary>
+            Start Fix
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FixSerialNumAdjProbStringId.StartFixPositive">
+            <summary>
+            Start Fix Positive
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FixSerialNumAdjProbStringId.StartFixNegative">
+            <summary>
+            Start Fix Negative
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FixSerialNumAdjProbStringId.Done">
+            <summary>
+            Done
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixBankTransStringId.ErrorMessage_AdminCanPerformThisFunc">
+            <summary>
+            You must be the ADMIN user to run this function.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixBankTransStringId.ShowMessage_SuccessFixBankTrans">
+            <summary>
+            Fix Bank Transaction completed successfully.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixBankTransStringId.RepostARPayment">
+            <summary>
+            Repost A/R Payment {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixBankTransStringId.RepostARRefund">
+            <summary>
+            Repost A/R Refund {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixBankTransStringId.RepostARDeposit">
+            <summary>
+            Repost A/R Deposit {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixBankTransStringId.RepostAPPayment">
+            <summary>
+            Repost A/P Payment {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixBankTransStringId.RepostAPRefund">
+            <summary>
+            Repost A/P Refund {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixBankTransStringId.RepostAPDeposit">
+            <summary>
+            Repost A/P Deposit {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixBankTransStringId.ShowMessage_SuccessFixBankCharges">
+            <summary>
+            Fix Bank Charges completed successfully.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixBankTransStringId.RepostCashTransaction">
+            <summary>
+            Repost Cash Transaction {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixBrokenGLLinkStringId.ErrorMessage_AdminCanPerformThisFunc">
+            <summary>
+            You must be the ADMIN user to run this function.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixBrokenGLLinkStringId.ShowMessage_SuccessFixBrokenGLDetails">
+            <summary>
+            Fix Broken G/L Details completed successfully with {0} broken link.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixBrokenGLLinkStringId.DeleteBrokenGLDetails">
+            <summary>
+            Delete broken G/L Details: {0}, Source Key = {1}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixFCRevalueStringId.ErrorMessage_AdminCanPerformThisFunc">
+            <summary>
+            You must be the ADMIN user to run this function.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixFCRevalueStringId.ShowMessage_SuccessFixForeignCurrency">
+            <summary>
+            Fix Foreign Currency Revaluation completed successfully.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixLocalSubTotalStringId.StartFix">
+            <summary>
+            Start Fix
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixLocalSubTotalStringId.StartFixingQT">
+            <summary>
+            Start Fixing QT
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixLocalSubTotalStringId.StartFixingSO">
+            <summary>
+            Start Fixing SO
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixLocalSubTotalStringId.StartFixingDO">
+            <summary>
+            Start Fixing DO
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixLocalSubTotalStringId.StartFixingIV">
+            <summary>
+            Start Fixing IV
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixLocalSubTotalStringId.StartFixingCS">
+            <summary>
+            Start Fixing CS
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixLocalSubTotalStringId.StartFixingCN">
+            <summary>
+            Start Fixing CN
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixLocalSubTotalStringId.StartFixingDN">
+            <summary>
+            Start Fixing DN
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixLocalSubTotalStringId.StartFixingDR">
+            <summary>
+            Start Fixing DR
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixLocalSubTotalStringId.StartFixingXS">
+            <summary>
+            Start Fixing XS
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixLocalSubTotalStringId.StartFixingRQ">
+            <summary>
+            Start Fixing RQ
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixLocalSubTotalStringId.StartFixingPO">
+            <summary>
+            Start Fixing PO
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixLocalSubTotalStringId.StartFixingGR">
+            <summary>
+            Start Fixing GR
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixLocalSubTotalStringId.StartFixingPI">
+            <summary>
+            Start Fixing PI
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixLocalSubTotalStringId.StartFixingCP">
+            <summary>
+            Start Fixing CP
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixLocalSubTotalStringId.StartFixingPR">
+            <summary>
+            Start Fixing PR
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixLocalSubTotalStringId.StartFixingGT">
+            <summary>
+            Start Fixing GT
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixLocalSubTotalStringId.StartFixingXP">
+            <summary>
+            Start Fixing XP
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixLocalSubTotalStringId.Done">
+            <summary>
+            Done
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixORNoFromCashSaleStringId.ErrorMessage_AdminCanPerformThisFunc">
+            <summary>
+            You must be the ADMIN user to run this function.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixORNoFromCashSaleStringId.ShowMessage_SuccessFixBankTrans">
+            <summary>
+            Fix Bank Transaction completed successfully.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixORNoFromCashSaleStringId.RepostCashSale">
+            <summary>
+            Repost Cash Sale {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixPartialTransferStringId.ShowMessage_SuccessFixPartialTransProb">
+            <summary>
+            Fix Partial Transfer Problem for Empty Item Code completed successfully.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixPartialTransferStringId.FixingQT">
+            <summary>
+            Fixing QT
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixPartialTransferStringId.FixingSO">
+            <summary>
+            Fixing SO
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixPartialTransferStringId.FixingDO">
+            <summary>
+            Fixing DO
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixPartialTransferStringId.FixingIV">
+            <summary>
+            Fixing IV
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixPartialTransferStringId.FixingRQ">
+            <summary>
+            Fixing RQ
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixPartialTransferStringId.FixingPO">
+            <summary>
+            Fixing PO
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixPartialTransferStringId.FixingGR">
+            <summary>
+            Fixing GR
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixPartialTransferStringId.FixingPI">
+            <summary>
+            Fixing PI
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixPartialTransferStringId.Done">
+            <summary>
+            Done
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixPartialTransferStringId.IsOverTransfered">
+            <summary>
+            {0}Is over transfered
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixPartialTransIncorrectDocNoProblemStringId.ErrorMessage_AdminCanPerformThisFunc">
+            <summary>
+            You must be the ADMIN user to run this function.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixPartialTransIncorrectDocNoProblemStringId.ShowMessage_SuccessFixPTIncorrectFromDocNo">
+            <summary>
+            Fix Partial Transfer Incorrect From Document No. Problem completed successfully.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixPartialTransRoundingProblemStringId.ErrorMessage_AdminCanPerformThisFunc">
+            <summary>
+            You must be the ADMIN user to run this function.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixPartialTransRoundingProblemStringId.ShowMessage_SuccessFixIncorrectPartialTransQty">
+            <summary>
+            Fix Partial Transfer Incorrect Partial Transfered Quantity Problem completed successfully.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixPostToDetailProblemStringId.ErrorMessage_AdminCanPerformThisFunc">
+            <summary>
+            You must be the ADMIN user to run this function.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixPostToDetailProblemStringId.ShowMessage_SuccessFixPostToDetailProb">
+            <summary>
+            Fix Post To Detail Problem completed successfully.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixPostToDetailProblemStringId.ShowMessage_SuccessReupgradeLastYearBal">
+            <summary>
+            Re-upgrade Last Year Balance completed successfully.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixPostToDetailProblemStringId.RepostCashBookEntry">
+            <summary>
+            Repost Cash Book Entry {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixPostToDetailProblemStringId.RetrievePostToDetailStatus">
+            <summary>
+            This function will retrieve the Post To Detail status of Cash Book Entry of AutoCount XP or Premier 3.5 and repost the Cash Book Entry in {0}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixRevalue.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixRevalue.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixRevalue.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixRevalueStringId.ShowMessage_FinishFix">
+            <summary>
+            Finish Fix.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixUserReportsStringId.ErrorMessage_AdminCanPerformThisFunc">
+            <summary>
+            You must be the ADMIN user to run this function.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixUserReportsStringId.ShowMessage_SuccessFixUserReports">
+            <summary>
+            Fix User Reports completed successfully.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixUserReportsStringId.FixUserReport">
+            <summary>
+            Fix User Report {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixTransToCancelledDocStringId.ErrorMessage_AdminCanPerformThisFunc">
+            <summary>
+            You must be the ADMIN user to run this function.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixTransToCancelledDocStringId.ShowMessage_SuccessFixTransToCancelledDoc">
+            <summary>
+            Fix Transfer To Cancelled Documents completed successfully.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRearrangeGLDTL.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Fixes.FormRearrangeGLDTL.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormRearrangeGLDTL.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRearrangeGLDTLStringId.TtlDeletedInGLDTL">
+            <summary>
+            Total number of rows deleted in GLDTL = {0} over {1} ({2:n2} %)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRearrangeGLDTLStringId.TtlUpdatedDescription">
+            <summary>
+            Total number of rows were updated Description = {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRearrangeGLDTLStringId.InfoMessage_RearrangeGLTransInHours">
+            <summary>
+            Rearrange General Ledger Transactions completed in {0} hours, {1} minutes, {2} seconds.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRearrangeGLDTLStringId.InfoMessage_RearrangeGLTransInMinutes">
+            <summary>
+            Rearrange General Ledger Transactions completed in {0} minutes, {1} seconds.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRearrangeGLDTLStringId.InfoMessage_RearrangeGLTransInSeconds">
+            <summary>
+            Rearrange General Ledger Transactions completed in {0} seconds.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRearrangeGLDTLStringId.NumOfZeroAmountRowsDeleted">
+            <summary>
+            Number of zero amount rows deleted = {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRearrangeGLDTLStringId.ProcessLine">
+            <summary>
+            Process Line {2}: Source Type = {0}, Source Key = {1}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.ConfirmMessage_RebuildGLTrans">
+            <summary>
+            Rebuild G/L Transactions will be used only after you have recovered the SQL Database from a severe error, it may take more than 30 minutes to complete the whole process, do you still want to continue?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.ShowMessage_SuccessRebuildGLTrans">
+            <summary>
+            Rebuild G/L Transactions completed successfully.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.RepostCashBookEntry">
+            <summary>
+            Repost Cash Book Entry {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.RepostJournalEntry">
+            <summary>
+            Repost Journal Entry {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.RepostForeignCurrencyRevaluation">
+            <summary>
+            Repost Foreign Currency Revaluation {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.RepostUnrealizedGainLoss">
+            <summary>
+            Repost Unrealized Gain/Loss {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.RepostARDeposit">
+            <summary>
+            Repost A/R Deposit {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.RepostARInvoice">
+            <summary>
+            Repost A/R Invoice {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.RepostARDebitNote">
+            <summary>
+            Repost A/R Debit Note {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.RepostARCreditNote">
+            <summary>
+            Repost A/R Credit Note {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.RepostARPayment">
+            <summary>
+            Repost A/R Payment {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.RepostARRefund">
+            <summary>
+            Repost A/R Refund {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.RepostARAndAPContra">
+            <summary>
+            Repost A/R and A/P Contra {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.RepostAPDeposit">
+            <summary>
+            Repost A/P Deposit {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.RepostAPInvoice">
+            <summary>
+            Repost A/P Invoice {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.RepostAPDebitNote">
+            <summary>
+            Repost A/P Debit Note {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.RepostAPCreditNote">
+            <summary>
+            Repost A/P Credit Note {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.RepostAPPayment">
+            <summary>
+            Repost A/P Payment {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.RepostAPRefund">
+            <summary>
+            Repost A/P Refund {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.ErrorOnCashBookEntry">
+            <summary>
+            Error on Cash Book Entry {0}: {1}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.ErrorOnJournalEntry">
+            <summary>
+            Error on Journal Entry {0}: {1}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.ErrorOnForeignCurrencyRevaluation">
+            <summary>
+            Error on Foreign Currency Revaluation {0}: {1}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.ErrorOnUnrealizedGainLoss">
+            <summary>
+            Error on Unrealized Gain/Loss {0}: {1}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.ErrorOnARDeposit">
+            <summary>
+            Error on A/R Deposit {0}: {1}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.ErrorOnARInvoice">
+            <summary>
+            Error on A/R Invoice {0}: {1}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.ErrorOnARDebitNote">
+            <summary>
+            Error on A/R Debit Note {0}: {1}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.ErrorOnARCreditNote">
+            <summary>
+            Error on A/R Credit Note {0}: {1}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.ErrorOnARPayment">
+            <summary>
+            Error on A/R Payment {0}: {1}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.ErrorOnARRefund">
+            <summary>
+            Error on A/R Refund {0}: {1}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.ErrorOnARandAPContra">
+            <summary>
+            Error on A/R and A/P Contra {0}: {1}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.ErrorOnAPDeposit">
+            <summary>
+            Error on A/P Deposit {0}: {1}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.ErrorOnAPInvoice">
+            <summary>
+            Error on A/P Invoice {0}: {1}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.ErrorOnAPDebitNote">
+            <summary>
+            Error on A/P Debit Note {0}: {1}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.ErrorOnAPCreditNote">
+            <summary>
+            Error on A/P Credit Note {0}: {1}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.ErrorOnAPPayment">
+            <summary>
+            Error on A/P Payment {0}: {1}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRebuidGLTransStringId.ErrorOnAPRefund">
+            <summary>
+            Error on A/P Refund {0}: {1}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostGLARAPTransStringId.ErrorMessage_AdminCanPerformThisFunc">
+            <summary>
+            You must be the ADMIN user to run this function.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostGLARAPTransStringId.ShowMessage_SuccessRepostGLARAPTrans">
+            <summary>
+            Repost GL/AR/AP Transactions completed successfully.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostGLARAPTransStringId.RepostCashBookEntry">
+            <summary>
+            Repost Cash Book Entry {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostGLARAPTransStringId.RepostJournalEntry">
+            <summary>
+            Repost Journal Entry {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostGLARAPTransStringId.RepostARInvoiceEntry">
+            <summary>
+            Repost A/R Invoice Entry {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostGLARAPTransStringId.RepostARPaymentEntry">
+            <summary>
+            Repost A/R Payment Entry {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostGLARAPTransStringId.RepostARCNEntry">
+            <summary>
+            Repost A/R C/N Entry {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostGLARAPTransStringId.RepostARDNEntry">
+            <summary>
+            Repost A/R D/N Entry {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostGLARAPTransStringId.RepostARRefundEntry">
+            <summary>
+            Repost A/R Refund Entry {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostGLARAPTransStringId.RepostARDepositEntry">
+            <summary>
+            Repost A/R Deposit Entry {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostGLARAPTransStringId.RepostContraEntry">
+            <summary>
+            Repost Contra Entry {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostGLARAPTransStringId.RepostAPInvoiceEntry">
+            <summary>
+            Repost A/P Invoice Entry {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostGLARAPTransStringId.RepostAPPaymentEntry">
+            <summary>
+            Repost A/P Payment Entry {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostGLARAPTransStringId.RepostAPCNEntry">
+            <summary>
+            Repost A/P C/N Entry {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostGLARAPTransStringId.RepostAPDNEntry">
+            <summary>
+            Repost A/P D/N Entry {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostGLARAPTransStringId.RepostAPRefundEntry">
+            <summary>
+            Repost A/P Refund Entry {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostGLARAPTransStringId.RepostAPDepositEntry">
+            <summary>
+            Repost A/P Deposit Entry {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostSalesAndPurchaseTransStringId.ErrorMessage_AdminCanPerformThisFunc">
+            <summary>
+            You must be the ADMIN user to run this function.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostSalesAndPurchaseTransStringId.ErrorSaveData_DataRowWasUpdatedOrDeleted">
+            <summary>
+            Unable to repost the record because the record was either modified or deleted by other user.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostSalesAndPurchaseTransStringId.ShowMessage_SuccessRepostSalesPurchaseStockTrans">
+            <summary>
+            Repost Sales/Purchase/Stock Transactions completed successfully.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostSalesAndPurchaseTransStringId.RepostQuotation">
+            <summary>
+            Repost Quotation {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostSalesAndPurchaseTransStringId.RepostSalesOrder">
+            <summary>
+            Repost Sales Order {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostSalesAndPurchaseTransStringId.RepostDO">
+            <summary>
+            Repost D/O {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostSalesAndPurchaseTransStringId.RepostInvoice">
+            <summary>
+            Repost Invoice {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostSalesAndPurchaseTransStringId.RepostCashSale">
+            <summary>
+            Repost Cash Sale {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostSalesAndPurchaseTransStringId.RepostCreditNote">
+            <summary>
+            Repost Credit Note {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostSalesAndPurchaseTransStringId.RepostDebitNote">
+            <summary>
+            Repost Debit Note {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostSalesAndPurchaseTransStringId.RepostCancelSO">
+            <summary>
+            Repost Cancel Sales Order {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostSalesAndPurchaseTransStringId.RepostDeliveryReturn">
+            <summary>
+            Repost Delivery Return {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostSalesAndPurchaseTransStringId.RepostRequestQuotation">
+            <summary>
+            Repost Request Quotation {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostSalesAndPurchaseTransStringId.RepostPurchaseOrder">
+            <summary>
+            Repost Purchase Order {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostSalesAndPurchaseTransStringId.RepostGoodsReceivedNote">
+            <summary>
+            Repost Goods Received Note {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostSalesAndPurchaseTransStringId.RepostPurchaseInvoice">
+            <summary>
+            Repost Purchase Invoice {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostSalesAndPurchaseTransStringId.RepostCashPurchase">
+            <summary>
+            Repost Cash Purchase {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostSalesAndPurchaseTransStringId.RepostPurchaseReturn">
+            <summary>
+            Repost Purchase Return {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostSalesAndPurchaseTransStringId.RepostCancelPO">
+            <summary>
+            Repost Cancel Purchase Order {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostSalesAndPurchaseTransStringId.RepostGoodsReturn">
+            <summary>
+            Repost Goods Return {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostSalesAndPurchaseTransStringId.RepostStockAdjustment">
+            <summary>
+            Repost Stock Adjustment {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostSalesAndPurchaseTransStringId.RepostStockTransfer">
+            <summary>
+            Repost Stock Transfer {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostSalesAndPurchaseTransStringId.RepostStockIssue">
+            <summary>
+            Repost Stock Issue {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormRepostSalesAndPurchaseTransStringId.RepostStockReceive">
+            <summary>
+            Repost Stock Receive {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNull.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Fixes.FormSetRtfValueToNull.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormSetRtfValueToNull.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.ErrorMessage_AdminCanPerformThisFunc">
+            <summary>
+            You must be the ADMIN user to run this function.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.ShowMessage_OperationSuccessful">
+            <summary>
+            The operation completed successfully.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.Checking">
+            <summary>
+            Checking {0} {1}/{2}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.SetRTFToNull">
+            <summary>
+            {0} were set to NULL in {1}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.ItemPackageFurtherDescription">
+            <summary>
+            Item Package's Further Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.DebtorNote">
+            <summary>
+            Debtor's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.CreditorNote">
+            <summary>
+            Creditor's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.ItemNote">
+            <summary>
+            Item's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.ItemFurtherDescription">
+            <summary>
+            Item's Further Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.ItemTypeNote">
+            <summary>
+            Item Type's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.ItemGroupNote">
+            <summary>
+            Item Group's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.LocationNote">
+            <summary>
+            Location's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.PriceHistoryFurtherDescription">
+            <summary>
+            Price History's Further Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.SerialNumTransNote">
+            <summary>
+            Serial Number Transaction's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.CashBookEntryNote">
+            <summary>
+            Cash Book Entry's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.CashBookEntryDetFurtherDesc">
+            <summary>
+            Cash Book Entry Detail's Further Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.JournalEntryNote">
+            <summary>
+            Journal Entry's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.JournalEntryDetFurtherDesc">
+            <summary>
+            Journal Entry Detail's Further Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.ARInvoiceNote">
+            <summary>
+            A/R Invoice's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.ARDebitNoteNote">
+            <summary>
+            A/R Debit Note's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.ARCreditNoteNote">
+            <summary>
+            A/R Credit Note's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.ARPaymentNote">
+            <summary>
+            A/R Payment's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.ARRefundNote">
+            <summary>
+            A/R Refund's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.ARAndAPContraNote">
+            <summary>
+            A/R and A/P Contra's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.ARDeposit">
+            <summary>
+            A/R Deposit
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.APInvoiceNote">
+            <summary>
+            A/P Invoice's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.APDebitNoteNote">
+            <summary>
+            A/P Debit Note's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.APCreditNoteNote">
+            <summary>
+            A/P Credit Note's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.APPaymentNote">
+            <summary>
+            A/P Payment's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.APRefundNote">
+            <summary>
+            A/P Refund's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.APDeposit">
+            <summary>
+            A/P Deposit
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.QuotationNote">
+            <summary>
+            Quotation's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.QuotationDetFurtherDesc">
+            <summary>
+            Quotation Detail's Further Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.SalesOrderNote">
+            <summary>
+            Sales Order's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.SalesOrderDetFurtherDesc">
+            <summary>
+            Sales Order Detail's Further Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.DeliveryOrderNote">
+            <summary>
+            Delivery Order's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.DeliveryOrderDetFurtherDesc">
+            <summary>
+            Delivery Order Detail's Further Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.InvoiceNote">
+            <summary>
+            Invoice's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.InvoiceDetFurtherDesc">
+            <summary>
+            Invoice's Detail Further Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.CashSaleNote">
+            <summary>
+            Cash Sale's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.CashSaleDetFurtherDesc">
+            <summary>
+            Cash Sale Detail's Further Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.CreditNoteNote">
+            <summary>
+            Credit Note's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.CreditNoteDetFurtherDesc">
+            <summary>
+            Credit Note Detail's Further Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.DebitNoteNote">
+            <summary>
+            Debit Note's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.DebitNoteDetFurtherDesc">
+            <summary>
+            Debit Note Detail's Further Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.CancelSONote">
+            <summary>
+            Cancel S/O's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.CancelSODetFurtherDesc">
+            <summary>
+            Cancel S/O's Detail's Further Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.DeliveryReturnNote">
+            <summary>
+            Delivery Return's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.DeliveryReturnDetFurtherDesc">
+            <summary>
+            Delivery Return Detail's Further Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.ConsignmentNote">
+            <summary>
+            Consignment's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.ConsignmentDetFurtherDesc">
+            <summary>
+            Consignment Detail's Further Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.ConsignmentReturnNote">
+            <summary>
+            Consignment Return's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.ConsignmentReturnDetFurtherDesc">
+            <summary>
+            Consignment Return Detail's Further Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.RequestQuotationNote">
+            <summary>
+            Request Quotation's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.RequestQuotationDetFurtherDesc">
+            <summary>
+            Request Quotation Detail's Further Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.PurchaseOrderNote">
+            <summary>
+            Purchase Order's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.PurchaseOrderDetFurtherDesc">
+            <summary>
+            Purchase Order Detail's Further Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.GoodsReceivedNoteNote">
+            <summary>
+            Goods Received Note's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.GoodsReceivedNoteDetFurtherDesc">
+            <summary>
+            Goods Received Note Detail's Further Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.PurchaseInvoiceNote">
+            <summary>
+            Purchase Invoice's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.PurchaseInvoiceDetFurtherDesc">
+            <summary>
+            Purchase Invoice Detail's Further Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.CashPurchaseNote">
+            <summary>
+            Cash Purchase's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.CashPurchaseDetFurtherDesc">
+            <summary>
+            Cash Purchase Detail's Further Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.PurchaseReturnNote">
+            <summary>
+            Purchase Return's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.PurchaseReturnDetFurtherDesc">
+            <summary>
+            Purchase Return Detail's Further Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.CancelPONote">
+            <summary>
+            Cancel P/O's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.CancelPODetFurtherDesc">
+            <summary>
+            Cancel P/O Detail's Further Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.GoodsReturnNote">
+            <summary>
+            Goods Return's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.GoodsReturnDetFurtherDesc">
+            <summary>
+            Goods Return Detail's Further Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.PurchaseConsignmentNote">
+            <summary>
+            Purchase Consignment's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.PurchaseConsignmentDetFurtherDesc">
+            <summary>
+            Purchase Consignment Detail's Further Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.PurchaseConsignmentReturnNote">
+            <summary>
+            Purchase Consignment Return's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.PurchaseConsignmentReturnDetFurtherDesc">
+            <summary>
+            Purchase Consignment Return Detail's Further Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.StockAdjustmentNote">
+            <summary>
+            Stock Adjustment's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.StockAdjustmentDetFurtherDesc">
+            <summary>
+            Stock Adjustment Detail's Further Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.StockIssueNote">
+            <summary>
+            Stock Issue's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.StockIssueDetFurtherDesc">
+            <summary>
+            Stock Issue Detail's Further Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.StockReceiveNote">
+            <summary>
+            Stock Receive's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.StockReceiveDetFurtherDesc">
+            <summary>
+            Stock Receive Detail's Further Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.StockTransferNote">
+            <summary>
+            Stock Transfer's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.StockTransferDetFurtherDesc">
+            <summary>
+            Stock Transfer Detail's Further Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.StockWriteOffNote">
+            <summary>
+            Stock Write Off's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.StockWriteOffDetailFurtherDesc">
+            <summary>
+            Stock Write Off Detail's Further Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.StockUOMConversionNote">
+            <summary>
+            Stock UOM Conversion's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.StockUpdateCostNote">
+            <summary>
+            Stock Update Cost's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.StockAssemblyOrderNote">
+            <summary>
+            Stock Assembly Order's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.StockAssemblyOrderDetFurtherDesc">
+            <summary>
+            Stock Assembly Order Detail's Further Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.StockAssemblyNote">
+            <summary>
+            Stock Assembly's Note
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormSetRtfValueToNullStringId.StockAssemblyDetFurtherDesc">
+            <summary>
+            Stock Assembly Detail's Further Description
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixZeroProblem.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixZeroProblem.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Fixes.FormFixZeroProblem.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixZeroProblemStringId.ErrorMessage_AdminCanPerformThisFunc">
+            <summary>
+            You must be the ADMIN user to run this function.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixZeroProblemStringId.ShowMessage_SuccessFixZeroProblem">
+            <summary>
+            Fix Zero Problem completed successfully.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixZeroProblemStringId.FixTableColumn">
+            <summary>
+            Fix Table {0} Column {1}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Fixes.FormFixZeroProblemStringId.ErrorUpdateTableColumn">
+            <summary>
+            Error Updating Table {1} Column {0} 
+            </summary>
+        </member>
+        <member name="T:AutoCount.UDF.UI.FormExportUDFCmd">
+            <summary>
+            Export UDF
+            </summary>
+        </member>
+        <member name="M:AutoCount.UDF.UI.FormExportUDFCmd.#ctor(AutoCount.Authentication.UserSession)">
+            <summary>
+            Construct FormExportUDFCmd
+            </summary>
+            <param name="userSession">A UserSession object</param>
+        </member>
+        <member name="F:AutoCount.UDF.UI.FormExportUDFCmd.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.UDF.UI.FormExportUDFCmd.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.UDF.UI.FormExportUDFCmd.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.UDF.UI.FormExportUDFCmdStringId.UDFScriptingSolutionFiles">
+            <summary>
+            UDF and Scripting Solution Files
+            </summary>
+        </member>
+        <member name="F:AutoCount.UDF.UI.FormExportUDFCmdStringId.AllFiles">
+            <summary>
+            All Files
+            </summary>
+        </member>
+        <member name="F:AutoCount.UDF.UI.FormExportUDFCmdStringId.UDFScriptingExported">
+            <summary>
+            UDF and script exported to file.
+            </summary>
+        </member>
+        <member name="T:AutoCount.UDF.UI.FormImportUDFCmd">
+            <summary>
+            Import UDF.
+            </summary>
+        </member>
+        <member name="M:AutoCount.UDF.UI.FormImportUDFCmd.#ctor(AutoCount.Authentication.UserSession)">
+            <summary>
+            Construct FormImportUDFCmd.
+            </summary>
+            <param name="userSession">A UserSession object</param>
+        </member>
+        <member name="F:AutoCount.UDF.UI.FormImportUDFCmd.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.UDF.UI.FormImportUDFCmd.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.UDF.UI.FormImportUDFCmd.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.UDF.UI.FormImportUDFCmdStringId.UDFScriptingSolutionFiles">
+            <summary>
+            UDF and Scripting Solution Files
+            </summary>
+        </member>
+        <member name="F:AutoCount.UDF.UI.FormImportUDFCmdStringId.AllFiles">
+            <summary>
+            All Files
+            </summary>
+        </member>
+        <member name="F:AutoCount.UDF.UI.FormImportUDFCmdStringId.UDFScriptingImported">
+            <summary>
+            UDF and script imported successfully.
+            </summary>
+        </member>
+        <member name="F:AutoCount.UDF.UI.FormImportUDFCmdStringId.ReplaceExistingUDFAndScript">
+            <summary>
+            Importing UDF and script will replace the existing UDF and script, do you want to continue?
+            </summary>
+        </member>
+        <member name="M:AutoCount.Evaluation.FormFormulaEditor.#ctor(AutoCount.Evaluation.FormulaEditorCommand,System.String,System.String,AutoCount.Evaluation.FormulaType,System.String,System.String,System.String)">
+            <summary>
+            Construct a FormFormulaEditor
+            </summary>
+            <param name="formulaEditorCommand">FormulaEditorCommand</param>
+            <param name="formulaName">Formula Name</param>
+            <param name="columnName">Column Name</param>
+            <param name="formulaType">Formula Type</param>
+            <param name="description">Description of this formula</param>
+            <param name="dataType">Data Type of the column</param>
+            <param name="formula">The formula.</param>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditor.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Evaluation.FormFormulaEditor.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Evaluation.FormFormulaEditor.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.DataType">
+            <summary>
+            Data Type
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Variable">
+            <summary>
+            Variable
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function">
+            <summary>
+            Function
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Operator">
+            <summary>
+            Operator
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Yes">
+            <summary>
+            Yes
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_BooleanToText">
+            <summary>
+            If the boolean value is true, return \"T\", otherwise return \"F\".\r\nSyntax: string BooleanToText(bool value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_TextToBoolean">
+            <summary>
+            If the value is \"T\" or \"True\", return true, otherwise return false.\r\nSyntax: bool TextToBoolean(object value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_ToBoolean">
+            <summary>
+            Converter an object to boolean value.\r\nSyntax: bool ToBoolean(object value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_ToDateTime">
+            <summary>
+            Converter an object to DateTime value.\r\nSyntax: DateTime ToDateTime(object value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_ToDecimal">
+            <summary>
+            Converter an object to decimal value.\r\nSyntax: decimal ToDecimal(object value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_ToSByte">
+            <summary>
+            Converter an object to 8-bit signed integer.\r\nSyntax: SByte ToSByte(object value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_ToInt16">
+            <summary>
+            Converter an object to 16-bit signed integer.\r\nSyntax: int ToInt16(object value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_ToInt32">
+            <summary>
+            Converter an object to 32-bit signed integer.\r\nSyntax: int ToInt32(object value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_ToInt64">
+            <summary>
+            Converter an object to 64-bit signed integer.\r\nSyntax: long ToInt64(object value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_ToUInt64">
+            <summary>
+            Converter an object to 64-bit unsigned integer.\r\nSyntax: ulong ToInt64(object value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_ToGuid">
+            <summary>
+            Converter an object to global unique identifier (guid).\r\nSyntax: Guid ToGuid(object value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_ToEnglish">
+            <summary>
+            Converter a decimal value into English words.\r\nSyntax: string ToEnglish(decimal value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_ToBahasa">
+            <summary>
+            Converter a decimal value into Bahasa Malaysia words.\r\nSyntax: string ToBahasa(decimal value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_ToIndonesian">
+            <summary>
+            Converter a decimal value into Bahasa Indonesian words.\r\nSyntax: string ToIndonesian(decimal value, string currencyWord)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_ToSimplifiedChinese">
+            <summary>
+            Converter a decimal value into Simplified Chinese words.\r\nSyntax: string ToSimplifiedChinese(decimal value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_ToTraditionalChinese">
+            <summary>
+            Converter a decimal value into Traditional Chinese words.\r\nSyntax: string ToTraditionalChinese(decimal value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_ToVietnamese">
+            <summary>
+            Converter a decimal value into Vietnamese words.\r\nSyntax: string ToVietnamese(decimal value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_ToThai">
+            <summary>
+            Converter a decimal value into Thai words.\r\nSyntax: string ToThai(decimal value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_ToBurmese">
+            <summary>
+            Converter a decimal value into Burmese words.\r\nSyntax: string ToBurmese(decimal value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_RoundToNearest5Cents">
+            <summary>
+            Round a decimal value to nearest 5 cents.\r\nSyntax: decimal RoundToNearest5Cents(decimal value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_Round">
+            <summary>
+            Round a decimal value to a specified number of fractional digits.\r\nSyntax: decimal Round(decimal value, int decimals)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_RoundQuantity">
+            <summary>
+            Round a decimal value according to quantity decimal setting.\r\nSyntax: decimal RoundQuantity(decimal value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_RoundSalesPrice">
+            <summary>
+            Round a decimal value according to sales price decimal setting.\r\nSyntax: decimal RoundSalesPrice(decimal value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_RoundPurchasePrice">
+            <summary>
+            Round a decimal value according to purchase price decimal setting.\r\nSyntax: decimal RoundPurchasePrice(decimal value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_RoundCost">
+            <summary>
+            Round a decimal value according to cost decimal setting.\r\nSyntax: decimal RoundCost(decimal value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_RoundPercent">
+            <summary>
+            Round a decimal value according to percentage decimal setting.\r\nSyntax: decimal RoundPercent(decimal value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_RoundCurrency">
+            <summary>
+            Round a decimal value according to currency decimal setting.\r\nSyntax: decimal RoundCurrency(decimal value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_RoundCurrencyRate">
+            <summary>
+            Round a decimal value according to currency rate decimal setting.\r\nSyntax: decimal RoundCurrencyRate(decimal value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_RoundWeight">
+            <summary>
+            Round a decimal value according to weight decimal setting.\r\nSyntax: decimal RoundWeight(decimal value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_RoundVolume">
+            <summary>
+            Round a decimal value according to volume decimal setting.\r\nSyntax: decimal RoundVolume(decimal value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_RoundMemberPoint">
+            <summary>
+            Round a decimal value according to member point decimal setting.\r\nSyntax: decimal RoundMemberPoint(decimal value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_FormatQuantity">
+            <summary>
+            Return the string format of a decimal value according to quantity decimal setting.\r\nSyntax: string FormatQuantity(decimal value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_FormatSalesPrice">
+            <summary>
+            Return the string format of a decimal value according to sales price decimal setting.\r\nSyntax: string FormatSalesPrice(decimal value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_FormatPurchasePrice">
+            <summary>
+            Return the string format of a decimal value according to purchase price decimal setting.\r\nSyntax: string FormatPurchasePrice(decimal value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_FormatCost">
+            <summary>
+            Return the string format of a decimal value according to cost decimal setting.\r\nSyntax: string FormatCost(decimal value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_FormatPercent">
+            <summary>
+            Return the string format of a decimal value according to percentage decimal setting.\r\nSyntax: string FormatPercent(decimal value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_FormatCurrency">
+            <summary>
+            Return the string format of a decimal value according to currency decimal setting.\r\nSyntax: string FormatCurrency(decimal value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_FormatCurrencyRate">
+            <summary>
+            Return the string format of a decimal value according to currency rate decimal setting.\r\nSyntax: string FormatCurrencyRate(decimal value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_FormatWeight">
+            <summary>
+            Return the string format of a decimal value according to weight decimal setting.\r\nSyntax: string FormatWeight(decimal value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_FormatVolume">
+            <summary>
+            Return the string format of a decimal value according to volume urrency decimal setting.\r\nSyntax: string FormatVolume(decimal value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_FormatMemberPoint">
+            <summary>
+            Return the string format of a decimal value according to member point decimal setting.\r\nSyntax: string FormatMemberPoint(decimal value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_FormatDate">
+            <summary>
+            Return the string format of a DateTime value according to system date format setting.\r\nSyntax: string FormatDate(DateTime value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_FormatBoolean">
+            <summary>
+            Return \"True\" if the value is true, otherwise, return \"False\".\r\nSyntax: string FormatBoolean(bool value)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_GetStringFromDB">
+            <summary>
+            Return the value (converted as string) of the first row of a table where condition is matched, if nothing is matched, return empty string.\r\nSyntax: string GetStringFromDB(string tableName, string fieldName, string condition, params object[] args)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_GetIntegerFromDB">
+            <summary>
+            Return the value (converted as integer) of the first row of a table where condition is matched, if nothing is matched, return 0.\r\nSyntax: int GetIntegerFromDB(string tableName, string fieldName, string condition, params object[] args)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_GetDecimalFromDB">
+            <summary>
+            Return the value (converted as decimal) of the first row of a table where condition is matched, if nothing is matched, return 0.\r\nSyntax: decimal GetDecimalFromDB(string tableName, string fieldName, string condition, params object[] args)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_GetDateTimeFromDB">
+            <summary>
+            Return the value (converted as DateTime) of the first row of a table where condition is matched, if nothing is matched, return the minimum value of DateTime.\r\nSyntax: DateTime GetDateTimeFromDB(string tableName, string fieldName, string condition, params object[] args)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_GetBooleanFromDB">
+            <summary>
+            Return the value (converted as boolean) of the first row of a table where condition is matched, if nothing is matched, return false.\r\nSyntax: bool GetBooleanFromDB(string tableName, string fieldName, string condition, params object[] args)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_DirectSQLGetStringFromDB">
+            <summary>
+            Return the value (converted as string) of the first row and first column of the result table of an direct SQL statement, if nothing is matched, return empty string.\r\nSyntax: string DirectSQLGetStringFromDB(string sql, params object[] args)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_DirectSQLGetIntegerFromDB">
+            <summary>
+            Return the value (converted as integer) of the first row and first column of the result table of an direct SQL statement, if nothing is matched, return 0.\r\nSyntax: int DirectSQLGetIntegerFromDB(string sql, params object[] args)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_DirectSQLGetDecimalFromDB">
+            <summary>
+            Return the value (converted as decimal) of the first row and first column of the result table of an direct SQL statement, if nothing is matched, return 0.\r\nSyntax: decimal DirectSQLGetDecimalFromDB(string sql, params object[] args)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_DirectSQLGetDateTimeFromDB">
+            <summary>
+            Return the value (converted as DateTime) of the first row and first column of the result table of an direct SQL statement, if nothing is matched, return the minimum value of DateTime.\r\nSyntax: DateTime DirectSQLGetDateTimeFromDB(string sql, params object[] args)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Function_DirectSQLGetBooleanFromDB">
+            <summary>
+            Return the value (converted as boolean) of the first row and first column of the result table of an direct SQL statement, if nothing is matched, return false.\r\nSyntax: bool DirectSQLGetBooleanFromDB(string sql, params object[] args)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Operator_Add">
+            <summary>
+            Adds the value of one numeric expression to another, or concatenates two strings.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Operator_Minus">
+            <summary>
+            Minus the value of one numeric expression to another.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Operator_Multiply">
+            <summary>
+            Multiplies the value of one numeric expression to another.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Operator_Divide">
+            <summary>
+            Divides the value of one numeric expression to another.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Operator_Modulus">
+            <summary>
+            Returns the remainder (modulus) obtained by dividing one numeric expression into another.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Operator_PowerOfOneNumeric">
+            <summary>
+            Returns the power of one numeric expression over another.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Operator_BitwiseLeftShift">
+            <summary>
+            Perform a bitwise left shift on an integral types.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Operator_BitwiseRightShift">
+            <summary>
+            Perform a bitwise right shift on an integral types.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Operator_Equal">
+            <summary>
+            Returns true if both operands have the same value; otherwise, it returns false.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Operator_NotEqual">
+            <summary>
+            Returns true if the operands do not have the same value; otherwise, it returns false.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Operator_LessThan">
+            <summary>
+            Less than operator. Used to compare expressions.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Operator_LessThanOrEqualTo">
+            <summary>
+            Less than or equal to operator. Used to compare expressions.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Operator_GreaterThan">
+            <summary>
+            Greater than operator. Used to compare expressions.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Operator_GreaterThanOrEqualTo">
+            <summary>
+            Greater than or equal to operator. Used to compare expressions.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Operator_And">
+            <summary>
+            Performs a logical conjunction on two expressions.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Operator_Or">
+            <summary>
+            Performs a logical disjunction on two Boolean expressions.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Operator_Xor">
+            <summary>
+            Performs a logical exclusive or on two Boolean expressions.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Operator_Not">
+            <summary>
+            Performs logical negation on an expression.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Operator_If">
+            <summary>
+            Conditional operator.\r\nSyntax: If(condition, whenTrue, whenFalse)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Operator_In">
+            <summary>
+            The In operator is a boolean binary operator that returns true if its first operand is contained in its second operand.\r\nSyntax: value In (value1, value2, value3, ...)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.Operator_Cast">
+            <summary>
+            Cast a value into another type.\r\nSyntax: Cast(value, type)
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.ShowMessage_FormulaIsValid">
+            <summary>
+            The formula is valid.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.ShowMessage_FormulaIsEmpty">
+            <summary>
+            The formula is empty.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.ErrorMessage_FormulaError">
+            <summary>
+            Formula error: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.ErrorMessage_InitializeFormula">
+            <summary>
+            Initialize Formula error: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorStringId.ErrorMessage_ColumnChangedFormula">
+            <summary>
+            Column Changed Formula error: {0}
+            </summary>
+        </member>
+        <member name="F:AutoCount.Evaluation.FormFormulaEditorCmd.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Evaluation.FormFormulaEditorCmd.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Evaluation.FormFormulaEditorCmd.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Evaluation.FormulaEditorCommand.Create(AutoCount.Authentication.UserSession,AutoCount.Data.DBSetting)">
+            <summary>
+            Construct a FormulaEditorCommand
+            </summary>
+            <param name="userSession">User Session</param>
+            <param name="dbSetting">Database setting</param>
+            <returns>A FormulaEditorCommand</returns>
+        </member>
+        <member name="M:AutoCount.Evaluation.FormulaEditorCommand.InitDefaultFormula">
+            <summary>
+            Initialize Default Formulas
+            </summary>
+            <remarks>Add new formula for each document here.</remarks>
+        </member>
+        <member name="M:AutoCount.Evaluation.FormulaEditorCommand.GetSupportedFormulaTable">
+            <summary>
+            Get Supported Formula Table, used in Formula Maintenance
+            </summary>
+            <returns>A DataTable</returns>
+        </member>
+        <member name="M:AutoCount.Evaluation.FormulaEditorCommand.GetFormula(System.String)">
+            <summary>
+            Get the Formula object given a formula name
+            </summary>
+            <param name="formulaName">Formula name</param>
+            <returns>A Formula object if found, otherwise, return null.</returns>
+        </member>
+        <member name="M:AutoCount.Evaluation.FormulaEditorCommand.LoadFormula(System.String,System.String,AutoCount.Evaluation.FormulaType)">
+            <summary>
+            Load a formula
+            </summary>
+            <param name="formulaName">Formula name</param>
+            <param name="columnName">Column name</param>
+            <param name="formulaType">Formula Type</param>
+            <returns>A formula if found, otherwise, return empty string.</returns>
+        </member>
+        <member name="M:AutoCount.Evaluation.FormulaEditorCommand.SaveFormula(System.String,System.String,AutoCount.Evaluation.FormulaType,System.String)">
+            <summary>
+            Save a formula
+            </summary>
+            <param name="formulaName">Formula name</param>
+            <param name="columnName">Column name</param>
+            <param name="formulaType">Formula Type</param>
+            <param name="formula">The formula to save.</param>
+        </member>
+        <member name="M:AutoCount.Evaluation.FormulaEditorCommand.SaveFormula(System.String,System.String,AutoCount.Evaluation.FormulaType,System.String,AutoCount.Data.DBSetting)">
+            <summary>
+            Save a formula
+            </summary>
+            <param name="formulaName">Formula name</param>
+            <param name="columnName">Column name</param>
+            <param name="formulaType">Formula Type</param>
+            <param name="formula">The formula to save.</param>
+            <param name="dbSetting">The DBSetting.</param>
+        </member>
+        <member name="T:AutoCount.Evaluation.FormulaEditorCommand.FormulaEditorCommandSQL">
+            <summary>
+            SQL implementation of FormulaEditorCommand
+            </summary>
+        </member>
+        <member name="M:AutoCount.Evaluation.FormulaEditorCommand.FormulaEditorCommandSQL.LoadFormula(System.String,System.String,AutoCount.Evaluation.FormulaType)">
+            <summary>
+            Load a formula
+            </summary>
+            <param name="formulaName">Formula name</param>
+            <param name="columnName">Column name</param>
+            <param name="formulaType">Formula Type</param>
+            <returns>A formula if found, otherwise, return empty string.</returns>
+        </member>
+        <member name="M:AutoCount.Evaluation.FormulaEditorCommand.FormulaEditorCommandSQL.SaveFormula(System.String,System.String,AutoCount.Evaluation.FormulaType,System.String)">
+            <summary>
+            Save a formula
+            </summary>
+            <param name="formulaName">Formula name</param>
+            <param name="columnName">Column name</param>
+            <param name="formulaType">Formula Type</param>
+            <param name="formula">The formula to save.</param>
+        </member>
+        <member name="M:AutoCount.Tools.FormSQLDatabaseMaintenance.#ctor(AutoCount.Data.DBSetting)">
+            <summary>
+            Construct a FormSQLDatabaseMaintenance
+            </summary>
+            <param name="dbSetting">Database setting</param>
+        </member>
+        <member name="F:AutoCount.Tools.FormSQLDatabaseMaintenance.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tools.FormSQLDatabaseMaintenance.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tools.FormSQLDatabaseMaintenance.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.SQLDatabaseMaintFormStringId.ErrorMessage_ChooseOperationToPerform">
+            <summary>
+            Please choose at least one operation from Intelligent Rebuild Index and Shrink Database to perform.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.SQLDatabaseMaintFormStringId.ConfirmMessage_EnsureNoUsersUse">
+            <summary>
+            Please make sure there is no other users using {0}. Do you want to continue?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.SQLDatabaseMaintFormStringId.RebuildIndexCompletedInHours">
+            <summary>
+            Rebuild Index completed in {0} hours, {1} minutes, {2} seconds
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.SQLDatabaseMaintFormStringId.RebuildIndexCompletedInMinutes">
+            <summary>
+            Rebuild Index completed in {0} minutes, {1} seconds
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.SQLDatabaseMaintFormStringId.RebuildIndexCompletedInSeconds">
+            <summary>
+            Rebuild Index completed in {0} seconds
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.SQLDatabaseMaintFormStringId.ShrinkDatabaseCompletedInHours">
+            <summary>
+            Shrink Database completed in {0} hours, {1} minutes, {2} seconds.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.SQLDatabaseMaintFormStringId.ShrinkDatabaseCompletedInMinutes">
+            <summary>
+            Shrink Database completed in {0} minutes, {1} seconds.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.SQLDatabaseMaintFormStringId.ShrinkDatabaseCompletedInSeconds">
+            <summary>
+            Shrink Database completed in {0} seconds.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.SQLDatabaseMaintFormStringId.InfoMessage_DatabaseSizeAndUnallocatedSpace">
+            <summary>
+            New Database Size is {0}, Unallocated Space is {1}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.SQLDatabaseMaintFormStringId.ErrorMessage_UnableToCloseWindow">
+            <summary>
+            Unable to close current window as some operations are still running.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FixInternalKey.FixInternalKeyStringId.NoIssueFoundInStockDetailKeys">
+            <summary>
+            \r\nNo issue found in the Stock Detail Keys
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FixInternalKey.FixInternalKeyStringId.FoundIssueInStockDetailKey">
+            <summary>
+            \r\nFound issue in Stock Detail Key. Fixing it.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FixInternalKey.FixInternalKeyStringId.CheckingStockDetailKeys">
+            <summary>
+            \r\nChecking the Stock Detail Keys
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FixInternalKey.FixInternalKeyStringId.NoIssueFoundInUTDStockCostKeys">
+            <summary>
+            \r\nNo issue found in the UTD Stock Cost Keys
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FixInternalKey.FixInternalKeyStringId.FoundIssueInUTDStockCostKey">
+            <summary>
+            \r\nFound issue in UTD Stock Cost Key. Fixing it.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FixInternalKey.FixInternalKeyStringId.CheckingUTDStockCostKeys">
+            <summary>
+            \r\nChecking the UTD Stock Cost Keys
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FixInternalKey.FixInternalKeyStringId.NoIssueFoundInGLTransactionIDKeys">
+            <summary>
+            \r\nNo issue found in the GL Transaction ID Keys
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FixInternalKey.FixInternalKeyStringId.FoundIssueInGLTransactionIDKey">
+            <summary>
+            \r\nFound issue in GL Transaction ID Key. Fixing it.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FixInternalKey.FixInternalKeyStringId.CheckingGLTransactionIDKeys">
+            <summary>
+            \r\nChecking the GL Transaction ID Keys
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FixInternalKey.FixInternalKeyStringId.NoIssueFoundInDoubleEntryKeys">
+            <summary>
+            \r\nNo issue found in the Double Entry Keys
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FixInternalKey.FixInternalKeyStringId.FoundIssueInDoubleEntryKey">
+            <summary>
+            \r\nFound issue in Double Entry Key. Fixing it.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FixInternalKey.FixInternalKeyStringId.CheckingDoubleEntryKeys">
+            <summary>
+            \r\nChecking the Double Entry Keys
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FixInternalKey.FixInternalKeyStringId.NoIssueFoundInGlobalUniqueKeys">
+            <summary>
+            \r\nNo issue found in the Global Unique Keys
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FixInternalKey.FixInternalKeyStringId.Done">
+            <summary>
+            ..Done!
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FixInternalKey.FixInternalKeyStringId.FoundIssueInGlobalUniqueKey">
+            <summary>
+            \r\nFound issue in Global Unique Key. Fixing it.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FixInternalKey.FixInternalKeyStringId.CheckingTheGlobalUniqueKeys">
+            <summary>
+            Checking the Global Unique Keys
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FixInternalKey.FormFixInternalKey.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tools.FixInternalKey.FormFixInternalKey.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tools.FixInternalKey.FormFixInternalKey.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Tools.FixItemDocKey.FixItemDocKey">
+            <summary>
+            Summary description for FixItemOpening.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Tools.FixItemDocKey.FormFixItemDocKey">
+            <summary>
+            Summary description for FormFixItemDocKey.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FixItemDocKey.FormFixItemDocKey.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tools.FixItemDocKey.FormFixItemDocKey.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tools.FixItemDocKey.FormFixItemDocKey.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FixItemDocKey.FormFixItemDocKeyStringId.ConfirmMessage_WantToRunTheFix">
+            <summary>
+            It looks like there is no need to run the fix, do you still want to run the fix?
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FixItemDocKey.FormFixItemDocKeyStringId.InfoMessage_SuccessFixInternalItemKey">
+            <summary>
+            Fix Internal Item Key successfully.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Tools.FixItemOpening.FixItemOpeningAfterMergeCode">
+            <summary>
+            Summary description for FixItemOpeningAfterMergeCode.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Tools.FixItemOpening.FormFixItemOpening">
+            <summary>
+            Summary description for FormFixItemOpening.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FixItemOpening.FormFixItemOpening.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tools.FixItemOpening.FormFixItemOpening.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tools.FixItemOpening.FormFixItemOpening.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Tools.FixItemOpening.FormFixItemOpeningAfterMergeCode">
+            <summary>
+            Summary description for FormFixItemOpeningAfterMergeCode.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FixItemOpening.FormFixItemOpeningAfterMergeCode.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tools.FixItemOpening.FormFixItemOpeningAfterMergeCode.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tools.FixItemOpening.FormFixItemOpeningAfterMergeCode.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FixItemOpening.FormFixItemOpeningAfterMergeCodeStringId.InfoMessage_SuccessFixItemOpening">
+            <summary>
+            Fixed Item Opening successfully. Total {0} problem fixed.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FixItemOpening.FormFixItemOpeningAfterMergeCodeStringId.InfoMessage_NoProblemFound">
+            <summary>
+            No problem found.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Tools.FixItemOpening.FixItemOpening">
+            <summary>
+            Summary description for FixItemOpening.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FixItemOpening.FormFixItemOpeningStringId.InfoMessage_SuccessFixItemOpening">
+            <summary>
+            Fix Item Opening successfully.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Tools.FixItemPrinting.FixItemPrinting">
+            <summary>
+            Summary description for FixItemPrinting.
+            </summary>
+        </member>
+        <member name="T:AutoCount.Tools.FixItemPrinting.FormFixItemPrinting">
+            <summary>
+            Summary description for FormFixItemPrinting.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FixItemPrinting.FormFixItemPrinting.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.Tools.FixItemPrinting.FormFixItemPrinting.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.Tools.FixItemPrinting.FormFixItemPrinting.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.Tools.FixItemPrinting.FormFixItemPrintingStringId.InfoMessage_SuccessFixPrintStockItemListing">
+            <summary>
+            Fixed Print Stock Item Listing successfully.
+            </summary>
+        </member>
+        <member name="T:AutoCount.ManagementStudio.FormCopyData">
+            <summary>
+            Summary description for FormCopyData.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManagementStudio.FormCopyData.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.ManagementStudio.FormCopyData.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.ManagementStudio.FormCopyData.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManagementStudio.FormCopyDataStringId.ErrorMessage_ChooseCopyOptions">
+            <summary>
+            You should choose at least one of the Copy Options.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManagementStudio.FormCopyDataStringId.ErrorMessage_ChooseAccountBook">
+            <summary>
+            You should choose an Account Book to copy from.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManagementStudio.FormCopyDataStringId.ErrorMessage_UnableCopySameAccountBook">
+            <summary>
+            You cannot copy from same account book.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManagementStudio.FormCopyDataStringId.ShowMessage_CopySuccessful">
+            <summary>
+            Copy successful.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManagementStudio.FormCopyDataStringId.CompanyName">
+            <summary>
+            Company Name
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManagementStudio.FormCopyDataStringId.Remark">
+            <summary>
+            Remark
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManagementStudio.FormCopyDataStringId.Version">
+            <summary>
+            Version
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManagementStudio.FormCopyDataStringId.Server">
+            <summary>
+            Server
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManagementStudio.FormCopyDataStringId.DatabaseName">
+            <summary>
+            Database Name
+            </summary>
+        </member>
+        <member name="T:AutoCount.ManagementStudio.FormSQLQuery">
+            <summary>
+            Summary description for FormSQLQuery.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManagementStudio.FormSQLQuery.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.ManagementStudio.FormSQLQuery.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.ManagementStudio.FormSQLQuery.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManagementStudio.FormSQLQueryStringId.ShowMessage_NothingToExecute">
+            <summary>
+            Nothing to execute.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManagementStudio.FormSQLQueryStringId.ErrorMessage_NotAllowEventLog">
+            <summary>
+            EventLog keyword is not allow.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManagementStudio.FormSQLQueryStringId.RowsAffected">
+            <summary>
+            ({0} row(s) affected)
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManagementStudio.FormSQLQueryStringId.CommandExecSuccessful">
+            <summary>
+            The command was executed successfully.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManagementStudio.FormSQLQueryStringId.ExecuteSQLStatement">
+            <summary>
+            Execute SQL Statement
+            </summary>
+        </member>
+        <member name="T:AutoCount.ManagementStudio.FormStudio">
+            <summary>
+            Summary description for Form1.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManagementStudio.FormStudio.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoCount.ManagementStudio.FormStudio.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoCount.ManagementStudio.FormStudio.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManagementStudio.FormStudioStringId.InfoMessage_NotSupport64Bit">
+            <summary>
+            This feature is not supported in 64-bit of {0}.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManagementStudio.FormStudioStringId.ConfirmMessage_ExitApplication">
+            <summary>
+            Are you sure you want to exit the application?
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManagementStudio.FormStudioStringId.ErrorMessage_NoValidConstructorFound">
+            <summary>
+            No valid constructor found.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManagementStudio.FormStudioStringId.ConfirmMessage_ExitAccountBook">
+            <summary>
+            Do you want to exit from current Account Book?
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManagementStudio.FormStudioStringId.ConfirmMessage_OpenSQLQuery">
+            <summary>
+            SQL Query is a tool for {0} support personnels to fix unspecified errors.\nYou must use it under the guidance of {0} support personnels.\nAs a software vendor, we WILL NOT take any RESPONSIBILITY if you use the SQL Query tools without our supervision.\nDo you still want to open SQL Query?
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManagementStudio.FormStudioStringId.InfoMessage_UpgradeDataTypes">
+            <summary>
+            Data types upgraded successfully.
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManagementStudio.FormStudioStringId.ManagementStudio">
+            <summary>
+            {0} - {1} Management Studio (Ver:{2})
+            </summary>
+        </member>
+        <member name="F:AutoCount.ManagementStudio.FormStudioStringId.ActiveDatabaseInfoIsNotSet">
+            <summary>
+            Active Database Info is not set.
+            </summary>
+        </member>
+    </members>
+</doc>

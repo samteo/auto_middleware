@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+<PropertyGroup>
+	<TargetFramework>net8.0-windows</TargetFramework>
+
+	<Nullable>enable</Nullable>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<OutputType>Exe</OutputType>
+
+	<UseWindowsForms>true</UseWindowsForms>
+</PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoCount2" Version="2.2.22" />
+    <PackageReference Include="AutoCount2.Accounting" Version="2.2.22" />
+    <PackageReference Include="AutoCount2.Accounting.UI" Version="2.2.22" />
+    <PackageReference Include="AutoCount2.ARAP" Version="2.2.22" />
+    <PackageReference Include="AutoCount2.Data.Postgres" Version="2.2.22" />
+    <PackageReference Include="AutoCount2.GL" Version="2.2.22" />
+    <PackageReference Include="AutoCount2.MainEntry" Version="2.2.22" />
+    <PackageReference Include="AutoCount2.Purchase" Version="2.2.22" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+    <PackageReference Include="System.CodeDom" Version="9.0.5" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="NewFolder\" />
+  </ItemGroup>
+
+</Project>
