@@ -485,6 +485,24 @@ namespace AutoCountApi.Controllers
             return Ok(items);
         }
 
+        [HttpGet("item/get-alt-item-data")]
+        public IActionResult GetAltItemData([FromQuery] string dbName)
+        {
+            var session = _loginManager.InitiateUserSessionUnattended(_serverName, dbName, _autoCountUser, _autoCountPass, _sqlUserLogin, _sqlUserPasswd);
+            if (session == null || !session.IsLogin)
+            {
+                return BadRequest("Login failed. Please check credentials or database settings.");
+            }
+
+            var items = _itemManager.GetAltItemData(session);
+            if (items == null || items.Count == 0)
+            {
+                return Ok(new List<object>());
+            }
+
+            return Ok(items);
+        }
+
         [HttpGet("accounts")]
         public IActionResult GetChartOfAccounts([FromQuery] string dbName)
         {

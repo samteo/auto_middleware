@@ -154,6 +154,22 @@
   },
   {
     "ContainingType": "AutoCountApi.Controllers.AutoCountController",
+    "Method": "GetAltItemData",
+    "RelativePath": "api/AutoCount/item/get-alt-item-data",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dbName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AutoCountApi.Controllers.AutoCountController",
     "Method": "GetItemData",
     "RelativePath": "api/AutoCount/item/get-item-data",
     "HttpMethod": "GET",

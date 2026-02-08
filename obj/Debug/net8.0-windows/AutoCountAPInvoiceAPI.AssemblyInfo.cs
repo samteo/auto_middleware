@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AutoCountAPInvoiceAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+750845731ddad0c3305901ca003bc62b40938424")]
 [assembly: System.Reflection.AssemblyProductAttribute("AutoCountAPInvoiceAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AutoCountAPInvoiceAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

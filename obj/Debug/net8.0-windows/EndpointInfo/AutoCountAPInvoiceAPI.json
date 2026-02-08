@@ -271,6 +271,27 @@
         }
       }
     },
+    "/api/AutoCount/item/get-alt-item-data": {
+      "get": {
+        "tags": [
+          "AutoCount"
+        ],
+        "parameters": [
+          {
+            "name": "dbName",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/AutoCount/accounts": {
       "get": {
         "tags": [

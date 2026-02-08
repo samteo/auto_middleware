@@ -297,7 +297,51 @@ namespace AutoCountAPInvoiceAPI.Managers
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error finding creditor: {ex.Message}");
+                Console.WriteLine($"Error finding Item: {ex.Message}");
+                return new List<ItemData>();
+            }
+        }
+    
+
+    public List<ItemData> GetAltItemData(UserSession userSession)
+        {
+            if (userSession == null || !userSession.IsLogin)
+            {
+                Console.WriteLine("Invalid or expired session.");
+                return new List<ItemData>();
+            }
+
+            try
+            {
+                var dbSetting = userSession.DBSetting;
+                var items = new List<ItemData>();
+
+                using (SqlConnection conn = new SqlConnection(dbSetting.ConnectionString))
+                {
+                    conn.Open();
+                    using (SqlCommand cmd = new SqlCommand("SELECT ItemCode, SubCode, UOM FROM ItemSubCode", conn))
+                    {
+                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        {
+                            while (reader.Read())
+                            {
+                                var item = new ItemData
+                                {
+                                    ItemCode = reader.GetString(0),
+                                    Description = reader.GetString(1),
+                                    PurchaseUOM = reader.GetString(2)
+                                };
+                                items.Add(item);
+                            }
+                        }
+                    }
+                }
+
+                return items;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error finding AltItem: {ex.Message}");
                 return new List<ItemData>();
             }
         }
